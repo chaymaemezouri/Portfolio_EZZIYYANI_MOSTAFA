@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { profile } from "@/data/profile";
 import { visibleSocialLinks } from "@/data/socialLinks";
 import { site } from "@/data/site";
-import { locales, localePath } from "@/utils/locale";
+import { defaultLocale, locales, localePath } from "@/utils/locale";
 import { useI18n } from "@/i18n/I18nProvider";
 
 function upsertMeta(attr: "name" | "property", key: string, content: string) {
@@ -54,14 +54,21 @@ export function Seo({ title, description, path }: SeoProps) {
     canonical.setAttribute("href", url);
 
     document.head.querySelectorAll('link[data-alt="lang"]').forEach((node) => node.remove());
+    const pagePath = path.split("/").slice(2).join("/");
     locales.forEach((item) => {
       const alternate = document.createElement("link");
       alternate.rel = "alternate";
       alternate.hreflang = item;
-      alternate.href = `${origin}${localePath(item, path.split("/").slice(2).join("/"))}`;
+      alternate.href = `${origin}${localePath(item, pagePath)}`;
       alternate.setAttribute("data-alt", "lang");
       document.head.appendChild(alternate);
     });
+    const fallback = document.createElement("link");
+    fallback.rel = "alternate";
+    fallback.hreflang = "x-default";
+    fallback.href = `${origin}${localePath(defaultLocale, pagePath)}`;
+    fallback.setAttribute("data-alt", "lang");
+    document.head.appendChild(fallback);
 
     const person = {
       "@context": "https://schema.org",

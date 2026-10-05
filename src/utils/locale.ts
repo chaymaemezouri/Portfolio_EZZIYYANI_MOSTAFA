@@ -1,6 +1,7 @@
 import type { Locale } from "@/types";
 
 export const locales: Locale[] = ["en", "fr", "ar"];
+export const defaultLocale: Locale = "fr";
 
 export function isLocale(value: string | undefined): value is Locale {
   return value === "en" || value === "fr" || value === "ar";

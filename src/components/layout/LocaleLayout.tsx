@@ -4,7 +4,7 @@ import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { I18nProvider } from "@/i18n/I18nProvider";
 import { useI18n } from "@/i18n/I18nProvider";
-import { isLocale } from "@/utils/locale";
+import { defaultLocale, isLocale } from "@/utils/locale";
 
 function SkipLink() {
   const { t } = useI18n();
@@ -25,7 +25,7 @@ function ScrollToTop() {
 
 export function LocaleLayout() {
   const { locale } = useParams();
-  if (!isLocale(locale)) return <Navigate to="/en" replace />;
+  if (!isLocale(locale)) return <Navigate to={`/${defaultLocale}`} replace />;
 
   return (
     <I18nProvider locale={locale}>

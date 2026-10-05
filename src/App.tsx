@@ -1,6 +1,7 @@
 import { lazy, Suspense } from "react";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { LocaleLayout } from "@/components/layout/LocaleLayout";
+import { defaultLocale } from "@/utils/locale";
 
 const HomePage = lazy(() => import("@/pages/HomePage"));
 const ProfilePage = lazy(() => import("@/pages/ProfilePage"));
@@ -21,7 +22,7 @@ export default function App() {
     <BrowserRouter>
       <Suspense fallback={<div className="route-fallback" />}>
         <Routes>
-          <Route path="/" element={<Navigate to="/en" replace />} />
+          <Route path="/" element={<Navigate to={`/${defaultLocale}`} replace />} />
           <Route path="/:locale" element={<LocaleLayout />}>
             <Route index element={<HomePage />} />
             <Route path="profile" element={<ProfilePage />} />
@@ -37,7 +38,7 @@ export default function App() {
             <Route path="privacy" element={<PrivacyPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Route>
-          <Route path="*" element={<Navigate to="/en" replace />} />
+          <Route path="*" element={<Navigate to={`/${defaultLocale}`} replace />} />
         </Routes>
       </Suspense>
     </BrowserRouter>
