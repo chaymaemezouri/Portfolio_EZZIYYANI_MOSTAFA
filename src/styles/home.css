@@ -755,6 +755,11 @@ html[dir="rtl"] .hero-grid {
   to { transform: translateY(-50%); }
 }
 
+@keyframes reel-slide {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .reel-track {
     animation: none;
@@ -1927,7 +1932,37 @@ html[dir="rtl"] .archive-list li {
     height: 132px;
   }
 
+  .reel-col::before,
+  .reel-col::after {
+    top: 0;
+    bottom: 0;
+    width: 28px;
+    height: auto;
+  }
+
+  .reel-col::before {
+    left: 0;
+    right: auto;
+    background: linear-gradient(to right, var(--navy-900), transparent);
+  }
+
+  .reel-col::after {
+    right: 0;
+    left: auto;
+    background: linear-gradient(to left, var(--navy-900), transparent);
+  }
+
+  .reel-track {
+    flex-direction: row;
+    align-items: center;
+    width: max-content;
+    height: 100%;
+    animation-name: reel-slide;
+    animation-duration: 28s;
+  }
+
   .reel-track img {
+    width: 168px;
     height: 116px;
   }
 
@@ -1985,5 +2020,11 @@ html[dir="rtl"] .archive-list li {
     border-inline-start: 0;
     padding-inline: 0;
     border-top: 1px solid rgba(255, 255, 255, 0.14);
+  }
+}
+
+@media (max-width: 720px) and (prefers-reduced-motion: reduce) {
+  .reel-track {
+    animation: none;
   }
 }
