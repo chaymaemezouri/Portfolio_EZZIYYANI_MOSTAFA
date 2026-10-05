@@ -1,0 +1,57 @@
+:root {
+  --white: #ffffff;
+  --bg: #ffffff;
+  --bg-soft: #f7f4ef;
+  --bg-mist: #f3eee6;
+  --navy-950: #0a162e;
+  --navy-900: #0f1e3f;
+  --navy-800: #162844;
+  --navy-700: #213a56;
+  --gold-500: #cdaa80;
+  --gold-700: #997953;
+  --sky: #7ec8e3;
+  --sky-soft: #e7f6fb;
+  --blue-700: #213a56;
+  --blue-600: #213a56;
+  --blue-500: #213a56;
+  --blue-400: #d5deea;
+  --cyan: #cdaa80;
+  --text: #0f1e3f;
+  --muted: #5c6572;
+  --line: #e4dcd0;
+  --surface: #f3eee6;
+  --on-navy: #f7f4ef;
+  --on-navy-muted: #c5ced8;
+  --serif: "DM Serif Display", "Times New Roman", serif;
+  --sans: "Inter", "Segoe UI", sans-serif;
+  --container: 1340px;
+  --gutter: 40px;
+  --header-h: 76px;
+  --section-y: 128px;
+  --radius: 6px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --shadow: 0 16px 40px rgba(15, 30, 63, 0.08);
+  --gradient-navy: linear-gradient(135deg, #0f1e3f 0%, #213a56 100%);
+  --gradient-accent: linear-gradient(135deg, #997953, #cdaa80);
+  color-scheme: light;
+}
+
+html[lang="ar"] {
+  --serif: "Amiri", "Times New Roman", serif;
+  --sans: "IBM Plex Sans Arabic", "Inter", sans-serif;
+}
+
+@media (max-width: 1100px) {
+  :root {
+    --gutter: 28px;
+    --section-y: 88px;
+  }
+}
+
+@media (max-width: 720px) {
+  :root {
+    --gutter: 20px;
+    --header-h: 64px;
+    --section-y: 68px;
+  }
+}

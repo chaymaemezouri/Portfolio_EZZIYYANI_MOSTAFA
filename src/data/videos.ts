@@ -1,0 +1,271 @@
+import type { MediaCategory, MediaItem } from "@/types";
+import { l10n } from "@/utils/text";
+
+/**
+ * To add a video, append one item.
+ * YouTube: talk("VIDEO_ID", ...) — the 11 characters after v= or youtu.be/.
+ * Facebook: external("id", "https://www.facebook.com/reel/...", ...) or a /videos/ link.
+ * Copy the link from the post (Share → Copy link). One post, one line.
+ * The Facebook page itself cannot be imported in bulk.
+ * category: keynote | conference | tv | interview | analysis | lecture
+ */
+function talk(
+  id: string,
+  en: string,
+  fr: string,
+  ar: string,
+  category: MediaCategory,
+  featured = false,
+  date = "",
+): MediaItem {
+  return {
+    id,
+    title: l10n(en, fr, ar),
+    youtubeUrl: `https://www.youtube.com/watch?v=${id}`,
+    event: "",
+    date,
+    category,
+    thumbnail: "",
+    featured,
+  };
+}
+
+function external(
+  id: string,
+  url: string,
+  en: string,
+  fr: string,
+  ar: string,
+  category: MediaCategory,
+  featured = false,
+  date = "",
+  event: MediaItem["event"] = "",
+): MediaItem {
+  return {
+    id,
+    title: l10n(en, fr, ar),
+    youtubeUrl: url,
+    event,
+    date,
+    category,
+    thumbnail: "",
+    featured,
+  };
+}
+
+const analysis = l10n(
+  "Strategic and technological analysis",
+  "Analyse stratégique et technologique",
+  "تحليل استراتيجي وتكنولوجي",
+);
+
+export const mediaItems: MediaItem[] = [
+  talk(
+    "q_dkb58JT-o",
+    "Vid 2 traduite",
+    "Vid 2 traduite",
+    "Vid 2 traduite",
+    "lecture",
+  ),
+  talk(
+    "CF7YrTzTFgU",
+    "Vid 4 traduite",
+    "Vid 4 traduite",
+    "Vid 4 traduite",
+    "lecture",
+  ),
+  talk(
+    "ESo_i7dnWmo",
+    "Vid 2 traduite (2)",
+    "Vid 2 traduite (2)",
+    "Vid 2 traduite (2)",
+    "lecture",
+  ),
+  external(
+    "fb-942715945582075",
+    "https://www.facebook.com/mostafa.ezziyyani.7/videos/942715945582075/",
+    "Facebook video",
+    "Vidéo Facebook",
+    "فيديو فيسبوك",
+    "lecture",
+    false,
+    "",
+    "Facebook",
+  ),
+  external(
+    "fb-reel-2089199821993572",
+    "https://www.facebook.com/reel/2089199821993572",
+    "Facebook reel",
+    "Reel Facebook",
+    "ريل فيسبوك",
+    "lecture",
+    false,
+    "",
+    "Facebook",
+  ),
+  talk(
+    "ZclC97y8Iq0",
+    "Digital sovereignty and artificial intelligence in Morocco: a strategic vision for the future",
+    "Souveraineté numérique et intelligence artificielle au Maroc : une vision stratégique pour l'avenir",
+    "السيادة الرقمية والذكاء الاصطناعي في المغرب: رؤية استراتيجية للمستقبل",
+    "analysis",
+  ),
+  talk(
+    "13kNuQSUm4k",
+    "Digital transformation in Morocco: have the digitization strategies really succeeded?",
+    "Transformation numérique au Maroc : les stratégies de numérisation ont-elles vraiment réussi ?",
+    "التحول الرقمي في المغرب: هل نجحت استراتيجيات الرقمنة فعلاً؟",
+    "analysis",
+  ),
+  talk(
+    "Zxu2FL0lND4",
+    "Digital sovereignty and artificial intelligence: why states need a clear strategy",
+    "Souveraineté numérique et intelligence artificielle : pourquoi les États ont besoin d'une stratégie claire",
+    "السيادة الرقمية والذكاء الاصطناعي: لماذا تحتاج الدول إلى استراتيجية واضحة؟",
+    "analysis",
+  ),
+  talk(
+    "kJAMMT-qFro",
+    "Digital transformation in Morocco: between ambition and challenges",
+    "Transformation numérique au Maroc : entre ambition et défis",
+    "التحول الرقمي في المغرب: بين الطموح والتحديات",
+    "analysis",
+  ),
+  talk(
+    "oLXoDNiym3Y",
+    "Artificial intelligence and digital sustainability: supporting decision-making and development",
+    "Intelligence artificielle et durabilité numérique : soutenir la décision et le développement",
+    "الذكاء الاصطناعي والاستدامة الرقمية: كيف يدعم اتخاذ القرار والتنمية",
+    "analysis",
+  ),
+  talk(
+    "2lIw5rf-r40",
+    "Is Africa only a market for artificial intelligence?",
+    "L'Afrique est-elle seulement un marché pour l'intelligence artificielle ?",
+    "هل إفريقيا مجرد سوق للذكاء الاصطناعي؟ الحقيقة التي يجب أن نعرفها",
+    "analysis",
+  ),
+  talk(
+    "JY5GImIXrf8",
+    "Artificial intelligence to protect Moroccan heritage: a zellige analysis experiment",
+    "L'intelligence artificielle pour protéger le patrimoine marocain : une expérience d'analyse du zellige",
+    "الذكاء الاصطناعي لحماية التراث المغربي: تجربة تحليل الزليج",
+    "lecture",
+  ),
+  talk(
+    "qS_AcZyp7bw",
+    "Artificial intelligence and language: how language models help protect cultural identity",
+    "Intelligence artificielle et langue : comment les modèles de langue contribuent à protéger l'identité culturelle",
+    "الذكاء الاصطناعي واللغة: كيف تساهم نماذج اللغة في حماية الهوية الثقافية؟",
+    "lecture",
+  ),
+  talk(
+    "slQFxix5yys",
+    "Artificial intelligence and cultural identity: do we need Moroccan platforms?",
+    "Intelligence artificielle et identité culturelle : faut-il des plateformes marocaines ?",
+    "الذكاء الاصطناعي وحماية الهوية الثقافية: هل نحتاج منصات مغربية؟",
+    "lecture",
+  ),
+  talk(
+    "o-Ba1GHJ9hI",
+    "Artificial intelligence and the effect of social media on society",
+    "L'intelligence artificielle et l'effet des réseaux sociaux sur la société",
+    "الذكاء الاصطناعي وتأثير وسائل التواصل على المجتمع",
+    "lecture",
+  ),
+  talk(
+    "afv2yQRwCKM",
+    "An academic path: from student to artificial intelligence expert at Abdelmalek Essaadi University",
+    "Un parcours académique : d'étudiant à expert en intelligence artificielle à l'Université Abdelmalek Essaâdi",
+    "مساري الأكاديمي: من طالب إلى خبير في الذكاء الاصطناعي بجامعة عبد المالك السعدي",
+    "lecture",
+  ),
+  talk(
+    "aIbhq_jrhfE",
+    "A book that shaped a scientific path: the story of Le Petit Chose",
+    "Un livre qui a inspiré un parcours scientifique : l'histoire du Petit Chose",
+    "كتاب ألهم مساري العلمي: قصة Le Petit Chose",
+    "lecture",
+  ),
+  talk(
+    "F4VN0hxci8Y",
+    "A professor who changed a scientific path",
+    "Un professeur qui a changé un parcours scientifique",
+    "قصة أستاذ غيّر مساري العلمي",
+    "lecture",
+  ),
+  talk(
+    "TP8BivKS-sE",
+    "Reportage — 4th edition of the international conference AI2SD 2022",
+    "Reportage — 4e édition de la conférence internationale AI2SD 2022",
+    "تقرير — الدورة الرابعة للمؤتمر الدولي AI2SD 2022",
+    "conference",
+    false,
+    "2022",
+  ),
+  talk(
+    "hJsXojQIwxE",
+    "AI2SD 2022 — International conference on advanced intelligent systems for development",
+    "AI2SD 2022 — Conférence internationale sur les systèmes intelligents avancés pour le développement",
+    "AI2SD 2022 — المؤتمر الدولي للأنظمة الذكية المتقدمة للتنمية",
+    "conference",
+    false,
+    "2022",
+  ),
+  talk(
+    "Hp7WWTNAAAI",
+    "WAYTECH EXPO 2025",
+    "WAYTECH EXPO 2025",
+    "WAYTECH EXPO 2025",
+    "conference",
+    false,
+    "2025",
+  ),
+  talk(
+    "0jKIuAJmK_8",
+    "Orshestra",
+    "Orshestra",
+    "Orshestra",
+    "lecture",
+  ),
+  {
+    id: "france24",
+    title: "France 24",
+    youtubeUrl: "",
+    event: analysis,
+    date: "",
+    category: "tv",
+    thumbnail: "",
+    featured: false,
+  },
+  {
+    id: "medi1",
+    title: "Medi1 TV",
+    youtubeUrl: "",
+    event: analysis,
+    date: "",
+    category: "tv",
+    thumbnail: "",
+    featured: false,
+  },
+  {
+    id: "2m",
+    title: "2M",
+    youtubeUrl: "",
+    event: analysis,
+    date: "",
+    category: "tv",
+    thumbnail: "",
+    featured: false,
+  },
+];
+
+export const mediaFilters = [
+  "all",
+  "keynote",
+  "conference",
+  "tv",
+  "interview",
+  "analysis",
+  "lecture",
+] as const;

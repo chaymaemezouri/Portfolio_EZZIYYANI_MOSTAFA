@@ -1,0 +1,408 @@
+import type { ResearchProject } from "@/types";
+import { l10n } from "@/utils/text";
+
+export const projects: ResearchProject[] = [
+  {
+    id: "quantum-cluster",
+    title: l10n(
+      "Moroccan Quantum Computing Cluster",
+      "Moroccan Quantum Computing Cluster",
+      "التكتل المغربي للحوسبة الكمومية",
+    ),
+    year: "",
+    category: "innovation",
+    role: l10n(
+      "President, Director General and co-founder",
+      "Président, directeur général et cofondateur",
+      "رئيس ومدير عام ومؤسس مشارك",
+    ),
+    summary: l10n(
+      "As president, director general and co-founder, he leads Morocco's anticipatory positioning in the next generation of computing.",
+      "En qualité de président, directeur général et cofondateur, il conduit le positionnement national anticipé du Maroc dans les technologies de calcul de la génération suivante.",
+      "بصفته رئيساً ومديراً عاماً ومؤسساً مشاركاً، يقود التموقع الوطني الاستباقي للمغرب في تكنولوجيات الجيل القادم من الحوسبة.",
+    ),
+    organization: "",
+    partners: [],
+    country: l10n("Morocco", "Maroc", "المغرب"),
+    status: "",
+    image: "",
+    links: [],
+    featured: true,
+    details: [
+      l10n(
+        "Quantum computing.",
+        "Informatique quantique.",
+        "الحوسبة الكمومية.",
+      ),
+      l10n(
+        "Quantum artificial intelligence.",
+        "Intelligence artificielle quantique.",
+        "الذكاء الاصطناعي الكمومي.",
+      ),
+      l10n(
+        "Post-quantum cryptography.",
+        "Cryptographie post-quantique.",
+        "التشفير المقاوم للحوسبة الكمومية.",
+      ),
+    ],
+  },
+  {
+    id: "ai2sd",
+    title: l10n(
+      "AI2SD — Intelligent Systems for Sustainable Development",
+      "AI2SD — Systèmes intelligents pour le développement durable",
+      "AI2SD — الأنظمة الذكية للتنمية المستدامة",
+    ),
+    year: "",
+    category: "collaboration",
+    role: l10n("General Chair", "Président général", "الرئيس العام"),
+    summary: l10n(
+      "As general chair, he turned this international conference into an annual continental and international platform on the future of sustainable technology.",
+      "En qualité de président général, il en a fait une plateforme annuelle, continentale et internationale, consacrée à l'avenir de la technologie durable.",
+      "بصفته رئيساً عاماً، حوّله إلى منصة سنوية قارية ودولية تبحث مستقبل التكنولوجيا المستدامة.",
+    ),
+    organization: "",
+    partners: [],
+    country: l10n("Morocco", "Maroc", "المغرب"),
+    status: "",
+    image: "",
+    links: [{ label: "ai2sd.com", href: "https://ai2sd.com/" }],
+    featured: false,
+    details: [
+      l10n(
+        "Hundreds of speakers, scientists and decision-makers, from Europe, the Americas, Asia and Africa.",
+        "Des centaines de conférenciers, de scientifiques et de décideurs, venus d'Europe, d'Amérique, d'Asie et d'Afrique.",
+        "مئات من المحاضرين والعلماء وصناع القرار، من أوروبا وأمريكا وآسيا وإفريقيا.",
+      ),
+      l10n(
+        "The 2026 edition is announced in Rabat, from 4 to 6 November, on ai2sd.com.",
+        "L'édition 2026 est annoncée à Rabat, du 4 au 6 novembre, sur ai2sd.com.",
+        "تُعلن دورة 2026 في الرباط، من 4 إلى 6 نونبر، على ai2sd.com.",
+      ),
+      l10n(
+        "Editions since 2018 include Morocco, Oman, Egypt and China.",
+        "Les éditions depuis 2018 comprennent le Maroc, Oman, l'Égypte et la Chine.",
+        "تشمل الدورات منذ 2018 المغرب وعُمان ومصر والصين.",
+      ),
+    ],
+  },
+  {
+    id: "penalathon",
+    title: "LE PENALATHON",
+    year: "",
+    category: "transformation",
+    role: l10n(
+      "Framing and participation",
+      "Cadrage et participation",
+      "تأطير ومشاركة",
+    ),
+    summary: l10n(
+      "A digital-justice and penal-policy initiative to digitize the judicial system. He frames the work and takes part in it.",
+      "Initiative de justice numérique et de politiques pénales pour la numérisation du système judiciaire. Il en assure le cadrage et y participe.",
+      "مبادرة في العدالة الرقمية والسياسات العقابية لرقمنة المنظومة القضائية. يتولى تأطيرها ويشارك فيها.",
+    ),
+    organization: "",
+    partners: [],
+    country: "",
+    status: "",
+    image: "",
+    links: [],
+    featured: false,
+    details: [],
+  },
+  {
+    id: "smart-health",
+    title: l10n("Smart Health", "Santé numérique", "الصحة الرقمية"),
+    year: "",
+    category: "transformation",
+    role: l10n(
+      "Strategy and design",
+      "Stratégie et conception",
+      "صياغة الاستراتيجيات",
+    ),
+    summary: l10n(
+      "Design of artificial-intelligence strategies for health, alongside digital justice and territorial governance.",
+      "Conception de stratégies d'intelligence artificielle pour la santé, aux côtés de la justice numérique et de la gouvernance territoriale.",
+      "صياغة استراتيجيات الذكاء الاصطناعي للصحة، إلى جانب العدالة الرقمية والحكامة الترابية.",
+    ),
+    organization: "",
+    partners: [],
+    country: "",
+    status: "",
+    image: "",
+    links: [],
+    featured: false,
+    details: [
+      l10n(
+        "Artificial-intelligence strategies for epidemic forecasting.",
+        "Stratégies d'intelligence artificielle pour la prévision épidémique.",
+        "استراتيجيات الذكاء الاصطناعي للتنبؤ الوبائي.",
+      ),
+      l10n(
+        "Interoperability of data across systems.",
+        "Interopérabilité des données entre les systèmes.",
+        "قابلية تشغيل البيانات البينية بين الأنظمة.",
+      ),
+      l10n(
+        "Protection of sensitive medical data.",
+        "Protection des données médicales sensibles.",
+        "حماية البيانات الطبية الحساسة.",
+      ),
+    ],
+  },
+  {
+    id: "territorial",
+    title: l10n(
+      "Territorial governance",
+      "Gouvernance territoriale",
+      "الحكامة الترابية",
+    ),
+    year: "",
+    category: "ai",
+    role: l10n(
+      "Models for decision-makers",
+      "Modèles pour les décideurs",
+      "نماذج لدعم القرار",
+    ),
+    summary: l10n(
+      "Artificial-intelligence and spatial-analysis models to support decision-makers in territorial governance and regional development.",
+      "Modèles d'intelligence artificielle et d'analyse spatiale pour appuyer les décideurs dans la gouvernance territoriale et le développement régional.",
+      "تقديم نماذج الذكاء الاصطناعي والتحليل المجالي لدعم متخذي القرار في الحكامة الترابية والتنمية الجهوية.",
+    ),
+    organization: "",
+    partners: [],
+    country: "",
+    status: "",
+    image: "",
+    links: [],
+    featured: false,
+    details: [
+      l10n(
+        "Artificial-intelligence models combined with spatial analysis.",
+        "Modèles d'intelligence artificielle associés à l'analyse spatiale.",
+        "نماذج ذكاء اصطناعي مقرونة بالتحليل المجالي.",
+      ),
+      l10n(
+        "Support for decision-makers in territorial governance and regional development.",
+        "Appui aux décideurs dans la gouvernance territoriale et le développement régional.",
+        "دعم متخذي القرار في الحكامة الترابية والتنمية الجهوية.",
+      ),
+      l10n(
+        "He also holds the ArcGIS certificate in advanced spatial analysis.",
+        "Il est également titulaire du certificat ArcGIS en analyse spatiale avancée.",
+        "ويحمل أيضاً شهادة ArcGIS في التحليل المجالي المتقدم.",
+      ),
+    ],
+  },
+  {
+    id: "strategic-research",
+    title: l10n(
+      "Strategic research projects",
+      "Projets de recherche stratégiques",
+      "مشاريع بحثية استراتيجية",
+    ),
+    year: "",
+    category: "research",
+    role: l10n(
+      "Direction or co-direction",
+      "Direction ou codirection",
+      "قيادة أو مشاركة في الإدارة",
+    ),
+    summary: l10n(
+      "Direction or co-direction of more than 10 multiparty strategic research projects, with international partners, for technology transfer and the localization of digital knowledge.",
+      "Direction ou codirection de plus de 10 projets de recherche stratégiques multipartites, avec des partenaires internationaux, pour le transfert de technologie et la localisation du savoir numérique.",
+      "قيادة أو مشاركة في إدارة أكثر من 10 مشاريع بحثية استراتيجية متعددة الأطراف، مع شركاء دوليين، لنقل التكنولوجيا وتوطين المعرفة الرقمية.",
+    ),
+    organization: "",
+    partners: [],
+    country: "",
+    status: "",
+    image: "",
+    links: [],
+    featured: false,
+    details: [
+      l10n(
+        "Coordination with the European Union, the Ministry of Higher Education and international organizations.",
+        "Coordination avec l'Union européenne, le ministère de l'Enseignement supérieur et des organisations internationales.",
+        "التنسيق مع الاتحاد الأوروبي ووزارة التعليم العالي ومنظمات دولية.",
+      ),
+      l10n(
+        "A particular focus on technology transfer and the localisation of digital knowledge.",
+        "Un accent particulier sur le transfert de technologie et la localisation du savoir numérique.",
+        "تركيز خاص على نقل التكنولوجيا وتوطين المعرفة الرقمية.",
+      ),
+      l10n(
+        "Prepared within high-level scientific exchange and research-and-development programmes, with institutions in Europe, the United States, Asia, China, the Arab world and Africa.",
+        "Préparés dans le cadre de programmes d'échange scientifique et de recherche-développement, avec des institutions en Europe, aux États-Unis, en Asie, en Chine, dans le monde arabe et en Afrique.",
+        "أُعدت في إطار برامج التبادل العلمي والبحث والتطوير، مع مؤسسات في أوروبا والولايات المتحدة وآسيا والصين والعالم العربي وإفريقيا.",
+      ),
+      l10n(
+        "Cross-border projects aimed at technology transfer, the localisation of digital knowledge, and the development of artificial-intelligence algorithms and advanced computing to international standards.",
+        "Projets transfrontaliers visant le transfert de technologie, la localisation du savoir numérique, et le développement d'algorithmes d'intelligence artificielle et de calcul avancé selon les standards internationaux.",
+        "مشاريع عابرة للحدود تهدف إلى نقل التكنولوجيا وتوطين المعرفة الرقمية وتطوير خوارزميات الذكاء الاصطناعي والحوسبة المتقدمة وفق المعايير الدولية.",
+      ),
+      l10n(
+        "Joint projects for the exchange of expertise and knowledge, capacity building, technology transfer, innovation, and research and development.",
+        "Projets communs pour l'échange d'expertise et de connaissances, le développement des compétences, le transfert de technologie, l'innovation, et la recherche-développement.",
+        "مشاريع مشتركة لتبادل الخبرات والمعارف، وتطوير الكفاءات، ونقل التكنولوجيا، وتعزيز الابتكار والبحث والتطوير.",
+      ),
+      l10n(
+        "Projects that join scientific and technological expertise with international partnerships, while respecting national priorities, the requirements of digital sovereignty, and the strengthening of national capacity in strategic fields.",
+        "Projets qui associent l'expertise scientifique et technologique à des partenariats internationaux, dans le respect des priorités nationales, des exigences de souveraineté numérique et du renforcement des capacités nationales dans les domaines stratégiques.",
+        "مشاريع تجمع بين الخبرة العلمية والتكنولوجية والشراكات الدولية، مع مراعاة الأولويات الوطنية ومتطلبات السيادة الرقمية وتعزيز القدرات الوطنية في المجالات الاستراتيجية.",
+      ),
+      l10n(
+        "Partnership agreements with technological institutions and bodies in China, the United States, France, Belgium, Spain, the Netherlands, Djibouti, Tunisia and the Gulf countries.",
+        "Accords de partenariat avec des institutions et des organismes technologiques en Chine, aux États-Unis, en France, en Belgique, en Espagne, aux Pays-Bas, à Djibouti, en Tunisie et dans les pays du Golfe.",
+        "اتفاقيات شراكة مع مؤسسات وهيئات تكنولوجية في الصين والولايات المتحدة وفرنسا وبلجيكا وإسبانيا وهولندا وجيبوتي وتونس ودول الخليج.",
+      ),
+      l10n(
+        "Coordination between the public sector, universities, research centres and multinational companies, in order to build integrated and sustainable digital environments.",
+        "Coordination entre le secteur public, les universités, les centres de recherche et les entreprises multinationales, pour constituer des environnements numériques intégrés et durables.",
+        "التنسيق بين القطاع العام والجامعات ومراكز البحث والشركات العالمية متعددة الجنسيات لإنشاء بيئات رقمية متكاملة ومستدامة.",
+      ),
+    ],
+  },
+  {
+    id: "ifft",
+    title: l10n(
+      "Innovation and Technology Transfer Organization (IFFT)",
+      "Organisation de l'innovation et du transfert de technologie (IFFT)",
+      "منظمة الابتكار ونقل التكنولوجيا (IFFT)",
+    ),
+    year: "",
+    category: "transfer",
+    role: l10n("President", "Président", "رئيس"),
+    summary: l10n(
+      "Bridges the university with the financial and industrial sectors.",
+      "Relie l'université aux secteurs financier et industriel.",
+      "تجسير الفجوة بين الجامعة والقطاعين المالي والصناعي.",
+    ),
+    organization: "",
+    partners: [],
+    country: "",
+    status: "",
+    image: "",
+    links: [],
+    featured: false,
+    details: [
+      l10n(
+        "The organization is directed at closing the gap between the university and the financial and industrial sectors.",
+        "L'organisation est orientée vers le rapprochement de l'université et des secteurs financier et industriel.",
+        "المنظمة موجّهة لتجسير الفجوة بين الجامعة والقطاعين المالي والصناعي.",
+      ),
+      l10n(
+        "The same record covers the valorisation of research results, technology transfer, and the passage from a research idea to an applicable solution.",
+        "Le même parcours couvre la valorisation des résultats de la recherche, le transfert de technologie, et le passage d'une idée de recherche à une solution applicable.",
+        "ويشمل المسار نفسه تثمين نتائج البحث، ونقل التكنولوجيا، وتحويل الفكرة البحثية إلى حل قابل للتطبيق.",
+      ),
+    ],
+  },
+  {
+    id: "patents",
+    title: l10n(
+      "Patents and secure digital solutions",
+      "Brevets et solutions numériques sécurisées",
+      "براءات الاختراع والحلول الرقمية الآمنة",
+    ),
+    year: "",
+    category: "innovation",
+    role: l10n("Registered patents", "Brevets enregistrés", "براءات مسجلة"),
+    summary: l10n(
+      "Registered patents in the software efficiency of algorithms, distributed operating systems, and secure digital solutions.",
+      "Brevets enregistrés dans l'efficacité logicielle des algorithmes, les systèmes d'exploitation distribués et les solutions numériques sécurisées.",
+      "براءات مسجلة في الكفاءة البرمجية للخوارزميات ونظم التشغيل الموزعة والحلول الرقمية الآمنة.",
+    ),
+    organization: "",
+    partners: [],
+    country: "",
+    status: "",
+    image: "",
+    links: [],
+    featured: false,
+    details: [
+      l10n(
+        "Improving the software efficiency of algorithms.",
+        "Amélioration de l'efficacité logicielle des algorithmes.",
+        "تحسين الكفاءة البرمجية للخوارزميات.",
+      ),
+      l10n(
+        "Development of distributed operating systems.",
+        "Développement de systèmes d'exploitation distribués.",
+        "تطوير نظم التشغيل الموزعة.",
+      ),
+      l10n(
+        "Secure digital solutions for institutions and for the industrial and educational sectors.",
+        "Solutions numériques sécurisées pour les institutions et pour les secteurs industriel et éducatif.",
+        "حلول رقمية آمنة للمؤسسات والقطاعين الصناعي والتعليمي.",
+      ),
+      l10n(
+        "These patents also cover technology, software and intelligent systems.",
+        "Ces brevets portent aussi sur la technologie, les logiciels et les systèmes intelligents.",
+        "وتشمل هذه البراءات أيضاً التكنولوجيا والبرمجيات والأنظمة الذكية.",
+      ),
+    ],
+  },
+  {
+    id: "project-review",
+    title: l10n(
+      "Review of international projects",
+      "Évaluation de projets internationaux",
+      "تقييم المشاريع الدولية",
+    ),
+    year: "",
+    category: "research",
+    role: l10n(
+      "Expert, evaluator and reviewer",
+      "Expert, évaluateur et arbitre",
+      "خبير ومقيّم ومحكّم",
+    ),
+    summary: l10n(
+      "Review of scientific-research, innovation and technology projects, including projects submitted for funding, and participation in the coordination of scientific review committees.",
+      "Évaluation de projets de recherche scientifique, d'innovation et de technologie, y compris les projets destinés au financement, et participation à la coordination de comités d'arbitrage scientifique.",
+      "تقييم مشاريع البحث العلمي والابتكار والتكنولوجيا، بما فيها المشاريع الموجهة للتمويل، والمشاركة في تنسيق لجان التحكيم العلمي.",
+    ),
+    organization: "",
+    partners: [],
+    country: "",
+    status: "",
+    image: "",
+    links: [],
+    featured: false,
+    details: [
+      l10n(
+        "This work sits alongside international experience in teaching, research, consulting and the building of partnerships.",
+        "Ce travail s'inscrit dans une expérience internationale d'enseignement, de recherche, de conseil et de construction de partenariats.",
+        "يندرج هذا العمل ضمن خبرة دولية في التدريس والبحث والاستشارة وبناء الشراكات.",
+      ),
+      l10n(
+        "Scientific and professional work in France, Belgium, Spain, the Netherlands, China, the United States, Tunisia, Djibouti, Qatar and other countries.",
+        "Participations scientifiques et professionnelles en France, en Belgique, en Espagne, aux Pays-Bas, en Chine, aux États-Unis, en Tunisie, à Djibouti, au Qatar et dans d'autres pays.",
+        "مشاركات علمية ومهنية في فرنسا وبلجيكا وإسبانيا وهولندا والصين والولايات المتحدة وتونس وجيبوتي وقطر ودول أخرى.",
+      ),
+    ],
+  },
+];
+
+export const projectPractice = l10n(
+  "Strategic projects in digital transformation and artificial intelligence for public and private institutions: needs analysis, solution design, intelligent platforms and applications, deployment, evaluation and continuous improvement. Several projects were run in parallel, with multidisciplinary teams and partners from both sectors.",
+  "Projets stratégiques de transformation numérique et d'intelligence artificielle pour des institutions publiques et privées : analyse des besoins, conception des solutions, plateformes et applications intelligentes, mise en service, évaluation et amélioration continue. Plusieurs projets ont été menés en parallèle, avec des équipes pluridisciplinaires et des partenaires des deux secteurs.",
+  "قيادة وتطوير وتنفيذ مشاريع استراتيجية في التحول الرقمي والذكاء الاصطناعي لفائدة مؤسسات من القطاعين العام والخاص، مع تحليل الاحتياجات وتصميم الحلول وتطوير المنصات والتطبيقات الذكية، ثم التشغيل والتقييم والتحسين المستمر. وقد نُفذت عدة مشاريع بالتوازي، مع تنسيق فرق متعددة التخصصات وشركاء من القطاعين.",
+);
+
+export const projectOutcomes = l10n(
+  "The work covers digitizing services and processes, automating procedures, improving data management, supporting decisions, and building services for citizens, institutions and companies. It links technology to the institutions' strategic goals and produces digital systems that can scale, connect and last. It also carries research through to practical solutions, with a direct effect on administration, services, the economy and society.",
+  "Ces projets couvrent la numérisation des services et des processus, l'automatisation des procédures, une meilleure gestion des données, l'aide à la décision, et des services destinés aux citoyens, aux institutions et aux entreprises. Ils relient la technologie aux objectifs stratégiques des institutions et construisent des systèmes numériques extensibles, intégrés et durables. Ils mènent aussi la recherche jusqu'à des solutions pratiques, avec un effet direct sur l'administration, les services, l'économie et la société.",
+  "تشمل هذه المشاريع رقمنة الخدمات والعمليات، وأتمتة الإجراءات، وتحسين تدبير البيانات، ودعم اتخاذ القرار، وخدمات موجهة للمواطنين والمؤسسات والمقاولات. وتربط التكنولوجيا بالأهداف الاستراتيجية للمؤسسات، وتبني منظومات رقمية قابلة للتوسع والتكامل ومستدامة. كما تنقل البحث إلى حلول عملية ذات أثر مباشر على الإدارة والخدمات والاقتصاد والمجتمع.",
+);
+
+export const projectCategoryIds = [
+  "research",
+  "ai",
+  "transformation",
+  "innovation",
+  "transfer",
+  "collaboration",
+] as const;
+
+export type ProjectCategoryId = (typeof projectCategoryIds)[number];

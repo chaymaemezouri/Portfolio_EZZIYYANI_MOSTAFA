@@ -1,0 +1,140 @@
+import type { InternationalActivity } from "@/types";
+import { l10n } from "@/utils/text";
+
+const country = (en: string, fr: string, ar: string) => l10n(en, fr, ar);
+
+export const internationalActivities: InternationalActivity[] = [
+  {
+    id: "morocco",
+    country: country("Morocco", "Maroc", "المغرب"),
+    city: "",
+    institution: l10n(
+      "Abdelmalek Essaadi University",
+      "Université Abdelmalek Essaâdi",
+      "جامعة عبد المالك السعدي",
+    ),
+    category: "research",
+    region: "africa",
+    year: "1996",
+    x: 48.6,
+    y: 32.2,
+    summary: "",
+  },
+  {
+    id: "france",
+    country: country("France", "France", "فرنسا"),
+    city: "",
+    institution: "",
+    category: "partnership",
+    region: "europe",
+    year: "",
+    x: 50.6,
+    y: 24.1,
+    summary: "",
+  },
+  {
+    id: "belgium",
+    country: country("Belgium", "Belgique", "بلجيكا"),
+    city: "",
+    institution: "",
+    category: "partnership",
+    region: "europe",
+    year: "",
+    x: 51.2,
+    y: 21.9,
+    summary: "",
+  },
+  {
+    id: "spain",
+    country: country("Spain", "Espagne", "إسبانيا"),
+    city: "",
+    institution: "",
+    category: "partnership",
+    region: "europe",
+    year: "",
+    x: 49,
+    y: 27.6,
+    summary: "",
+  },
+  {
+    id: "netherlands",
+    country: country("Netherlands", "Pays-Bas", "هولندا"),
+    city: "",
+    institution: "",
+    category: "partnership",
+    region: "europe",
+    year: "",
+    x: 51.5,
+    y: 21.1,
+    summary: "",
+  },
+  {
+    id: "united-states",
+    country: country("United States", "États-Unis", "الولايات المتحدة"),
+    city: "",
+    institution: "",
+    category: "partnership",
+    region: "northAmerica",
+    year: "",
+    x: 23.1,
+    y: 28.9,
+    summary: "",
+  },
+  {
+    id: "china",
+    country: country("China", "Chine", "الصين"),
+    city: "",
+    institution: "",
+    category: "partnership",
+    region: "asia",
+    year: "",
+    x: 78.9,
+    y: 30.6,
+    summary: "",
+  },
+  {
+    id: "tunisia",
+    country: country("Tunisia", "Tunisie", "تونس"),
+    city: "",
+    institution: "",
+    category: "partnership",
+    region: "arabWorld",
+    year: "",
+    x: 52.6,
+    y: 31.1,
+    summary: "",
+  },
+  {
+    id: "djibouti",
+    country: country("Djibouti", "Djibouti", "جيبوتي"),
+    city: "",
+    institution: l10n(
+      "Center of Excellence for African Research",
+      "Centre d'excellence pour la recherche africaine",
+      "مركز التميز للبحث الإفريقي",
+    ),
+    category: "advisory",
+    region: "africa",
+    year: "",
+    x: 61.8,
+    y: 43.4,
+    summary: "",
+  },
+];
+
+export const activityConnections: Array<[string, string]> = [];
+
+export const internationalNotes = {
+  visits: l10n(
+    "Academic visits and advisory missions to laboratories, research centres and universities in Europe, the United States, Asia, China, the Arab world and Africa, within high-level exchange programmes and research-and-development projects. He has also been invited as a visiting professor and lecturer at dozens of universities and technology institutes.",
+    "Visites académiques et missions de conseil dans des laboratoires, des centres de recherche et des universités en Europe, aux États-Unis, en Asie, en Chine, dans le monde arabe et en Afrique, dans le cadre de programmes d'échange et de projets de recherche et développement. Il a aussi été invité comme professeur visiteur et conférencier dans des dizaines d'universités et d'instituts technologiques.",
+    "زيارات أكاديمية ومهام استشارية لمختبرات ومراكز بحث وجامعات في أوروبا والولايات المتحدة وآسيا والصين والعالم العربي وإفريقيا، في إطار برامج التبادل ومشاريع البحث والتطوير. ودُعي أستاذاً زائراً ومحاضراً في عشرات الجامعات والمعاهد التكنولوجية.",
+  ),
+  missions: l10n(
+    "Scientific and technological diplomacy: partnerships between universities, research centres, public institutions and the private sector, joint projects, technology transfer, and capacity building in artificial intelligence, data science, digital transformation, cybersecurity and data protection.",
+    "Diplomatie scientifique et technologique : partenariats entre universités, centres de recherche, institutions publiques et secteur privé, projets communs, transfert de technologie et renforcement des capacités en intelligence artificielle, science des données, transformation numérique, cybersécurité et protection des données.",
+    "دبلوماسية علمية وتكنولوجية: شراكات بين الجامعات ومراكز البحث والمؤسسات العمومية والقطاع الخاص، ومشاريع مشتركة، ونقل للتكنولوجيا، وبناء القدرات في الذكاء الاصطناعي وعلوم البيانات والتحول الرقمي والأمن السيبراني وحماية البيانات.",
+  ),
+};
+
+export const regionIds = ["africa", "europe", "asia", "northAmerica", "arabWorld"] as const;

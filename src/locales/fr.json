@@ -1,0 +1,350 @@
+{
+  "meta": {
+    "siteName": "Prof. Dr. Mostafa Ezziyyani",
+    "defaultDescription": "Présence numérique officielle du Prof. Dr. Mostafa Ezziyyani, professeur, chercheur et expert international en technologie.",
+    "pages": {
+      "home": "Présence numérique officielle du Prof. Dr. Mostafa Ezziyyani, professeur, chercheur et expert international en technologie.",
+      "profile": "Profil professionnel du Prof. Dr. Mostafa Ezziyyani.",
+      "expertise": "Domaines d'expertise du Prof. Dr. Mostafa Ezziyyani.",
+      "research": "Recherche et contributions scientifiques du Prof. Dr. Mostafa Ezziyyani.",
+      "projects": "Projets et innovation du Prof. Dr. Mostafa Ezziyyani.",
+      "vision": "Vision stratégique sur la technologie, le savoir et la transformation numérique.",
+      "international": "Présence scientifique internationale du Prof. Dr. Mostafa Ezziyyani.",
+      "media": "Conférences, entretiens et apparitions médiatiques du Prof. Dr. Mostafa Ezziyyani.",
+      "academic": "Enseignement et encadrement académique du Prof. Dr. Mostafa Ezziyyani.",
+      "recognition": "Distinctions, prix et leadership institutionnel.",
+      "contact": "Contacter le Prof. Dr. Mostafa Ezziyyani.",
+      "privacy": "Informations de confidentialité de ce site."
+    }
+  },
+  "nav": {
+    "home": "Accueil",
+    "profile": "Profil",
+    "expertise": "Expertise",
+    "research": "Recherche",
+    "projects": "Projets",
+    "vision": "Vision",
+    "international": "International",
+    "media": "Médias",
+    "academic": "Académique",
+    "recognition": "Distinctions",
+    "contact": "Contact",
+    "leadership": "Leadership",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "search": "Rechercher",
+    "skip": "Aller au contenu",
+    "menu": "Menu"
+  },
+  "hero": {
+    "fields": "Intelligence artificielle · Transformation numérique\nScience des données · Cybersécurité",
+    "explore": "Explorer le profil",
+    "research": "Recherche et publications",
+    "role1": "Professeur",
+    "role2": "Chercheur",
+    "role3": "Expert international",
+    "portraitAlt": "Portrait du Prof. Dr. Mostafa Ezziyyani",
+    "techLabel": "01 — Profil",
+    "lead": "Plus de trois décennies de recherche, depuis les débuts de l'ère numérique en 1990."
+  },
+  "impact": {
+    "experience": "Années d'expérience",
+    "publications": "Publications scientifiques",
+    "supervision": "Thèses, mémoires et projets",
+    "projects": "Projets de recherche dirigés"
+  },
+  "expertise": {
+    "index": "01",
+    "title": "Domaines d'expertise",
+    "intro": "Domaines scientifiques et technologiques.",
+    "view": "Voir le domaine",
+    "domains": {
+      "aiData": "Intelligence artificielle et données",
+      "cyber": "Cybersécurité et confiance numérique",
+      "transformation": "Transformation numérique",
+      "systems": "Systèmes intelligents",
+      "infrastructure": "Logiciels et infrastructures de données",
+      "transfer": "Innovation et transfert technologique"
+    }
+  },
+  "research": {
+    "index": "02",
+    "title": "Recherche à la une",
+    "pageTitle": "Recherche et contributions scientifiques",
+    "intro": "Contributions scientifiques sélectionnées.",
+    "featured": "À la une",
+    "viewAll": "Toute la recherche",
+    "search": "Rechercher une publication",
+    "searchLabel": "Rechercher une publication",
+    "areas": "Axes de recherche",
+    "corpus": "Le corpus",
+    "empty": "Les données sources seront ajoutées ici.",
+    "slotTitle": "Publication",
+    "doi": "DOI",
+    "view": "Voir la publication",
+    "scholar": "Scholar",
+    "orcid": "ORCID",
+    "col": {
+      "year": "Année",
+      "title": "Titre",
+      "authors": "Auteurs",
+      "venue": "Revue / Conférence",
+      "type": "Type"
+    },
+    "filters": {
+      "all": "Tout",
+      "ai": "IA",
+      "data": "Données",
+      "cybersecurity": "Cybersécurité",
+      "distributed": "Systèmes distribués",
+      "smart": "Systèmes intelligents",
+      "transformation": "Transformation numérique"
+    }
+  },
+  "projects": {
+    "index": "04",
+    "title": "Projets choisis",
+    "pageTitle": "Projets et innovation",
+    "intro": "Recherche, innovation et transfert technologique.",
+    "homeLead": "Il dirige ou participe à ces projets : un pôle de calcul quantique, la conférence AI2SD, une initiative de justice numérique et des stratégies d'intelligence artificielle pour la santé.",
+    "featured": "Projet à la une",
+    "viewAll": "Tous les projets",
+    "filterAll": "Tout",
+    "categoryLabel": "Catégorie",
+    "empty": "Les données sources seront ajoutées ici.",
+    "categories": {
+      "research": "Recherche",
+      "ai": "Intelligence artificielle",
+      "transformation": "Transformation numérique",
+      "innovation": "Innovation",
+      "transfer": "Transfert technologique",
+      "collaboration": "Collaboration internationale"
+    },
+    "fields": {
+      "role": "Rôle",
+      "organization": "Organisation",
+      "partners": "Partenaires",
+      "country": "Pays",
+      "status": "Statut",
+      "year": "Année"
+    }
+  },
+  "vision": {
+    "index": "03",
+    "title": "Vision stratégique",
+    "subtitle": "Technologie, savoir et transformation numérique",
+    "principle": "Principe stratégique",
+    "headline": "Technologie, savoir\net transformation numérique.",
+    "explore": "Explorer la vision",
+    "document": "Document stratégique",
+    "read": "Lire le document",
+    "statementPending": "Énoncé à ajouter",
+    "themes": {
+      "transformation": "Transformation numérique",
+      "aiStrategy": "Stratégie d'intelligence artificielle",
+      "sovereignty": "Souveraineté numérique",
+      "dataEcosystems": "Écosystèmes de données",
+      "responsibleAi": "IA responsable",
+      "cybersecurity": "Cybersécurité",
+      "researchInnovation": "Recherche et innovation",
+      "diplomacy": "Diplomatie scientifique",
+      "knowledgeEconomy": "Économie de la connaissance"
+    }
+  },
+  "international": {
+    "index": "05",
+    "title": "Présence internationale",
+    "homeTitle": "Une présence mondiale",
+    "intro": "Collaborations, visites et missions scientifiques.",
+    "mapLabel": "Carte de l'activité internationale",
+    "explore": "Explorer la présence internationale",
+    "empty": "Les données sources seront ajoutées ici.",
+    "pendingCount": "À ajouter",
+    "regions": {
+      "africa": "Afrique",
+      "europe": "Europe",
+      "asia": "Asie",
+      "northAmerica": "Amérique du Nord",
+      "arabWorld": "Monde arabe"
+    },
+    "sections": {
+      "collaboration": "Collaboration internationale",
+      "visits": "Visites académiques",
+      "partnerships": "Partenariats institutionnels",
+      "missions": "Missions scientifiques",
+      "conferences": "Conférences internationales"
+    },
+    "categories": {
+      "research": "Recherche",
+      "visit": "Visite académique",
+      "conference": "Conférence",
+      "advisory": "Conseil",
+      "partnership": "Partenariat",
+      "project": "Projet"
+    }
+  },
+  "media": {
+    "index": "05",
+    "title": "Médias et interventions",
+    "pageTitle": "Médias et interventions",
+    "intro": "Conférences, entretiens et analyses publiques.",
+    "watch": "Lecture",
+    "reel": "Vidéo",
+    "reelKicker": "Conférence internationale",
+    "reelTitle": "AI2SD — Systèmes intelligents pour le développement durable",
+    "reelSite": "ai2sd.com",
+    "reelPending": "Cette édition sera ajoutée avec sa vidéo et ses photos.",
+    "youtube": "Voir la chaîne YouTube",
+    "featured": "Média à la une",
+    "channel": "Chaîne YouTube",
+    "format": "Format",
+    "empty": "Les données sources seront ajoutées ici.",
+    "speaking": "Conférences et keynotes",
+    "posts": "Publications",
+    "postsIntro": "Image et texte de chaque publication, affichés directement ici.",
+    "viewPost": "Voir la publication",
+    "filters": {
+      "all": "Tout",
+      "keynote": "Keynotes",
+      "conference": "Conférences",
+      "tv": "TV et médias",
+      "interview": "Entretiens",
+      "analysis": "Analyse technologique",
+      "lecture": "Cours et conférences"
+    }
+  },
+  "academic": {
+    "index": "06",
+    "title": "Leadership académique",
+    "pageTitle": "Enseignement et encadrement",
+    "intro": "Enseignement, encadrement et responsabilités institutionnelles.",
+    "explore": "Explorer le volet académique",
+    "teaching": "Enseignement",
+    "doctoral": "Encadrement doctoral",
+    "masters": "Encadrement de master",
+    "engineering": "Projets d'ingénierie et de recherche",
+    "mentorship": "Mentorat académique",
+    "total": "Thèses, mémoires et projets",
+    "selected": "Encadrement sélectionné",
+    "empty": "Les données sources seront ajoutées ici.",
+    "stats": {
+      "total": "Thèses, mémoires et projets",
+      "doctoral": "Encadrement doctoral",
+      "masters": "Encadrement de master"
+    },
+    "cols": {
+      "name": "Nom",
+      "title": "Titre",
+      "year": "Année",
+      "level": "Niveau",
+      "institution": "Établissement"
+    },
+    "levels": {
+      "doctoral": "Doctorat",
+      "master": "Master",
+      "engineering": "Ingénierie",
+      "mentorship": "Mentorat"
+    }
+  },
+  "recognition": {
+    "index": "07",
+    "title": "Distinctions et leadership",
+    "pageTitle": "Prix et distinctions",
+    "intro": "Distinctions, leadership scientifique et rôles institutionnels.",
+    "archive": "Archives",
+    "explore": "Voir les distinctions",
+    "empty": "Les données sources seront ajoutées ici.",
+    "categories": {
+      "award": "Prix",
+      "distinction": "Distinctions",
+      "leadership": "Leadership scientifique",
+      "role": "Rôles institutionnels",
+      "certification": "Certifications professionnelles"
+    }
+  },
+  "leadership": {
+    "title": "Leadership scientifique et institutionnel",
+    "empty": "Les données sources seront ajoutées ici."
+  },
+  "certifications": {
+    "title": "Certifications",
+    "empty": "Les données sources seront ajoutées ici."
+  },
+  "profile": {
+    "pageTitle": "Profil",
+    "introLabel": "Biographie professionnelle",
+    "empty": "Les données sources seront ajoutées ici.",
+    "timelineEmpty": "Les étapes seront placées le long de cette ligne.",
+    "sections": {
+      "overview": "Vue d'ensemble",
+      "journey": "Parcours académique",
+      "leadership": "Leadership scientifique",
+      "international": "Expertise internationale",
+      "advisory": "Activités de conseil",
+      "transfer": "Innovation et transfert technologique",
+      "responsibilities": "Responsabilités professionnelles"
+    }
+  },
+  "contact": {
+    "title": "Échanger",
+    "lede": "Correspondance académique, scientifique et institutionnelle.",
+    "links": "Liens professionnels",
+    "phone": "Téléphone",
+    "pending": "Le message est prêt. Une adresse de contact directe n'a pas encore été reliée.",
+    "sent": "Votre application de messagerie s'ouvre.",
+    "purposes": {
+      "collaboration": "Collaboration académique",
+      "partnership": "Partenariat de recherche",
+      "conference": "Invitation à une conférence",
+      "media": "Demande média",
+      "consulting": "Conseil stratégique",
+      "institution": "Partenariat institutionnel"
+    },
+    "form": {
+      "name": "Nom",
+      "organization": "Organisation",
+      "email": "E-mail",
+      "purpose": "Objet de la prise de contact",
+      "purposePlaceholder": "Choisir un objet",
+      "subject": "Sujet",
+      "message": "Message",
+      "submit": "Envoyer le message",
+      "required": "Champ requis"
+    }
+  },
+  "cta": {
+    "label": "Contact",
+    "line1": "Construire le savoir,",
+    "line2": "l'innovation et la collaboration",
+    "line3": "technologique.",
+    "button": "Prendre contact"
+  },
+  "footer": {
+    "explore": "Explorer",
+    "academic": "Académique",
+    "connect": "Liens",
+    "privacy": "Confidentialité",
+    "rights": "Tous droits réservés."
+  },
+  "search": {
+    "label": "Rechercher sur le site",
+    "placeholder": "Rechercher une page",
+    "empty": "Aucune page correspondante.",
+    "close": "Fermer la recherche"
+  },
+  "privacy": {
+    "title": "Confidentialité",
+    "body": "Cette page décrira le traitement des messages de contact lorsqu'un canal sera relié. Aucun profil d'analyse n'a été ajouté."
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "body": "Cette adresse ne fait pas partie du site.",
+    "back": "Retour à l'accueil"
+  },
+  "common": {
+    "pending": "À ajouter",
+    "external": "S'ouvre dans un nouvel onglet",
+    "close": "Fermer",
+    "language": "Langue"
+  }
+}

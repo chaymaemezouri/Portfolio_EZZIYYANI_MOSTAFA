@@ -1,0 +1,350 @@
+{
+  "meta": {
+    "siteName": "Prof. Dr. Mostafa Ezziyyani",
+    "defaultDescription": "Official digital presence of Prof. Dr. Mostafa Ezziyyani, professor, researcher and international technology expert.",
+    "pages": {
+      "home": "Official digital presence of Prof. Dr. Mostafa Ezziyyani, professor, researcher and international technology expert.",
+      "profile": "Professional profile of Prof. Dr. Mostafa Ezziyyani.",
+      "expertise": "Fields of expertise of Prof. Dr. Mostafa Ezziyyani.",
+      "research": "Research and scientific contributions of Prof. Dr. Mostafa Ezziyyani.",
+      "projects": "Projects and innovation work of Prof. Dr. Mostafa Ezziyyani.",
+      "vision": "Strategic vision on technology, knowledge and digital transformation.",
+      "international": "International scientific presence of Prof. Dr. Mostafa Ezziyyani.",
+      "media": "Talks, interviews and media appearances of Prof. Dr. Mostafa Ezziyyani.",
+      "academic": "Teaching and academic mentorship of Prof. Dr. Mostafa Ezziyyani.",
+      "recognition": "Awards, distinctions and institutional leadership.",
+      "contact": "Contact Prof. Dr. Mostafa Ezziyyani.",
+      "privacy": "Privacy information for this website."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "profile": "Profile",
+    "expertise": "Expertise",
+    "research": "Research",
+    "projects": "Projects",
+    "vision": "Vision",
+    "international": "International",
+    "media": "Media",
+    "academic": "Academic",
+    "recognition": "Recognition",
+    "contact": "Contact",
+    "leadership": "Leadership",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "search": "Search",
+    "skip": "Skip to content",
+    "menu": "Menu"
+  },
+  "hero": {
+    "fields": "Artificial Intelligence · Digital Transformation\nData Science · Cybersecurity",
+    "explore": "Explore Profile",
+    "research": "Research & Publications",
+    "role1": "Professor",
+    "role2": "Researcher",
+    "role3": "International Expert",
+    "portraitAlt": "Portrait of Prof. Dr. Mostafa Ezziyyani",
+    "techLabel": "01 — Profile",
+    "lead": "More than three decades of research, from the beginning of the digital era in 1990."
+  },
+  "impact": {
+    "experience": "Years of experience",
+    "publications": "Scientific publications",
+    "supervision": "Theses, dissertations and projects",
+    "projects": "Research projects led"
+  },
+  "expertise": {
+    "index": "01",
+    "title": "Fields of Expertise",
+    "intro": "Scientific and technological domains.",
+    "view": "View domain",
+    "domains": {
+      "aiData": "Artificial Intelligence & Data",
+      "cyber": "Cybersecurity & Digital Trust",
+      "transformation": "Digital Transformation",
+      "systems": "Intelligent Systems",
+      "infrastructure": "Software & Data Infrastructure",
+      "transfer": "Innovation & Technology Transfer"
+    }
+  },
+  "research": {
+    "index": "02",
+    "title": "Featured Research",
+    "pageTitle": "Research & Scientific Contributions",
+    "intro": "Selected scientific contributions.",
+    "featured": "Featured",
+    "viewAll": "View all research",
+    "search": "Search publications",
+    "searchLabel": "Search publications",
+    "areas": "Research areas",
+    "corpus": "The record",
+    "empty": "Source records will be added here.",
+    "slotTitle": "Publication",
+    "doi": "DOI",
+    "view": "View publication",
+    "scholar": "Scholar",
+    "orcid": "ORCID",
+    "col": {
+      "year": "Year",
+      "title": "Title",
+      "authors": "Authors",
+      "venue": "Journal / Conference",
+      "type": "Type"
+    },
+    "filters": {
+      "all": "All",
+      "ai": "AI",
+      "data": "Data",
+      "cybersecurity": "Cybersecurity",
+      "distributed": "Distributed Systems",
+      "smart": "Smart Systems",
+      "transformation": "Digital Transformation"
+    }
+  },
+  "projects": {
+    "index": "04",
+    "title": "Selected Projects",
+    "pageTitle": "Projects & Innovation",
+    "intro": "Research, innovation and technology transfer.",
+    "homeLead": "He leads or takes part in these projects: a quantum-computing cluster, the AI2SD conference, a digital-justice initiative, and artificial-intelligence strategies for health.",
+    "featured": "Featured project",
+    "viewAll": "View all projects",
+    "filterAll": "All",
+    "categoryLabel": "Category",
+    "empty": "Source records will be added here.",
+    "categories": {
+      "research": "Research",
+      "ai": "Artificial Intelligence",
+      "transformation": "Digital Transformation",
+      "innovation": "Innovation",
+      "transfer": "Technology Transfer",
+      "collaboration": "International Collaboration"
+    },
+    "fields": {
+      "role": "Role",
+      "organization": "Organization",
+      "partners": "Partners",
+      "country": "Country",
+      "status": "Status",
+      "year": "Year"
+    }
+  },
+  "vision": {
+    "index": "03",
+    "title": "Strategic Vision",
+    "subtitle": "Technology, Knowledge & Digital Transformation",
+    "principle": "Strategic principle",
+    "headline": "Technology, knowledge\nand digital transformation.",
+    "explore": "Explore vision",
+    "document": "Strategic document",
+    "read": "Read document",
+    "statementPending": "Statement to be added",
+    "themes": {
+      "transformation": "Digital Transformation",
+      "aiStrategy": "Artificial Intelligence Strategy",
+      "sovereignty": "Digital Sovereignty",
+      "dataEcosystems": "Data Ecosystems",
+      "responsibleAi": "Responsible AI",
+      "cybersecurity": "Cybersecurity",
+      "researchInnovation": "Research & Innovation",
+      "diplomacy": "Scientific Diplomacy",
+      "knowledgeEconomy": "Knowledge Economy"
+    }
+  },
+  "international": {
+    "index": "05",
+    "title": "International Presence",
+    "homeTitle": "A Global Footprint",
+    "intro": "Collaboration, visits and scientific missions.",
+    "mapLabel": "World map of international activity",
+    "explore": "Explore international presence",
+    "empty": "Source records will be added here.",
+    "pendingCount": "To be added",
+    "regions": {
+      "africa": "Africa",
+      "europe": "Europe",
+      "asia": "Asia",
+      "northAmerica": "North America",
+      "arabWorld": "Arab World"
+    },
+    "sections": {
+      "collaboration": "International Collaboration",
+      "visits": "Academic Visits",
+      "partnerships": "Institutional Partnerships",
+      "missions": "Scientific Missions",
+      "conferences": "International Conferences"
+    },
+    "categories": {
+      "research": "Research",
+      "visit": "Academic Visit",
+      "conference": "Conference",
+      "advisory": "Advisory",
+      "partnership": "Partnership",
+      "project": "Project"
+    }
+  },
+  "media": {
+    "index": "05",
+    "title": "Media & Talks",
+    "pageTitle": "Media & Talks",
+    "intro": "Talks, interviews and public analysis.",
+    "watch": "Play",
+    "reel": "Video",
+    "reelKicker": "International conference",
+    "reelTitle": "AI2SD — Intelligent Systems for Sustainable Development",
+    "reelSite": "ai2sd.com",
+    "reelPending": "This edition will be added with its video and photos.",
+    "youtube": "Visit YouTube Channel",
+    "featured": "Featured media",
+    "channel": "YouTube channel",
+    "format": "Format",
+    "empty": "Source records will be added here.",
+    "speaking": "Conferences & Keynotes",
+    "posts": "Publications",
+    "postsIntro": "Each publication’s image and text, shown directly here.",
+    "viewPost": "View the publication",
+    "filters": {
+      "all": "All",
+      "keynote": "Keynotes",
+      "conference": "Conferences",
+      "tv": "TV & Media",
+      "interview": "Interviews",
+      "analysis": "Technology Analysis",
+      "lecture": "Lectures"
+    }
+  },
+  "academic": {
+    "index": "06",
+    "title": "Academic Leadership",
+    "pageTitle": "Teaching & Academic Mentorship",
+    "intro": "Teaching, supervision and institutional roles.",
+    "explore": "Explore academic work",
+    "teaching": "Teaching",
+    "doctoral": "Doctoral Supervision",
+    "masters": "Master's Supervision",
+    "engineering": "Engineering / Research Projects",
+    "mentorship": "Academic Mentorship",
+    "total": "Theses, dissertations and projects",
+    "selected": "Selected Academic Supervision",
+    "empty": "Source records will be added here.",
+    "stats": {
+      "total": "Theses, dissertations and projects",
+      "doctoral": "Doctoral supervision",
+      "masters": "Master's supervision"
+    },
+    "cols": {
+      "name": "Name",
+      "title": "Title",
+      "year": "Year",
+      "level": "Level",
+      "institution": "Institution"
+    },
+    "levels": {
+      "doctoral": "Doctoral",
+      "master": "Master's",
+      "engineering": "Engineering",
+      "mentorship": "Mentorship"
+    }
+  },
+  "recognition": {
+    "index": "07",
+    "title": "Awards & Leadership",
+    "pageTitle": "Awards & Recognition",
+    "intro": "Distinctions, scientific leadership and institutional roles.",
+    "archive": "Archive",
+    "explore": "View recognition",
+    "empty": "Source records will be added here.",
+    "categories": {
+      "award": "Awards",
+      "distinction": "Distinctions",
+      "leadership": "Scientific Leadership",
+      "role": "Institutional Roles",
+      "certification": "Professional Certifications"
+    }
+  },
+  "leadership": {
+    "title": "Scientific & Institutional Leadership",
+    "empty": "Source records will be added here."
+  },
+  "certifications": {
+    "title": "Certifications",
+    "empty": "Source records will be added here."
+  },
+  "profile": {
+    "pageTitle": "Profile",
+    "introLabel": "Professional biography",
+    "empty": "Source records will be added here.",
+    "timelineEmpty": "Milestones will be placed along this line.",
+    "sections": {
+      "overview": "Professional Overview",
+      "journey": "Academic Journey",
+      "leadership": "Scientific Leadership",
+      "international": "International Expertise",
+      "advisory": "Advisory / Consulting Activities",
+      "transfer": "Innovation & Technology Transfer",
+      "responsibilities": "Professional Responsibilities"
+    }
+  },
+  "contact": {
+    "title": "Let’s Connect",
+    "lede": "Academic, scientific and institutional correspondence.",
+    "links": "Professional links",
+    "phone": "Phone",
+    "pending": "The message is ready. A direct contact address has not been connected yet.",
+    "sent": "Your mail application is opening.",
+    "purposes": {
+      "collaboration": "Academic Collaboration",
+      "partnership": "Research Partnership",
+      "conference": "Conference Invitation",
+      "media": "Media Request",
+      "consulting": "Strategic Consulting",
+      "institution": "Institutional Partnership"
+    },
+    "form": {
+      "name": "Name",
+      "organization": "Organization",
+      "email": "Email",
+      "purpose": "Purpose",
+      "purposePlaceholder": "Select a purpose",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message",
+      "required": "Required field"
+    }
+  },
+  "cta": {
+    "label": "Contact",
+    "line1": "Building knowledge,",
+    "line2": "innovation and technological",
+    "line3": "collaboration.",
+    "button": "Get in Touch"
+  },
+  "footer": {
+    "explore": "Explore",
+    "academic": "Academic",
+    "connect": "Connect",
+    "privacy": "Privacy",
+    "rights": "All rights reserved."
+  },
+  "search": {
+    "label": "Search this site",
+    "placeholder": "Search pages",
+    "empty": "No matching pages.",
+    "close": "Close search"
+  },
+  "privacy": {
+    "title": "Privacy",
+    "body": "This page will describe how contact messages are handled once a contact channel is connected. No analytics profile has been added."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "This address is not part of the site.",
+    "back": "Return home"
+  },
+  "common": {
+    "pending": "To be added",
+    "external": "Opens in a new tab",
+    "close": "Close",
+    "language": "Language"
+  }
+}
