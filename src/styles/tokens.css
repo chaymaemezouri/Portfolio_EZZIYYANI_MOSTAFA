@@ -7,15 +7,15 @@
   --navy-900: #0f1e3f;
   --navy-800: #162844;
   --navy-700: #213a56;
-  --gold-500: #cdaa80;
-  --gold-700: #997953;
+  --gold-500: #f08c28;
+  --gold-700: #d26512;
   --sky: #7ec8e3;
   --sky-soft: #e7f6fb;
   --blue-700: #213a56;
   --blue-600: #213a56;
   --blue-500: #213a56;
   --blue-400: #d5deea;
-  --cyan: #cdaa80;
+  --cyan: #f08c28;
   --text: #0f1e3f;
   --muted: #5c6572;
   --line: #e4dcd0;
@@ -32,7 +32,7 @@
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
   --shadow: 0 16px 40px rgba(15, 30, 63, 0.08);
   --gradient-navy: linear-gradient(135deg, #0f1e3f 0%, #213a56 100%);
-  --gradient-accent: linear-gradient(135deg, #997953, #cdaa80);
+  --gradient-accent: linear-gradient(135deg, #d26512, #f08c28);
   color-scheme: light;
 }
 

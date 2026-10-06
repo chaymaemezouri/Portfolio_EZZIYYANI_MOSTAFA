@@ -12,37 +12,41 @@ export function RecognitionSection() {
 
   return (
     <section className="band recognition">
-      <div className="container">
-        <div className="section-head recog-head">
-          <div>
-            <h2 className="section-title">{t("academic.title")}</h2>
-            <p className="section-text">{t("academic.intro")}</p>
-          </div>
-        </div>
-        <div className="lead-stage">
-          {total?.display ? (
-            <div className="lead-figure">
-              <strong>{total.display}</strong>
-              <span>{t("academic.stats.total")}</span>
+      <div className="lead-board">
+        <div className="container">
+          <div className="section-head recog-head">
+            <div>
+              <h2 className="section-title">{t("academic.title")}</h2>
+              <p className="section-text">{t("academic.intro")}</p>
             </div>
-          ) : null}
-          <div className="lead-story">
-            {academicNarrative.map((paragraph) => (
-              <p key={text(locale, paragraph)}>{text(locale, paragraph)}</p>
+          </div>
+          <div className="lead-stage">
+            {total?.display ? (
+              <div className="lead-figure">
+                <strong>{total.display}</strong>
+                <span>{t("academic.stats.total")}</span>
+              </div>
+            ) : null}
+            <div className="lead-story">
+              {academicNarrative.map((paragraph) => (
+                <p key={text(locale, paragraph)}>{text(locale, paragraph)}</p>
+              ))}
+            </div>
+          </div>
+          <div className="lead-roles">
+            {leadershipRoles.map((role, index) => (
+              <article key={role.id}>
+                <span className="lead-num">{index + 1}</span>
+                {role.year ? <span className="lead-year">{role.year}</span> : null}
+                <h3>{text(locale, role.title)}</h3>
+                <p>{text(locale, role.organization)}</p>
+                {text(locale, role.description) ? <p className="lead-detail">{text(locale, role.description)}</p> : null}
+              </article>
             ))}
           </div>
         </div>
-        <div className="lead-roles">
-          {leadershipRoles.map((role) => (
-            <article key={role.id}>
-              {role.year ? <span>{role.year}</span> : null}
-              <h3>{text(locale, role.title)}</h3>
-              <p>{text(locale, role.organization)}</p>
-              {text(locale, role.description) ? <p className="lead-detail">{text(locale, role.description)}</p> : null}
-            </article>
-          ))}
-        </div>
-
+      </div>
+      <div className="container">
         <div className="section-head recog-head recog-awards">
           <div>
             <h2 className="section-title">{t("recognition.title")}</h2>
