@@ -7,6 +7,8 @@
       "profile": "Profil professionnel du Prof. Dr. Mostafa Ezziyyani.",
       "expertise": "Domaines d'expertise du Prof. Dr. Mostafa Ezziyyani.",
       "research": "Recherche et contributions scientifiques du Prof. Dr. Mostafa Ezziyyani.",
+      "researchInterest": "Intérêts de recherche et axes scientifiques du Prof. Dr. Mostafa Ezziyyani.",
+      "publications": "Liste des publications scientifiques du Prof. Dr. Mostafa Ezziyyani.",
       "projects": "Projets et innovation du Prof. Dr. Mostafa Ezziyyani.",
       "vision": "Vision stratégique sur la technologie, le savoir et la transformation numérique.",
       "international": "Présence scientifique internationale du Prof. Dr. Mostafa Ezziyyani.",
@@ -22,6 +24,8 @@
     "profile": "Profil",
     "expertise": "Expertise",
     "research": "Recherche",
+    "researchInterest": "Intérêts de recherche",
+    "publications": "Publications",
     "projects": "Projets",
     "vision": "Vision",
     "international": "International",
@@ -102,6 +106,22 @@
       "smart": "Systèmes intelligents",
       "transformation": "Transformation numérique"
     }
+  },
+  "researchInterest": {
+    "eyebrow": "Axes scientifiques",
+    "pageTitle": "Intérêts de recherche",
+    "axes": "Axes de recherche",
+    "pending": "Le détail de cet axe sera ajouté prochainement."
+  },
+  "publications": {
+    "eyebrow": "Corpus scientifique",
+    "pageTitle": "Liste des publications",
+    "intro": "Articles et études sélectionnés, avec téléchargement lorsqu'un fichier est disponible.",
+    "search": "Rechercher",
+    "searchLabel": "Rechercher une publication",
+    "download": "Télécharger l'article",
+    "unavailable": "Fichier non disponible",
+    "empty": "Aucune publication ne correspond à cette recherche."
   },
   "projects": {
     "index": "04",

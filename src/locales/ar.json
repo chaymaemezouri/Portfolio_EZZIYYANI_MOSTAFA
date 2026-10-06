@@ -7,6 +7,8 @@
       "profile": "الملف المهني للأستاذ الدكتور Mostafa Ezziyyani.",
       "expertise": "مجالات خبرة الأستاذ الدكتور Mostafa Ezziyyani.",
       "research": "البحث والإسهامات العلمية للأستاذ الدكتور Mostafa Ezziyyani.",
+      "researchInterest": "الاهتمامات البحثية والمحاور العلمية للأستاذ الدكتور Mostafa Ezziyyani.",
+      "publications": "قائمة المنشورات العلمية للأستاذ الدكتور Mostafa Ezziyyani.",
       "projects": "المشاريع والابتكار لدى الأستاذ الدكتور Mostafa Ezziyyani.",
       "vision": "رؤية استراتيجية حول التكنولوجيا والمعرفة والتحول الرقمي.",
       "international": "الحضور العلمي الدولي للأستاذ الدكتور Mostafa Ezziyyani.",
@@ -22,6 +24,8 @@
     "profile": "الملف",
     "expertise": "الخبرات",
     "research": "البحث",
+    "researchInterest": "الاهتمامات البحثية",
+    "publications": "المنشورات",
     "projects": "المشاريع",
     "vision": "الرؤية",
     "international": "الدولي",
@@ -102,6 +106,22 @@
       "smart": "الأنظمة الذكية",
       "transformation": "التحول الرقمي"
     }
+  },
+  "researchInterest": {
+    "eyebrow": "المحاور العلمية",
+    "pageTitle": "الاهتمامات البحثية",
+    "axes": "محاور البحث",
+    "pending": "ستُضاف تفاصيل هذا المحور قريباً."
+  },
+  "publications": {
+    "eyebrow": "الرصيد العلمي",
+    "pageTitle": "قائمة المنشورات",
+    "intro": "مقالات ودراسات مختارة، مع إمكانية التحميل عند توفر الملف.",
+    "search": "بحث",
+    "searchLabel": "البحث في المنشورات",
+    "download": "تحميل المقال",
+    "unavailable": "الملف غير متوفر",
+    "empty": "لا يوجد منشور يطابق هذا البحث."
   },
   "projects": {
     "index": "04",

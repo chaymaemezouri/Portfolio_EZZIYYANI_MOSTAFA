@@ -7,6 +7,8 @@ const HomePage = lazy(() => import("@/pages/HomePage"));
 const ProfilePage = lazy(() => import("@/pages/ProfilePage"));
 const ExpertisePage = lazy(() => import("@/pages/ExpertisePage"));
 const ResearchPage = lazy(() => import("@/pages/ResearchPage"));
+const ResearchInterestPage = lazy(() => import("@/pages/ResearchInterestPage"));
+const PublicationsPage = lazy(() => import("@/pages/PublicationsPage"));
 const ProjectsPage = lazy(() => import("@/pages/ProjectsPage"));
 const VisionPage = lazy(() => import("@/pages/VisionPage"));
 const InternationalPage = lazy(() => import("@/pages/InternationalPage"));
@@ -28,6 +30,8 @@ export default function App() {
             <Route path="profile" element={<ProfilePage />} />
             <Route path="expertise" element={<ExpertisePage />} />
             <Route path="research" element={<ResearchPage />} />
+            <Route path="research-interest" element={<ResearchInterestPage />} />
+            <Route path="publications" element={<PublicationsPage />} />
             <Route path="projects" element={<ProjectsPage />} />
             <Route path="vision" element={<VisionPage />} />
             <Route path="international" element={<InternationalPage />} />

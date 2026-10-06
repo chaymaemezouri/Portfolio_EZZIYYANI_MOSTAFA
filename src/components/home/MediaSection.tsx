@@ -109,7 +109,7 @@ function playable(item: MediaItem): boolean {
   return mediaEmbed(item.youtubeUrl).length > 0;
 }
 
-const PAGE_SIZE = 4;
+const PAGE_SIZE = 3;
 
 function pad(value: number): string {
   return String(value).padStart(2, "0");

@@ -7,6 +7,8 @@
       "profile": "Professional profile of Prof. Dr. Mostafa Ezziyyani.",
       "expertise": "Fields of expertise of Prof. Dr. Mostafa Ezziyyani.",
       "research": "Research and scientific contributions of Prof. Dr. Mostafa Ezziyyani.",
+      "researchInterest": "Research interests and scientific axes of Prof. Dr. Mostafa Ezziyyani.",
+      "publications": "List of scientific publications by Prof. Dr. Mostafa Ezziyyani.",
       "projects": "Projects and innovation work of Prof. Dr. Mostafa Ezziyyani.",
       "vision": "Strategic vision on technology, knowledge and digital transformation.",
       "international": "International scientific presence of Prof. Dr. Mostafa Ezziyyani.",
@@ -22,6 +24,8 @@
     "profile": "Profile",
     "expertise": "Expertise",
     "research": "Research",
+    "researchInterest": "Research Interest",
+    "publications": "Publications",
     "projects": "Projects",
     "vision": "Vision",
     "international": "International",
@@ -102,6 +106,22 @@
       "smart": "Smart Systems",
       "transformation": "Digital Transformation"
     }
+  },
+  "researchInterest": {
+    "eyebrow": "Scientific axes",
+    "pageTitle": "Research Interest",
+    "axes": "Axis of research",
+    "pending": "Details for this axis will be added soon."
+  },
+  "publications": {
+    "eyebrow": "Scientific corpus",
+    "pageTitle": "List of publications",
+    "intro": "Selected papers and studies, with download when a file is available.",
+    "search": "Search",
+    "searchLabel": "Search publications",
+    "download": "Download Paper",
+    "unavailable": "File not available",
+    "empty": "No publication matches this search."
   },
   "projects": {
     "index": "04",

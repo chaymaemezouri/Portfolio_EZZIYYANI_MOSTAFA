@@ -21,12 +21,11 @@ export default function MediaPage() {
   return (
     <>
       <Seo title={t("media.pageTitle")} description={t("meta.pages.media")} path={localePath(locale, "media")} />
-      <header className="container page-hero">
+      <header className="container page-hero media-open">
         <h1 className="page-title">{t("media.pageTitle")}</h1>
         <p className="page-lede">{t("media.intro")}</p>
       </header>
-      <PostFeed />
-      <section className="container" style={{ paddingBottom: "3rem" }}>
+      <section className="container media-desk">
         <VideoLibrary
           items={talks}
           initialFilter={filter}
@@ -38,6 +37,7 @@ export default function MediaPage() {
           </div>
         ) : null}
       </section>
+      <PostFeed />
     </>
   );
 }

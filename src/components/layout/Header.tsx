@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, Search, X } from "lucide-react";
 import { navItems } from "@/data/navigation";
 import { expertiseDomains } from "@/data/expertise";
-import { publications } from "@/data/publications";
+import { listedPublications, publications } from "@/data/publications";
 import { projects } from "@/data/projects";
 import { useI18n } from "@/i18n/I18nProvider";
 import { useLockBody } from "@/hooks/useLockBody";
@@ -59,14 +59,22 @@ export function Header() {
       to: `${localePath(locale, "expertise")}#${domain.id}`,
       kind: t("nav.expertise"),
     }));
-    const papers = publications
-      .filter((item) => item.title)
-      .map((item) => ({
+    const papers = [
+      ...publications
+        .filter((item) => item.title)
+        .map((item) => ({
+          id: item.id,
+          label: item.title,
+          to: localePath(locale, "publications"),
+          kind: t("nav.publications"),
+        })),
+      ...listedPublications.map((item) => ({
         id: item.id,
         label: item.title,
-        to: localePath(locale, "research"),
-        kind: t("nav.research"),
-      }));
+        to: localePath(locale, "publications"),
+        kind: t("nav.publications"),
+      })),
+    ];
     const works = projects
       .filter((item) => text(locale, item.title))
       .map((item) => ({

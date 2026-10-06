@@ -8,12 +8,12 @@ import { text } from "@/utils/text";
 const tones = ["navy", "gold", "gray"] as const;
 
 const arts = [
-  "/domains/01.jpg",
-  "/domains/02.jpg",
-  "/domains/03.jpg",
-  "/domains/04.jpg",
-  "/domains/05.jpg",
-  "/domains/06.jpg",
+  "/domains/01.jpg?v=2",
+  "/domains/02.jpg?v=2",
+  "/domains/03.jpg?v=2",
+  "/domains/04.jpg?v=2",
+  "/domains/05.jpg?v=2",
+  "/domains/06.jpg?v=2",
 ];
 
 export function ExpertiseNavigator({ page = false }: { page?: boolean }) {

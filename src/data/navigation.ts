@@ -3,6 +3,8 @@ export const navItems = [
   { id: "profile", path: "profile" },
   { id: "expertise", path: "expertise" },
   { id: "research", path: "research" },
+  { id: "researchInterest", path: "research-interest" },
+  { id: "publications", path: "publications" },
   { id: "projects", path: "projects" },
   { id: "vision", path: "vision" },
   { id: "media", path: "media" },

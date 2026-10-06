@@ -1285,7 +1285,269 @@ html[dir="rtl"] .timeline-spine::after {
   border-bottom: 1px solid var(--gold-700);
 }
 
+.pubs-open {
+  padding-top: calc(var(--header-h) + 2.75rem);
+  padding-bottom: 1.25rem;
+}
+
+.pubs-open .page-title {
+  margin-top: 0.35rem;
+  max-width: 28rem;
+}
+
+.pubs-open .page-lede {
+  max-width: 38rem;
+  margin-top: 0.85rem;
+}
+
+.pubs-search {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  max-width: 28rem;
+  margin-top: 1.25rem;
+  padding: 0.7rem 0.9rem;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--navy-700);
+}
+
+.pubs-search input {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  background: transparent;
+  color: var(--navy-900);
+  font: inherit;
+  outline: none;
+}
+
+.pubs-list {
+  padding-bottom: var(--section-y);
+}
+
+.pubs-list ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.85rem;
+}
+
+.pubs-list li {
+  display: grid;
+  grid-template-columns: 2.4rem minmax(0, 1fr);
+  gap: 0.85rem 1rem;
+  padding: 1.1rem 1.15rem 1.15rem;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+
+.pubs-num {
+  display: grid;
+  place-items: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  background: var(--gold-500);
+  color: white;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.pubs-body h2 {
+  margin: 0;
+  color: var(--navy-900);
+  font-family: var(--sans);
+  font-size: 1.02rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.pubs-authors,
+.pubs-venue {
+  margin: 0.4rem 0 0;
+  color: var(--navy-700);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.pubs-venue {
+  color: var(--muted);
+}
+
+.pubs-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.85rem;
+  color: var(--navy-900);
+  font-size: 0.88rem;
+  font-weight: 650;
+  text-decoration: none;
+  border-bottom: 1px solid var(--gold-700);
+}
+
+.pubs-download:hover {
+  color: var(--gold-700);
+}
+
+.pubs-missing {
+  display: inline-block;
+  margin-top: 0.85rem;
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.interest-open {
+  padding-top: calc(var(--header-h) + 2.75rem);
+  padding-bottom: 1.6rem;
+}
+
+.interest-open .page-title {
+  margin-top: 0.35rem;
+  max-width: 28rem;
+}
+
+.interest-intro {
+  max-width: 46rem;
+  margin-top: 1.1rem;
+}
+
+.interest-intro p {
+  margin: 0;
+  color: var(--navy-700);
+  font-size: 1.02rem;
+  line-height: 1.65;
+}
+
+.interest-layout {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.78fr) minmax(0, 1.8fr);
+  gap: 1.5rem 2rem;
+  align-items: start;
+  padding-bottom: var(--section-y);
+}
+
+.interest-side {
+  position: sticky;
+  top: calc(var(--header-h) + 1rem);
+  padding: 1rem 1.05rem 1.1rem;
+  background: var(--bg-soft);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+
+.interest-side h2 {
+  margin: 0 0 0.85rem;
+  color: var(--navy-900);
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.interest-side nav {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.interest-side button {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+  width: 100%;
+  padding: 0.7rem 0.75rem;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background: transparent;
+  color: var(--navy-700);
+  text-align: start;
+  font: inherit;
+  font-size: 0.92rem;
+  line-height: 1.35;
+  cursor: pointer;
+}
+
+.interest-side button span {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 22px;
+  height: 22px;
+  margin-top: 0.05rem;
+  border-radius: 50%;
+  background: var(--gold-500);
+  color: white;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.interest-side button:hover,
+.interest-side button.is-active {
+  border-color: rgba(15, 30, 63, 0.1);
+  background: white;
+  color: var(--navy-900);
+}
+
+.interest-side button.is-active {
+  box-shadow: 0 8px 20px rgba(15, 30, 63, 0.06);
+}
+
+.interest-panel {
+  min-height: 18rem;
+  padding: 1.35rem 1.45rem 1.5rem;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+
+.interest-panel h2 {
+  margin: 0 0 1rem;
+  color: var(--navy-900);
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(1.45rem, 2.2vw, 1.95rem);
+  line-height: 1.2;
+}
+
+.interest-panel p {
+  margin: 0 0 0.9rem;
+  color: var(--navy-700);
+  font-size: 0.98rem;
+  line-height: 1.65;
+}
+
+.interest-pending {
+  color: var(--muted) !important;
+}
+
+.interest-bullets,
+.interest-steps {
+  margin: 0 0 1rem;
+  padding-inline-start: 1.15rem;
+  color: var(--navy-700);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.interest-bullets li + li,
+.interest-steps li + li {
+  margin-top: 0.4rem;
+}
+
 @media (max-width: 980px) {
+  .interest-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .interest-side {
+    position: static;
+  }
+
   .profile-hero,
   .profile-section,
   .profile-section.is-flip,
