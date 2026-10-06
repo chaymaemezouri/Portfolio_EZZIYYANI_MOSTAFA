@@ -350,10 +350,10 @@ export function MediaSection() {
   return (
     <section className="band">
       <div className="container">
-        <div className="section-head">
+        <div className="section-head media-head">
           <div>
             <h2 className="section-title">{t("media.title")}</h2>
-            <p className="section-text" style={{ marginTop: "0.9rem" }}>{t("media.intro")}</p>
+            <p className="section-text" style={{ marginTop: "0.45rem" }}>{t("media.intro")}</p>
           </div>
         </div>
         <MediaMosaic items={talks} />

@@ -1562,27 +1562,37 @@ a.video-tile {
   color: var(--navy-900);
 }
 
-.media-foot {
-  margin-top: 1.5rem;
+.media-page {
+  padding-top: calc(var(--header-h) + 1.35rem);
+  padding-bottom: 2.5rem;
 }
 
-.media-open {
-  padding-top: calc(var(--header-h) + 1.85rem);
-  padding-bottom: 0.65rem;
+.media-page .media-open {
+  margin: 0;
+  padding: 0;
 }
 
-.media-open .page-title {
+.media-page .media-open .page-title {
+  margin: 0;
   font-size: clamp(1.35rem, 2vw, 1.7rem);
   max-width: 18ch;
 }
 
-.media-open .page-lede {
-  margin-top: 0.35rem;
+.media-page .media-open .page-lede {
+  margin: 0.2rem 0 0.55rem;
   font-size: 0.9rem;
 }
 
-.media-desk {
-  padding-bottom: 2.5rem;
+.media-page .yt-board {
+  margin-top: 0;
+}
+
+.media-foot {
+  margin-top: 1.5rem;
+}
+
+.media-head {
+  margin-bottom: 0.65rem;
 }
 
 .yt-board {
