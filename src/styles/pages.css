@@ -238,8 +238,11 @@
   }
 
   .posts-table tr {
-    padding: 0.85rem 0 1rem;
-    border-bottom: 1px solid var(--line);
+    margin-bottom: 0.7rem;
+    padding: 0.8rem 0.9rem 0.95rem;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: var(--bg-soft);
   }
 
   .posts-table td {
@@ -250,7 +253,7 @@
   .posts-table td::before {
     content: attr(data-label);
     display: block;
-    margin-top: 0.55rem;
+    margin-top: 0.45rem;
     color: var(--muted);
     font-size: 0.72rem;
     font-weight: 650;
@@ -260,6 +263,10 @@
 
   .posts-period {
     white-space: normal;
+  }
+
+  .posts-table td:first-child::before {
+    margin-top: 0;
   }
 }
 
@@ -1991,8 +1998,63 @@ html[dir="rtl"] .timeline-spine::after {
   }
 
   .profile-hero {
-    padding-top: calc(var(--header-h) + 1.4rem);
-    padding-bottom: 1.75rem;
+    justify-items: center;
+    padding-top: calc(var(--header-h) + 1.1rem);
+    padding-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .profile-portrait {
+    width: min(72vw, 250px);
+    aspect-ratio: 4 / 5;
+    border-radius: 16px;
+  }
+
+  .profile-portrait img {
+    object-position: center 18%;
+  }
+
+  .profile-band .page-lede {
+    font-size: 0.95rem;
+  }
+
+  .profile-band .hero-social {
+    justify-content: center;
+  }
+
+  .profile-cv {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    margin-top: 1rem;
+  }
+
+  .profile-cv .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .profile-section {
+    gap: 1rem;
+    padding-block: 1.75rem;
+  }
+
+  .profile-section h2 {
+    margin-bottom: 0.8rem;
+  }
+
+  .profile-aside {
+    aspect-ratio: 16 / 9;
+    max-height: 210px;
+    border-radius: 12px;
+  }
+
+  .profile-posts {
+    padding-block: 1.75rem;
+  }
+
+  .posts-block + .posts-block {
+    margin-top: 1.6rem;
   }
 }
 

@@ -3156,10 +3156,33 @@ html[dir="rtl"] .archive-list li {
 
   .domain-card {
     width: auto;
+    perspective: none;
   }
 
-  .domain-flip {
-    height: 236px;
+  .domain-flip,
+  .domain-card.is-flipped .domain-flip {
+    height: auto;
+    min-height: 0;
+    transform: none;
+    transform-style: flat;
+  }
+
+  .domain-face,
+  .domain-back {
+    position: relative;
+    inset: auto;
+    transform: none;
+    backface-visibility: visible;
+    -webkit-backface-visibility: visible;
+  }
+
+  .domain-card:not(.is-flipped) .domain-back,
+  .domain-card.is-flipped .domain-front {
+    display: none;
+  }
+
+  .domain-back-body {
+    overflow: visible;
   }
 
   .impact-grid {
