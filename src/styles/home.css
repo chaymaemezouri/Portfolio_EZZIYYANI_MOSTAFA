@@ -274,20 +274,27 @@ html[dir="rtl"] .hero-grid {
 }
 
 .hero .hero-edition {
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 0.72rem;
+  padding: 1.05rem 0.95rem 0.95rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  text-align: start;
   color: inherit;
   text-decoration: none;
   cursor: default;
+  box-shadow: 0 18px 36px rgba(10, 22, 46, 0.18);
 }
 
 .hero .hero-edition h2 {
-  margin: 0;
+  margin: -0.15rem 0 0;
   font-family: var(--serif);
-  font-size: clamp(1.2rem, 1.5vw, 1.45rem);
+  font-size: 1.12rem;
   font-weight: 400;
   line-height: 1.15;
+  text-align: center;
+  color: white;
 }
 
 .hero-edition-kicker {
@@ -341,21 +348,65 @@ html[dir="rtl"] .hero-grid {
   object-position: center 18%;
 }
 
+.hero .hero-edition .hero-edition-kicker {
+  align-self: center;
+}
+
+.hero .hero-edition .hero-edition-avatar {
+  align-self: center;
+  width: 92px;
+  height: 92px;
+  margin-block: 0;
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  box-shadow: none;
+}
+
 .hero .hero-edition .hero-edition-text {
-  max-width: 16rem;
+  max-width: none;
+  text-align: center;
+  font-size: 0.66rem;
+  font-weight: 650;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(247, 244, 239, 0.58);
 }
 
 .hero .hero-edition .hero-chips {
-  justify-content: center;
+  display: grid;
+  gap: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .hero .hero-edition .hero-chips span {
-  font-size: 0.64rem;
+  padding: 0.46rem 0.05rem;
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0;
+  background: transparent;
+  color: rgba(247, 244, 239, 0.92);
+  font-size: 0.74rem;
+  line-height: 1.35;
+  text-align: start;
+}
+
+.hero .hero-edition .hero-ask {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  background: transparent;
+}
+
+.hero .hero-edition .hero-ask-send {
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
 }
 
 .hero .hero-edition .hero-edition-open {
-  align-self: center;
+  align-self: stretch;
+  justify-content: center;
   margin-top: 0;
+  border-radius: 8px;
+  padding: 0.58rem 0.8rem;
 }
 
 .hero .hero-edition:hover {
@@ -3102,7 +3153,8 @@ html[dir="rtl"] .archive-list li {
     width: 42px;
     height: 42px;
     margin: 0;
-    box-shadow: 0 0 0 3px rgba(240, 140, 40, 0.28);
+    border-color: rgba(255, 255, 255, 0.7);
+    box-shadow: none;
   }
 
   .hero .hero-edition .hero-ask {
