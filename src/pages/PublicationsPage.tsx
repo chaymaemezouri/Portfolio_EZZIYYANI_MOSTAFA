@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { Download, Search } from "lucide-react";
+import { Download, ExternalLink, Search } from "lucide-react";
 import { listedPublications } from "@/data/publications";
 import { Seo } from "@/components/shared/Seo";
 import { useI18n } from "@/i18n/I18nProvider";
@@ -29,15 +29,20 @@ export default function PublicationsPage() {
         <p className="eyebrow">{t("publications.eyebrow")}</p>
         <h1 className="page-title">{t("publications.pageTitle")}</h1>
         <p className="page-lede">{t("publications.intro")}</p>
-        <label className="pubs-search">
-          <Search size={16} aria-hidden="true" />
-          <span className="sr-only">{t("publications.searchLabel")}</span>
-          <input
-            value={query}
-            placeholder={t("publications.search")}
-            onChange={(event) => setQuery(event.target.value)}
-          />
-        </label>
+        <div className="pubs-toolbar">
+          <p className="pubs-count">
+            {results.length} <span>{t("publications.countLabel")}</span>
+          </p>
+          <label className="pubs-search">
+            <Search size={16} aria-hidden="true" />
+            <span className="sr-only">{t("publications.searchLabel")}</span>
+            <input
+              value={query}
+              placeholder={t("publications.search")}
+              onChange={(event) => setQuery(event.target.value)}
+            />
+          </label>
+        </div>
       </header>
       <section className="container pubs-list">
         {results.length === 0 ? <p className="empty-note">{t("publications.empty")}</p> : null}
@@ -46,17 +51,34 @@ export default function PublicationsPage() {
             <li key={item.id}>
               <span className="pubs-num">{item.number}</span>
               <div className="pubs-body">
-                <h2>{item.title}</h2>
-                <p className="pubs-authors">{item.authors}</p>
-                <p className="pubs-venue">{item.venue}</p>
+                <h2>
+                  {item.url ? (
+                    <a href={item.url} target="_blank" rel="noreferrer">
+                      {item.title}
+                    </a>
+                  ) : (
+                    item.title
+                  )}
+                </h2>
+                <p className="pubs-meta">
+                  {item.authors ? <span className="pubs-authors">{item.authors}</span> : null}
+                  {item.venue ? <span className="pubs-venue">{item.venue}</span> : null}
+                  {item.year ? <span className="pubs-year">{item.year}</span> : null}
+                </p>
+              </div>
+              <div className="pubs-actions">
+                {item.url ? (
+                  <a className="pubs-download" href={item.url} target="_blank" rel="noreferrer">
+                    <ExternalLink size={15} aria-hidden="true" />
+                    {t("publications.view")}
+                  </a>
+                ) : null}
                 {item.file ? (
                   <a className="pubs-download" href={item.file} download target="_blank" rel="noreferrer">
                     <Download size={15} aria-hidden="true" />
                     {t("publications.download")}
                   </a>
-                ) : (
-                  <span className="pubs-missing">{t("publications.unavailable")}</span>
-                )}
+                ) : null}
               </div>
             </li>
           ))}

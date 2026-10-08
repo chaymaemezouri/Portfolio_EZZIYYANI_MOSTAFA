@@ -13,8 +13,8 @@ body {
   font-family: var(--sans);
   color: var(--text);
   background: var(--bg);
-  font-size: 1.02rem;
-  line-height: 1.65;
+  font-size: 0.9375rem;
+  line-height: 1.58;
   text-rendering: optimizeLegibility;
 }
 
@@ -151,7 +151,7 @@ p {
 .section-title {
   font-family: var(--serif);
   font-weight: 400;
-  font-size: clamp(2.15rem, 3.5vw, 3.3rem);
+  font-size: clamp(1.4rem, 2vw, 1.85rem);
   line-height: 1.05;
   letter-spacing: -0.02em;
   color: var(--navy-900);
@@ -183,7 +183,7 @@ html[lang="ar"] .cta-title {
 .section-text {
   max-width: 34rem;
   color: var(--muted);
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   line-height: 1.7;
 }
 

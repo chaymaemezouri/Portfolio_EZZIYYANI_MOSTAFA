@@ -9,6 +9,7 @@
       "research": "Recherche et contributions scientifiques du Prof. Dr. Mostafa Ezziyyani.",
       "researchInterest": "Intérêts de recherche et axes scientifiques du Prof. Dr. Mostafa Ezziyyani.",
       "publications": "Liste des publications scientifiques du Prof. Dr. Mostafa Ezziyyani.",
+      "books": "Ouvrages et actes de conférences AI2SD et AIT2S du Prof. Dr. Mostafa Ezziyyani.",
       "projects": "Projets et innovation du Prof. Dr. Mostafa Ezziyyani.",
       "vision": "Vision stratégique sur la technologie, le savoir et la transformation numérique.",
       "international": "Présence scientifique internationale du Prof. Dr. Mostafa Ezziyyani.",
@@ -16,6 +17,7 @@
       "academic": "Enseignement et encadrement académique du Prof. Dr. Mostafa Ezziyyani.",
       "recognition": "Distinctions, prix et leadership institutionnel.",
       "contact": "Contacter le Prof. Dr. Mostafa Ezziyyani.",
+      "avatar": "Assistant du profil officiel du Prof. Dr. Mostafa Ezziyyani.",
       "privacy": "Informations de confidentialité de ce site."
     }
   },
@@ -26,6 +28,7 @@
     "research": "Recherche",
     "researchInterest": "Intérêts de recherche",
     "publications": "Publications",
+    "books": "Livres",
     "projects": "Projets",
     "vision": "Vision",
     "international": "International",
@@ -33,6 +36,7 @@
     "academic": "Académique",
     "recognition": "Distinctions",
     "contact": "Contact",
+    "avatar": "Avatar",
     "leadership": "Leadership",
     "openMenu": "Ouvrir le menu",
     "closeMenu": "Fermer le menu",
@@ -49,7 +53,36 @@
     "role3": "Expert international",
     "portraitAlt": "Portrait du Prof. Dr. Mostafa Ezziyyani",
     "techLabel": "01 — Profil",
-    "lead": "Plus de trois décennies de recherche, depuis les débuts de l'ère numérique en 1990."
+    "lead": "Plus de trois décennies de recherche, depuis les débuts de l'ère numérique en 1990.",
+    "facts": {
+      "professor": "Professeur à l'Université Abdelmalek Essaâdi",
+      "transfer": "Président de l'Organisation de l'innovation et du transfert de technologie",
+      "council": "Membre du Conseil consultatif arabe de la recherche scientifique",
+      "cyber": "Expert en cybersécurité et investigation numérique"
+    },
+    "edition": "Ezziyyani IA Avatar",
+    "editionText": "Profil, recherche et publications officiels du Prof. Dr. Mostafa Ezziyyani.",
+    "assistant": {
+      "greeting": "Posez vos questions :",
+      "placeholder": "Posez votre question…",
+      "send": "Envoyer",
+      "open": "Ouvrir l'avatar",
+      "fallback": "Je réponds seulement à partir du profil officiel. Précisez la question, ou ouvrez la page Contact.",
+      "prompts": {
+        "teaching": "Pédagogique et formation ?",
+        "science": "Recherche scientifique ?",
+        "technology": "Technologie, IA et souveraineté numérique ?",
+        "innovation": "Innovation ?",
+        "strategy": "Stratégique et transformation numérique ?",
+        "consulting": "Consulting et expertise ?"
+      }
+    },
+    "chips": {
+      "ai": "Intelligence artificielle",
+      "cyber": "Cybersécurité",
+      "digital": "Transformation numérique",
+      "data": "Science des données"
+    }
   },
   "impact": {
     "experience": "Années d'expérience",
@@ -116,12 +149,22 @@
   "publications": {
     "eyebrow": "Corpus scientifique",
     "pageTitle": "Liste des publications",
-    "intro": "Articles et études sélectionnés, avec téléchargement lorsqu'un fichier est disponible.",
+    "intro": "Liste complète des publications, avec le lien de chaque article et le téléchargement lorsqu'un fichier est disponible.",
     "search": "Rechercher",
     "searchLabel": "Rechercher une publication",
     "download": "Télécharger l'article",
+    "view": "Voir l'article",
+    "countLabel": "références",
     "unavailable": "Fichier non disponible",
     "empty": "Aucune publication ne correspond à cette recherche."
+  },
+  "books": {
+    "eyebrow": "Ouvrages",
+    "pageTitle": "Livres",
+    "intro": "Actes des conférences AI2SD et AIT2S publiés chez Springer.",
+    "springer": "Voir sur Springer",
+    "soon": "Publication à venir",
+    "explore": "Voir les livres"
   },
   "projects": {
     "index": "04",
@@ -303,6 +346,10 @@
   "profile": {
     "pageTitle": "Profil",
     "introLabel": "Biographie professionnelle",
+    "cv": {
+      "en": "Télécharger le CV anglais",
+      "ar": "Télécharger le CV arabe"
+    },
     "empty": "Les données sources seront ajoutées ici.",
     "timelineEmpty": "Les étapes seront placées le long de cette ligne.",
     "sections": {
@@ -313,6 +360,18 @@
       "advisory": "Activités de conseil",
       "transfer": "Innovation et transfert technologique",
       "responsibilities": "Responsabilités professionnelles"
+    },
+    "positions": {
+      "private": "Postes occupés dans le secteur privé",
+      "public": "Postes occupés dans le secteur public",
+      "order": "Du plus récent au plus ancien",
+      "present": "À nos jours",
+      "columns": {
+        "organization": "Organisme",
+        "unit": "Structures / Service",
+        "role": "Poste et fonction occupés",
+        "period": "Période"
+      }
     }
   },
   "contact": {

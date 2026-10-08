@@ -180,18 +180,7 @@ function VideoStage({
     <div className="yt-board">
       <div className="yt-stage">
         <p className="yt-index">{counter}</p>
-        {main ? (
-          <article className="yt-now">
-            <p className="yt-kicker">{t("media.now")}</p>
-            <h3>{text(locale, main.title)}</h3>
-            <p className="yt-cat">
-              <span className="yt-dot" aria-hidden="true" />
-              {t(`media.filters.${main.category}`)}
-            </p>
-          </article>
-        ) : (
-          <p className="yt-empty">{t("media.empty")}</p>
-        )}
+        {main ? null : <p className="yt-empty">{t("media.empty")}</p>}
         <div className="yt-screen">
           <span className="yt-screen-index">{counter}</span>
           {main ? (

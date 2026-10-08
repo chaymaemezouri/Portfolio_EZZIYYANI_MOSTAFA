@@ -11,11 +11,13 @@ export function Impact() {
         {impactMetrics.map((metric) => (
           <article key={metric.id} className="impact-item">
             <p className="impact-value">
-              {metric.display ?? (metric.value === null ? (
+              {metric.display
+                ? metric.display.replace(/^(\d+)\+$/, "+$1")
+                : metric.value === null ? (
                 <span aria-label={t("common.pending")}>{formatMetric(metric.value)}</span>
               ) : (
                 formatMetric(metric.value)
-              ))}
+              )}
             </p>
             <p className="impact-label">{t(`impact.${metric.id}`)}</p>
           </article>

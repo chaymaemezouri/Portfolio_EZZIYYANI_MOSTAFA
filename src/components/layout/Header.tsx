@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, Search, X } from "lucide-react";
 import { navItems } from "@/data/navigation";
 import { expertiseDomains } from "@/data/expertise";
+import { bookEditions } from "@/data/books";
 import { listedPublications, publications } from "@/data/publications";
 import { projects } from "@/data/projects";
 import { useI18n } from "@/i18n/I18nProvider";
@@ -32,6 +33,12 @@ export function Header() {
     setMenuOpen(false);
     setSearchOpen(false);
   }, [pathname]);
+
+  useEffect(() => {
+    const openSearch = () => setSearchOpen(true);
+    window.addEventListener("open-site-search", openSearch);
+    return () => window.removeEventListener("open-site-search", openSearch);
+  }, []);
 
   useEffect(() => {
     if (!menuOpen && !searchOpen) return;
@@ -75,6 +82,14 @@ export function Header() {
         kind: t("nav.publications"),
       })),
     ];
+    const books = bookEditions.flatMap((edition) =>
+      edition.volumes.map((item) => ({
+        id: item.id,
+        label: `${edition.name} — ${item.title}`,
+        to: localePath(locale, "books"),
+        kind: t("nav.books"),
+      })),
+    );
     const works = projects
       .filter((item) => text(locale, item.title))
       .map((item) => ({
@@ -83,7 +98,7 @@ export function Header() {
         to: localePath(locale, "projects"),
         kind: t("nav.projects"),
       }));
-    return [...pages, ...domains, ...papers, ...works].filter((item) =>
+    return [...pages, ...domains, ...papers, ...books, ...works].filter((item) =>
       needle ? item.label.toLowerCase().includes(needle) : true,
     );
   }, [locale, query, t]);

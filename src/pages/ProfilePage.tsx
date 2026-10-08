@@ -1,5 +1,7 @@
+import { Download } from "lucide-react";
 import { profile, profileSections, pullQuote } from "@/data/profile";
 import { JourneyTimeline } from "@/components/profile/JourneyTimeline";
+import { PositionsSection } from "@/components/profile/PositionsSection";
 import { Seo } from "@/components/shared/Seo";
 import { SocialIcon } from "@/components/shared/SocialIcon";
 import { visibleSocialLinks } from "@/data/socialLinks";
@@ -34,10 +36,10 @@ export default function ProfilePage() {
         <div className="container profile-hero">
           <div className="profile-portrait">
             <img
-              src={profile.portrait}
+              src="/assets/profile/portrait-bio.jpg"
               alt={t("hero.portraitAlt")}
-              width={profile.portraitWidth}
-              height={profile.portraitHeight}
+              width={819}
+              height={1024}
             />
           </div>
           <div>
@@ -57,6 +59,16 @@ export default function ProfilePage() {
                   {link.label}
                 </a>
               ))}
+            </div>
+            <div className="profile-cv">
+              <a className="btn btn-primary" href="/cv/Mostafa-Ezziyyani-CV-EN.pdf" download="Mostafa-Ezziyyani-CV-EN.pdf">
+                <Download size={16} aria-hidden="true" />
+                {t("profile.cv.en")}
+              </a>
+              <a className="btn btn-ghost" href="/cv/Mostafa-Ezziyyani-CV-AR.pdf" download="Mostafa-Ezziyyani-CV-AR.pdf">
+                <Download size={16} aria-hidden="true" />
+                {t("profile.cv.ar")}
+              </a>
             </div>
           </div>
         </div>
@@ -103,6 +115,7 @@ export default function ProfilePage() {
             </figure>
           ) : null}
         </section>
+        <PositionsSection />
         {profileSections.slice(1).map((section) => {
           const image = photo(section.id);
           return (

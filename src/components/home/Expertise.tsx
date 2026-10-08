@@ -24,6 +24,40 @@ export function ExpertiseNavigator({ page = false }: { page?: boolean }) {
     setFlipped((current) => (current === id ? null : id));
   }
 
+  if (page) {
+    return (
+      <div className="expertise-page">
+        <header className="expertise-page-head">
+          <h1 className="page-title">{t("expertise.title")}</h1>
+          <p className="page-lede">{t("expertise.intro")}</p>
+        </header>
+        <div className="expertise-entries">
+          {expertiseDomains.map((domain, index) => {
+            const summary = text(locale, domain.summary);
+            const points = domain.points.map((point) => text(locale, point)).filter(Boolean);
+            const label = String(index + 1).padStart(2, "0");
+            return (
+              <article key={domain.id} id={domain.id} className="expertise-entry anchor-offset">
+                <p className="expertise-entry-index">{label}</p>
+                <div>
+                  <h2>{t(`expertise.domains.${domain.id}`)}</h2>
+                  {summary ? <p className="expertise-entry-summary">{summary}</p> : null}
+                  {points.length > 0 ? (
+                    <ul className="expertise-points">
+                      {points.map((point) => (
+                        <li key={point}>{point}</li>
+                      ))}
+                    </ul>
+                  ) : null}
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className={page ? "expertise-board page-mode" : "expertise-board"}>
       <Reveal>

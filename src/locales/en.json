@@ -9,6 +9,7 @@
       "research": "Research and scientific contributions of Prof. Dr. Mostafa Ezziyyani.",
       "researchInterest": "Research interests and scientific axes of Prof. Dr. Mostafa Ezziyyani.",
       "publications": "List of scientific publications by Prof. Dr. Mostafa Ezziyyani.",
+      "books": "AI2SD and AIT2S conference proceedings by Prof. Dr. Mostafa Ezziyyani.",
       "projects": "Projects and innovation work of Prof. Dr. Mostafa Ezziyyani.",
       "vision": "Strategic vision on technology, knowledge and digital transformation.",
       "international": "International scientific presence of Prof. Dr. Mostafa Ezziyyani.",
@@ -16,6 +17,7 @@
       "academic": "Teaching and academic mentorship of Prof. Dr. Mostafa Ezziyyani.",
       "recognition": "Awards, distinctions and institutional leadership.",
       "contact": "Contact Prof. Dr. Mostafa Ezziyyani.",
+      "avatar": "Official profile assistant of Prof. Dr. Mostafa Ezziyyani.",
       "privacy": "Privacy information for this website."
     }
   },
@@ -26,6 +28,7 @@
     "research": "Research",
     "researchInterest": "Research Interest",
     "publications": "Publications",
+    "books": "Books",
     "projects": "Projects",
     "vision": "Vision",
     "international": "International",
@@ -33,6 +36,7 @@
     "academic": "Academic",
     "recognition": "Recognition",
     "contact": "Contact",
+    "avatar": "Avatar",
     "leadership": "Leadership",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
@@ -49,7 +53,36 @@
     "role3": "International Expert",
     "portraitAlt": "Portrait of Prof. Dr. Mostafa Ezziyyani",
     "techLabel": "01 — Profile",
-    "lead": "More than three decades of research, from the beginning of the digital era in 1990."
+    "lead": "More than three decades of research, from the beginning of the digital era in 1990.",
+    "facts": {
+      "professor": "Full professor at Abdelmalek Essaadi University",
+      "transfer": "President of the Innovation and Technology Transfer Organization",
+      "council": "Member of the Arab Advisory Council for Scientific Research",
+      "cyber": "Expert in cybersecurity and digital forensics"
+    },
+    "edition": "Ezziyyani AI Avatar",
+    "editionText": "Official profile, research and publications of Prof. Dr. Mostafa Ezziyyani.",
+    "assistant": {
+      "greeting": "Ask your questions:",
+      "placeholder": "Ask your question…",
+      "send": "Send",
+      "open": "Open the avatar",
+      "fallback": "I only answer from the official profile. Try a more precise question, or open the Contact page.",
+      "prompts": {
+        "teaching": "Teaching and training?",
+        "science": "Scientific research?",
+        "technology": "Technology, AI and digital sovereignty?",
+        "innovation": "Innovation?",
+        "strategy": "Strategy and digital transformation?",
+        "consulting": "Consulting and expertise?"
+      }
+    },
+    "chips": {
+      "ai": "Artificial intelligence",
+      "cyber": "Cybersecurity",
+      "digital": "Digital transformation",
+      "data": "Data science"
+    }
   },
   "impact": {
     "experience": "Years of experience",
@@ -116,12 +149,22 @@
   "publications": {
     "eyebrow": "Scientific corpus",
     "pageTitle": "List of publications",
-    "intro": "Selected papers and studies, with download when a file is available.",
+    "intro": "Complete list of publications, with a link for each article and a download when a file is available.",
     "search": "Search",
     "searchLabel": "Search publications",
     "download": "Download Paper",
+    "view": "View the article",
+    "countLabel": "records",
     "unavailable": "File not available",
     "empty": "No publication matches this search."
+  },
+  "books": {
+    "eyebrow": "Books",
+    "pageTitle": "Books",
+    "intro": "AI2SD and AIT2S conference proceedings published by Springer.",
+    "springer": "View on Springer",
+    "soon": "To be published",
+    "explore": "View the books"
   },
   "projects": {
     "index": "04",
@@ -303,6 +346,10 @@
   "profile": {
     "pageTitle": "Profile",
     "introLabel": "Professional biography",
+    "cv": {
+      "en": "Download the English CV",
+      "ar": "Download the Arabic CV"
+    },
     "empty": "Source records will be added here.",
     "timelineEmpty": "Milestones will be placed along this line.",
     "sections": {
@@ -313,6 +360,18 @@
       "advisory": "Advisory / Consulting Activities",
       "transfer": "Innovation & Technology Transfer",
       "responsibilities": "Professional Responsibilities"
+    },
+    "positions": {
+      "private": "Positions held in the private sector",
+      "public": "Positions held in the public sector",
+      "order": "From the most recent to the oldest",
+      "present": "Present",
+      "columns": {
+        "organization": "Organization",
+        "unit": "Unit / Service",
+        "role": "Position held",
+        "period": "Period"
+      }
     }
   },
   "contact": {

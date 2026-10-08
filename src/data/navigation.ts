@@ -5,6 +5,7 @@ export const navItems = [
   { id: "research", path: "research" },
   { id: "researchInterest", path: "research-interest" },
   { id: "publications", path: "publications" },
+  { id: "books", path: "books" },
   { id: "projects", path: "projects" },
   { id: "vision", path: "vision" },
   { id: "media", path: "media" },
@@ -12,7 +13,7 @@ export const navItems = [
 ] as const;
 
 export const footerExplore = ["profile", "expertise", "research", "projects", "vision"] as const;
-export const footerAcademic = ["research", "leadership", "recognition"] as const;
+export const footerAcademic = ["research", "books", "leadership", "recognition"] as const;
 
 export const contactPurposes = [
   "collaboration",

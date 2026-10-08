@@ -1,5 +1,5 @@
 import { academicNarrative, academicStats } from "@/data/academic";
-import { awards } from "@/data/awards";
+import { bookEditions } from "@/data/books";
 import { leadershipRoles } from "@/data/leadership";
 import { ArrowLink } from "@/components/shared/ArrowLink";
 import { useI18n } from "@/i18n/I18nProvider";
@@ -9,6 +9,11 @@ import { text } from "@/utils/text";
 export function RecognitionSection() {
   const { locale, t } = useI18n();
   const total = academicStats.find((stat) => stat.id === "total");
+  const covers = bookEditions.flatMap((edition) =>
+    edition.volumes
+      .filter((item) => item.cover)
+      .map((item) => ({ ...item, edition: edition.name })),
+  ).slice(0, 6);
 
   return (
     <section className="band recognition">
@@ -49,19 +54,19 @@ export function RecognitionSection() {
       <div className="container">
         <div className="section-head recog-head recog-awards">
           <div>
-            <h2 className="section-title">{t("recognition.title")}</h2>
-            <p className="section-text">{t("recognition.intro")}</p>
+            <h2 className="section-title">{t("books.pageTitle")}</h2>
+            <p className="section-text">{t("books.intro")}</p>
           </div>
-          <ArrowLink to={localePath(locale, "recognition")}>{t("recognition.explore")}</ArrowLink>
+          <ArrowLink to={localePath(locale, "books")}>{t("books.explore")}</ArrowLink>
         </div>
-        <div className="award-board">
-          {awards.map((item) => (
-            <article key={item.id}>
-              <span>{item.year || "—"}</span>
-              <h3>{text(locale, item.title)}</h3>
-              <p>{text(locale, item.institution)}</p>
-              {text(locale, item.metadata) ? <p className="lead-detail">{text(locale, item.metadata)}</p> : null}
-            </article>
+        <div className="home-books">
+          {covers.map((item) => (
+            <a key={item.id} href={item.href} target="_blank" rel="noreferrer">
+              <img src={item.cover} alt="" />
+              <span className="sr-only">{t("common.external")}</span>
+              <span>{item.edition}</span>
+              <span className="home-book-title">{item.title}</span>
+            </a>
           ))}
         </div>
       </div>

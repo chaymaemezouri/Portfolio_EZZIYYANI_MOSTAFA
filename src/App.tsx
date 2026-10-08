@@ -9,6 +9,7 @@ const ExpertisePage = lazy(() => import("@/pages/ExpertisePage"));
 const ResearchPage = lazy(() => import("@/pages/ResearchPage"));
 const ResearchInterestPage = lazy(() => import("@/pages/ResearchInterestPage"));
 const PublicationsPage = lazy(() => import("@/pages/PublicationsPage"));
+const BooksPage = lazy(() => import("@/pages/BooksPage"));
 const ProjectsPage = lazy(() => import("@/pages/ProjectsPage"));
 const VisionPage = lazy(() => import("@/pages/VisionPage"));
 const InternationalPage = lazy(() => import("@/pages/InternationalPage"));
@@ -16,6 +17,7 @@ const MediaPage = lazy(() => import("@/pages/MediaPage"));
 const AcademicPage = lazy(() => import("@/pages/AcademicPage"));
 const RecognitionPage = lazy(() => import("@/pages/RecognitionPage"));
 const ContactPage = lazy(() => import("@/pages/ContactPage"));
+const AvatarPage = lazy(() => import("@/pages/AvatarPage"));
 const PrivacyPage = lazy(() => import("@/pages/PrivacyPage"));
 const NotFoundPage = lazy(() => import("@/pages/NotFoundPage"));
 
@@ -32,6 +34,7 @@ export default function App() {
             <Route path="research" element={<ResearchPage />} />
             <Route path="research-interest" element={<ResearchInterestPage />} />
             <Route path="publications" element={<PublicationsPage />} />
+            <Route path="books" element={<BooksPage />} />
             <Route path="projects" element={<ProjectsPage />} />
             <Route path="vision" element={<VisionPage />} />
             <Route path="international" element={<InternationalPage />} />
@@ -39,6 +42,7 @@ export default function App() {
             <Route path="academic" element={<AcademicPage />} />
             <Route path="recognition" element={<RecognitionPage />} />
             <Route path="contact" element={<ContactPage />} />
+            <Route path="avatar" element={<AvatarPage />} />
             <Route path="privacy" element={<PrivacyPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Route>
