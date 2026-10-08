@@ -292,12 +292,32 @@ html[dir="rtl"] .hero-grid {
 
 .hero-edition-kicker {
   margin: 0;
-  max-width: 16rem;
+  max-width: none;
   font-size: 0.78rem;
   font-weight: 650;
   letter-spacing: 0.06em;
   line-height: 1.35;
-  text-transform: uppercase;
+  text-transform: none;
+  color: white;
+}
+
+.avatar-mark {
+  display: inline-block;
+  padding: 0.38rem 0.72rem 0.42rem;
+  border: 1px solid var(--navy-900);
+  border-radius: 10px;
+  background: white;
+  font-family: var(--sans);
+  font-weight: 800;
+  font-size: clamp(1.05rem, 1.35vw, 1.28rem);
+  letter-spacing: -0.045em;
+  line-height: 1;
+  text-transform: none;
+  color: var(--navy-900);
+  white-space: nowrap;
+}
+
+.avatar-mark span {
   color: var(--gold-500);
 }
 
@@ -3070,6 +3090,11 @@ html[dir="rtl"] .archive-list li {
     letter-spacing: 0;
     text-align: start;
     text-transform: none;
+  }
+
+  .hero .hero-edition .avatar-mark {
+    padding: 0.22rem 0.45rem 0.26rem;
+    font-size: 0.78rem;
   }
 
   .hero .hero-edition .hero-edition-avatar {

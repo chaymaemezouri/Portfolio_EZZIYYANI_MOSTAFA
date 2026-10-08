@@ -1,5 +1,6 @@
 import { profile } from "@/data/profile";
 import { ProfileAssistant } from "@/components/home/ProfileAssistant";
+import { AvatarMark } from "@/components/shared/AvatarMark";
 import { Seo } from "@/components/shared/Seo";
 import { useI18n } from "@/i18n/I18nProvider";
 import { localePath } from "@/utils/locale";
@@ -22,7 +23,9 @@ export default function AvatarPage() {
         <div className="hero-edition avatar-panel">
           <header className="hero-edition-head">
             <div>
-              <p>{t("hero.edition")}</p>
+              <p>
+                <AvatarMark />
+              </p>
               <h1>{name}</h1>
             </div>
             <img src={profile.portrait} alt="" width={64} height={64} />

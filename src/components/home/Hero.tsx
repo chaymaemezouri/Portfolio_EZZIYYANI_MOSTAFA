@@ -4,6 +4,7 @@ import { profile } from "@/data/profile";
 import { socialById } from "@/data/socialLinks";
 import { SocialIcon } from "@/components/shared/SocialIcon";
 import { Impact } from "@/components/home/Impact";
+import { AvatarMark } from "@/components/shared/AvatarMark";
 import { useI18n } from "@/i18n/I18nProvider";
 import { localePath } from "@/utils/locale";
 
@@ -108,7 +109,9 @@ export function Hero() {
         </div>
 
         <div className="hero-edition">
-          <p className="hero-edition-kicker">{t("hero.edition")}</p>
+          <p className="hero-edition-kicker">
+            <AvatarMark />
+          </p>
           <span className="hero-edition-avatar">
             <img src={heroPortrait.src} alt="" width={128} height={128} />
           </span>
