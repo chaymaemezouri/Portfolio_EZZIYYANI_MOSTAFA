@@ -389,6 +389,13 @@ html[dir="rtl"] .nav-desktop a::after {
   }
 }
 
+@media (max-width: 720px) {
+  html,
+  body {
+    overflow-x: clip;
+  }
+}
+
 @media (max-width: 640px) {
   .brand-name {
     font-size: 0.78rem;

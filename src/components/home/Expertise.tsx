@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { RotateCcw, RotateCw } from "lucide-react";
 import { expertiseDomains } from "@/data/expertise";
 import { Reveal } from "@/components/shared/Reveal";
@@ -19,6 +19,17 @@ const arts = [
 export function ExpertiseNavigator({ page = false }: { page?: boolean }) {
   const { locale, t } = useI18n();
   const [flipped, setFlipped] = useState<string | null>(null);
+  const [narrow, setNarrow] = useState(
+    () => typeof window !== "undefined" && window.matchMedia("(max-width: 720px)").matches,
+  );
+
+  useEffect(() => {
+    const query = window.matchMedia("(max-width: 720px)");
+    const apply = () => setNarrow(query.matches);
+    apply();
+    query.addEventListener("change", apply);
+    return () => query.removeEventListener("change", apply);
+  }, []);
 
   function toggle(id: string) {
     setFlipped((current) => (current === id ? null : id));
@@ -75,6 +86,8 @@ export function ExpertiseNavigator({ page = false }: { page?: boolean }) {
           const open = flipped === domain.id;
           const tone = tones[index % tones.length];
           const label = String(index + 1).padStart(2, "0");
+          const showFront = !narrow || !open;
+          const showBack = !narrow || open;
           return (
             <article
               key={domain.id}
@@ -82,6 +95,7 @@ export function ExpertiseNavigator({ page = false }: { page?: boolean }) {
               className={`domain-card tone-${tone} anchor-offset${open ? " is-flipped" : ""}`}
             >
               <div className="domain-flip">
+                {showFront ? (
                 <button
                   type="button"
                   className="domain-face domain-front"
@@ -98,6 +112,8 @@ export function ExpertiseNavigator({ page = false }: { page?: boolean }) {
                     <RotateCw size={14} aria-hidden="true" />
                   </span>
                 </button>
+                ) : null}
+                {showBack ? (
                 <button
                   type="button"
                   className="domain-face domain-back"
@@ -122,6 +138,7 @@ export function ExpertiseNavigator({ page = false }: { page?: boolean }) {
                     <RotateCcw size={14} aria-hidden="true" />
                   </span>
                 </button>
+                ) : null}
               </div>
             </article>
           );

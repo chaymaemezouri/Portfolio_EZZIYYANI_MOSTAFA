@@ -3164,7 +3164,13 @@ html[dir="rtl"] .archive-list li {
     height: auto;
     min-height: 0;
     transform: none;
+    -webkit-transform: none;
     transform-style: flat;
+  }
+
+  .domain-card:not(.is-flipped) .domain-flip,
+  .domain-card:not(.is-flipped) .domain-front {
+    min-height: 228px;
   }
 
   .domain-face,
