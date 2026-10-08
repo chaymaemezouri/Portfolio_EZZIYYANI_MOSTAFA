@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import { SwipeHint } from "@/components/shared/SwipeHint";
 import { publicPosts } from "@/data/posts";
 import { useI18n } from "@/i18n/I18nProvider";
 import { facebookPostEmbed, isFacebookUrl } from "@/utils/facebook";
@@ -60,7 +61,9 @@ export function FinalCta() {
             <h2 className="section-title">{t("media.posts")}</h2>
           </div>
         </div>
-        <div className="home-posts-scroller" ref={scroller}>
+        <div className="swipe-row">
+          <SwipeHint scroller={scroller} />
+          <div className="home-posts-scroller" ref={scroller}>
           {posts.map((post) => {
             const caption = text(locale, post.text);
             const embedded = post.images.length === 0 && isFacebookUrl(post.href);
@@ -92,6 +95,7 @@ export function FinalCta() {
               </article>
             );
           })}
+          </div>
         </div>
       </div>
     </section>

@@ -1,13 +1,16 @@
+import { useRef } from "react";
 import { academicNarrative, academicStats } from "@/data/academic";
 import { bookEditions } from "@/data/books";
 import { leadershipRoles } from "@/data/leadership";
 import { ArrowLink } from "@/components/shared/ArrowLink";
+import { SwipeHint } from "@/components/shared/SwipeHint";
 import { useI18n } from "@/i18n/I18nProvider";
 import { localePath } from "@/utils/locale";
 import { text } from "@/utils/text";
 
 export function RecognitionSection() {
   const { locale, t } = useI18n();
+  const booksRef = useRef<HTMLDivElement>(null);
   const total = academicStats.find((stat) => stat.id === "total");
   const covers = bookEditions.flatMap((edition) =>
     edition.volumes
@@ -59,7 +62,9 @@ export function RecognitionSection() {
           </div>
           <ArrowLink to={localePath(locale, "books")}>{t("books.explore")}</ArrowLink>
         </div>
-        <div className="home-books">
+        <div className="swipe-row">
+          <SwipeHint scroller={booksRef} />
+          <div className="home-books" ref={booksRef}>
           {covers.map((item) => (
             <a key={item.id} href={item.href} target="_blank" rel="noreferrer">
               <img src={item.cover} alt="" />
@@ -68,6 +73,7 @@ export function RecognitionSection() {
               <span className="home-book-title">{item.title}</span>
             </a>
           ))}
+          </div>
         </div>
       </div>
     </section>

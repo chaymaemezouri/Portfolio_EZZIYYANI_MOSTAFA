@@ -2750,6 +2750,10 @@ html[dir="rtl"] .archive-list li {
   font-size: 0.9rem;
 }
 
+.swipe-hint {
+  display: none;
+}
+
 .home-posts {
   background: var(--bg-soft);
   padding-block: 56px 64px;
@@ -3318,9 +3322,56 @@ html[dir="rtl"] .archive-list li {
     padding-inline: 0;
     border-top: 1px solid rgba(255, 255, 255, 0.14);
   }
+
+  .swipe-row {
+    position: relative;
+  }
+
+  .swipe-hint {
+    position: absolute;
+    z-index: 2;
+    top: 42%;
+    inset-inline-end: 0.2rem;
+    display: grid;
+    place-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--navy-900);
+    color: white;
+    box-shadow: 0 8px 18px rgba(15, 30, 63, 0.24);
+    pointer-events: none;
+    animation: swipe-nudge 1.35s ease-in-out infinite;
+  }
+
+  .home-books {
+    display: flex;
+    direction: ltr;
+    gap: 12px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 0.35rem;
+    scrollbar-width: none;
+  }
+
+  .home-books::-webkit-scrollbar {
+    display: none;
+  }
+
+  .home-books a {
+    flex: 0 0 46%;
+    scroll-snap-align: start;
+  }
+}
+
+@keyframes swipe-nudge {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(-7px); }
 }
 
 @media (max-width: 720px) and (prefers-reduced-motion: reduce) {
+  .swipe-hint,
   .reel-track {
     animation: none;
   }
