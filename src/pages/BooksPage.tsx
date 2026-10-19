@@ -1,11 +1,12 @@
 import { BookOpen, ArrowUpRight } from "lucide-react";
-import { bookEditions } from "@/data/books";
+import { useBooks } from "@/content/hooks";
 import { Seo } from "@/components/shared/Seo";
 import { useI18n } from "@/i18n/I18nProvider";
 import { localePath } from "@/utils/locale";
 
 export default function BooksPage() {
   const { locale, t } = useI18n();
+  const bookEditions = useBooks();
 
   return (
     <>
@@ -26,8 +27,8 @@ export default function BooksPage() {
               </header>
               {pendingOnly ? (
                 <div className="book-pending">
-                  {edition.volumes.map((item) => (
-                    <article key={item.id}>
+                  {edition.volumes.map((item, index) => (
+                    <article key={index}>
                       <span className="book-cover is-soon">
                         <BookOpen size={26} aria-hidden="true" />
                       </span>
@@ -40,7 +41,7 @@ export default function BooksPage() {
                 </div>
               ) : (
                 <div className="book-grid">
-                  {edition.volumes.map((item) => {
+                  {edition.volumes.map((item, index) => {
                     const body = (
                       <>
                         <span className={`book-cover${item.cover ? "" : " is-soon"}`}>
@@ -61,13 +62,13 @@ export default function BooksPage() {
                     );
                     if (!item.href) {
                       return (
-                        <article key={item.id} className="book-card">
+                        <article key={index} className="book-card">
                           {body}
                         </article>
                       );
                     }
                     return (
-                      <a key={item.id} className="book-card" href={item.href} target="_blank" rel="noreferrer">
+                      <a key={index} className="book-card" href={item.href} target="_blank" rel="noreferrer">
                         <span className="sr-only">{t("common.external")}</span>
                         {body}
                       </a>

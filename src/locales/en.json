@@ -18,6 +18,11 @@
       "recognition": "Awards, distinctions and institutional leadership.",
       "contact": "Contact Prof. Dr. Mostafa Ezziyyani.",
       "avatar": "Official profile assistant of Prof. Dr. Mostafa Ezziyyani.",
+      "teaching": "Courses, final-year projects and visits supervised by Prof. Dr. Mostafa Ezziyyani.",
+      "patents": "Patents of Prof. Dr. Mostafa Ezziyyani.",
+      "innovation": "Products and innovation by Prof. Dr. Mostafa Ezziyyani.",
+      "team": "Research team of Prof. Dr. Mostafa Ezziyyani.",
+      "gallery": "Photo gallery of Prof. Dr. Mostafa Ezziyyani.",
       "privacy": "Privacy information for this website."
     }
   },
@@ -38,11 +43,60 @@
     "contact": "Contact",
     "avatar": "Avatar",
     "leadership": "Leadership",
+    "teaching": "Teaching",
+    "collaboration": "Collaboration",
+    "gallery": "Gallery",
+    "patents": "Patents",
+    "innovation": "Products & Innovation",
+    "team": "Team",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
     "search": "Search",
     "skip": "Skip to content",
     "menu": "Menu"
+  },
+  "team": {
+    "search": "Search by name or thesis topic",
+    "empty": "No team members match this search.",
+    "title": "Team",
+    "lede": "Doctoral students supervised and their thesis titles.",
+    "year": "Enrolled",
+    "role": "PhD Student",
+    "thesisPending": "Thesis title coming soon."
+  },
+  "showcase": {
+    "patentsLede": "Filed and granted patents.",
+    "innovationLede": "Products, platforms and solutions that grew out of the research.",
+    "galleryLede": "Selected moments: conferences, meetings and events.",
+    "number": "No.",
+    "inventors": "Inventors",
+    "document": "Document",
+    "video": "Video",
+    "open": "View",
+    "close": "Close"
+  },
+  "teaching": {
+    "title": "Teaching",
+    "lede": "Courses, final-year projects and academic visits.",
+    "courses": "Courses",
+    "accessCourse": "Open course",
+    "pfe": "Final-year projects",
+    "pfeMaster": "Master projects",
+    "pfeLicence": "Bachelor projects",
+    "visits": "Visits",
+    "visitsLede": "Industrial immersions and exchanges with the socio-economic world.",
+    "visitPhotos": "Gallery",
+    "visitClose": "Close",
+    "empty": "Content coming soon.",
+    "pending": "Content coming soon.",
+    "resources": {
+      "support": "Course material",
+      "ppt": "Slides",
+      "td": "Tutorials",
+      "tp": "Lab work",
+      "project": "Projects",
+      "homework": "Assignments"
+    }
   },
   "hero": {
     "fields": "Artificial Intelligence · Digital Transformation\nData Science · Cybersecurity",
@@ -141,6 +195,8 @@
     }
   },
   "researchInterest": {
+    "intro": "Big data, distributed systems and artificial intelligence: complementary research areas for data and knowledge management.",
+    "approach": "The laboratory’s scientific approach",
     "eyebrow": "Scientific axes",
     "pageTitle": "Research Interest",
     "axes": "Axis of research",
@@ -431,6 +487,7 @@
     "back": "Return home"
   },
   "common": {
+    "clearSearch": "Clear search",
     "pending": "To be added",
     "external": "Opens in a new tab",
     "close": "Close",

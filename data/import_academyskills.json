@@ -1,0 +1,598 @@
+{
+  "patents": [
+    {
+      "id": "brevet-1",
+      "title": {
+        "fr": "Lavabo Intégré avec Robinet à Circuit Intelligent pour la préservation de l’eau. (LIRCI)",
+        "en": "Lavabo Intégré avec Robinet à Circuit Intelligent pour la préservation de l’eau. (LIRCI)",
+        "ar": "Lavabo Intégré avec Robinet à Circuit Intelligent pour la préservation de l’eau. (LIRCI)"
+      },
+      "number": "1",
+      "year": "",
+      "inventors": "Mostafa Ezziyyani et al.",
+      "office": "",
+      "summary": {
+        "fr": "Dans ce brevet nous proposons une solution pour réduire et économiser la consommation personnelle et surtout d’éviter les perdes de l’eau lors de son usage domestique ou collective (Maisons, Hôtels, Immeuble, Usine etc..).\nL’idée de ce brevet et de proposer un lavabo intégré multifonctions en se focalisant sur le principe de la préservation de l’eau circulant dans les tuyaux de l’eau entre le chauffage et les robinets, éventuellement celle qui n’attient pas la température souhaitée (soit chaude ou froide). Le lavabo que nous proposons est prêt a utiliser sans aucune transformation ou modification ni dans le réseau ni dans l’installation.\nDetail...",
+        "en": "",
+        "ar": ""
+      },
+      "href": "https://academyskills.net/ezziyyani/research/patentes/patente1.pdf"
+    },
+    {
+      "id": "brevet-2",
+      "title": {
+        "fr": "e-Ochestra (Conducting Made Easier)",
+        "en": "e-Ochestra (Conducting Made Easier)",
+        "ar": "e-Ochestra (Conducting Made Easier)"
+      },
+      "number": "2",
+      "year": "",
+      "inventors": "Mostafa Ezziyyani et al.",
+      "office": "",
+      "summary": {
+        "fr": "Our Team EzzInova propose a new and an innovate solution ‘e-Ochestra’, where young musicians and amateurs can learn the basic conducting moves in a controllable and flexible environment using sensor as orchestra baton to communicate and hold a virtual orchestra theater.\n‘e-Ochestra’ a platform where young musicians and amateurs can learn the conducting moves in a controllable, interactive and flexible environment. The ‘e-Ochestra’ hold automatically a predefined fermata note, as long as the conductor user tells them the tempo, like as ups and downs of a piece. The learner uses a specific orchestra baton with integrated wireless sensor for gesture detection. We developed an optimal algorithm of gesture recognition based on hash code, and machine learning technique for detecting automatically the following signal with the used speed of gesture to control a group of fermata notes. The baton consists of a vibrating alarm controlled by the system to enquire the learner on handling errors for a new try.\nBefore using the ‘e-Ochestra’ an expert or amateur can add the instruments virtual orchestra theater on the specific places and select with Support Agent. The Support Agent check the right choice of instruments places in orchestra theater using the same idea of last amazing solution of Microsoft “HOLOLENS”.\nDownload : Video of Presentation ......",
+        "en": "Our Team EzzInova propose a new and an innovate solution ‘e-Ochestra’, where young musicians and amateurs can learn the basic conducting moves in a controllable and flexible environment using sensor as orchestra baton to communicate and hold a virtual orchestra theater.\n‘e-Ochestra’ a platform where young musicians and amateurs can learn the conducting moves in a controllable, interactive and flexible environment. The ‘e-Ochestra’ hold automatically a predefined fermata note, as long as the conductor user tells them the tempo, like as ups and downs of a piece. The learner uses a specific orchestra baton with integrated wireless sensor for gesture detection. We developed an optimal algorithm of gesture recognition based on hash code, and machine learning technique for detecting automatically the following signal with the used speed of gesture to control a group of fermata notes. The baton consists of a vibrating alarm controlled by the system to enquire the learner on handling errors for a new try.\nBefore using the ‘e-Ochestra’ an expert or amateur can add the instruments virtual orchestra theater on the specific places and select with Support Agent. The Support Agent check the right choice of instruments places in orchestra theater using the same idea of last amazing solution of Microsoft “HOLOLENS”.\nDownload : Video of Presentation ......",
+        "ar": ""
+      },
+      "href": "https://academyskills.net/ezziyyani/research/videos/Video.mp4"
+    },
+    {
+      "id": "brevet-3",
+      "title": {
+        "fr": "Dispositif et procédé d’aide à la conduite des véhicules pour des individus ayant une",
+        "en": "Dispositif et procédé d’aide à la conduite des véhicules pour des individus ayant une",
+        "ar": "Dispositif et procédé d’aide à la conduite des véhicules pour des individus ayant une"
+      },
+      "number": "3",
+      "year": "",
+      "inventors": "Mostafa Ezziyyani et al.",
+      "office": "",
+      "summary": {
+        "fr": "déficience auditive.\nDomaine de l’invention\nLa présente invention a trait à un dispositif et un procédé d’aide à la conduite des véhicules\npour des individus ayant une déficience auditive et plus particulièrement la mise en oeuvre d’un\ndispositif d’affichage d’informations utiles au profit d’un conducteur déficient auditif\nmoyennant un procédé adéquat.\nContexte général\nDepuis l'invention de la voiture, aucun effort n'a été consenti pour adapter son accessibilité à\ndes personnes ayant une déficience auditive. Dans certains pays ces ne sont pas autorisées à\nconduire des véhicules ; selon les réglementations, on ne peut pas leur délivrer un permis de\nconduire et dans de nombreux autres pays, les personnes ayant une déficience auditive ne\nconduisent pas des voitures dans la crainte de provoquer des accidents.\nLa présente invention a pour objet de décrire une idée innovante d’un dispositif et d’un procédé\nqui permettront aux individus déficients auditifs de conduire des véhicules et de surmonter\nl’obstacle de l’écoute des signalisations sonores et tous les sons qui peuvent se produire pendant\nla conduction d’un véhicule.\nEtat de la technique\nLa   brevet international WO2007028630A1 décrit un dispositif à base d’au moins\ndeux capteurs d’images sensible à la lumière infrarouge qui projette des images en face du\nconducteur d’un véhicule pour lui rendre compte de son environnement.\nD’autres brevets proposent des solutions similaires. Toutefois, ces solutions nécessitent un suivi\nsoutenu des images issues des dits capteurs, de manière à ce que ledit conducteur risquerait de\nvoir son attention détournée de sa conduite, ce qui contribuerait aussi à d’éventuels accidents.\nNotre solution n’utilise pas de capteurs d’images pour ne pas augmenter le risque de diversion\ndu conducteur d’un véhicule, seuls des capteurs analogiques et des capteurs « TOUT OU\nRIEN » sont utilisés. L’affichage, quant à lui, est basé sur des signalisations lumineuses utilisant\ndes LED ainsi que des moyens.",
+        "en": "",
+        "ar": ""
+      },
+      "href": ""
+    }
+  ],
+  "innovation": [
+    {
+      "id": "3sd",
+      "title": {
+        "fr": "3SD",
+        "en": "3SD",
+        "ar": "3SD"
+      },
+      "summary": {
+        "fr": "",
+        "en": "",
+        "ar": ""
+      },
+      "href": "https://academyskills.net/ezziyyani/research/Products.html"
+    },
+    {
+      "id": "pccb",
+      "title": {
+        "fr": "Parental Control of Children's Behavior (PCCB)",
+        "en": "Parental Control of Children's Behavior (PCCB)",
+        "ar": "Parental Control of Children's Behavior (PCCB)"
+      },
+      "summary": {
+        "fr": "",
+        "en": "",
+        "ar": ""
+      },
+      "href": "https://academyskills.net/ezziyyani/research/Products.html"
+    },
+    {
+      "id": "worldtalk",
+      "title": {
+        "fr": "WorldTalk",
+        "en": "WorldTalk",
+        "ar": "WorldTalk"
+      },
+      "summary": {
+        "fr": "",
+        "en": "",
+        "ar": ""
+      },
+      "href": "https://academyskills.net/ezziyyani/research/Products.html"
+    },
+    {
+      "id": "orchestra",
+      "title": {
+        "fr": "Orchestra / e-Ochestra",
+        "en": "Orchestra / e-Ochestra",
+        "ar": "Orchestra / e-Ochestra"
+      },
+      "summary": {
+        "fr": "Plateforme d'apprentissage de la direction d'orchestre avec bâton à capteurs et reconnaissance de gestes.",
+        "en": "Plateforme d'apprentissage de la direction d'orchestre avec bâton à capteurs et reconnaissance de gestes.",
+        "ar": ""
+      },
+      "href": "https://academyskills.net/ezziyyani/research/Products.html"
+    },
+    {
+      "id": "mds-cp",
+      "title": {
+        "fr": "MDS-CP (Mobile Diagnostic System for Collaborative Patients)",
+        "en": "MDS-CP (Mobile Diagnostic System for Collaborative Patients)",
+        "ar": "MDS-CP (Mobile Diagnostic System for Collaborative Patients)"
+      },
+      "summary": {
+        "fr": "MDS-CP est un outil de diagnostic médical qui permettra à son utilisateur de générer des traitements (médicaments, conseils…) à une maladie, diagnostiqué à l’avance depuis l’application via un système expert, par la consultation de l’ensemble des solutions récoltés à partir des autres utilisateurs qui ont un profile proche et qui ont eu la même maladie. Cet outil est destiné aux Smartphone est développé en Androïde.",
+        "en": "MDS-CP est un outil de diagnostic médical qui permettra à son utilisateur de générer des traitements (médicaments, conseils…) à une maladie, diagnostiqué à l’avance depuis l’application via un système expert, par la consultation de l’ensemble des solutions récoltés à partir des autres utilisateurs qui ont un profile proche et qui ont eu la même maladie. Cet outil est destiné aux Smartphone est développé en Androïde.",
+        "ar": ""
+      },
+      "href": "https://academyskills.net/ezziyyani/research/Products.html"
+    },
+    {
+      "id": "data-analyser",
+      "title": {
+        "fr": "Data Analyser",
+        "en": "Data Analyser",
+        "ar": "Data Analyser"
+      },
+      "summary": {
+        "fr": "",
+        "en": "",
+        "ar": ""
+      },
+      "href": "https://academyskills.net/ezziyyani/research/Products.html"
+    }
+  ],
+  "academicProjects": [
+    {
+      "id": "as-projet-1",
+      "title": {
+        "fr": "Auto-migration de Micro-Data intersites",
+        "en": "Auto-migration de Micro-Data intersites",
+        "ar": "Auto-migration de Micro-Data intersites"
+      },
+      "category": "research",
+      "role": {
+        "fr": "Responsable / porteur",
+        "en": "Principal investigator",
+        "ar": ""
+      },
+      "summary": {
+        "fr": "Auto-migration de Micro-Data intersites en corrélation avec les services évolutifs en ligne adaptés aux profils et préférences des utilisateurs : Domaine d’application Smartphones.",
+        "en": "Auto-migration de Micro-Data intersites en corrélation avec les services évolutifs en ligne adaptés aux profils et préférences des utilisateurs : Domaine d’application Smartphones.",
+        "ar": ""
+      },
+      "details": [],
+      "organization": {
+        "fr": "",
+        "en": "",
+        "ar": ""
+      },
+      "country": {
+        "fr": "Maroc",
+        "en": "Morocco",
+        "ar": "المغرب"
+      },
+      "year": "",
+      "status": "",
+      "partners": [],
+      "image": "",
+      "links": [
+        {
+          "label": "Source",
+          "href": "https://academyskills.net/ezziyyani/research/Projects.html"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "as-projet-2",
+      "title": {
+        "fr": "Systèmes temps-réel multi-critères pour le suivi des patients",
+        "en": "Systèmes temps-réel multi-critères pour le suivi des patients",
+        "ar": "Systèmes temps-réel multi-critères pour le suivi des patients"
+      },
+      "category": "research",
+      "role": {
+        "fr": "Responsable / porteur",
+        "en": "Principal investigator",
+        "ar": ""
+      },
+      "summary": {
+        "fr": "Etude et développement de systèmes temps-réel Multi-critères, pour le suivi des patients sous hospitalisation.",
+        "en": "Etude et développement de systèmes temps-réel Multi-critères, pour le suivi des patients sous hospitalisation.",
+        "ar": ""
+      },
+      "details": [],
+      "organization": {
+        "fr": "",
+        "en": "",
+        "ar": ""
+      },
+      "country": {
+        "fr": "Maroc",
+        "en": "Morocco",
+        "ar": "المغرب"
+      },
+      "year": "",
+      "status": "",
+      "partners": [],
+      "image": "",
+      "links": [
+        {
+          "label": "Source",
+          "href": "https://academyskills.net/ezziyyani/research/Projects.html"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "as-projet-3",
+      "title": {
+        "fr": "Qualité de données temps réel et sûreté des connaissances",
+        "en": "Qualité de données temps réel et sûreté des connaissances",
+        "ar": "Qualité de données temps réel et sûreté des connaissances"
+      },
+      "category": "research",
+      "role": {
+        "fr": "Responsable / porteur",
+        "en": "Principal investigator",
+        "ar": ""
+      },
+      "summary": {
+        "fr": "Analyse/Etude de la qualité de données en temps réel et la sûreté des connaissances pour l'optimisation et validation automatique des décisions pour les systèmes de commandes dans un environnement distribué. Etude de cas : Système de contrôle des fermes d'élevage de volaille.",
+        "en": "Analyse/Etude de la qualité de données en temps réel et la sûreté des connaissances pour l'optimisation et validation automatique des décisions pour les systèmes de commandes dans un environnement distribué. Etude de cas : Système de contrôle des fermes d'élevage de volaille.",
+        "ar": ""
+      },
+      "details": [],
+      "organization": {
+        "fr": "",
+        "en": "",
+        "ar": ""
+      },
+      "country": {
+        "fr": "Maroc",
+        "en": "Morocco",
+        "ar": "المغرب"
+      },
+      "year": "",
+      "status": "",
+      "partners": [],
+      "image": "",
+      "links": [
+        {
+          "label": "Source",
+          "href": "https://academyskills.net/ezziyyani/research/Projects.html"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "as-projet-4",
+      "title": {
+        "fr": "Gestion spatiale et temporelle des catastrophes",
+        "en": "Gestion spatiale et temporelle des catastrophes",
+        "ar": "Gestion spatiale et temporelle des catastrophes"
+      },
+      "category": "research",
+      "role": {
+        "fr": "Responsable / porteur",
+        "en": "Principal investigator",
+        "ar": ""
+      },
+      "summary": {
+        "fr": "Amélioration de la gestion spatiale et temporelle à grande échelle des catastrophes naturelles et humaines à la base de la théorie de la décision dans le risque et l’incertain.",
+        "en": "Amélioration de la gestion spatiale et temporelle à grande échelle des catastrophes naturelles et humaines à la base de la théorie de la décision dans le risque et l’incertain.",
+        "ar": ""
+      },
+      "details": [],
+      "organization": {
+        "fr": "",
+        "en": "",
+        "ar": ""
+      },
+      "country": {
+        "fr": "Maroc",
+        "en": "Morocco",
+        "ar": "المغرب"
+      },
+      "year": "",
+      "status": "",
+      "partners": [],
+      "image": "",
+      "links": [
+        {
+          "label": "Source",
+          "href": "https://academyskills.net/ezziyyani/research/Projects.html"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "as-projet-5",
+      "title": {
+        "fr": "Ordonnancement et planification dynamique par contraintes",
+        "en": "Ordonnancement et planification dynamique par contraintes",
+        "ar": "Ordonnancement et planification dynamique par contraintes"
+      },
+      "category": "research",
+      "role": {
+        "fr": "Responsable / porteur",
+        "en": "Principal investigator",
+        "ar": ""
+      },
+      "summary": {
+        "fr": "Ordonnancement et planification dynamique par contraintes pour l’optimisation et partage des ressources dans l’exécution des processus métiers coopératifs d’un business plan.",
+        "en": "Ordonnancement et planification dynamique par contraintes pour l’optimisation et partage des ressources dans l’exécution des processus métiers coopératifs d’un business plan.",
+        "ar": ""
+      },
+      "details": [],
+      "organization": {
+        "fr": "",
+        "en": "",
+        "ar": ""
+      },
+      "country": {
+        "fr": "Maroc",
+        "en": "Morocco",
+        "ar": "المغرب"
+      },
+      "year": "",
+      "status": "",
+      "partners": [],
+      "image": "",
+      "links": [
+        {
+          "label": "Source",
+          "href": "https://academyskills.net/ezziyyani/research/Projects.html"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "as-projet-6",
+      "title": {
+        "fr": "Outils analytiques Big-Data pour la sécurité",
+        "en": "Outils analytiques Big-Data pour la sécurité",
+        "ar": "Outils analytiques Big-Data pour la sécurité"
+      },
+      "category": "research",
+      "role": {
+        "fr": "Responsable / porteur",
+        "en": "Principal investigator",
+        "ar": ""
+      },
+      "summary": {
+        "fr": "Conception et développement d’outils analytiques évolutifs pour les Big-Data appliqués à la sécurité pour la détection des attaques furtives avancées et protection des données.",
+        "en": "Conception et développement d’outils analytiques évolutifs pour les Big-Data appliqués à la sécurité pour la détection des attaques furtives avancées et protection des données.",
+        "ar": ""
+      },
+      "details": [],
+      "organization": {
+        "fr": "",
+        "en": "",
+        "ar": ""
+      },
+      "country": {
+        "fr": "Maroc",
+        "en": "Morocco",
+        "ar": "المغرب"
+      },
+      "year": "",
+      "status": "",
+      "partners": [],
+      "image": "",
+      "links": [
+        {
+          "label": "Source",
+          "href": "https://academyskills.net/ezziyyani/research/Projects.html"
+        }
+      ],
+      "featured": false
+    }
+  ],
+  "courses": [
+    {
+      "id": "merise",
+      "title": "Merise",
+      "level": "Licence / Master",
+      "resources": [
+        {
+          "kind": "support",
+          "title": "Page du cours (AcademicSkills)",
+          "href": "https://academyskills.net/ezziyyani/Teaching/merise.html"
+        }
+      ]
+    },
+    {
+      "id": "uml",
+      "title": "UML",
+      "level": "Licence / Master",
+      "resources": [
+        {
+          "kind": "support",
+          "title": "Page du cours (AcademicSkills)",
+          "href": "https://academyskills.net/ezziyyani/Teaching/uml.html"
+        }
+      ]
+    },
+    {
+      "id": "bdd",
+      "title": "Bases de données (BD)",
+      "level": "Licence",
+      "resources": [
+        {
+          "kind": "support",
+          "title": "Page du cours (AcademicSkills)",
+          "href": "https://academyskills.net/ezziyyani/Teaching/bdd.html"
+        }
+      ]
+    },
+    {
+      "id": "bdda",
+      "title": "Bases de données avancées",
+      "level": "Master",
+      "resources": [
+        {
+          "kind": "support",
+          "title": "Page du cours (AcademicSkills)",
+          "href": "https://academyskills.net/ezziyyani/Teaching/bdda.html"
+        }
+      ]
+    },
+    {
+      "id": "pc",
+      "title": "Programmation en C",
+      "level": "Licence",
+      "resources": [
+        {
+          "kind": "support",
+          "title": "Page du cours (AcademicSkills)",
+          "href": "https://academyskills.net/ezziyyani/Teaching/pc.html"
+        }
+      ]
+    },
+    {
+      "id": "pcpp",
+      "title": "Programmation en C++",
+      "level": "Licence",
+      "resources": [
+        {
+          "kind": "support",
+          "title": "Page du cours (AcademicSkills)",
+          "href": "https://academyskills.net/ezziyyani/Teaching/pcpp.html"
+        }
+      ]
+    },
+    {
+      "id": "pj",
+      "title": "Programmation en Java",
+      "level": "Licence / Master",
+      "resources": [
+        {
+          "kind": "support",
+          "title": "Page du cours (AcademicSkills)",
+          "href": "https://academyskills.net/ezziyyani/Teaching/pj.html"
+        }
+      ]
+    },
+    {
+      "id": "pp",
+      "title": "Programmation en Python",
+      "level": "Licence / Master",
+      "resources": [
+        {
+          "kind": "support",
+          "title": "Page du cours (AcademicSkills)",
+          "href": "https://academyskills.net/ezziyyani/Teaching/pp.html"
+        }
+      ]
+    },
+    {
+      "id": "pr",
+      "title": "Programmation en R",
+      "level": "Master",
+      "resources": [
+        {
+          "kind": "support",
+          "title": "Page du cours (AcademicSkills)",
+          "href": "https://academyskills.net/ezziyyani/Teaching/pr.html"
+        }
+      ]
+    },
+    {
+      "id": "dm",
+      "title": "Data Mining",
+      "level": "Master",
+      "resources": [
+        {
+          "kind": "support",
+          "title": "Page du cours (AcademicSkills)",
+          "href": "https://academyskills.net/ezziyyani/Teaching/dm.html"
+        }
+      ]
+    },
+    {
+      "id": "ma",
+      "title": "Machine Learning",
+      "level": "Master",
+      "resources": [
+        {
+          "kind": "support",
+          "title": "Page du cours (AcademicSkills)",
+          "href": "https://academyskills.net/ezziyyani/Teaching/ma.html"
+        }
+      ]
+    },
+    {
+      "id": "ia",
+      "title": "Intelligence Artificielle (IA)",
+      "level": "Master",
+      "resources": [
+        {
+          "kind": "support",
+          "title": "Page du cours (AcademicSkills)",
+          "href": "https://academyskills.net/ezziyyani/Teaching/ia.html"
+        }
+      ]
+    },
+    {
+      "id": "bi",
+      "title": "Business Intelligence",
+      "level": "Master",
+      "resources": [
+        {
+          "kind": "support",
+          "title": "Page du cours (AcademicSkills)",
+          "href": "https://academyskills.net/ezziyyani/Teaching/bi.html"
+        }
+      ]
+    },
+    {
+      "id": "dw",
+      "title": "Entrepôt de données (Data Warehouse)",
+      "level": "Master",
+      "resources": [
+        {
+          "kind": "support",
+          "title": "Page du cours (AcademicSkills)",
+          "href": "https://academyskills.net/ezziyyani/Teaching/dw.html"
+        }
+      ]
+    },
+    {
+      "id": "access",
+      "title": "Access",
+      "level": "Licence",
+      "resources": [
+        {
+          "kind": "support",
+          "title": "Page du cours (AcademicSkills)",
+          "href": "https://academyskills.net/ezziyyani/Teaching/access.html"
+        }
+      ]
+    },
+    {
+      "id": "ss",
+      "title": "SQL Server",
+      "level": "Licence / Master",
+      "resources": [
+        {
+          "kind": "support",
+          "title": "Page du cours (AcademicSkills)",
+          "href": "https://academyskills.net/ezziyyani/Teaching/ss.html"
+        }
+      ]
+    },
+    {
+      "id": "oracle",
+      "title": "Oracle",
+      "level": "Master",
+      "resources": [
+        {
+          "kind": "support",
+          "title": "Page du cours (AcademicSkills)",
+          "href": "https://academyskills.net/ezziyyani/Teaching/oracle.html"
+        }
+      ]
+    }
+  ]
+}

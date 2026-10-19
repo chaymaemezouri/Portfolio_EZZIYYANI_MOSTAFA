@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { projectCategoryIds, projects } from "@/data/projects";
+import { projectCategoryIds } from "@/data/projects";
+import { useProjects } from "@/content/hooks";
 import { ArrowLink } from "@/components/shared/ArrowLink";
 import { Reveal } from "@/components/shared/Reveal";
 import { useI18n } from "@/i18n/I18nProvider";
@@ -82,6 +83,7 @@ export function ProjectMosaic({ items }: { items: ResearchProject[] }) {
 
 export function SelectedProjects() {
   const { locale, t } = useI18n();
+  const projects = useProjects();
   return (
     <section className="band">
       <div className="container">

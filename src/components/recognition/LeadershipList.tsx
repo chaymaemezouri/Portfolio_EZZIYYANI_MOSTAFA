@@ -1,9 +1,10 @@
-import { leadershipRoles } from "@/data/leadership";
+import { useLeadership } from "@/content/hooks";
 import { useI18n } from "@/i18n/I18nProvider";
 import { text } from "@/utils/text";
 
 export function LeadershipList() {
   const { locale, t } = useI18n();
+  const leadershipRoles = useLeadership();
   if (leadershipRoles.length === 0) {
     return <p className="empty-note">{t("leadership.empty")}</p>;
   }

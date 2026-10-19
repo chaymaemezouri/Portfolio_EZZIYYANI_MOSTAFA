@@ -113,6 +113,77 @@ html[dir="rtl"] .nav-desktop a::after {
   transform: scaleX(1);
 }
 
+.nav-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.nav-drop {
+  position: absolute;
+  top: 100%;
+  inset-inline-start: -0.9rem;
+  z-index: 20;
+  display: grid;
+  min-width: 220px;
+  margin-top: 0.85rem;
+  padding: 0.45rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: white;
+  box-shadow: var(--shadow);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(4px);
+  transition: opacity 0.2s var(--ease), transform 0.2s var(--ease), visibility 0.2s;
+}
+
+.nav-drop::before {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  top: -0.9rem;
+  height: 0.9rem;
+}
+
+.nav-group > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.nav-caret {
+  color: var(--gold-700);
+  transition: transform 0.2s var(--ease);
+}
+
+.nav-group:hover .nav-caret,
+.nav-group:focus-within .nav-caret {
+  transform: rotate(180deg);
+}
+
+.nav-group:hover .nav-drop,
+.nav-group:focus-within .nav-drop {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+}
+
+.nav-desktop .nav-drop a {
+  padding: 0.5rem 0.65rem;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.nav-desktop .nav-drop a::after {
+  content: none;
+}
+
+.nav-desktop .nav-drop a:hover,
+.nav-desktop .nav-drop a[aria-current="page"] {
+  background: var(--sky-soft);
+}
+
 .header-tools {
   display: flex;
   align-items: center;
@@ -192,6 +263,23 @@ html[dir="rtl"] .nav-desktop a::after {
   font-family: var(--serif);
   font-size: clamp(1.2rem, 2.2vw, 1.55rem);
   line-height: 1.15;
+}
+
+.overlay-sub {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+  padding: 0.55rem 0 0.7rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.overlay-sub a {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.9rem;
+}
+
+.overlay-sub a:hover {
+  color: var(--gold-500);
 }
 
 .overlay-link .num {

@@ -1,6 +1,6 @@
 import { FormEvent, useState } from "react";
 import { contactPurposes } from "@/data/navigation";
-import { profile } from "@/data/profile";
+import { useProfile } from "@/content/hooks";
 import { useI18n } from "@/i18n/I18nProvider";
 
 interface FormState {
@@ -23,6 +23,7 @@ const empty: FormState = {
 
 export function ContactForm() {
   const { t } = useI18n();
+  const profile = useProfile();
   const [values, setValues] = useState<FormState>(empty);
   const [status, setStatus] = useState("");
 

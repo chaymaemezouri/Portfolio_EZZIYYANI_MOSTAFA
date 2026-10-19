@@ -1,9 +1,10 @@
-import { education } from "@/data/education";
+import { useEducation } from "@/content/hooks";
 import { useI18n } from "@/i18n/I18nProvider";
 import { joinText, text } from "@/utils/text";
 
 export function JourneyTimeline() {
   const { locale, t } = useI18n();
+  const education = useEducation();
   if (education.length === 0) {
     return (
       <div className="timeline">

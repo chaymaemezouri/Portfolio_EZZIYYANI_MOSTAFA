@@ -1,7 +1,6 @@
 import { useRef } from "react";
 import { academicNarrative, academicStats } from "@/data/academic";
-import { bookEditions } from "@/data/books";
-import { leadershipRoles } from "@/data/leadership";
+import { useBooks, useLeadership } from "@/content/hooks";
 import { ArrowLink } from "@/components/shared/ArrowLink";
 import { SwipeHint } from "@/components/shared/SwipeHint";
 import { useI18n } from "@/i18n/I18nProvider";
@@ -11,11 +10,13 @@ import { text } from "@/utils/text";
 export function RecognitionSection() {
   const { locale, t } = useI18n();
   const booksRef = useRef<HTMLDivElement>(null);
+  const bookEditions = useBooks();
+  const leadershipRoles = useLeadership();
   const total = academicStats.find((stat) => stat.id === "total");
   const covers = bookEditions.flatMap((edition) =>
     edition.volumes
       .filter((item) => item.cover)
-      .map((item) => ({ ...item, edition: edition.name })),
+      .map((item, index) => ({ ...item, id: item.id ?? `${edition.id}-${index}`, edition: edition.name })),
   ).slice(0, 6);
 
   return (

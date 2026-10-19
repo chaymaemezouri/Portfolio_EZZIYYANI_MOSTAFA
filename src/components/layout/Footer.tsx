@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { footerAcademic, footerExplore } from "@/data/navigation";
-import { profile } from "@/data/profile";
+import { useProfile } from "@/content/hooks";
 import { visibleSocialLinks } from "@/data/socialLinks";
 import { useI18n } from "@/i18n/I18nProvider";
 import { localePath, locales, swapLocale } from "@/utils/locale";
@@ -12,6 +12,7 @@ function footerPath(locale: string, id: string): string {
 
 export function Footer() {
   const { locale, t } = useI18n();
+  const profile = useProfile();
   const { pathname } = useLocation();
   const year = new Date().getFullYear();
 

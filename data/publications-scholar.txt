@@ -1,0 +1,464 @@
+International Conference on Advanced Intelligent Systems for Sustainable Development (AI2SD 2024): AI2SD Global Submit Symposium Serie On Health, Energy, Environment and …
+M Ezziyyani, J Kacprzyk, VE Balas
+Springer
+Random forest method for predicting discharge current waveform and mode of dielectric barrier discharges
+L Abdelhamid, C Abdellah, E Mostafa
+Indonesian Journal of Electrical Engineering and Computer Science 39 (1 …
+Modeling and Optimization of Time Series by Signal Extraction Methods with Application to Monetary Data Analysis and Anti-cyclical Economic Public Policy
+C Abdelhai, E Mostafa
+International Conference on Advanced Intelligent Systems for Sustainable …
+A Smart Approach Towards a System e-Health Monitoring
+S El Mamoune, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+Impact of Artificial Intelligence (AI) on Academic Learning Practices for Moroccan Students in Economics and Management
+A Lyaakobi, AE Abbadi, M Ezziyyani, N Kharmoum
+International Conference on Advanced Intelligent Systems for Sustainable …
+Leveraging Artificial Intelligence for Enhanced Histopathological Image Analysis in Lung and Colon Cancer Diagnosis: Development of a Mobile Application
+L Cherrat, S Khrouch, M Chraibi, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+Renewable Energy Cartography: Locating Ideal Sites for Solar and Wind Power Stations
+M Ezziyyani, L Cherrat, N Safa, TB Khtiri
+International Conference on Advanced Intelligent Systems for Sustainable …
+Forecasting Food Security in Morocco
+M Ezziyyani, L Cherrat, S Chrit, SE Mamoune
+International Conference on Advanced Intelligent Systems for Sustainable …
+AI-Driven Pest Control and Disease Detection in Smart Farming Systems
+S Rekiek, H Jebari, M Ezziyyani, L Cherrat
+International Conference on Advanced Intelligent Systems for Sustainable …
+Enhancing Surgical Training Through Serious Game Simulations: A Focus on Knee Replacement Procedures
+M Ezziyyani, L Cherrat, A Bakkali, J Ouhatna
+International Conference on Advanced Intelligent Systems for Sustainable …
+CNN-Based Plant Disease Detection: A Pathway to Sustainable Agriculture
+M Ezziyyani, L Cherrat, H Jebari, S Rekiek, N ahmed
+International Conference on Advanced Intelligent Systems for Sustainable …
+Change Management: Challenges, Insights and Emerging Trends
+F Lazar, M Boukhlif, S Khaldi, M Ezziyyani, A Bouayad
+International Conference on Advanced Intelligent Systems for Sustainable …
+Flood Management Through the Application of Learning Models Automatic
+M Ezziyyani, L Cherrat, Y Benmessoud, SE Mamoune
+International Conference on Advanced Intelligent Systems for Sustainable …
+Revolutionizing Healthcare: AI and Computer Vision in Diagnostics and Surgical Education
+M Ezziyyani, L Cherrat, A Bakkali
+International Conference on Advanced Intelligent Systems for Sustainable …
+Image Classification of Moroccan Cultural Trademarks
+M Ezziyyani, L Cherrat, S Rekiek, H Jebari
+International Conference on Advanced Intelligent Systems for Sustainable …
+Artificial Intelligence for Optimizing Livestock Management and Enhancing Animal Welfare
+H Jebari, S Rekiek, M Ezziyyani, L Cherrat
+International Conference on Advanced Intelligent Systems for Sustainable …
+Enhancing Master Accreditation Processes Through Machine Learning Automation
+M Ezziyyani, L Cherrat, S Chrit, AE Youssefi, A Aziz
+International Conference on Advanced Intelligent Systems for Sustainable …
+Mental Health Therapy: A Comparative Study of Generative AI and Deepfake Technology
+B Acim, N Kharmoum, M Ezziyyani, S Ziti
+International Conference on Advanced Intelligent Systems for Sustainable …
+INTELLIGENT SYSTEM FOR PRECISION TREATMENT MANAGEMENT FOR PATIENTS WITH BREAST CANCER METASTASIS
+S KHROUCH, L CHERRAT, M EZZIYYANI
+Journal of Theoretical and Applied Information Technology 102 (21)
+International Conference on Advanced Intelligent Systems for Sustainable Development (AI2SD’2023): Advanced Intelligent Systems on Digital Health Technology, Volume 2
+M Ezziyyani, J Kacprzyk, VE Balas
+Springer Nature
+XIDINTV: XGBoost‐Based Intrusion Detection of Imbalance Network Traffic via Variational Auto‐Encoder
+OH Abdulganiyu, T Ait Tchaoucht, M Ezziyyani, M Benslimane
+Mathematical Modeling and Computing 11 (4), 930-945
+Advanced Intelligent Systems on Energy, Environment and Agriculture
+M Ezziyyani, J Kacprzyk, VE Balas
+Springer
+Implementing Genetic Algorithm-Based Expert Systems to Enhance Academic Career Planning
+A El Yessefi, L Cherrat, MR Ech-Charrat, M Ezziyyani
+International Journal of Information and Education Technology 14 (10)
+Exploring the application of classical and intelligent software testing in medicine: a literature review
+M Boukhlif, N Kharmoum, M Hanine, C Elasri, W Rhalem, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+Enhancing Ambulance Traffic Movement: A Data-Driven Approach
+Y Benmessaoud, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+Efficiency of Wind Turbines for Power Energy Generation Towards Forecasting Weather
+N Safa, M Ezziyyani, L Cherrat
+International Conference on Advanced Intelligent Systems for Sustainable …
+The radiation of base stations and mobile phones effects on human health
+I El Moudden, A Chentouf, L Cherrat, MR Ech-Charrat, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+Intelligent System for Forecasting Climate Deterioration and Assessing the Potential Impact of Pollutants
+NA Ahmed, Y Benmessaoud, BR Hamdail, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+New Approach for Predicting Optimal Neoadjuvant Treatment in Breast Cancer Patients Using a Dynamic Treatment Graph
+S Khrouch, L Cherrat, W Rhalem, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+The Study of an Energy Management Strategy within a Microgrid with Photovoltaic Production of the<< PROPRE. MA>> Project in the City of Tangier and Integrating V2G Technology
+Y Doudou, A Cherkaoui, M Ezziyyani
+Processes 11 (7), 2090
+An Analysis of Several Optimizers on CNNSVM and CNNRF for COVID-19 Chest X-ray Images.
+Z Rustam, JE Aurelia, F Novkaniza, S Hartini, R Hidayat, M Ezziyyani
+International Journal on Advanced Science, Engineering & Information …
+A New Predictive Analytics Model to Assess the Employability of Academic Careers, Based
+A El, S Elmamoune, L Cherrat, S Khrouch, MR Ech-Charrat, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+HER-Omics, a Model of Transcriptomics Data Integration in EHRs
+M Lemsayah, A Bougdira, N Al Idrissi, W Rhalem, M Ezziyyani, C Nejjari, ...
+International Conference on Advanced Intelligent Systems for Sustainable …
+International Conference on Advanced Intelligent Systems for Sustainable Development: Volume 3-Advanced Intelligent Systems on Agriculture and Health
+J Kacprzyk, M Ezziyyani, VE Balas
+Springer Nature
+An Efficient and Robust Ischemic Stroke Detection Using a Combination of Convolutional Neural Network (CNN) and Kernel K-Means Clustering
+Z Rustam, S Hartini, F Novkaniza, J Pandelaki, R Hidayat, M Ezziyyani
+Int. J. Adv. Sci. Eng. Inf. Technol 13 (3), 969-974
+Real-time self-adaptive traffic management system for optimal vehicular navigation in modern cities
+Y Benmessaoud, L Cherrat, M Ezziyyani
+Computers 12 (4), 80
+International Conference on Advanced Intelligent Systems for Sustainable Development: Volume 1-Advanced Intelligent Systems on Artificial Intelligence, Software, and Data Science
+VE Balas, M Ezziyyani, J Kacprzyk
+Springer International Publishing AG
+Case Study on the Evolution of Learners' Learning in the MOOC
+I Dhaiouir, M Ezziyyani, M Khaldi
+International Journal of Emerging Technologies in Learning (iJET) 17 (13 …
+Solving Assignment Problem Using Decision Under Uncertainty and Game Theory: A Comparative Approach with Python Coding
+N Kalaivani, EM Visalakshidevi, M Ezziyyani
+Proceedings of 2nd International Conference on Mathematical Modeling and …
+Theory: A Comparative Approach with Python Coding
+N Kalaivani, EM Visalakshidevi, M Ezziyyani
+Proceedings of 2nd International Conference on Mathematical Modeling and …
+New Approach to Interconnect Hybride Blockchains
+HM Amine, Z Soumia, N Kharmoum, L Hicham, E Mostafa
+International Conference on Advanced Intelligent Systems for Sustainable …
+Berth allocation and quay crane assignment and scheduling problem under energy constraints: literature review
+M Ech-Charrat, M El Amrani, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+Agile user stories’ driven method: a novel users stories meta-model in the mda approach
+N Kharmoum, S Retal, KE Bouchti, W Rhalem, MZ Es-Sadek, S Ziti, ...
+International Conference on Advanced Intelligent Systems for Sustainable …
+New Analytical Method to Classify Areas According to Signal Quality and Coverage of GSM Network
+I El Moudden, A Chentouf, L Cherrat, W Rhalem, MR Ech-charrat, ...
+International Conference on Advanced Intelligent Systems for Sustainable …
+Tracking Methods: Comprehensive Vision and Multiple Approaches
+A Ariss, I Ennejjai, N Kharmoum, W Rhalem, S Ziti, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+Towards an Approach for Studying the Evolution of Learners’ Learning in E-Learning
+I Dhaiouir, L Cherrat, M Ezziyyani, M Khaldi
+International Conference on Advanced Intelligent Systems for Sustainable …
+Artificial intelligence for fake news
+I Ennejjai, A Ariss, N Kharmoum, W Rhalem, S Ziti, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+Neural Network Feature-Based System for Real-Time Road Condition Prediction
+Y Benmessaoud, L Cherrat, MR Ech-charrat, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+A Smart Interactive Decision Support System for Real-Time Adaptation in the Mobility Strategy for Optimization of the Employee’s Transportation
+S El Mamoune, AE Yessefi, L Charrat, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+A New Predictive Analytics Model to Assess the Employability of Academic Careers, Based on Genetic Algorithms
+A El Yessefi, S Elmamoune, L Cherrat, S Khrouch, MR Ech-Charrat, ...
+International Conference on Advanced Intelligent Systems for Sustainable …
+NLP methods’ information extraction for textual data: an analytical study
+B Benkassioui, N Kharmoum, MY Hadi, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+Machine learning for diabetes prediction: a systematic review and a conceptual framework for early prediction
+S Retal, H Sahbani, N Kharmoum, W Rhalem, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+Breast cancer progression prediction for care treatment efficiency and intelligent adaptation, based on AI algorithm classification
+S Khrouch, M Tsouli Fathi, A El Yessefi, L Cherrat, W Rhalem, ...
+International Conference on Advanced Intelligent Systems for Sustainable …
+HER-Omics, a Model of Transcriptomics Data Integration in EHRs
+N Habib, A Idrissi Azami, D El Ghoubali, Z El Ouafi, M Lemsayah, ...
+International Conference on Advanced Intelligent Systems for Sustainable …
+AGRI-PREDI Prediction System of Climate Change Based on Machine Learning for Precision Agriculture in Mediterranean Region
+M Tsouli Fathi, R Tsouli Fathi, S Khrouch, L Cherrat, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+Contribution to the Development of a Technological Platform for Analysis in Precision Agriculture for the Biovigilance of Cryptogamic Diseases in Strawberry (Fragaria× ananassa)
+M Ezziyyani, A Hamdache, L Cherrat, I Laksiby, M Ezziyyani, H Alilou, ...
+International Conference on Advanced Intelligent Systems for Sustainable …
+Epileptic Seizure Prediction Using Artificial Intelligence Methods
+I Zidane, J Mhamdi, M Ezziyyani, W Rhalem, N Zidane
+International Conference on Advanced Intelligent Systems for Sustainable …
+Artificial intelligence for stroke prediction
+J Gsim, MZ Es-Sadek, W Rhalem, N Kharmoum, N Al idrissi, L Belyamani, ...
+International Conference on Advanced Intelligent Systems for Sustainable …
+Technocreativity, social networks and entrepreneurship: diagnostics of skills in university students
+P Comesaña-Comesaña, A Amorós-Pons, I Alexeeva-Alexeev
+International Journal of Emerging Technologies in Learning (iJET) 17 (5 …
+Smart Model for Classification and Orientation of Learners in a MOOC
+I Dhaiouir, M Ezziyyani, M Khaldi
+International Journal of Emerging Technologies in Learning (iJET) 17 (5), 19-35
+Advanced Intelligent Systems for Sustainable Development (AI2SD’2020): Volume 1
+J Kacprzyk, VE Balas, M Ezziyyani
+Springer Nature
+The personalization of learners’ educational paths e-learning
+I Dhaiouir, M Ezziyyani, M Khaldi
+Networking, Intelligent Systems and Security: Proceedings of NISS 2021, 521-534
+Artificial Neural Network Applications for Predicting Electrical Characteristics of Dielectric Barrier Discharge
+L Abdelhamid, C Abdellah, E Mostafa
+International Conference on Advanced Intelligent Systems for Sustainable …
+Toward Deep Data Analytics for Predicting Professional Satisfaction Based on Student’s Profile in Primary School
+A El Yessefi, L Cherrat, MR Ech-charrat, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+Variable neighborhood search to design a green dynamic cellular manufacturing system considering carbon emission minimization
+M Ech-Charrat, MR Ech-Charrat, M Amrani, L Cherrat, T Zouadi, ...
+International Conference on Advanced Intelligent Systems for Sustainable …
+Sensor Network Proposal for Greenhouse Automation of the Cultivation and Fertilization of Strawberries Placed at the Smart Farm
+M Ezziyyani, A Hamdache, L Cherrat, I Laksiby, M Ezziyyani, H Alilou, ...
+International Conference on Advanced Intelligent Systems for Sustainable …
+Deep learning approaches for arabic sentiment analysis-case study: Detection of potential suicide cases
+S Boukil, AEE Moutaouakkil, L Cherrat, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+Data collection based on multi-agent modeling for intelligent and precision farming in lokoss region morocco
+M Zaryouli, MT Fathi, M Ezziyyani
+2020 1st international conference on innovative research in applied science …
+Towards a new approach to reduce the dropout rate in e-learning
+D Ilham, E Mostafa, K Mohamed
+Proceedings of the 3rd International Conference on Networking, Information …
+Exploring Convolutional Neural Networks
+A Hamza, N En-Nahnahi¹, M Ezziyyani
+Advanced Intelligent Systems for Sustainable Development (AI2SD’2019 …
+Smarter Crossing Analytics System to Predict
+A El Yessefi, M Ezziyyani, L Cherrat
+Advanced Intelligent Systems for Sustainable Development (AI2SD’2019 …
+Advanced Intelligent Systems for Sustainable Development (AI2SD’2019): Volume 1-Advanced Intelligent Systems for Education and Intelligent Learning System
+M Ezziyyani
+Springer Nature
+Optimization Time and Path for Employee Transportation
+M Ezziyyani
+—
+Advanced Intelligent Systems for Multimedia Processing and Mathematical Modeling
+M Ezziyyani
+Springer
+Advanced Intelligent Systems for Applied Computing Sciences
+M Ezziyyani
+Springer
+Advanced Intelligent Systems for Sustainable Development (AI2SD'2019)
+M Ezziyyani
+Springer
+Advanced Intelligent Systems for Sustainable Development (AI2SD’2019): Volume 6-Advanced Intelligent Systems for Networks and Systems
+M Ezziyyani
+Springer Nature
+Intelligent Observatory System on Information Technologies, Social Networks and Infrared to Analyze and Predict Social Mutations
+I Ezznati, L Cherrat, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+Exploring Convolutional Neural Networks and Recurrent Neural Networks for Arabic Question Classification
+A Hamza, N En-Nahnahi, M Ezziyyani, S El Alaoui Ouatik
+International Conference on Advanced Intelligent Systems for Sustainable …
+Decision system for the selection of the best therapeutic protocol for breast cancer based on genetic Algorithm
+S Khrouch, M Ezziyyani, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+Crop yield prediction using deep learning in Mediterranean Region
+M Tsouli Fathi, M Ezziyyani, M Ezziyyani, S El Mamoune
+International Conference on Advanced Intelligent Systems for Sustainable …
+Facility location problem for reusable containers distribution system
+MR Ech-Charrat, I Ezznati, M Ezziyyani, L Cherrat, T Zouadi
+International Conference on Advanced Intelligent Systems for Sustainable …
+Evaluation of Strawberry Seed Treatments with Biological Control Agents Bacillus amyloliquefaciens
+A Hamdache, M Ezziyyani, A Lamarti
+International Conference on Advanced Intelligent Systems for Sustainable …
+The Influence of Technology and Social Networks on Social Change
+MY Doukali Fenni, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+Optimization time and path for employee transportation
+S El Mamoune, M Tsouli Fathi, W El Mamoune, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+A case study of virtualization used in mixed criticality systems
+A Tellabi, M Parekh, C Ruland, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+A New Approach to Manage Profiles in the MOOC System
+D Ilham, E Mostafa, K Mohamed
+International Conference on Advanced Intelligent Systems for Sustainable …
+Smarter Crossing Analytics System to Predict and Anticipate the Student Behavior for Self Automatic Adaptation of Academic Learning
+AE Yessefi, M Ezziyyani, L Cherrat, MR Ech-Charrat
+International Conference on Advanced Intelligent Systems for Sustainable …
+Ubiquitous Platform as a Service for Large-Scale Ubiquitous Applications Cloud-Based
+M Zaryouli, M Ezziyyani
+International Conference on Artificial Intelligence and Symbolic Computation …
+Advanced Intelligent Systems for Sustainable Development (AI2SD’2018): Volume 5: Advanced Intelligent Systems for Computing Sciences
+M Ezziyyani
+Springer
+Smart Data and Computational Intelligence: Proceedings of the International Conference on Advanced Information Technology, Services and Systems (AIT2S-18) Held on October 17–18 …
+F Khoukhi, M Bahaj, M Ezziyyani
+Springer
+and the Quality of Agricultural Production
+MT Fathi, M Ezziyyani
+Advanced Intelligent Systems for Sustainable Development (AI2SD’2018): Vol 1 …
+Analytical Approach for Virtual Classification
+C Loubna, K Sarah, E Mostafa
+Advanced Intelligent Systems for Sustainable Development (AI2SD’2018): Vol 4 …
+Hybrid Techniques to Conserve Energy in WSN
+M Ezziyyani, M Essaaidi¹
+Advanced Intelligent Systems for Sustainable Development (AI2SD’2018): Vol 2 …
+Advanced Intelligent Systems for Sustainable Development (AI2SD’2018)
+M Ezziyyani, Ditzinger, Ezziyyani
+Springer International Publishing
+Advances in intelligent systems and computing 1103 advanced intelligent systems for sustainable development (AI2SD’2019) Volume 2-advanced intelligent systems for sustainable …
+M Ezziyyani
+Conference Proceeding Held in Marrakech, Morocco, from 8
+Predictable consequences of climate change for varieties of strawberry plants grown in Morocco
+M Ezziyyani, A Hamdache, M Ezziyyani, L Cherrat
+International Journal of Sustainable Agricultural Management and Informatics …
+How can data mining help us to predict the influence of climate change on Mediterranean agriculture?
+MT Fathi, M Ezziyyani
+International Journal of Sustainable Agricultural Management and Informatics …
+Multilayered echo-state machine: a novel architecture for efficient intrusion detection
+T Ait Tchakoucht, M Ezziyyani
+Ieee Access 6, 72458-72468
+A New Langage for Adaptatif System Structured Decision Network Language (SDNL)
+S El Mamoune, M Ezziyyani, M Tsouli Fathi
+International Conference on Advanced Intelligent Systems for Sustainable …
+An effective parallel approach to solve multiple traveling salesmen problem
+A Othman, E Haimoudi, R Mouhssine, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+A deep learning model for intrusion detection
+TA Tchakoucht, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+Data mining for predicting the quality of crops yield based on climate data analytics
+M Tsouli Fathi, M Ezziyyani, S El Mamoune
+International Conference on Advanced Intelligent Systems for Sustainable …
+Smart Management System to Monitor the Negative Impact of Chemical Substances and the Climate Change on the Environment and the Quality of Agricultural Production
+L Cherrat, MT Fathi, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+Impacts of climate change on the production, yield and cost of adaptation of varieties imported from strawberry plants in the perimeter of Loukkos (Morocco)
+M Ezziyyani, A Hamdache, M Ezziyyani, L Cherrat
+International Conference on Advanced Intelligent Systems for Sustainable …
+Effect of climate change on growth, development and pathogenicity of phytopathogenic telluric fungi
+M Ezziyyani, A Hamdache, M Asraoui, ME Requena, C Egea-Gilabert, ...
+International Conference on Advanced Intelligent Systems for Sustainable …
+Decision System for the Selection of the Best Therapeutic Protocol for Breast Cancer Based on Advanced Data-Mining: A Survey
+S Khrouch, M Ezziyyani, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+Towards an Intelligent Data Analysis System for Decision Making in Medical Diagnostics
+EK Haimoudi, O Abdoun, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+Hybrid Techniques to Conserve Energy in WSN
+ZA Sadouq, M Ezziyyani, M Essaaidi
+International Conference on Advanced Intelligent Systems for Sustainable …
+Analytical Approach for Virtual Classification of e-Health Interventions and Medical Data Sources Integration
+C Loubna, K Sarah, E Mostafa
+International Conference on Advanced Intelligent Systems for Sustainable …
+Deep learning algorithm for suicide sentiment prediction
+S Boukil, F El Adnani, L Cherrat, AE El Moutaouakkil, M Ezziyyani
+International Conference on Advanced Intelligent Systems for Sustainable …
+Smart Data and Computational Intelligence
+F Khoukhi, M Bahaj, M Ezziyyani
+Conference proceedings AIT2S, 28
+Building a fast intrusion detection system for high-speed-networks: Probe and dos attacks detection
+T Ait Tchakoucht, M Ezziyyani
+Procedia Computer Science 127, 521-530
+Advanced Information Technology, Services and Systems: Proceedings of the International Conference on Advanced Information Technology, Services and Systems (AIT2S-17) Held on …
+M Ezziyyani, M Bahaj, F Khoukhi
+Springer
+The relevant data mining algorithm for predicting the quality of production of olive in Granada region influenced by the climate change
+MT Fathi, M Ezziyyani, L Cherrat, S Sendra, J Lloret
+Proceedings of the Mediterranean Symposium on Smart City Application, 1-6
+Detecting Network Intrusions Using Multi-class Logistic Regression and Correlation-Based Feature Selection
+T Ait tchakoucht, M Ezziyyani
+International Conference on Advanced Information Technology, Services and …
+Optimal Regulation of Energy Delivery for Community Microgrids Based on Constraint Satisfaction and Multi-agent System
+M Ezziyyani, L Cherrat
+International Conference on Advanced Information Technology, Services and …
+Arabic Stemming techniques as feature extraction applied in Arabic text classification
+S Boukil, F El Adnani, AE El Moutaouakkil, L Cherrat, M Ezziyyani
+International Conference on Advanced Information Technology, Services and …
+Allocation Strategy for Cloud Datacenter Based on Multi Agent and CP Approach
+M Soltane, K Okba, E Mostafa, D Makhlouf
+International Conference on Advanced Information Technology, Services and …
+Modelling of context Information for disaster emergency system application: Flood
+S El Mamoune, M Ezziyyani, A Taitai
+2016 4th IEEE International Colloquium on Information Science and Technology …
+Automatic Mobile Diagnostic System for Collaborative Patients Based on Data Migration and Users Experiences
+A Taitai, M Ezziyyani, L Cherrat, EM Soumaya
+Proceedings of the Mediterranean Conference on Information & Communication …
+Practical application of the data preprocessing method for kohonen neural networks in pattern recognition tasks
+O Abdoun, M Ezziyyani
+—
+Towards a new approach to improve the classification accuracy of the Kohonen’s self-organizing map during learning process
+H FAKHOURI, L CHERRAT, M Ezziyyani
+International Journal of Advanced Computer Science and Applications 7 (3)
+Behavioral appraoch for intrusion detection
+T Ait Tchakoucht, M Ezziyyani, M Jbilou, M Salaun
+2015 IEEE/ACS 12th International Conference of Computer Systems and …
+NEW EXPERT SYSTEM FOR SHORT, MEDIUM AND LONG-TERM FLOOD FORECASTING AND WARNING.
+M El Mabrouk, M Ezziyyani, ZA Sadouq, M Essaaidi
+Journal of Theoretical & Applied Information Technology 78 (2)
+Data extraction for user profile management based on behavior
+C Loubna, E Mostafa, H Mohammed
+2015 International Conference on Cloud Technologies and Applications …
+Towards a new approach for modelling interactive real time systems based on collaborative decisions network
+S El Mamoune, M Ezziyyani, J Lloret Mauri
+Macrothink Institute
+Security and Surveillance System for Drivers Based on User Profile and learning systems for Face Recognition.
+L Cherrat, M Ezziyyani, AEL Mouden, M Hassar
+Netw. Protoc. Algorithms 7 (1), 98-118
+9
+2014
+New system forecast e-health by using hybrid of association rules and decision tree
+A El Haddioui, S El Mamoune, L Cherrat, M Ezziyyani, T Sadiki, ...
+2014 5th Workshop on Codes, Cryptography and Communication Systems (WCCCS …
+Toward an optimal model based on inequality measures for treatment of historical & real time flood's dataset
+E Mostafa, E Mohammad
+2014 Third IEEE International Colloquium in Information Science and …
+An adaptive intelligent decision support system for real-time flood forecasting
+ELM Marouane, O KASSARA, ELM Soumaya, M EZZIYYANI, M ESSAAIDI, ...
+International Journal of Research in Computer Applications and Robotics 1 (7 …
+Conception of real-time flood forecasting system approach based on anytime techniques
+CL El Mabrouk Marouane, E Mostafa, E Mohammad
+Proceeding Engineering & Technology (PET) of the International Conference on …
+Optimization Query Process of Mediators Interrogation Based on Combinatorial Storage
+L Cherrat, M Ezziyyani, M Essaaidi
+International Journal of Advanced Computer Science and Applications 4 (4)
+Intelligent evacuation system for flood disaster
+S Imane, C Loubna, E Mostafa, E Mohammed
+Intelligent Distributed Computing VI: Proceedings of the 6th International …
+Query optimization based on users profile
+C Loubna, E Mostafa, K Omar, E Mohammed
+2012 International Conference on Multimedia Computing and Systems, 706-712
+Automatic Generation of Query Order Execution Plan for Hybrid Mediator with Medical Sources
+C Loubna, E Mostafa, E Mohammed
+2011 International Conference on Cyber-Enabled Distributed Computing and …
+Using cooperatives ontologies for the customization of hybrid mediator interrogation process
+C Loubna, E Mostafa, M Essaaidi, O Kassara, B Mustapha
+Annals of Spiru Haret University, 115
+Hybrid Integration Approach for Heteregenous Information Sources: Applied to Medical Resources and Patients Medical Documents
+L Cherrat, M Ezziyyani, M Essaaidi, M Bennouna
+2008 New Technologies, Mobility and Security, 1-5
+An Advanced XML Mediator for Heterogeneous Information Systems Based on Application Domain Specification.
+M Ezziyyani, M Bennouna, L Cherrat
+Int. J. Comput. Sci. Appl. 3 (2), 74-90
+Security techniques and specifications for the resources protection in mediation systems
+M Ezziyyani, M Bennouna, M Essaaidi, L Cherrat, A Zouitni, M Hlimi
+MELECON 2006-2006 IEEE Mediterranean Electrotechnical Conference, 824-827
+Information Assurance and Computer Security 127 JP Thomas and M. Essaaidi (Eds.) IOS Press, 2006© 2006 IOS Press. All rights reserved.
+M EZZIYYANI, M BENNOUNA
+Information Assurance and Computer Security 6, 127
+Mediator of the heterogeneous information systems based on application domains specification: AXMed Advanced XML Mediator
+M Ezziyyani, M Bennouna, M Essaaidi, L Cherrat
+IEEE Journal, International Computer Science an Applications IJCSA, 25-45
+Using basic Security Techniques and specifications for Confidential Resources Protection in Web-based Distributed Systems
+M Ezziyyani, M Bennouna, M Essaaidi, M Hlimi, L Cherrat
+Information Assurance and Computer Security, 127-154
+A Quantitative Study to Evaluate the Performance of the Semantic Cache Management Methods
+M Ezziyyani, M Bennouna, M Essaaidi
+EUROCON 2005-The International Conference on" Computer as a Tool" 1, 697-700
+Destruction de l’aflatoxine M1 par les bactéries lactiques du lben Marocain et du yaourt
+M Khaddor, A Tantaoui-Elaraki, A Benajiba, A Lamarti, M Ezziyyani, ...
+Bull. Soc. Pharm. Bordeaux 142, 101-112
+Artificial Intelligence for Stroke Prediction
+J Aasfara, S Jidane, M Ezziyyani, H Ghazal
+—
+A Comparative Study Between the Management Methods of Semantic Cache
+M Ezziyyani, M Bennouna, M Essaaidi, L Cherrat, M Hlimi, M En-naimi
+methodology 16, 19
+INTEGRATION VIRTUELLE DES CATALOGUES D’IMAGES SATELLITAIRES POUR LA LOCALISATION ET LE CONTROLE DES DEGATS DES ZONES INONDABLES
+E MOSTAFA, C LOUBNA, B MUSTAPHA, E MOHAMMED
+—
+Structured Language of Decision Network
+S EL MAMOUNE, M EZZIYYANI
+—
+Automatic Mobile Diagnostic System for Collaborative Patients Based on Data Migration and Users Experimentation
+A TAITAI, M EZZIYYANI, L CHERRAT, S ELMAMOUNE
+—
+DISASTER EMERGENCY SYSTEM
+S EL MAMOUNE, M EZZIYYANI
+—
+Smart Grid Based Data Integration Platform and Constraints satisfaction for Optimal Managing of the Energy Distribution
+M Ezziyyani, L Cherrat, S El Karimi, M Ezziyyani, M Diani, M Jbilou
+—
+Behavioral approach for intrusion detection Application field:"‘E-Health"’
+T Ait Tchakoucht, M Ezziyyani
+—
+INTEGRATION SEMANTIQUE DES DONNEES GENOMIQUES POUR LES MALADIES DE CANCER
+M Ezziyyani, W Sebihi, M Bennouna, M Essaaidi, M HLIMI
+—

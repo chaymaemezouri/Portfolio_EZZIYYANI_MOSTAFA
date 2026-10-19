@@ -1,4 +1,4 @@
-import { profile } from "@/data/profile";
+import { useProfile } from "@/content/hooks";
 import { ContactForm } from "@/components/contact/ContactForm";
 import { SocialIcon } from "@/components/shared/SocialIcon";
 import { visibleSocialLinks } from "@/data/socialLinks";
@@ -9,6 +9,7 @@ import { localePath } from "@/utils/locale";
 
 export default function ContactPage() {
   const { locale, t } = useI18n();
+  const profile = useProfile();
   return (
     <>
       <Seo title={t("contact.title")} description={t("meta.pages.contact")} path={localePath(locale, "contact")} />

@@ -18,6 +18,11 @@
       "recognition": "Distinctions, prix et leadership institutionnel.",
       "contact": "Contacter le Prof. Dr. Mostafa Ezziyyani.",
       "avatar": "Assistant du profil officiel du Prof. Dr. Mostafa Ezziyyani.",
+      "teaching": "Cours, PFE et visites encadrés par le Prof. Dr. Mostafa Ezziyyani.",
+      "patents": "Brevets du Prof. Dr. Mostafa Ezziyyani.",
+      "innovation": "Produits et innovation du Prof. Dr. Mostafa Ezziyyani.",
+      "team": "Équipe de recherche du Prof. Dr. Mostafa Ezziyyani.",
+      "gallery": "Galerie photos du Prof. Dr. Mostafa Ezziyyani.",
       "privacy": "Informations de confidentialité de ce site."
     }
   },
@@ -38,11 +43,60 @@
     "contact": "Contact",
     "avatar": "Avatar",
     "leadership": "Leadership",
+    "teaching": "Enseignement",
+    "collaboration": "Collaboration",
+    "gallery": "Galerie",
+    "patents": "Brevets",
+    "innovation": "Produits & Innovation",
+    "team": "Équipe",
     "openMenu": "Ouvrir le menu",
     "closeMenu": "Fermer le menu",
     "search": "Rechercher",
     "skip": "Aller au contenu",
     "menu": "Menu"
+  },
+  "team": {
+    "search": "Rechercher un nom ou un sujet de thèse",
+    "empty": "Aucun membre ne correspond à cette recherche.",
+    "title": "Équipe",
+    "lede": "Doctorants encadrés et intitulés de leurs thèses.",
+    "year": "Inscription",
+    "role": "Doctorant(e)",
+    "thesisPending": "Intitulé de la thèse à venir."
+  },
+  "showcase": {
+    "patentsLede": "Brevets déposés et délivrés.",
+    "innovationLede": "Produits, plateformes et solutions issus de la recherche.",
+    "galleryLede": "Moments choisis : conférences, rencontres et événements.",
+    "number": "N°",
+    "inventors": "Inventeurs",
+    "document": "Document",
+    "video": "Vidéo",
+    "open": "Voir",
+    "close": "Fermer"
+  },
+  "teaching": {
+    "title": "Enseignement",
+    "lede": "Cours, projets de fin d'études et visites.",
+    "courses": "Cours",
+    "accessCourse": "Accéder au cours",
+    "pfe": "PFE",
+    "pfeMaster": "PFE Master",
+    "pfeLicence": "PFE Licence",
+    "visits": "Visites",
+    "visitsLede": "Immersions industrielles et échanges avec le monde socio-économique.",
+    "visitPhotos": "Galerie",
+    "visitClose": "Fermer",
+    "empty": "Contenu à venir.",
+    "pending": "Contenu à venir.",
+    "resources": {
+      "support": "Support",
+      "ppt": "PPT",
+      "td": "TDs",
+      "tp": "TPs",
+      "project": "Projets",
+      "homework": "Devoirs"
+    }
   },
   "hero": {
     "fields": "Intelligence artificielle · Transformation numérique\nScience des données · Cybersécurité",
@@ -141,6 +195,8 @@
     }
   },
   "researchInterest": {
+    "intro": "Données massives, systèmes distribués et intelligence artificielle : des axes complémentaires pour la gestion des données et des connaissances.",
+    "approach": "L’approche scientifique du laboratoire",
     "eyebrow": "Axes scientifiques",
     "pageTitle": "Intérêts de recherche",
     "axes": "Axes de recherche",
@@ -431,6 +487,7 @@
     "back": "Retour à l'accueil"
   },
   "common": {
+    "clearSearch": "Effacer la recherche",
     "pending": "À ajouter",
     "external": "S'ouvre dans un nouvel onglet",
     "close": "Fermer",

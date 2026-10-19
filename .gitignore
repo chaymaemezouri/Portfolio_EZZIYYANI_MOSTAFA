@@ -4,3 +4,10 @@ dist
 *.local
 .vite
 .extract
+server/.env
+server/data
+server/uploads
+# Vidéo e-Ochestra (~66 Mo) — trop lourde pour Git ; reste en local
+public/assets/academyskills/patents/*.mp4
+public/assets/Video-orchestra.mp4
+src/assets/Video-orchestra.mp4

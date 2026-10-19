@@ -6,6 +6,7 @@ import "@/styles/base.css";
 import "@/styles/layout.css";
 import "@/styles/home.css";
 import "@/styles/pages.css";
+import "@/styles/science.css";
 
 const root = document.getElementById("root");
 if (!root) throw new Error("Root element missing");

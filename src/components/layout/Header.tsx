@@ -1,11 +1,10 @@
 import { useEffect, useId, useMemo, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, Search, X } from "lucide-react";
+import { ChevronDown, Menu, Search, X } from "lucide-react";
 import { navItems } from "@/data/navigation";
 import { expertiseDomains } from "@/data/expertise";
-import { bookEditions } from "@/data/books";
-import { listedPublications, publications } from "@/data/publications";
-import { projects } from "@/data/projects";
+import { publications } from "@/data/publications";
+import { useBooks, useProjects, usePublications } from "@/content/hooks";
 import { useI18n } from "@/i18n/I18nProvider";
 import { useLockBody } from "@/hooks/useLockBody";
 import { localePath, locales, swapLocale } from "@/utils/locale";
@@ -19,6 +18,9 @@ export function Header() {
   const [searchOpen, setSearchOpen] = useState(false);
   const [query, setQuery] = useState("");
   const searchId = useId();
+  const listedPublications = usePublications();
+  const bookEditions = useBooks();
+  const projects = useProjects();
 
   useLockBody(menuOpen || searchOpen);
 
@@ -54,7 +56,7 @@ export function Header() {
 
   const results = useMemo(() => {
     const needle = query.trim().toLowerCase();
-    const pages = navItems.map((item) => ({
+    const pages = navItems.flatMap((item) => [item, ...(item.children ?? [])]).map((item) => ({
       id: item.id,
       label: t(`nav.${item.id}`),
       to: localePath(locale, item.path),
@@ -83,8 +85,8 @@ export function Header() {
       })),
     ];
     const books = bookEditions.flatMap((edition) =>
-      edition.volumes.map((item) => ({
-        id: item.id,
+      edition.volumes.map((item, index) => ({
+        id: `${edition.id}-${index}`,
         label: `${edition.name} — ${item.title}`,
         to: localePath(locale, "books"),
         kind: t("nav.books"),
@@ -101,7 +103,7 @@ export function Header() {
     return [...pages, ...domains, ...papers, ...books, ...works].filter((item) =>
       needle ? item.label.toLowerCase().includes(needle) : true,
     );
-  }, [locale, query, t]);
+  }, [bookEditions, listedPublications, locale, projects, query, t]);
 
   return (
     <header className={`site-header${scrolled ? " is-scrolled" : ""}${menuOpen ? " is-open" : ""}`}>
@@ -114,11 +116,32 @@ export function Header() {
         <nav className="nav-desktop" aria-label={t("nav.menu")}>
           {navItems.map((item) => {
             const href = localePath(locale, item.path);
-            const current = item.path === "" ? pathname === href : pathname.startsWith(href);
+            const inGroup = item.children?.some((child) => pathname.startsWith(localePath(locale, child.path)));
+            const current = item.path === "" ? pathname === href : pathname.startsWith(href) || inGroup;
+            if (!item.children) {
+              return (
+                <Link key={item.id} to={href} aria-current={current ? "page" : undefined}>
+                  {t(`nav.${item.id}`)}
+                </Link>
+              );
+            }
             return (
-              <Link key={item.id} to={href} aria-current={current ? "page" : undefined}>
-                {t(`nav.${item.id}`)}
-              </Link>
+              <div key={item.id} className="nav-group">
+                <Link to={href} aria-current={current ? "page" : undefined} aria-haspopup="true">
+                  {t(`nav.${item.id}`)}
+                  <ChevronDown className="nav-caret" size={14} strokeWidth={2} aria-hidden="true" />
+                </Link>
+                <div className="nav-drop">
+                  {item.children.map((child) => {
+                    const childHref = localePath(locale, child.path);
+                    return (
+                      <Link key={child.id} to={childHref} aria-current={pathname.startsWith(childHref) ? "page" : undefined}>
+                        {t(`nav.${child.id}`)}
+                      </Link>
+                    );
+                  })}
+                </div>
+              </div>
             );
           })}
         </nav>
@@ -164,9 +187,20 @@ export function Header() {
         <div className="nav-overlay" role="dialog" aria-modal="true" aria-label={t("nav.menu")}>
           <nav className="overlay-list">
             {navItems.map((item) => (
-              <Link key={item.id} className="overlay-link" to={localePath(locale, item.path)}>
-                <span>{t(`nav.${item.id}`)}</span>
-              </Link>
+              <div key={item.id}>
+                <Link className="overlay-link" to={localePath(locale, item.path)}>
+                  <span>{t(`nav.${item.id}`)}</span>
+                </Link>
+                {item.children ? (
+                  <div className="overlay-sub">
+                    {item.children.map((child) => (
+                      <Link key={child.id} to={localePath(locale, child.path)}>
+                        {t(`nav.${child.id}`)}
+                      </Link>
+                    ))}
+                  </div>
+                ) : null}
+              </div>
             ))}
           </nav>
           <div className="overlay-actions">

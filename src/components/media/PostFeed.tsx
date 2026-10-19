@@ -1,11 +1,12 @@
 import { useEffect, useRef } from "react";
-import { publicPosts } from "@/data/posts";
+import { usePosts } from "@/content/hooks";
 import { useI18n } from "@/i18n/I18nProvider";
 import { facebookPostEmbed, isFacebookUrl } from "@/utils/facebook";
 import { text } from "@/utils/text";
 
 export function PostFeed() {
   const { dir, locale, t } = useI18n();
+  const publicPosts = usePosts();
   const scroller = useRef<HTMLDivElement>(null);
   const posts = publicPosts.filter(
     (post) => post.images.length > 0 || Boolean(text(locale, post.text)) || isFacebookUrl(post.href),

@@ -18,6 +18,16 @@ const AcademicPage = lazy(() => import("@/pages/AcademicPage"));
 const RecognitionPage = lazy(() => import("@/pages/RecognitionPage"));
 const ContactPage = lazy(() => import("@/pages/ContactPage"));
 const AvatarPage = lazy(() => import("@/pages/AvatarPage"));
+const TeachingPage = lazy(() => import("@/pages/TeachingPage"));
+const PatentsPage = lazy(() => import("@/pages/ShowcasePages").then((m) => ({ default: m.PatentsPage })));
+const InnovationPage = lazy(() => import("@/pages/ShowcasePages").then((m) => ({ default: m.InnovationPage })));
+const GalleryPage = lazy(() => import("@/pages/ShowcasePages").then((m) => ({ default: m.GalleryPage })));
+const TeamPage = lazy(() => import("@/pages/TeamPage"));
+const AdminApp = lazy(() => import("@/admin/AdminApp"));
+const AdminDashboard = lazy(() => import("@/admin/AdminApp").then((m) => ({ default: m.Dashboard })));
+const AdminList = lazy(() => import("@/admin/AdminApp").then((m) => ({ default: m.CollectionList })));
+const AdminEditor = lazy(() => import("@/admin/AdminApp").then((m) => ({ default: m.ItemEditor })));
+const AdminHistory = lazy(() => import("@/admin/AdminApp").then((m) => ({ default: m.AuditLog })));
 const PrivacyPage = lazy(() => import("@/pages/PrivacyPage"));
 const NotFoundPage = lazy(() => import("@/pages/NotFoundPage"));
 
@@ -27,6 +37,12 @@ export default function App() {
       <Suspense fallback={<div className="route-fallback" />}>
         <Routes>
           <Route path="/" element={<Navigate to={`/${defaultLocale}`} replace />} />
+          <Route path="/admin" element={<AdminApp />}>
+            <Route index element={<AdminDashboard />} />
+            <Route path="history" element={<AdminHistory />} />
+            <Route path="c/:collection" element={<AdminList />} />
+            <Route path="c/:collection/:id" element={<AdminEditor />} />
+          </Route>
           <Route path="/:locale" element={<LocaleLayout />}>
             <Route index element={<HomePage />} />
             <Route path="profile" element={<ProfilePage />} />
@@ -43,6 +59,11 @@ export default function App() {
             <Route path="recognition" element={<RecognitionPage />} />
             <Route path="contact" element={<ContactPage />} />
             <Route path="avatar" element={<AvatarPage />} />
+            <Route path="teaching" element={<TeachingPage />} />
+            <Route path="patents" element={<PatentsPage />} />
+            <Route path="innovation" element={<InnovationPage />} />
+            <Route path="team" element={<TeamPage />} />
+            <Route path="gallery" element={<GalleryPage />} />
             <Route path="privacy" element={<PrivacyPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Route>

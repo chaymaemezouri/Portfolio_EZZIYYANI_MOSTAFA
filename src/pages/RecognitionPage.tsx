@@ -1,5 +1,5 @@
-import { awardCategories, awards } from "@/data/awards";
-import { certifications } from "@/data/certifications";
+import { awardCategories } from "@/data/awards";
+import { useAwards, useCertifications } from "@/content/hooks";
 import { LeadershipList } from "@/components/recognition/LeadershipList";
 import { Seo } from "@/components/shared/Seo";
 import { useI18n } from "@/i18n/I18nProvider";
@@ -8,6 +8,8 @@ import { joinText, text } from "@/utils/text";
 
 export default function RecognitionPage() {
   const { locale, t } = useI18n();
+  const awards = useAwards();
+  const certifications = useCertifications();
   return (
     <>
       <Seo title={t("recognition.pageTitle")} description={t("meta.pages.recognition")} path={localePath(locale, "recognition")} />

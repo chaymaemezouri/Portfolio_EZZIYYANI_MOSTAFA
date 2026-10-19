@@ -1,13 +1,15 @@
 import { useMemo, useState } from "react";
-import { Download, ExternalLink, Search } from "lucide-react";
-import { listedPublications } from "@/data/publications";
+import { BookOpen, Download, ExternalLink, Search, X } from "lucide-react";
+import { usePublications } from "@/content/hooks";
 import { Seo } from "@/components/shared/Seo";
 import { useI18n } from "@/i18n/I18nProvider";
 import { localePath } from "@/utils/locale";
+import { ResearchHero } from "@/components/research/ResearchHero";
 
 export default function PublicationsPage() {
   const { locale, t } = useI18n();
   const [query, setQuery] = useState("");
+  const listedPublications = usePublications();
 
   const results = useMemo(() => {
     const needle = query.trim().toLowerCase();
@@ -16,40 +18,39 @@ export default function PublicationsPage() {
       const haystack = `${item.title} ${item.authors} ${item.venue} ${item.year}`.toLowerCase();
       return haystack.includes(needle);
     });
-  }, [query]);
+  }, [listedPublications, query]);
 
   return (
-    <>
+    <div className="science-page">
       <Seo
         title={t("publications.pageTitle")}
         description={t("meta.pages.publications")}
         path={localePath(locale, "publications")}
       />
-      <header className="container pubs-open">
-        <p className="eyebrow">{t("publications.eyebrow")}</p>
-        <h1 className="page-title">{t("publications.pageTitle")}</h1>
-        <p className="page-lede">{t("publications.intro")}</p>
+      <ResearchHero eyebrow={t("publications.eyebrow")} title={t("publications.pageTitle")} description={t("publications.intro")} variant="publications" />
+      <section className="container science-publications" aria-label={t("publications.pageTitle")}>
         <div className="pubs-toolbar">
-          <p className="pubs-count">
-            {results.length} <span>{t("publications.countLabel")}</span>
+          <p className="pubs-count" aria-live="polite">
+            <BookOpen size={19} aria-hidden="true" />{results.length} <span>{t("publications.countLabel")}</span>
           </p>
-          <label className="pubs-search">
+          <div className="pubs-search">
             <Search size={16} aria-hidden="true" />
-            <span className="sr-only">{t("publications.searchLabel")}</span>
             <input
+              type="search"
+              aria-label={t("publications.searchLabel")}
               value={query}
               placeholder={t("publications.search")}
               onChange={(event) => setQuery(event.target.value)}
             />
-          </label>
+            {query ? <button type="button" onClick={() => setQuery("")} aria-label={t("common.clearSearch")}><X size={15} aria-hidden="true" /></button> : null}
+          </div>
         </div>
-      </header>
-      <section className="container pubs-list">
+      <div className="pubs-list">
         {results.length === 0 ? <p className="empty-note">{t("publications.empty")}</p> : null}
         <ol>
           {results.map((item) => (
             <li key={item.id}>
-              <span className="pubs-num">{item.number}</span>
+              <span className="pubs-num">{String(item.number).padStart(2, "0")}</span>
               <div className="pubs-body">
                 <h2>
                   {item.url ? (
@@ -83,7 +84,8 @@ export default function PublicationsPage() {
             </li>
           ))}
         </ol>
+      </div>
       </section>
-    </>
+    </div>
   );
 }

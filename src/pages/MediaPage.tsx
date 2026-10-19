@@ -1,5 +1,6 @@
 import { useSearchParams } from "react-router-dom";
-import { mediaFilters, mediaItems } from "@/data/videos";
+import { mediaFilters } from "@/data/videos";
+import { useVideos } from "@/content/hooks";
 import { VideoLibrary } from "@/components/home/MediaSection";
 import { PostFeed } from "@/components/media/PostFeed";
 import { socialById } from "@/data/socialLinks";
@@ -16,6 +17,7 @@ export default function MediaPage() {
   const requested = params.get("filter") ?? "all";
   const filter = mediaFilters.includes(requested as MediaCategory | "all") ? requested : "all";
   const channel = socialById("youtube");
+  const mediaItems = useVideos();
   const talks = mediaItems.filter((item) => youtubeId(item.youtubeUrl).length > 0);
 
   return (

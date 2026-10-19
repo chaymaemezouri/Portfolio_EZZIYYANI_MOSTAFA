@@ -1,7 +1,8 @@
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { ChevronDown, ChevronLeft, ChevronRight, ChevronUp, Play } from "lucide-react";
-import { mediaFilters, mediaItems } from "@/data/videos";
+import { mediaFilters } from "@/data/videos";
+import { useVideos } from "@/content/hooks";
 import { socialById } from "@/data/socialLinks";
 import { ArrowLink } from "@/components/shared/ArrowLink";
 import { useI18n } from "@/i18n/I18nProvider";
@@ -334,6 +335,7 @@ export function VideoLibrary({
 export function MediaSection() {
   const { t } = useI18n();
   const channel = socialById("youtube");
+  const mediaItems = useVideos();
   const talks = mediaItems.filter((item) => youtubeId(item.youtubeUrl).length > 0);
 
   return (

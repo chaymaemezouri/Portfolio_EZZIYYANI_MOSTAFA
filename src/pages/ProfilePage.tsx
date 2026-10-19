@@ -1,5 +1,6 @@
 import { Download } from "lucide-react";
-import { profile, profileSections, pullQuote } from "@/data/profile";
+import { pullQuote } from "@/data/profile";
+import { useProfile, useProfileSections } from "@/content/hooks";
 import { JourneyTimeline } from "@/components/profile/JourneyTimeline";
 import { PositionsSection } from "@/components/profile/PositionsSection";
 import { Seo } from "@/components/shared/Seo";
@@ -11,6 +12,10 @@ import { text } from "@/utils/text";
 
 export default function ProfilePage() {
   const { locale, t } = useI18n();
+  const profile = useProfile();
+  const profileSections = useProfileSections();
+  const sectionTitle = (section: (typeof profileSections)[number]) =>
+    text(locale, section.title) || t(`profile.sections.${section.id}`);
   const name = locale === "ar" && profile.nameAr
     ? profile.nameAr
     : `${profile.givenName} ${profile.familyName}`;
@@ -76,7 +81,7 @@ export default function ProfilePage() {
       <div className="container" style={{ paddingBottom: "var(--section-y)" }}>
         <section className={sectionClass("overview")} id="overview">
           <div className="profile-copy">
-            <h2>{t("profile.sections.overview")}</h2>
+            <h2>{profileSections[0] ? sectionTitle(profileSections[0]) : t("profile.sections.overview")}</h2>
             <div className="prose">
               {profileSections[0]?.paragraphs.map((paragraph, index) => <p key={index}>{text(locale, paragraph)}</p>)}
               {profileSections[0]?.facts.length ? (
@@ -121,7 +126,7 @@ export default function ProfilePage() {
           return (
           <section className={sectionClass(section.id)} id={section.id} key={section.id}>
             <div className="profile-copy">
-              <h2>{t(`profile.sections.${section.id}`)}</h2>
+              <h2>{sectionTitle(section)}</h2>
               <div className="prose">
                 {section.paragraphs.map((paragraph, index) => <p key={index}>{text(locale, paragraph)}</p>)}
                 {section.facts.length ? (

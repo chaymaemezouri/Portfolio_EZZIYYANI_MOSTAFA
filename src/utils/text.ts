@@ -3,7 +3,7 @@ import type { L10n, Locale, TextValue } from "@/types";
 export function text(locale: Locale, value: TextValue | undefined | null): string {
   if (!value) return "";
   if (typeof value === "string") return value;
-  return value[locale] || value.en;
+  return value[locale] || value.en || value.fr || value.ar || "";
 }
 
 export function joinText(

@@ -1,4 +1,4 @@
-import { conferences } from "@/data/conferences";
+import { useConferences } from "@/content/hooks";
 import { internationalActivities, internationalNotes } from "@/data/international";
 import { InternationalPresence } from "@/components/home/InternationalPresence";
 import { Seo } from "@/components/shared/Seo";
@@ -17,6 +17,7 @@ const groups: Array<{ id: string; categories: ActivityCategory[] }> = [
 
 export default function InternationalPage() {
   const { locale, t } = useI18n();
+  const conferences = useConferences();
   return (
     <>
       <Seo title={t("international.title")} description={t("meta.pages.international")} path={localePath(locale, "international")} />

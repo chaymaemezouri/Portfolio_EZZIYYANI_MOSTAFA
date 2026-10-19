@@ -1,0 +1,37 @@
+Brevet 1 : Lavabo Intégré avec Robinet à Circuit Intelligent pour la préservation de l’eau. (LIRCI)
+Dans ce brevet nous proposons une solution pour réduire et économiser la consommation personnelle et surtout d’éviter les perdes de l’eau lors de son usage domestique ou collective (Maisons, Hôtels, Immeuble, Usine etc..).
+L’idée de ce brevet et de proposer un lavabo intégré multifonctions en se focalisant sur le principe de la préservation de l’eau circulant dans les tuyaux de l’eau entre le chauffage et les robinets, éventuellement celle qui n’attient pas la température souhaitée (soit chaude ou froide). Le lavabo que nous proposons est prêt a utiliser sans aucune transformation ou modification ni dans le réseau ni dans l’installation.
+Detail...
+Brevet 2: e-Ochestra (Conducting Made Easier)
+Our Team EzzInova propose a new and an innovate solution ‘e-Ochestra’, where young musicians and amateurs can learn the basic conducting moves in a controllable and flexible environment using sensor as orchestra baton to communicate and hold a virtual orchestra theater.
+‘e-Ochestra’ a platform where young musicians and amateurs can learn the conducting moves in a controllable, interactive and flexible environment. The ‘e-Ochestra’ hold automatically a predefined fermata note, as long as the conductor user tells them the tempo, like as ups and downs of a piece. The learner uses a specific orchestra baton with integrated wireless sensor for gesture detection. We developed an optimal algorithm of gesture recognition based on hash code, and machine learning technique for detecting automatically the following signal with the used speed of gesture to control a group of fermata notes. The baton consists of a vibrating alarm controlled by the system to enquire the learner on handling errors for a new try.
+Before using the ‘e-Ochestra’ an expert or amateur can add the instruments virtual orchestra theater on the specific places and select with Support Agent. The Support Agent check the right choice of instruments places in orchestra theater using the same idea of last amazing solution of Microsoft “HOLOLENS”.
+Download : Video of Presentation ......
+Brevet 3: Dispositif et procédé d’aide à la conduite des véhicules pour des individus ayant une
+déficience auditive.
+Domaine de l’invention
+La présente invention a trait à un dispositif et un procédé d’aide à la conduite des véhicules
+pour des individus ayant une déficience auditive et plus particulièrement la mise en oeuvre d’un
+dispositif d’affichage d’informations utiles au profit d’un conducteur déficient auditif
+moyennant un procédé adéquat.
+Contexte général
+Depuis l'invention de la voiture, aucun effort n'a été consenti pour adapter son accessibilité à
+des personnes ayant une déficience auditive. Dans certains pays ces ne sont pas autorisées à
+conduire des véhicules ; selon les réglementations, on ne peut pas leur délivrer un permis de
+conduire et dans de nombreux autres pays, les personnes ayant une déficience auditive ne
+conduisent pas des voitures dans la crainte de provoquer des accidents.
+La présente invention a pour objet de décrire une idée innovante d’un dispositif et d’un procédé
+qui permettront aux individus déficients auditifs de conduire des véhicules et de surmonter
+l’obstacle de l’écoute des signalisations sonores et tous les sons qui peuvent se produire pendant
+la conduction d’un véhicule.
+Etat de la technique
+La   brevet international WO2007028630A1 décrit un dispositif à base d’au moins
+deux capteurs d’images sensible à la lumière infrarouge qui projette des images en face du
+conducteur d’un véhicule pour lui rendre compte de son environnement.
+D’autres brevets proposent des solutions similaires. Toutefois, ces solutions nécessitent un suivi
+soutenu des images issues des dits capteurs, de manière à ce que ledit conducteur risquerait de
+voir son attention détournée de sa conduite, ce qui contribuerait aussi à d’éventuels accidents.
+Notre solution n’utilise pas de capteurs d’images pour ne pas augmenter le risque de diversion
+du conducteur d’un véhicule, seuls des capteurs analogiques et des capteurs « TOUT OU
+RIEN » sont utilisés. L’affichage, quant à lui, est basé sur des signalisations lumineuses utilisant
+des LED ainsi que des moyens.
