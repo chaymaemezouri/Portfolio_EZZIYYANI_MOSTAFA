@@ -4,9 +4,11 @@ import { ArrowLink } from "@/components/shared/ArrowLink";
 import { useI18n } from "@/i18n/I18nProvider";
 import { localePath } from "@/utils/locale";
 
-const spotlights = Array.from({ length: 16 }, (_, index) => {
+const pngIndexes = new Set([1, 2, 4, 5, 8, 16, 22, 28, 29]);
+
+const spotlights = Array.from({ length: 29 }, (_, index) => {
   const n = String(index + 1).padStart(2, "0");
-  const ext = [1, 2, 4, 5, 8, 16].includes(index + 1) ? "png" : "jpg";
+  const ext = pngIndexes.has(index + 1) ? "png" : "jpg";
   return {
     id: `spotlight-${n}`,
     src: `/media/spotlight/spotlight-${n}.${ext}`,
