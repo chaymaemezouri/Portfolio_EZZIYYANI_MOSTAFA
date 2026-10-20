@@ -11,6 +11,7 @@ export const doctoralStudents: DoctoralStudent[] = [
     id: "ait-ahmed-nihad",
     name: "Ait Ahmed Nihad",
     year: 2022,
+    photo: "/team/ait-ahmed-nihad.jpg",
     thesis: "Système d'aide à la décision et de prévention des risques de changement climatique sur l'écosystèmes agro-écologiques",
   },
   {
@@ -45,6 +46,7 @@ export const doctoralStudents: DoctoralStudent[] = [
     id: "sadouq-zouhair-abdelghani",
     name: "Sadouq Zouhair Abdelghani",
     year: 2025,
+    photo: "/team/sadouq-zouhair-abdelghani.png",
     thesis: "Écosystème intelligent interconnecté et inclusive pour le dépistage, la surveillance et la lutte contre l'hydatidose au Maroc",
   },
   {

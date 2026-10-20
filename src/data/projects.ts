@@ -87,8 +87,8 @@ export const projects: ResearchProject[] = [
     ],
   },
   {
-    id: "penalathon",
-    title: "LE PENALATHON",
+    id: "hackaton",
+    title: "LE HACKATON",
     year: "",
     category: "transformation",
     role: l10n(
@@ -97,9 +97,9 @@ export const projects: ResearchProject[] = [
       "تأطير ومشاركة",
     ),
     summary: l10n(
-      "A digital-justice and penal-policy initiative to digitize the judicial system. He frames the work and takes part in it.",
-      "Initiative de justice numérique et de politiques pénales pour la numérisation du système judiciaire. Il en assure le cadrage et y participe.",
-      "مبادرة في العدالة الرقمية والسياسات العقابية لرقمنة المنظومة القضائية. يتولى تأطيرها ويشارك فيها.",
+      "A digital-justice hackathon to digitize the judicial system. He frames the work and takes part in it.",
+      "Hackaton de justice numérique pour la numérisation du système judiciaire. Il en assure le cadrage et y participe.",
+      "هاكاثون في العدالة الرقمية لرقمنة المنظومة القضائية. يتولى تأطيره ويشارك فيه.",
     ),
     organization: "",
     partners: [],

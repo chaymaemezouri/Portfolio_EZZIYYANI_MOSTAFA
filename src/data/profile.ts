@@ -87,9 +87,9 @@ export const profileSections: ProfileSection[] = [
     id: "advisory",
     paragraphs: [
       l10n(
-        "He serves as a sworn expert before the criminal courts in cybercrime, cybersecurity, big-data forensics and the interpretation of digital evidence. His advisory work also covers digital health, digital justice — including the LE PENALATHON initiative — and territorial governance.",
-        "Il intervient comme expert assermenté auprès des juridictions pénales pour la cybercriminalité, la cybersécurité, l'analyse forensique des données massives et l'interprétation de la preuve numérique. Son conseil couvre aussi la santé numérique, la justice numérique — dont l'initiative LE PENALATHON — et la gouvernance territoriale.",
-        "يعمل خبيراً معتمداً ومحلفاً لدى المحاكم الجنائية في الجرائم الإلكترونية والأمن السيبراني وتحليل البيانات الضخمة وتفسير الأدلة الرقمية. وتشمل خبرته القطاعية الصحة الرقمية، والعدالة الرقمية ومن بينها مبادرة LE PENALATHON، والحكامة الترابية.",
+        "He serves as a sworn expert before the criminal courts in cybercrime, cybersecurity, big-data forensics and the interpretation of digital evidence. His advisory work also covers digital health, digital justice — including LE HACKATON — and territorial governance.",
+        "Il intervient comme expert assermenté auprès des juridictions pénales pour la cybercriminalité, la cybersécurité, l'analyse forensique des données massives et l'interprétation de la preuve numérique. Son conseil couvre aussi la santé numérique, la justice numérique — dont LE HACKATON — et la gouvernance territoriale.",
+        "يعمل خبيراً معتمداً ومحلفاً لدى المحاكم الجنائية في الجرائم الإلكترونية والأمن السيبراني وتحليل البيانات الضخمة وتفسير الأدلة الرقمية. وتشمل خبرته القطاعية الصحة الرقمية، والعدالة الرقمية ومن بينها LE HACKATON، والحكامة الترابية.",
       ),
     ],
     facts: [],

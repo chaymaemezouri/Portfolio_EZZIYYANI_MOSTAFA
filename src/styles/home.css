@@ -972,6 +972,139 @@ html[dir="rtl"] .hero-grid {
   color: var(--on-navy-muted);
 }
 
+.presence-strip {
+  padding: 0.4rem 0 2.4rem;
+  overflow: hidden;
+  background:
+    linear-gradient(180deg, rgba(15, 29, 58, 0.03), transparent 42%),
+    var(--bg);
+}
+
+.presence-strip-head {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.presence-strip-head .section-title {
+  margin-top: 0.2rem;
+  font-size: clamp(1.45rem, 2.4vw, 1.9rem);
+}
+
+.presence-viewport {
+  overflow: hidden;
+  mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent);
+}
+
+.presence-track {
+  display: flex;
+  width: max-content;
+  gap: 0.9rem;
+  padding-inline: 4vw;
+  animation: presence-scroll 72s linear infinite;
+}
+
+.presence-viewport:hover .presence-track {
+  animation-play-state: paused;
+}
+
+.presence-card {
+  flex: 0 0 auto;
+  width: min(320px, 72vw);
+  aspect-ratio: 16 / 10;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid rgba(15, 29, 58, 0.12);
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 8px 22px rgba(15, 29, 58, 0.06);
+  cursor: zoom-in;
+  transition: transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease;
+}
+
+.presence-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.presence-card:hover {
+  border-color: rgba(15, 29, 58, 0.28);
+  box-shadow: 0 16px 36px rgba(15, 29, 58, 0.12);
+  transform: translateY(-4px);
+}
+
+.presence-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+  background: rgba(8, 14, 28, 0.82);
+}
+
+.presence-lightbox-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+}
+
+.presence-lightbox figure {
+  margin: 0;
+  max-width: min(960px, 100%);
+  max-height: 88vh;
+}
+
+.presence-lightbox img {
+  width: 100%;
+  max-height: 88vh;
+  object-fit: contain;
+  border-radius: 4px;
+  background: #0a1224;
+}
+
+@keyframes presence-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .presence-track {
+    animation: none;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: 100%;
+    padding-bottom: 0.4rem;
+    scrollbar-width: thin;
+  }
+}
+
+@media (max-width: 720px) {
+  .presence-strip-head {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .presence-card {
+    width: min(260px, 78vw);
+  }
+}
+
 .expertise-board {
   display: flex;
   flex-direction: column;

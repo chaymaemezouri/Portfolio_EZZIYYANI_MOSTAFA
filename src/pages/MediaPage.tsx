@@ -2,6 +2,7 @@ import { useSearchParams } from "react-router-dom";
 import { mediaFilters } from "@/data/videos";
 import { useVideos } from "@/content/hooks";
 import { VideoLibrary } from "@/components/home/MediaSection";
+import { PresenceStrip } from "@/components/home/PresenceStrip";
 import { PostFeed } from "@/components/media/PostFeed";
 import { socialById } from "@/data/socialLinks";
 import { ArrowLink } from "@/components/shared/ArrowLink";
@@ -28,6 +29,9 @@ export default function MediaPage() {
           <h1 className="page-title">{t("media.pageTitle")}</h1>
           <p className="page-lede">{t("media.intro")}</p>
         </header>
+      </section>
+      <PresenceStrip showMediaLink={false} />
+      <section className="container media-page media-page-videos">
         <VideoLibrary
           items={talks}
           initialFilter={filter}

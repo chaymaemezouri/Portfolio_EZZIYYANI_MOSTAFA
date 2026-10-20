@@ -5,6 +5,7 @@ import { FeaturedResearch } from "@/components/home/FeaturedResearch";
 import { HomeReel } from "@/components/home/HomeReel";
 import { Hero } from "@/components/home/Hero";
 import { MediaSection } from "@/components/home/MediaSection";
+import { PresenceStrip } from "@/components/home/PresenceStrip";
 import { RecognitionSection } from "@/components/home/RecognitionSection";
 import { SelectedProjects } from "@/components/home/SelectedProjects";
 import { useI18n } from "@/i18n/I18nProvider";
@@ -19,6 +20,7 @@ export default function HomePage() {
         <Hero />
       </div>
       <Expertise />
+      <PresenceStrip />
       <FeaturedResearch />
       <HomeReel />
       <SelectedProjects />
