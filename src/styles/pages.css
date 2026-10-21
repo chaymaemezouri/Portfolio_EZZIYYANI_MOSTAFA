@@ -996,6 +996,37 @@ html[dir="rtl"] .timeline-spine::after {
   font-size: 0.92rem;
 }
 
+.international-countries {
+  padding-top: 2.5rem;
+  padding-bottom: var(--section-y);
+}
+
+.international-country-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.international-country-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.65rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: var(--navy-800);
+}
+
+.international-country-list li::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  flex: none;
+  border-radius: 50%;
+  background: var(--gold-500);
+}
+
 .record-block {
   padding-block: 2rem;
   border-top: 1px solid var(--line);

@@ -1987,15 +1987,6 @@ html[dir="rtl"] .pub-row:hover .pub-arrow {
   font-size: 0.85rem;
 }
 
-.map-tip .map-tip-summary {
-  width: clamp(180px, 25vw, 300px);
-  margin-top: 0.5rem;
-  padding-top: 0.5rem;
-  border-top: 1px solid var(--line);
-  font-size: 0.75rem;
-  line-height: 1.7;
-}
-
 .region-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);

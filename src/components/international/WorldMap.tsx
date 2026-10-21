@@ -3,7 +3,7 @@ import { worldLandPath } from "@/assets/world-land";
 import type { InternationalActivity } from "@/types";
 import { activityConnections } from "@/data/international";
 import { useI18n } from "@/i18n/I18nProvider";
-import { joinText, text } from "@/utils/text";
+import { text } from "@/utils/text";
 
 export function WorldMap({ activities }: { activities: InternationalActivity[] }) {
   const { locale, t } = useI18n();
@@ -51,7 +51,7 @@ export function WorldMap({ activities }: { activities: InternationalActivity[] }
             type="button"
             className="map-node"
             style={{ left: `${activity.x}%`, top: `${activity.y}%` }}
-            aria-label={joinText(locale, [activity.city || activity.country, activity.institution], " ")}
+            aria-label={text(locale, activity.country)}
             onMouseEnter={() => setActiveId(activity.id)}
             onMouseLeave={() => setActiveId(null)}
             onFocus={() => setActiveId(activity.id)}
@@ -61,9 +61,6 @@ export function WorldMap({ activities }: { activities: InternationalActivity[] }
         {active ? (
           <div className="map-tip" style={{ left: `${active.x}%`, top: `${active.y}%` }}>
             <strong>{text(locale, active.country)}</strong>
-            <span>{joinText(locale, [active.city, active.institution])}</span>
-            <span>{t(`international.categories.${active.category}`)}</span>
-            {text(locale, active.summary) ? <span className="map-tip-summary">{text(locale, active.summary)}</span> : null}
           </div>
         ) : null}
       </div>
