@@ -63,6 +63,7 @@ export function WorldMap({ activities }: { activities: InternationalActivity[] }
             <strong>{text(locale, active.country)}</strong>
             <span>{joinText(locale, [active.city, active.institution])}</span>
             <span>{t(`international.categories.${active.category}`)}</span>
+            {text(locale, active.summary) ? <span className="map-tip-summary">{text(locale, active.summary)}</span> : null}
           </div>
         ) : null}
       </div>

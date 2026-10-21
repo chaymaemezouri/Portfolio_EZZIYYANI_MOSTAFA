@@ -1,6 +1,6 @@
 import { useEffect, useId, useMemo, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { ChevronDown, Menu, Search, X } from "lucide-react";
+import { ChevronDown, Globe, Menu, Search, X } from "lucide-react";
 import { navItems } from "@/data/navigation";
 import { expertiseDomains } from "@/data/expertise";
 import { publications } from "@/data/publications";
@@ -16,6 +16,7 @@ export function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
+  const [langOpen, setLangOpen] = useState(false);
   const [query, setQuery] = useState("");
   const searchId = useId();
   const listedPublications = usePublications();
@@ -34,7 +35,18 @@ export function Header() {
   useEffect(() => {
     setMenuOpen(false);
     setSearchOpen(false);
+    setLangOpen(false);
   }, [pathname]);
+
+  useEffect(() => {
+    if (!langOpen) return;
+    const onPointer = (event: MouseEvent) => {
+      const target = event.target as HTMLElement | null;
+      if (!target?.closest(".lang-menu")) setLangOpen(false);
+    };
+    window.addEventListener("mousedown", onPointer);
+    return () => window.removeEventListener("mousedown", onPointer);
+  }, [langOpen]);
 
   useEffect(() => {
     const openSearch = () => setSearchOpen(true);
@@ -43,16 +55,17 @@ export function Header() {
   }, []);
 
   useEffect(() => {
-    if (!menuOpen && !searchOpen) return;
+    if (!menuOpen && !searchOpen && !langOpen) return;
     const onKey = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
         setMenuOpen(false);
         setSearchOpen(false);
+        setLangOpen(false);
       }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [menuOpen, searchOpen]);
+  }, [menuOpen, searchOpen, langOpen]);
 
   const results = useMemo(() => {
     const needle = query.trim().toLowerCase();
@@ -147,18 +160,34 @@ export function Header() {
         </nav>
 
         <div className="header-tools">
-          <div className="lang-switch" role="group" aria-label={t("common.language")}>
-            {locales.map((item) => (
-              <Link
-                key={item}
-                to={swapLocale(pathname, item)}
-                hrefLang={item}
-                lang={item}
-                aria-current={item === locale ? "true" : undefined}
-              >
-                {item.toUpperCase()}
-              </Link>
-            ))}
+          <div className={`lang-menu${langOpen ? " is-open" : ""}`}>
+            <button
+              className="icon-btn lang-toggle"
+              type="button"
+              aria-expanded={langOpen}
+              aria-haspopup="menu"
+              aria-label={t("common.language")}
+              onClick={() => setLangOpen((open) => !open)}
+            >
+              <Globe size={18} aria-hidden="true" />
+            </button>
+            {langOpen ? (
+              <div className="lang-drop" role="menu" aria-label={t("common.language")}>
+                {locales.map((item) => (
+                  <Link
+                    key={item}
+                    role="menuitem"
+                    to={swapLocale(pathname, item)}
+                    hrefLang={item}
+                    lang={item}
+                    aria-current={item === locale ? "true" : undefined}
+                    onClick={() => setLangOpen(false)}
+                  >
+                    {item.toUpperCase()}
+                  </Link>
+                ))}
+              </div>
+            ) : null}
           </div>
           <button
             className="icon-btn header-search"

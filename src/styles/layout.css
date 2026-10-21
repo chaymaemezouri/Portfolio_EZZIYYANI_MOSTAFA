@@ -34,10 +34,12 @@
 }
 
 .header-inner {
+  position: relative;
   width: min(1440px, calc(100% - (var(--gutter) * 2)));
   margin-inline: auto;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 1.5rem;
 }
 
@@ -45,7 +47,7 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  margin-inline-end: auto;
+  z-index: 2;
   min-width: 0;
 }
 
@@ -79,9 +81,13 @@
 }
 
 .nav-desktop {
+  position: absolute;
+  left: 50%;
+  z-index: 1;
   display: flex;
   align-items: center;
   gap: 0.95rem;
+  transform: translateX(-50%);
 }
 
 .nav-desktop a {
@@ -188,7 +194,66 @@ html[dir="rtl"] .nav-desktop a::after {
   display: flex;
   align-items: center;
   gap: 0.85rem;
+  z-index: 2;
   margin-inline-start: 0.4rem;
+}
+
+.lang-menu {
+  position: relative;
+}
+
+.lang-toggle {
+  border: 1px solid var(--line);
+  border-radius: 50%;
+}
+
+.lang-drop {
+  position: absolute;
+  top: calc(100% + 0.45rem);
+  inset-inline-end: 0;
+  z-index: 30;
+  display: grid;
+  min-width: 4.5rem;
+  padding: 0.35rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: white;
+  box-shadow: var(--shadow);
+}
+
+.lang-drop a {
+  padding: 0.45rem 0.7rem;
+  border-radius: 6px;
+  color: var(--navy-800);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.lang-drop a:hover,
+.lang-drop a[aria-current="true"] {
+  background: var(--sky-soft);
+  color: var(--navy-900);
+}
+
+.site-header.is-open .lang-toggle {
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+.site-header.is-open .lang-drop {
+  background: #13233f;
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.site-header.is-open .lang-drop a {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.site-header.is-open .lang-drop a:hover,
+.site-header.is-open .lang-drop a[aria-current="true"] {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
 }
 
 .lang-switch {
@@ -204,16 +269,8 @@ html[dir="rtl"] .nav-desktop a::after {
   color: var(--muted);
 }
 
-.site-header.is-open .lang-switch a {
-  color: rgba(255, 255, 255, 0.62);
-}
-
 .lang-switch a[aria-current="true"] {
   color: var(--navy-900);
-}
-
-.site-header.is-open .lang-switch a[aria-current="true"] {
-  color: white;
 }
 
 .icon-btn {

@@ -34,11 +34,11 @@
 .nav-desktop .nav-drop a:hover,
 .nav-desktop .nav-drop a[aria-current="page"] { background: #f4f5f8; }
 .header-tools { gap: 0.6rem; }
-.lang-switch { padding: 4px; gap: 1px; border-radius: 8px; background: #f2f4f7; font-size: 0.62rem; letter-spacing: 0; }
-.lang-switch a { padding: 4px 5px; border-radius: 5px; }
-.lang-switch a[aria-current="true"] { background: white; box-shadow: 0 1px 4px #0f1e3f12; }
-.site-header.is-open .lang-switch { background: rgb(255 255 255 / 8%); }
-.site-header.is-open .lang-switch a[aria-current="true"] { background: rgb(255 255 255 / 12%); }
+.lang-toggle { border-color: #e8ebef; }
+.lang-drop { border-color: #e8ebef; border-radius: 12px; box-shadow: 0 14px 36px #0f1e3f1a; }
+.lang-drop a { border-radius: 7px; letter-spacing: 0.04em; }
+.lang-drop a:hover,
+.lang-drop a[aria-current="true"] { background: #f0f2f5; }
 .header-contact { border-radius: 9px; font-size: 0.7rem; font-weight: 600; text-transform: none; letter-spacing: 0; }
 .header-search { border: 1px solid #e8ebef; border-radius: 50%; }
 .search-panel { border-radius: 18px; box-shadow: 0 24px 80px #0f1e3f30; }
@@ -230,8 +230,6 @@ html[dir="rtl"] .science-page .project-pick.is-on { box-shadow: inset -3px 0 #d1
   .brand-name { font-size: 0.7rem; }
   .monogram { width: 32px; height: 35px; border-radius: 9px; font-size: 0.65rem; }
   .header-tools { gap: 0.3rem; margin-inline-start: 0; }
-  .lang-switch { padding: 3px; font-size: 0.58rem; }
-  .lang-switch a { padding: 4px; }
 }
 /* Research subpages keep the same surfaces, typography and spacing. */
 .science-collection,
