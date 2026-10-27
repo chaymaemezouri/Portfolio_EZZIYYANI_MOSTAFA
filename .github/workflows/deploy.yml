@@ -130,7 +130,7 @@ jobs:
         run: |
           SSH="ssh -i ~/.ssh/id_ed25519 -o BatchMode=yes -o StrictHostKeyChecking=yes -o ConnectTimeout=15"
           $SSH "${VPS_USER}@${VPS_HOST}" "sed -i 's/\r$//' ~/ezziyyani-cms/deploy/setup-nginx.sh && chmod +x ~/ezziyyani-cms/deploy/setup-nginx.sh"
-          $SSH "${VPS_USER}@${VPS_HOST}" 'echo "=== nginx listing ==="; ls -la /etc/nginx/sites-enabled /etc/nginx/sites-available /etc/nginx/conf.d 2>/dev/null; echo "=== /var/www ==="; ls -la /var/www 2>/dev/null; echo "=== nginx.conf head ==="; sed -n "1,120p" /etc/nginx/nginx.conf 2>/dev/null || true'
+          $SSH "${VPS_USER}@${VPS_HOST}" 'echo "=== nginx listing ==="; ls -la /etc/nginx/sites-enabled /etc/nginx/sites-available /etc/nginx/conf.d 2>/dev/null; echo "=== ezziyyani.com vhost ==="; cat /etc/nginx/sites-available/ezziyyani.com 2>/dev/null; echo "=== /var/www ==="; ls -la /var/www 2>/dev/null'
           NGINX_SETUP="\$HOME/ezziyyani-cms/deploy/setup-nginx.sh /var/www/ezziyyani-portfolio-deploy/nginx-api.conf"
           if $SSH -o IdentitiesOnly=yes "root@${VPS_HOST}" "id -u" >/tmp/root-ssh.out 2>/tmp/root-ssh.err; then
             echo "Root SSH available"
