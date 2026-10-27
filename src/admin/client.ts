@@ -16,7 +16,11 @@ async function request<T>(path: string, init: RequestInit = {}): Promise<T> {
     ...init,
     headers: init.body instanceof FormData ? init.headers : { "Content-Type": "application/json", ...init.headers },
   });
-  const body = (await response.json().catch(() => ({}))) as { error?: string; details?: string[] };
+  const type = response.headers.get("content-type") ?? "";
+  if (!type.includes("application/json")) {
+    throw new ApiError("API indisponible", response.status || 503);
+  }
+  const body = (await response.json().catch(() => ({}))) as { error?: string; details?: string[]; email?: string };
   if (!response.ok) throw new ApiError(body.error ?? `Erreur ${response.status}`, response.status, body.details);
   return body as T;
 }
@@ -32,7 +36,11 @@ export type AuditEntry = {
 };
 
 export const api = {
-  me: () => request<{ email: string }>("/auth/me"),
+  me: () =>
+    request<{ email: string }>("/auth/me").then((me) => {
+      if (!me.email) throw new ApiError("Non connecté", 401);
+      return me;
+    }),
   login: (email: string, password: string) =>
     request("/auth/login", { method: "POST", body: JSON.stringify({ email, password }) }),
   logout: () => request("/auth/logout", { method: "POST" }),

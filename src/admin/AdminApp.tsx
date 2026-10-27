@@ -433,6 +433,7 @@ export default function AdminApp() {
     api
       .me()
       .then((me) => {
+        if (!me.email) throw new Error("no session");
         setEmail(me.email);
         setState("in");
       })
