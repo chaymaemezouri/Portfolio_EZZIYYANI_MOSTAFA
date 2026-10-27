@@ -110,55 +110,103 @@ else
   log "CMS database already has $ITEM_COUNT item(s)"
 fi
 
+insert_nginx_include() {
+  local conf="$1"
+  python3 - "$conf" <<'PY'
+import pathlib, sys
+path = pathlib.Path(sys.argv[1])
+text = path.read_text()
+include = "    include snippets/ezziyyani-api.conf;\n"
+if "ezziyyani-api.conf" in text or "location ^~ /api" in text:
+    raise SystemExit(0)
+replaced = False
+for needle in ("    location / {", "  location / {", "\tlocation / {", "    location /{", "location / {"):
+    if needle in text:
+        path.write_text(text.replace(needle, include + needle, 1))
+        replaced = True
+        break
+if not replaced:
+    raise SystemExit("Could not find location / in nginx site")
+PY
+}
+
 install_nginx() {
   if [ ! -d /etc/nginx ]; then
     log "nginx not found — skip proxy install"
     return 1
   fi
-  if ! sudo -n true 2>/dev/null; then
-    log "No passwordless sudo — cannot write nginx config"
-    return 1
+
+  log "id=$(id)"
+  log "nginx paths:"
+  ls -ld /etc/nginx /etc/nginx/snippets /etc/nginx/conf.d /etc/nginx/sites-enabled /etc/nginx/sites-available 2>/dev/null || true
+  CONF="$(grep -RIl --include='*.conf' --include='*.nginx' 'ezziyyani-portfolio-deploy\|server_name.*ezziyyani.com' /etc/nginx /www/server/panel/vhost/nginx /home 2>/dev/null | head -n 1 || true)"
+  log "site config: ${CONF:-none} writable=$( [ -n "${CONF:-}" ] && [ -w "$CONF" ] && echo yes || echo no )"
+  if [ -n "${CONF:-}" ]; then
+    ls -l "$CONF" || true
+    log "----- nginx site -----"
+    cat "$CONF" || true
+    log "----- end nginx site -----"
   fi
-  SEARCH_ROOTS="/etc/nginx/sites-enabled /etc/nginx/sites-available /etc/nginx/conf.d /www/server/panel/vhost/nginx /usr/local/lsws/conf/vhosts"
-  sudo -n mkdir -p /etc/nginx/snippets
-  sudo -n cp "$SNIPPET_SRC" /etc/nginx/snippets/ezziyyani-api.conf
-  CONF="$(sudo -n grep -RIl --include='*.conf' --include='*.nginx' 'ezziyyani-portfolio-deploy\|server_name.*ezziyyani.com' $SEARCH_ROOTS 2>/dev/null | head -n 1 || true)"
-  if [ -z "${CONF:-}" ]; then
-    log "Could not find nginx site for ezziyyani.com"
-    return 1
-  fi
-  if sudo -n grep -q 'ezziyyani-api.conf' "$CONF"; then
-    log "nginx already includes API snippet ($CONF)"
-  else
-    log "Inserting API snippet into $CONF"
-    TMP="$(mktemp)"
-    sudo -n python3 - "$CONF" "$TMP" <<'PY'
+
+  cp "$SNIPPET_SRC" /var/www/ezziyyani-portfolio-deploy/nginx-api.conf 2>/dev/null || true
+
+  if [ -n "${CONF:-}" ] && [ -w "$CONF" ]; then
+    mkdir -p "$(dirname "$CONF")"
+    if [ -w /etc/nginx/snippets ]; then
+      cp "$SNIPPET_SRC" /etc/nginx/snippets/ezziyyani-api.conf
+    else
+      python3 - "$CONF" "$SNIPPET_SRC" <<'PY'
 import pathlib, sys
-src, dest = pathlib.Path(sys.argv[1]), pathlib.Path(sys.argv[2])
-text = src.read_text()
+conf, snippet = pathlib.Path(sys.argv[1]), pathlib.Path(sys.argv[2]).read_text()
+text = conf.read_text()
+if "location ^~ /api" in text:
+    raise SystemExit(0)
+marker = "    location / {"
+if marker not in text:
+    raise SystemExit("Could not find location / in nginx site")
+conf.write_text(text.replace(marker, snippet + "\n" + marker, 1))
+PY
+      nginx -t && nginx -s reload && log "nginx reloaded without sudo" && return 0
+      return 1
+    fi
+    insert_nginx_include "$CONF"
+    nginx -t && nginx -s reload && log "nginx reloaded without sudo" && return 0
+  fi
+
+  if sudo -n true 2>/dev/null; then
+    sudo -n mkdir -p /etc/nginx/snippets
+    sudo -n cp "$SNIPPET_SRC" /etc/nginx/snippets/ezziyyani-api.conf
+    if [ -z "${CONF:-}" ]; then
+      CONF="$(sudo -n grep -RIl --include='*.conf' 'ezziyyani-portfolio-deploy\|server_name.*ezziyyani.com' /etc/nginx 2>/dev/null | head -n 1 || true)"
+    fi
+    if [ -z "${CONF:-}" ]; then
+      log "Could not find nginx site for ezziyyani.com"
+      return 1
+    fi
+    sudo -n python3 - "$CONF" "$SNIPPET_SRC" <<'PY'
+import pathlib, sys
+conf, snippet = pathlib.Path(sys.argv[1]), pathlib.Path(sys.argv[2]).read_text()
+text = conf.read_text()
 include = "    include snippets/ezziyyani-api.conf;\n"
-if "ezziyyani-api.conf" in text:
-    dest.write_text(text)
+if "ezziyyani-api.conf" in text or "location ^~ /api" in text:
     raise SystemExit(0)
 replaced = False
-for needle in ("    location / {", "  location / {", "\tlocation / {", "    location /{", "location / {"):
+for needle in ("    location / {", "  location / {", "\tlocation / {", "location / {"):
     if needle in text:
-        text = text.replace(needle, include + needle, 1)
+        conf.write_text(text.replace(needle, include + needle, 1))
         replaced = True
         break
 if not replaced:
     raise SystemExit("Could not find location / in nginx site")
-dest.write_text(text)
 PY
-    sudo -n cp "$TMP" "$CONF"
-    rm -f "$TMP"
+    sudo -n nginx -t
+    sudo -n nginx -s reload || sudo -n systemctl reload nginx || sudo -n service nginx reload
+    log "nginx reloaded with sudo"
+    return 0
   fi
-  sudo -n nginx -t
-  if sudo -n systemctl reload nginx; then
-    log "nginx reloaded"
-  else
-    sudo -n service nginx reload
-  fi
+
+  log "No writable nginx config and no passwordless sudo"
+  return 1
 }
 
 restart_api() {
