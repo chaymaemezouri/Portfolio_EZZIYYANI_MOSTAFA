@@ -63,6 +63,11 @@ fi
 
 TSX="$SERVER/node_modules/.bin/tsx"
 
+if [ -f "$ENV_FILE" ] && ! grep -q "^ADMIN_PASSWORD_HASH='" "$ENV_FILE"; then
+  log "Existing .env is unquoted, recreating"
+  rm -f "$ENV_FILE"
+fi
+
 if [ ! -f "$ENV_FILE" ]; then
   log "Creating $ENV_FILE"
   HASH="$("$TSX" src/hash.ts "$ADMIN_PASSWORD")"
@@ -70,24 +75,26 @@ if [ ! -f "$ENV_FILE" ]; then
   if [ "${#JWT}" -lt 32 ]; then
     JWT="$(openssl rand -hex 32)"
   fi
+  umask 077
   cat > "$ENV_FILE" <<EOF
 PORT=8787
 NODE_ENV=production
-DATABASE_PATH=$SERVER/data/content.db
-UPLOAD_DIR=$SERVER/uploads
-ADMIN_EMAIL=$ADMIN_EMAIL
-ADMIN_PASSWORD_HASH=$HASH
-JWT_SECRET=$JWT
+DATABASE_PATH='$SERVER/data/content.db'
+UPLOAD_DIR='$SERVER/uploads'
+ADMIN_EMAIL='$ADMIN_EMAIL'
+ADMIN_PASSWORD_HASH='$HASH'
+JWT_SECRET='$JWT'
 EOF
-  chmod 600 "$ENV_FILE"
 else
   log "Keeping existing $ENV_FILE"
 fi
 
+set +u
 set -a
 # shellcheck disable=SC1090
 . "$ENV_FILE"
 set +a
+set -u
 
 ITEM_COUNT="$("$TSX" -e "
 import Database from 'better-sqlite3';
