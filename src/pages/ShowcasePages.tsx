@@ -18,7 +18,9 @@ function Shell({ id, lede, empty, children, count = 0 }: { id: string; lede: str
     return (
       <div className={`science-page science-showcase science-showcase--${id}`}>
         <Seo title={t(`nav.${id}`)} description={t(`meta.pages.${id}`)} path={localePath(locale, id)} />
-        <ResearchHero eyebrow={t("projects.intro")} title={t(`nav.${id}`)} description={lede} variant={id} />
+        {id === "innovation" ? null : (
+          <ResearchHero eyebrow={t("projects.intro")} title={t(`nav.${id}`)} description={lede} variant={id} />
+        )}
         <section className="container science-collection">
           <div className="science-section-heading project-section-heading">
             <div><p className="eyebrow">{t("nav.research")}</p><h2>{t(`nav.${id}`)}</h2></div>
