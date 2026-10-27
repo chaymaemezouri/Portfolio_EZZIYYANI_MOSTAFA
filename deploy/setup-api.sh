@@ -61,9 +61,11 @@ if ! npm ci --omit=dev; then
   fi
 fi
 
+TSX="$SERVER/node_modules/.bin/tsx"
+
 if [ ! -f "$ENV_FILE" ]; then
   log "Creating $ENV_FILE"
-  HASH="$(ADMIN_PASSWORD="$ADMIN_PASSWORD" node --input-type=module -e "import bcrypt from 'bcryptjs'; console.log(await bcrypt.hash(process.env.ADMIN_PASSWORD, 12))")"
+  HASH="$("$TSX" src/hash.ts "$ADMIN_PASSWORD")"
   JWT="${JWT_SECRET:-$(openssl rand -hex 32)}"
   if [ "${#JWT}" -lt 32 ]; then
     JWT="$(openssl rand -hex 32)"
@@ -87,7 +89,7 @@ set -a
 . "$ENV_FILE"
 set +a
 
-ITEM_COUNT="$(node --input-type=module -e "
+ITEM_COUNT="$("$TSX" -e "
 import Database from 'better-sqlite3';
 const db = new Database(process.env.DATABASE_PATH);
 const row = db.prepare(\"SELECT COUNT(*) AS c FROM sqlite_master WHERE type='table' AND name='items'\").get();
