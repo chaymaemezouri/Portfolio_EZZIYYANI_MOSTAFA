@@ -50,11 +50,18 @@ function useNoIndex() {
   }, []);
 }
 
+function nodeAdminUrl() {
+  const { hostname, pathname, search, hash, port } = window.location;
+  if (port === "8787" || hostname === "localhost" || hostname === "127.0.0.1") return "";
+  return `http://${hostname}:8787${pathname}${search}${hash}`;
+}
+
 function Login({ onDone }: { onDone: () => void }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
+  const directUrl = nodeAdminUrl();
 
   async function submit(event: FormEvent) {
     event.preventDefault();
@@ -88,6 +95,13 @@ function Login({ onDone }: { onDone: () => void }) {
           onChange={(e) => setPassword(e.target.value)}
         />
         {error ? <p className="adm-error">{error}</p> : null}
+        {error === "API indisponible" && directUrl ? (
+          <p>
+            <a className="adm-btn adm-btn-primary" href={directUrl}>
+              Ouvrir l’admin
+            </a>
+          </p>
+        ) : null}
         <button className="adm-btn adm-btn-primary" type="submit" disabled={busy}>
           {busy ? "Connexion…" : "Se connecter"}
         </button>
@@ -437,7 +451,16 @@ export default function AdminApp() {
         setEmail(me.email);
         setState("in");
       })
-      .catch(() => setState("out"));
+      .catch((err: unknown) => {
+        if (err instanceof ApiError && err.message === "API indisponible") {
+          const url = nodeAdminUrl();
+          if (url) {
+            window.location.replace(url);
+            return;
+          }
+        }
+        setState("out");
+      });
   }, []);
 
   useEffect(check, [check]);

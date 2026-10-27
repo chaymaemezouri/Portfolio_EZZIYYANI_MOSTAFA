@@ -46,7 +46,7 @@ export async function openSession(c: Context) {
     .sign(env.jwtSecret());
   setCookie(c, COOKIE, token, {
     httpOnly: true,
-    secure: env.production,
+    secure: c.req.url.startsWith("https:"),
     sameSite: "Strict",
     path: "/api",
     maxAge: SESSION_SECONDS,

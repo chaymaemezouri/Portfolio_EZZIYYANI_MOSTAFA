@@ -12,6 +12,8 @@ function required(name: string) {
 
 export const env = {
   port: Number(process.env.PORT ?? 8787),
+  host: process.env.HOST ?? "127.0.0.1",
+  distDir: process.env.DIST_DIR ?? "",
   production: process.env.NODE_ENV === "production",
   databasePath: process.env.DATABASE_PATH ?? resolve(import.meta.dirname, "../data/content.db"),
   uploadDir: process.env.UPLOAD_DIR ?? resolve(import.meta.dirname, "../uploads"),

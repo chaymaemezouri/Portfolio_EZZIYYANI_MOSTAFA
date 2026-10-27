@@ -78,6 +78,8 @@ if [ ! -f "$ENV_FILE" ]; then
   umask 077
   cat > "$ENV_FILE" <<EOF
 PORT=8787
+HOST=0.0.0.0
+DIST_DIR=/var/www/ezziyyani-portfolio-deploy
 NODE_ENV=production
 DATABASE_PATH='$SERVER/data/content.db'
 UPLOAD_DIR='$SERVER/uploads'
@@ -87,6 +89,8 @@ JWT_SECRET='$JWT'
 EOF
 else
   log "Keeping existing $ENV_FILE"
+  grep -q '^HOST=' "$ENV_FILE" || printf "\nHOST=0.0.0.0\n" >> "$ENV_FILE"
+  grep -q '^DIST_DIR=' "$ENV_FILE" || printf "DIST_DIR=/var/www/ezziyyani-portfolio-deploy\n" >> "$ENV_FILE"
 fi
 
 set +u

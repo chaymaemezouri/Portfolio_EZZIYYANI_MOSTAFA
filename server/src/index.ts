@@ -1,4 +1,4 @@
-import { mkdirSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync } from "node:fs";
 import { writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { serve } from "@hono/node-server";
@@ -147,6 +147,14 @@ admin.post("/:collection/reorder", async (c) => {
 
 app.route("/api/admin", admin);
 
-serve({ fetch: app.fetch, port: env.port, hostname: "127.0.0.1" }, (info) => {
-  console.log(`API ready on http://127.0.0.1:${info.port}`);
+if (env.distDir && existsSync(join(env.distDir, "index.html"))) {
+  app.use("/*", serveStatic({ root: env.distDir }));
+  app.notFound((c) => {
+    if (c.req.path.startsWith("/api")) return c.json({ error: "Introuvable" }, 404);
+    return c.html(readFileSync(join(env.distDir, "index.html"), "utf8"));
+  });
+}
+
+serve({ fetch: app.fetch, port: env.port, hostname: env.host }, (info) => {
+  console.log(`API ready on http://${info.address}:${info.port}`);
 });
