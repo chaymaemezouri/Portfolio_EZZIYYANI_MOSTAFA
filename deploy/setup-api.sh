@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-ROOT="${CMS_ROOT:-/var/www/ezziyyani-cms}"
+ROOT="${CMS_ROOT:-$HOME/ezziyyani-cms}"
 SERVER="$ROOT/server"
 ENV_FILE="$SERVER/.env"
 SNIPPET_SRC="$ROOT/deploy/nginx-api.conf"
@@ -110,9 +110,10 @@ install_nginx() {
     log "No passwordless sudo — cannot write nginx config"
     return 1
   fi
+  SEARCH_ROOTS="/etc/nginx/sites-enabled /etc/nginx/sites-available /etc/nginx/conf.d /www/server/panel/vhost/nginx /usr/local/lsws/conf/vhosts"
   sudo -n mkdir -p /etc/nginx/snippets
   sudo -n cp "$SNIPPET_SRC" /etc/nginx/snippets/ezziyyani-api.conf
-  CONF="$(sudo -n grep -RIl --include='*.conf' 'ezziyyani-portfolio-deploy\|ezziyyani.com' /etc/nginx/sites-enabled /etc/nginx/sites-available /etc/nginx/conf.d 2>/dev/null | head -n 1 || true)"
+  CONF="$(sudo -n grep -RIl --include='*.conf' --include='*.nginx' 'ezziyyani-portfolio-deploy\|server_name.*ezziyyani.com' $SEARCH_ROOTS 2>/dev/null | head -n 1 || true)"
   if [ -z "${CONF:-}" ]; then
     log "Could not find nginx site for ezziyyani.com"
     return 1
@@ -209,7 +210,7 @@ EOF
 install_nginx || true
 restart_api
 
-for _ in 1 2 3 4 5 6 7 8 9 10; do
+for _ in $(seq 1 20); do
   if curl -fsS http://127.0.0.1:8787/api/health | grep -q '"ok"'; then
     log "API health OK on 127.0.0.1:8787"
     exit 0
