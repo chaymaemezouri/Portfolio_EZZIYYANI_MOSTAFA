@@ -100,6 +100,27 @@ set -a
 set +a
 set -u
 
+if ! ADMIN_PASSWORD="$ADMIN_PASSWORD" "$TSX" -e "
+import bcrypt from 'bcryptjs';
+const ok = await bcrypt.compare(process.env.ADMIN_PASSWORD ?? '', process.env.ADMIN_PASSWORD_HASH ?? '');
+if (!ok) process.exit(1);
+console.log('admin password hash ok');
+"; then
+  log "Admin password hash does not match, updating"
+  HASH="$("$TSX" src/hash.ts "$ADMIN_PASSWORD")"
+  TMP="$(mktemp)"
+  grep -v '^ADMIN_PASSWORD_HASH=' "$ENV_FILE" > "$TMP"
+  printf "ADMIN_PASSWORD_HASH='%s'\n" "$HASH" >> "$TMP"
+  mv "$TMP" "$ENV_FILE"
+  chmod 600 "$ENV_FILE"
+  set +u
+  set -a
+  # shellcheck disable=SC1090
+  . "$ENV_FILE"
+  set +a
+  set -u
+fi
+
 ITEM_COUNT="$("$TSX" -e "
 import Database from 'better-sqlite3';
 const db = new Database(process.env.DATABASE_PATH);

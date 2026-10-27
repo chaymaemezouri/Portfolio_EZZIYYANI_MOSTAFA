@@ -12,7 +12,10 @@ const LOCK_MS = 15 * 60 * 1000;
 const failures = new Map<string, { count: number; until: number }>();
 
 export function clientIp(c: Context) {
-  return c.req.header("x-real-ip") ?? c.req.header("x-forwarded-for")?.split(",")[0]?.trim() ?? "local";
+  const forwarded = c.req.header("x-real-ip") ?? c.req.header("x-forwarded-for")?.split(",")[0]?.trim();
+  if (forwarded) return forwarded;
+  const incoming = (c.env as { incoming?: { socket?: { remoteAddress?: string } } } | undefined)?.incoming;
+  return incoming?.socket?.remoteAddress?.replace(/^::ffff:/, "") || "unknown";
 }
 
 export function isLocked(ip: string) {
