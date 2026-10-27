@@ -15,6 +15,7 @@ export function useCollection<T>(name: string, fallback: T[]): T[] {
         return response.json() as Promise<T[]>;
       })
       .then((data) => {
+        if (!Array.isArray(data) || (data.length === 0 && fallback.length > 0)) return;
         cache.set(name, data);
         if (alive) setItems(data);
       })

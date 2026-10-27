@@ -17,7 +17,7 @@ jobs:
   build-and-deploy:
     name: Build and Deploy
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
 
     steps:
       - name: Checkout repository
@@ -83,6 +83,45 @@ jobs:
             dist/ \
             "${VPS_USER}@${VPS_HOST}:/var/www/ezziyyani-portfolio-deploy/"
 
+      - name: Deploy CMS API to VPS
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          SSH="ssh -i ~/.ssh/id_ed25519 -o BatchMode=yes -o StrictHostKeyChecking=yes -o ConnectTimeout=15"
+          RSYNC_RSH="ssh -i ~/.ssh/id_ed25519 -o BatchMode=yes -o StrictHostKeyChecking=yes -o ConnectTimeout=15"
+          $SSH "${VPS_USER}@${VPS_HOST}" "mkdir -p /var/www/ezziyyani-cms/server /var/www/ezziyyani-cms/src /var/www/ezziyyani-cms/deploy"
+          rsync -az --delete \
+            --exclude node_modules --exclude data --exclude uploads --exclude .env \
+            -e "$RSYNC_RSH" \
+            server/ \
+            "${VPS_USER}@${VPS_HOST}:/var/www/ezziyyani-cms/server/"
+          rsync -az --delete -R \
+            -e "$RSYNC_RSH" \
+            src/content src/data src/types src/utils deploy \
+            "${VPS_USER}@${VPS_HOST}:/var/www/ezziyyani-cms/"
+
+      - name: Install and start CMS API
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+          ADMIN_EMAIL: ${{ secrets.ADMIN_EMAIL }}
+          ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
+          JWT_SECRET: ${{ secrets.JWT_SECRET }}
+        run: |
+          ssh -i ~/.ssh/id_ed25519 \
+            -o BatchMode=yes \
+            -o StrictHostKeyChecking=yes \
+            -o ConnectTimeout=15 \
+            "${VPS_USER}@${VPS_HOST}" \
+            "sed -i 's/\r$//' /var/www/ezziyyani-cms/deploy/*.sh /var/www/ezziyyani-cms/deploy/*.conf && chmod +x /var/www/ezziyyani-cms/deploy/*.sh"
+          ssh -i ~/.ssh/id_ed25519 \
+            -o BatchMode=yes \
+            -o StrictHostKeyChecking=yes \
+            -o ConnectTimeout=15 \
+            "${VPS_USER}@${VPS_HOST}" \
+            "$(printf 'ADMIN_EMAIL=%q ADMIN_PASSWORD=%q JWT_SECRET=%q CMS_ROOT=/var/www/ezziyyani-cms bash /var/www/ezziyyani-cms/deploy/setup-api.sh' "$ADMIN_EMAIL" "$ADMIN_PASSWORD" "$JWT_SECRET")"
+
       - name: Verify deployed files
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
@@ -93,7 +132,20 @@ jobs:
             -o StrictHostKeyChecking=yes \
             -o ConnectTimeout=15 \
             "${VPS_USER}@${VPS_HOST}" \
-            "test -s /var/www/ezziyyani-portfolio-deploy/index.html && echo 'Deployment successful'"
+            "test -s /var/www/ezziyyani-portfolio-deploy/index.html && echo 'Frontend deployed'"
+          ssh -i ~/.ssh/id_ed25519 \
+            -o BatchMode=yes \
+            -o StrictHostKeyChecking=yes \
+            -o ConnectTimeout=15 \
+            "${VPS_USER}@${VPS_HOST}" \
+            "curl -fsS http://127.0.0.1:8787/api/health | grep -q '\"ok\"' && echo 'Local API healthy'"
+          if curl -fsS https://ezziyyani.com/api/health | grep -q '"ok"'; then
+            echo "Public API healthy"
+          else
+            echo "::error::https://ezziyyani.com/api/health n'est pas du JSON. nginx doit proxy /api vers 127.0.0.1:8787."
+            curl -sS -D - -o /tmp/api-health.body https://ezziyyani.com/api/health | head -n 30
+            exit 1
+          fi
 
       - name: Cleanup SSH credentials
         if: always()
