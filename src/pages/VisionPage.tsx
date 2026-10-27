@@ -1,5 +1,5 @@
 import { visionThemes } from "@/data/vision";
-import { StrategicDocumentBlock } from "@/components/vision/StrategicDocumentBlock";
+import { ArticlesReader } from "@/components/vision/ArticlesReader";
 import { StrategicStatement } from "@/components/home/StrategicStatement";
 import { Seo } from "@/components/shared/Seo";
 import { useI18n } from "@/i18n/I18nProvider";
@@ -18,7 +18,7 @@ export default function VisionPage() {
         <p className="page-lede">{t("vision.subtitle")}</p>
       </header>
       <section className="container vision-doc-wrap">
-        <StrategicDocumentBlock />
+        <ArticlesReader />
       </section>
       <section className="container vision-board" id="themes">
         {visionThemes.map((theme) => (

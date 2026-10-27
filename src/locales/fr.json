@@ -66,7 +66,17 @@
   },
   "showcase": {
     "patentsLede": "Brevets déposés et délivrés.",
-    "innovationLede": "Produits, plateformes et solutions issus de la recherche.",
+    "innovationLede": "Projets classés par thématique : recherche, IA, PFE, master et innovation.",
+    "themeKicker": "Thématique",
+    "themeEmpty": "Les liens de cette thématique seront ajoutés ici.",
+    "themeLink": "Lien",
+    "themes": {
+      "research": "Research Project",
+      "ia": "IA Project",
+      "pfe": "PFE Project",
+      "master": "Master Project",
+      "innovation": "Innovation Project"
+    },
     "galleryLede": "Moments choisis : conférences, rencontres et événements.",
     "number": "N°",
     "inventors": "Inventeurs",
@@ -259,6 +269,10 @@
     "explore": "Explorer la vision",
     "document": "Document stratégique",
     "read": "Lire le document",
+    "articles": "Articles",
+    "download": "Télécharger le PDF",
+    "noArticles": "Articles à venir.",
+    "selectArticle": "Le contenu de cet article sera ajouté ici.",
     "statementPending": "Énoncé à ajouter",
     "themes": {
       "transformation": "Transformation numérique",

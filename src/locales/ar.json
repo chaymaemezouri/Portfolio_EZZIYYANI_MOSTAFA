@@ -66,7 +66,17 @@
   },
   "showcase": {
     "patentsLede": "براءات الاختراع المودعة والممنوحة.",
-    "innovationLede": "منتجات ومنصات وحلول نابعة من البحث العلمي.",
+    "innovationLede": "مشاريع مصنفة حسب المحاور: بحث، ذكاء اصطناعي، PFE، ماستر وابتكار.",
+    "themeKicker": "المحور",
+    "themeEmpty": "ستُضاف روابط هذا المحور هنا.",
+    "themeLink": "الرابط",
+    "themes": {
+      "research": "Research Project",
+      "ia": "IA Project",
+      "pfe": "PFE Project",
+      "master": "Master Project",
+      "innovation": "Innovation Project"
+    },
     "galleryLede": "لحظات مختارة: مؤتمرات ولقاءات وفعاليات.",
     "number": "رقم",
     "inventors": "المخترعون",
@@ -259,6 +269,10 @@
     "explore": "استكشاف الرؤية",
     "document": "وثيقة استراتيجية",
     "read": "قراءة الوثيقة",
+    "articles": "المقالات",
+    "download": "تنزيل PDF",
+    "noArticles": "المقالات قريباً.",
+    "selectArticle": "سيُضاف محتوى هذا المقال هنا.",
     "statementPending": "سيُضاف النص لاحقًا",
     "themes": {
       "transformation": "التحول الرقمي",

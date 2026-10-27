@@ -138,6 +138,7 @@ export interface InternationalActivity {
   x: number;
   y: number;
   summary: TextValue;
+  photos?: string[];
 }
 
 export type MediaCategory =

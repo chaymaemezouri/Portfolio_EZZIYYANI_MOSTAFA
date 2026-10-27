@@ -1,4 +1,5 @@
-import { internationalActivities, regionIds } from "@/data/international";
+import { regionIds } from "@/data/international";
+import { useInternational } from "@/content/hooks";
 import { WorldMap } from "@/components/international/WorldMap";
 import { ArrowLink } from "@/components/shared/ArrowLink";
 import { useI18n } from "@/i18n/I18nProvider";
@@ -6,6 +7,7 @@ import { localePath } from "@/utils/locale";
 
 export function InternationalPresence({ heading = true, showRegions = true }: { heading?: boolean; showRegions?: boolean }) {
   const { locale, t } = useI18n();
+  const internationalActivities = useInternational();
   const hasData = internationalActivities.length > 0;
 
   return (

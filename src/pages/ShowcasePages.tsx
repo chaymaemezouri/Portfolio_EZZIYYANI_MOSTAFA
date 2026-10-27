@@ -1,6 +1,7 @@
 import { useEffect, useState, type ReactNode } from "react";
-import { ArrowUpRight, Download, FileText, Layers3, Lightbulb, ScanLine, X } from "lucide-react";
+import { ArrowUpRight, Download, FileText, Layers3, ScanLine, X } from "lucide-react";
 import { useGallery, useInnovation, usePatents, type GalleryPhoto } from "@/content/hooks";
+import { innovationThemes } from "@/data/innovation";
 import { Seo } from "@/components/shared/Seo";
 import { useI18n } from "@/i18n/I18nProvider";
 import { localePath } from "@/utils/locale";
@@ -95,38 +96,53 @@ export function PatentsPage() {
 export function InnovationPage() {
   const { locale, t } = useI18n();
   const items = useInnovation();
+  const grouped = innovationThemes.map((theme) => ({
+    theme,
+    items: items.filter((item) => (item.theme || "innovation") === theme),
+  }));
+
   return (
-    <Shell id="innovation" lede={t("showcase.innovationLede")} empty={items.length === 0} count={items.length}>
-      <div className="teach-grid showcase-grid">
-        {items.map((item, index) => (
-          <article key={item.id} className="teach-card showcase-card">
-            <div className="showcase-card-header"><span><Lightbulb size={15} aria-hidden="true" />{t("nav.innovation")}</span><span>{String(index + 1).padStart(2, "0")}</span></div>
-            <div className={`showcase-visual${item.video || item.image ? "" : " showcase-visual--abstract"}`}>
-            {item.video ? (
-              <video className="showcase-video" src={item.video} poster={item.image} controls playsInline preload="metadata" />
-            ) : item.image ? (
-              <img className="showcase-image" src={item.image} alt="" loading="lazy" />
-            ) : <><Lightbulb size={56} strokeWidth={1} aria-hidden="true" /><span aria-hidden="true">{String(index + 1).padStart(2, "0")}</span></>}
+    <Shell id="innovation" lede={t("showcase.innovationLede")} empty={false} count={items.length}>
+      <div className="theme-stack">
+        {grouped.map(({ theme, items: group }) => (
+          <section key={theme} className="theme-block" id={`theme-${theme}`}>
+            <div className="science-section-heading project-section-heading">
+              <div>
+                <p className="eyebrow">{t("showcase.themeKicker")}</p>
+                <h2>{t(`showcase.themes.${theme}`)}</h2>
+              </div>
+              <span className="project-result-count">
+                <Layers3 size={16} aria-hidden="true" />
+                {group.length}
+              </span>
             </div>
-            <div className="showcase-card-body">
-            <h3>{text(locale, item.title)}</h3>
-            {text(locale, item.summary) ? <p className="showcase-text">{text(locale, item.summary)}</p> : null}
-            {item.href || item.video ? (
-              <div className="showcase-links">
-                {item.href ? (
-                  <a href={item.href} target="_blank" rel="noreferrer">
-                    {t("showcase.open")} <ArrowUpRight size={14} aria-hidden="true" />
-                  </a>
-                ) : null}
-                {item.video ? (
-                  <a href={item.video} download>
-                    <Download size={14} aria-hidden="true" /> {t("showcase.video")}
-                  </a>
-                ) : null}
+            {group.length ? (
+              <div className="theme-cards">
+                {group.map((item) => {
+                  const title = text(locale, item.title);
+                  const href = item.href?.trim();
+                  const inner = (
+                    <>
+                      <h3>{title}</h3>
+                      <span className="theme-card-link">
+                        {href ? t("showcase.open") : t("showcase.themeLink")}
+                        <ArrowUpRight size={15} aria-hidden="true" />
+                      </span>
+                    </>
+                  );
+                  return href ? (
+                    <a key={item.id} className="theme-card" href={href} target="_blank" rel="noreferrer">
+                      {inner}
+                    </a>
+                  ) : (
+                    <article key={item.id} className="theme-card is-static">
+                      {inner}
+                    </article>
+                  );
+                })}
               </div>
             ) : null}
-            </div>
-          </article>
+          </section>
         ))}
       </div>
     </Shell>

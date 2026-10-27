@@ -66,7 +66,17 @@
   },
   "showcase": {
     "patentsLede": "Filed and granted patents.",
-    "innovationLede": "Products, platforms and solutions that grew out of the research.",
+    "innovationLede": "Projects grouped by theme: research, AI, PFE, master’s and innovation.",
+    "themeKicker": "Theme",
+    "themeEmpty": "Links for this theme will be added here.",
+    "themeLink": "Link",
+    "themes": {
+      "research": "Research Project",
+      "ia": "IA Project",
+      "pfe": "PFE Project",
+      "master": "Master Project",
+      "innovation": "Innovation Project"
+    },
     "galleryLede": "Selected moments: conferences, meetings and events.",
     "number": "No.",
     "inventors": "Inventors",
@@ -259,6 +269,10 @@
     "explore": "Explore vision",
     "document": "Strategic document",
     "read": "Read document",
+    "articles": "Articles",
+    "download": "Download PDF",
+    "noArticles": "Articles coming soon.",
+    "selectArticle": "This article’s content will be added here.",
     "statementPending": "Statement to be added",
     "themes": {
       "transformation": "Digital Transformation",

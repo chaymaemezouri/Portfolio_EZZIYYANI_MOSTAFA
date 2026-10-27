@@ -1,6 +1,39 @@
 import { Suspense, useCallback, useEffect, useState, type FormEvent } from "react";
 import { Link, Navigate, NavLink, Outlet, useNavigate, useParams } from "react-router-dom";
-import { ArrowDown, ArrowUp, ExternalLink, History, LogOut, Menu, Pencil, Plus, RotateCcw, Trash2 } from "lucide-react";
+import {
+  ArrowDown,
+  ArrowUp,
+  Award,
+  BadgeCheck,
+  BookMarked,
+  BookOpen,
+  Briefcase,
+  ExternalLink,
+  FileSpreadsheet,
+  FileText,
+  FolderKanban,
+  Globe,
+  GraduationCap,
+  History,
+  Images,
+  Layers,
+  Library,
+  Lightbulb,
+  LogOut,
+  MapPin,
+  Menu,
+  Mic,
+  Newspaper,
+  Pencil,
+  Plus,
+  RotateCcw,
+  Trash2,
+  Trophy,
+  User,
+  Users,
+  Video,
+  type LucideIcon,
+} from "lucide-react";
 import { collections, getCollection, type Item, type ItemData } from "@/content/collections";
 import { api, ApiError, type AuditEntry } from "./client";
 import { FieldInput } from "./FieldInput";
@@ -73,11 +106,40 @@ function readable(value: unknown): string {
 }
 
 function itemTitle(collectionId: string, item: Item) {
+  if (collectionId === "international") {
+    const country = readable(item.data.country);
+    const city = readable(item.data.city);
+    return [country, city].filter(Boolean).join(" — ") || item.id;
+  }
   const collection = getCollection(collectionId);
   const title = collection ? readable(item.data[collection.titleField]) : "";
   const fallback = title || Object.values(item.data).map(readable).find(Boolean) || item.id;
   return fallback.length > 140 ? `${fallback.slice(0, 140)}…` : fallback;
 }
+
+const collectionIcons: Record<string, LucideIcon> = {
+  profile: User,
+  profileSections: Layers,
+  education: GraduationCap,
+  publications: BookOpen,
+  books: Library,
+  projects: FolderKanban,
+  patents: Award,
+  innovation: Lightbulb,
+  team: Users,
+  courses: BookMarked,
+  pfe: FileSpreadsheet,
+  visits: MapPin,
+  videos: Video,
+  posts: Newspaper,
+  articles: FileText,
+  gallery: Images,
+  awards: Trophy,
+  leadership: Briefcase,
+  certifications: BadgeCheck,
+  conferences: Mic,
+  international: Globe,
+};
 
 export function CollectionList() {
   const { collection: collectionId = "" } = useParams();
@@ -121,8 +183,10 @@ export function CollectionList() {
     load();
   }
 
+  const Icon = collectionIcons[collection.id] ?? Layers;
+
   return (
-    <section>
+    <section className="adm-section" data-group={collection.group}>
       <header className="adm-head">
         <div>
           <p className="adm-kicker">{collection.group}</p>
@@ -146,38 +210,47 @@ export function CollectionList() {
       {loading ? (
         <p className="adm-muted">Chargement…</p>
       ) : visible.length === 0 ? (
-        <p className="adm-muted">Aucun élément.</p>
+        <p className="adm-empty">Aucun élément. Ajoutez une carte pour commencer.</p>
       ) : (
-        <ul className="adm-rows">
+        <div className="adm-item-cards">
           {visible.map((item, index) => (
-            <li key={item.id} className="adm-row">
-              <div className="adm-row-order" hidden={Boolean(needle)}>
-                <button type="button" className="adm-icon" aria-label="Monter" onClick={() => move(index, -1)} disabled={index === 0}>
-                  <ArrowUp size={15} />
-                </button>
-                <button
-                  type="button"
-                  className="adm-icon"
-                  aria-label="Descendre"
-                  onClick={() => move(index, 1)}
-                  disabled={index === items.length - 1}
-                >
-                  <ArrowDown size={15} />
-                </button>
+            <article key={item.id} className="adm-item-card">
+              <div className="adm-item-card-top">
+                <span className="adm-tile-icon" aria-hidden="true">
+                  <Icon size={18} />
+                </span>
+                <span className={`adm-badge${item.published ? " is-live" : ""}`}>
+                  {item.published ? "Publié" : "Brouillon"}
+                </span>
               </div>
-              <Link className="adm-row-title" to={item.id}>
+              <Link className="adm-item-card-title" to={item.id}>
                 {itemTitle(collectionId, item)}
               </Link>
-              <span className={`adm-badge${item.published ? " is-live" : ""}`}>{item.published ? "Publié" : "Brouillon"}</span>
-              <Link className="adm-icon" to={item.id} aria-label="Modifier">
-                <Pencil size={15} />
-              </Link>
-              <button type="button" className="adm-icon is-danger" aria-label="Supprimer" onClick={() => remove(item)}>
-                <Trash2 size={15} />
-              </button>
-            </li>
+              <div className="adm-item-card-actions">
+                <div className="adm-row-order" hidden={Boolean(needle)}>
+                  <button type="button" className="adm-icon" aria-label="Monter" onClick={() => move(index, -1)} disabled={index === 0}>
+                    <ArrowUp size={15} />
+                  </button>
+                  <button
+                    type="button"
+                    className="adm-icon"
+                    aria-label="Descendre"
+                    onClick={() => move(index, 1)}
+                    disabled={index === items.length - 1}
+                  >
+                    <ArrowDown size={15} />
+                  </button>
+                </div>
+                <Link className="adm-icon" to={item.id} aria-label="Modifier">
+                  <Pencil size={15} />
+                </Link>
+                <button type="button" className="adm-icon is-danger" aria-label="Supprimer" onClick={() => remove(item)}>
+                  <Trash2 size={15} />
+                </button>
+              </div>
+            </article>
           ))}
-        </ul>
+        </div>
       )}
     </section>
   );
@@ -222,7 +295,7 @@ export function ItemEditor() {
   }
 
   return (
-    <form className="adm-editor" onSubmit={save}>
+    <form className="adm-editor adm-section" data-group={collection.group} onSubmit={save}>
       <header className="adm-head">
         <div>
           <p className="adm-kicker">{collection.label}</p>
@@ -284,7 +357,7 @@ export function AuditLog() {
   }
 
   return (
-    <section>
+    <section className="adm-section" data-group="Profil">
       <header className="adm-head">
         <div>
           <p className="adm-kicker">Suivi</p>
@@ -292,30 +365,35 @@ export function AuditLog() {
         </div>
       </header>
       {error ? <p className="adm-error">{error}</p> : null}
-      <ul className="adm-rows">
+      <div className="adm-item-cards">
         {entries.map((entry) => (
-          <li key={entry.id} className="adm-row">
-            <span className="adm-badge">{actionLabels[entry.action] ?? entry.action}</span>
-            <span className="adm-row-title">
+          <article key={entry.id} className="adm-item-card">
+            <div className="adm-item-card-top">
+              <span className="adm-badge">{actionLabels[entry.action] ?? entry.action}</span>
+              <span className="adm-muted">{new Date(entry.at).toLocaleString("fr-FR")}</span>
+            </div>
+            <p className="adm-item-card-title">
               {getCollection(entry.collection)?.label ?? entry.collection}
               {entry.title ? ` — ${entry.title}` : ""}
-            </span>
-            <span className="adm-muted">{new Date(entry.at).toLocaleString("fr-FR")}</span>
+            </p>
             {entry.canRestore ? (
-              <button type="button" className="adm-icon" aria-label="Restaurer" onClick={() => restore(entry)}>
-                <RotateCcw size={15} />
-              </button>
+              <div className="adm-item-card-actions">
+                <button type="button" className="adm-btn adm-btn-ghost" onClick={() => restore(entry)}>
+                  <RotateCcw size={15} aria-hidden="true" />
+                  Restaurer
+                </button>
+              </div>
             ) : null}
-          </li>
+          </article>
         ))}
-      </ul>
+      </div>
     </section>
   );
 }
 
 export function Dashboard() {
   return (
-    <section>
+    <section className="adm-section">
       <header className="adm-head">
         <div>
           <p className="adm-kicker">Bienvenue</p>
@@ -323,12 +401,23 @@ export function Dashboard() {
         </div>
       </header>
       <div className="adm-tiles">
-        {collections.map((collection) => (
-          <Link key={collection.id} className="adm-tile" to={`/admin/c/${collection.id}`}>
-            <span>{collection.group}</span>
-            <strong>{collection.label}</strong>
-          </Link>
-        ))}
+        {collections.map((collection) => {
+          const Icon = collectionIcons[collection.id] ?? Layers;
+          return (
+            <Link
+              key={collection.id}
+              className="adm-tile"
+              data-group={collection.group}
+              to={`/admin/c/${collection.id}`}
+            >
+              <span className="adm-tile-icon" aria-hidden="true">
+                <Icon size={18} />
+              </span>
+              <span>{collection.group}</span>
+              <strong>{collection.label}</strong>
+            </Link>
+          );
+        })}
       </div>
     </section>
   );
@@ -374,7 +463,7 @@ export default function AdminApp() {
         </Link>
         <nav>
           {groups.map((group) => (
-            <div key={group} className="adm-nav-group">
+            <div key={group} className="adm-nav-group" data-group={group}>
               <p>{group}</p>
               {collections
                 .filter((item) => item.group === group)

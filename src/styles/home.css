@@ -1955,8 +1955,41 @@ html[dir="rtl"] .pub-row:hover .pub-arrow {
   vector-effect: non-scaling-stroke;
 }
 
-.map-node {
+.map-pin {
   position: absolute;
+  z-index: 1;
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  transform: translate(-50%, -50%);
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.map-pin.is-active {
+  z-index: 4;
+}
+
+.map-node {
+  position: relative;
+  z-index: 1;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.map-node::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
   width: 9px;
   height: 9px;
   border-radius: 50%;
@@ -1967,14 +2000,34 @@ html[dir="rtl"] .pub-row:hover .pub-arrow {
 
 .map-tip {
   position: absolute;
-  transform: translate(-20%, calc(-100% - 12px));
+  left: 50%;
+  bottom: calc(100% + 10px);
+  transform: translate(-30%, 0);
   background: white;
   color: var(--navy-900);
-  min-width: 180px;
-  padding: 0.75rem 0.85rem;
+  min-width: 148px;
+  max-width: min(220px, 72vw);
+  padding: 0.55rem 0.65rem 0.6rem;
   border: 1px solid var(--line);
-  pointer-events: none;
+  pointer-events: auto;
   z-index: 2;
+  box-shadow: 0 10px 28px rgba(6, 21, 38, 0.18);
+}
+
+.map-pin.is-west .map-tip {
+  left: 0;
+  transform: none;
+}
+
+.map-pin.is-east .map-tip {
+  left: auto;
+  right: 0;
+  transform: none;
+}
+
+.map-pin.is-south .map-tip {
+  bottom: auto;
+  top: calc(100% + 10px);
 }
 
 .map-tip strong,
@@ -1985,6 +2038,60 @@ html[dir="rtl"] .pub-row:hover .pub-arrow {
 .map-tip span {
   color: var(--muted);
   font-size: 0.85rem;
+}
+
+.map-tip-photos {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 4px;
+  margin-top: 0.45rem;
+  max-width: 196px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.map-tip-photos::-webkit-scrollbar {
+  height: 3px;
+}
+
+.map-tip-photos::-webkit-scrollbar-thumb {
+  background: rgba(15, 30, 63, 0.28);
+}
+
+.map-tip-photo {
+  flex: 0 0 auto;
+  width: 44px;
+  height: 34px;
+  padding: 0;
+  border: 0;
+  background: #d7e3ee;
+  cursor: pointer;
+}
+
+.map-tip-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.map-photo-preview {
+  position: absolute;
+  inset: 0;
+  z-index: 6;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  background: rgba(6, 21, 38, 0.72);
+  cursor: pointer;
+}
+
+.map-photo-preview img {
+  max-width: 86%;
+  max-height: 86%;
+  object-fit: contain;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
 }
 
 .region-grid {

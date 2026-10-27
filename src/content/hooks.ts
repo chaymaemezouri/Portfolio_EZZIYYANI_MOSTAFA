@@ -1,3 +1,4 @@
+import { internationalActivities } from "@/data/international";
 import { awards } from "@/data/awards";
 import { bookEditions, type BookEdition } from "@/data/books";
 import { certifications } from "@/data/certifications";
@@ -10,12 +11,14 @@ import { innovations, type Innovation } from "@/data/innovation";
 import { patents, type Patent } from "@/data/patents";
 import { projects } from "@/data/projects";
 import { listedPublications, type ListedPublication } from "@/data/publications";
+import { visionArticles, type VisionArticle } from "@/data/articles";
 import { mediaItems } from "@/data/videos";
 import type {
   Award,
   Certification,
   Conference,
   Education,
+  InternationalActivity,
   LeadershipRole,
   MediaItem,
   ProfileSection,
@@ -43,12 +46,14 @@ export const usePatents = () => useCollection<Patent>("patents", patents);
 export const useInnovation = () => useCollection<Innovation>("innovation", innovations);
 export const useGallery = () => useCollection<GalleryPhoto>("gallery", []);
 export const useVideos = () => useCollection<MediaItem>("videos", mediaItems);
+export const useArticles = () => useCollection<VisionArticle>("articles", visionArticles);
 export const usePosts = () => useCollection<PublicPost>("posts", publicPosts);
 export const useAwards = () => useCollection<Award>("awards", awards);
 export const useLeadership = () => useCollection<LeadershipRole>("leadership", leadershipRoles);
 export const useCertifications = () => useCollection<Certification>("certifications", certifications);
 export const useConferences = () => useCollection<Conference>("conferences", conferences);
 export const useEducation = () => useCollection<Education>("education", education);
+export const useInternational = () => useCollection<InternationalActivity>("international", internationalActivities);
 export const useProfileSections = () => useCollection<ProfileSectionEntry>("profileSections", profileSections);
 
 export function useProfile() {
