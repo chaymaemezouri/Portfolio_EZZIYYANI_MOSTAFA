@@ -122,6 +122,31 @@ jobs:
             "${VPS_USER}@${VPS_HOST}" \
             "$(printf 'ADMIN_EMAIL=%q ADMIN_PASSWORD=%q JWT_SECRET=%q bash ~/ezziyyani-cms/deploy/setup-api.sh' "$ADMIN_EMAIL" "$ADMIN_PASSWORD" "$JWT_SECRET")"
 
+      - name: Configure nginx API proxy
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+          VPS_SUDO_PASSWORD: ${{ secrets.VPS_SUDO_PASSWORD }}
+        run: |
+          SSH="ssh -i ~/.ssh/id_ed25519 -o BatchMode=yes -o StrictHostKeyChecking=yes -o ConnectTimeout=15"
+          $SSH "${VPS_USER}@${VPS_HOST}" "sed -i 's/\r$//' ~/ezziyyani-cms/deploy/setup-nginx.sh && chmod +x ~/ezziyyani-cms/deploy/setup-nginx.sh"
+          $SSH "${VPS_USER}@${VPS_HOST}" 'echo "=== nginx listing ==="; ls -la /etc/nginx/sites-enabled /etc/nginx/sites-available /etc/nginx/conf.d 2>/dev/null; echo "=== /var/www ==="; ls -la /var/www 2>/dev/null; echo "=== nginx.conf head ==="; sed -n "1,120p" /etc/nginx/nginx.conf 2>/dev/null || true'
+          NGINX_SETUP="\$HOME/ezziyyani-cms/deploy/setup-nginx.sh /var/www/ezziyyani-portfolio-deploy/nginx-api.conf"
+          if $SSH -o IdentitiesOnly=yes "root@${VPS_HOST}" "id -u" >/tmp/root-ssh.out 2>/tmp/root-ssh.err; then
+            echo "Root SSH available"
+            $SSH "root@${VPS_HOST}" "bash /home/${VPS_USER}/ezziyyani-cms/deploy/setup-nginx.sh /var/www/ezziyyani-portfolio-deploy/nginx-api.conf"
+          elif $SSH "${VPS_USER}@${VPS_HOST}" "sudo -n true"; then
+            echo "Passwordless sudo available"
+            $SSH "${VPS_USER}@${VPS_HOST}" "sudo -n bash $NGINX_SETUP"
+          elif [ -n "$VPS_SUDO_PASSWORD" ]; then
+            echo "Using sudo password secret"
+            $SSH "${VPS_USER}@${VPS_HOST}" "printf '%s\n' $(printf %q "$VPS_SUDO_PASSWORD") | sudo -S -p '' bash $NGINX_SETUP"
+          else
+            echo "::error::Impossible de modifier nginx : pas de SSH root, pas de sudo. Ajoutez le secret GitHub VPS_SUDO_PASSWORD, ou en root sur le VPS : bash /home/${VPS_USER}/ezziyyani-cms/deploy/setup-nginx.sh"
+            cat /tmp/root-ssh.err || true
+            exit 1
+          fi
+
       - name: Verify deployed files
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
