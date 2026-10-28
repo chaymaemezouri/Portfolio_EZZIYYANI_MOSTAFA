@@ -10,6 +10,7 @@ import { getCollection, validateItem } from "../../src/content/collections";
 import { checkCredentials, clientIp, closeSession, isLocked, openSession, requireAdmin, sessionEmail } from "./auth";
 import { createItem, deleteItem, getItem, listAudit, listItems, reorderItems, restoreAudit, updateItem } from "./db";
 import { env } from "./env";
+import { publishPublicContent } from "./publish";
 
 const MAX_UPLOAD = 25 * 1024 * 1024;
 const allowedTypes: Record<string, string> = {
@@ -25,6 +26,8 @@ const allowedTypes: Record<string, string> = {
 };
 
 mkdirSync(env.uploadDir, { recursive: true });
+if (env.distDir) mkdirSync(join(env.distDir, "cms"), { recursive: true });
+publishPublicContent();
 
 const app = new Hono();
 

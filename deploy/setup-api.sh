@@ -82,7 +82,7 @@ HOST=0.0.0.0
 DIST_DIR=/var/www/ezziyyani-portfolio-deploy
 NODE_ENV=production
 DATABASE_PATH='$SERVER/data/content.db'
-UPLOAD_DIR='$SERVER/uploads'
+UPLOAD_DIR='/var/www/ezziyyani-portfolio-deploy/uploads'
 ADMIN_EMAIL='$ADMIN_EMAIL'
 ADMIN_PASSWORD_HASH='$HASH'
 JWT_SECRET='$JWT'
@@ -91,6 +91,20 @@ else
   log "Keeping existing $ENV_FILE"
   grep -q '^HOST=' "$ENV_FILE" || printf "\nHOST=0.0.0.0\n" >> "$ENV_FILE"
   grep -q '^DIST_DIR=' "$ENV_FILE" || printf "DIST_DIR=/var/www/ezziyyani-portfolio-deploy\n" >> "$ENV_FILE"
+  if grep -q "^UPLOAD_DIR='$SERVER/uploads'" "$ENV_FILE" || grep -q "^UPLOAD_DIR=$SERVER/uploads" "$ENV_FILE"; then
+    TMP="$(mktemp)"
+    grep -v '^UPLOAD_DIR=' "$ENV_FILE" > "$TMP"
+    printf "UPLOAD_DIR='/var/www/ezziyyani-portfolio-deploy/uploads'\n" >> "$TMP"
+    mv "$TMP" "$ENV_FILE"
+    chmod 600 "$ENV_FILE"
+  fi
+fi
+
+DIST_DIR_VALUE="/var/www/ezziyyani-portfolio-deploy"
+mkdir -p "$DIST_DIR_VALUE/uploads" "$DIST_DIR_VALUE/cms"
+if [ -d "$SERVER/uploads" ] && [ "$(ls -A "$SERVER/uploads" 2>/dev/null || true)" ]; then
+  log "Copying existing uploads into the public site folder"
+  cp -a "$SERVER/uploads/." "$DIST_DIR_VALUE/uploads/" 2>/dev/null || true
 fi
 
 set +u

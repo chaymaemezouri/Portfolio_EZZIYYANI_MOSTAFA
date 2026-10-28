@@ -4,6 +4,12 @@ import Database from "better-sqlite3";
 import type { Item, ItemData } from "../../src/content/collections";
 import { env } from "./env";
 
+function afterChange() {
+  void import("./publish")
+    .then((module) => module.publishPublicContent())
+    .catch(() => undefined);
+}
+
 mkdirSync(dirname(env.databasePath), { recursive: true });
 
 export const db = new Database(env.databasePath);
@@ -89,6 +95,7 @@ export function createItem(collection: string, data: ItemData, published: boolea
   ).run(id, collection, JSON.stringify(data), next, published ? 1 : 0, stamp, stamp);
   const item = getItem(collection, id)!;
   log("create", collection, id, undefined, item);
+  afterChange();
   return item;
 }
 
@@ -104,6 +111,7 @@ export function updateItem(collection: string, id: string, data: ItemData, publi
   );
   const after = getItem(collection, id)!;
   log("update", collection, id, before, after);
+  afterChange();
   return after;
 }
 
@@ -112,6 +120,7 @@ export function deleteItem(collection: string, id: string) {
   if (!before) return false;
   db.prepare("DELETE FROM items WHERE collection = ? AND id = ?").run(collection, id);
   log("delete", collection, id, before);
+  afterChange();
   return true;
 }
 
@@ -119,6 +128,7 @@ export const reorderItems = db.transaction((collection: string, ids: string[]) =
   const update = db.prepare("UPDATE items SET position = ? WHERE collection = ? AND id = ?");
   ids.forEach((id, index) => update.run(index, collection, id));
   log("reorder", collection, "*");
+  afterChange();
 });
 
 type AuditRow = {

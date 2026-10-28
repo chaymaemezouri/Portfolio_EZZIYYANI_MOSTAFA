@@ -79,6 +79,7 @@ jobs:
           VPS_USER: ${{ secrets.VPS_USER }}
         run: |
           rsync -az --delete \
+            --exclude uploads --exclude cms \
             -e "ssh -i ~/.ssh/id_ed25519 -o BatchMode=yes -o StrictHostKeyChecking=yes -o ConnectTimeout=15" \
             dist/ \
             "${VPS_USER}@${VPS_HOST}:/var/www/ezziyyani-portfolio-deploy/"
