@@ -352,11 +352,18 @@ export const collections: Collection[] = [
     id: "gallery",
     label: "Galerie",
     group: "Médias",
-    titleField: "caption",
+    titleField: "title",
     fields: [
-      { name: "image", label: "Photo", type: "image", required: true },
-      { name: "caption", label: "Légende", type: "l10n" },
-      { name: "date", label: "Date", type: "text" },
+      { name: "title", label: "Titre", type: "l10n", required: true },
+      { name: "description", label: "Description", type: "l10n", multiline: true },
+      { name: "date", label: "Date", type: "text", help: "Ex. octobre 2024" },
+      {
+        name: "images",
+        label: "Photos",
+        type: "images",
+        required: true,
+        help: "Sélectionnez plusieurs images d’un coup. Elles s’affichent en bandeau horizontal.",
+      },
     ],
   },
   {

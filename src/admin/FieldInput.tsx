@@ -9,19 +9,31 @@ type Props = {
   onChange: (value: unknown) => void;
 };
 
-function UploadInput({ field, value, onChange }: Props) {
+function UploadInput({
+  field,
+  value,
+  onChange,
+  multiple = false,
+  onUploadMany,
+}: Props & { multiple?: boolean; onUploadMany?: (urls: string[]) => void }) {
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
   const url = typeof value === "string" ? value : "";
-  const accept = field.type === "image" ? "image/jpeg,image/png,image/webp" : ".pdf,.ppt,.pptx,.doc,.docx,.zip";
+  const accept = field.type === "image" || multiple ? "image/jpeg,image/png,image/webp" : ".pdf,.ppt,.pptx,.doc,.docx,.zip";
 
-  async function pick(file: File | undefined) {
-    if (!file) return;
+  async function pick(files: FileList | null) {
+    if (!files?.length) return;
     setBusy(true);
     setError("");
     try {
-      const { url: uploaded } = await api.upload(file);
-      onChange(uploaded);
+      const list = Array.from(files);
+      const uploaded: string[] = [];
+      for (const file of list) {
+        const { url: next } = await api.upload(file);
+        uploaded.push(next);
+      }
+      if (onUploadMany) onUploadMany(uploaded);
+      else onChange(uploaded[0]);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Échec du téléversement");
     } finally {
@@ -31,7 +43,7 @@ function UploadInput({ field, value, onChange }: Props) {
 
   return (
     <div className="adm-upload">
-      {url ? (
+      {url && !multiple ? (
         field.type === "image" ? (
           <img src={url} alt="" />
         ) : (
@@ -44,10 +56,20 @@ function UploadInput({ field, value, onChange }: Props) {
       <div className="adm-upload-actions">
         <label className="adm-btn adm-btn-ghost">
           <Upload size={15} aria-hidden="true" />
-          {busy ? "Envoi…" : url ? "Remplacer" : "Choisir un fichier"}
-          <input type="file" accept={accept} hidden disabled={busy} onChange={(event) => pick(event.target.files?.[0])} />
+          {busy ? "Envoi…" : multiple ? "Ajouter des photos" : url ? "Remplacer" : "Choisir un fichier"}
+          <input
+            type="file"
+            accept={accept}
+            hidden
+            multiple={multiple}
+            disabled={busy}
+            onChange={(event) => {
+              void pick(event.target.files);
+              event.target.value = "";
+            }}
+          />
         </label>
-        {url ? (
+        {url && !multiple ? (
           <button type="button" className="adm-btn adm-btn-ghost" onClick={() => onChange(undefined)}>
             Retirer
           </button>
@@ -168,7 +190,9 @@ function ImagesInput({ field, value, onChange }: Props) {
       <UploadInput
         field={{ ...field, type: "image" }}
         value=""
-        onChange={(url) => (typeof url === "string" && url ? onChange([...rows, url]) : undefined)}
+        multiple
+        onChange={() => undefined}
+        onUploadMany={(urls) => onChange([...rows, ...urls])}
       />
     </div>
   );

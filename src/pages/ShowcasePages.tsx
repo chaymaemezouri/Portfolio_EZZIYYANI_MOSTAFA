@@ -1,6 +1,6 @@
 import { useEffect, useState, type ReactNode } from "react";
 import { ArrowUpRight, Download, FileText, Layers3, ScanLine, X } from "lucide-react";
-import { useGallery, useInnovation, usePatents, type GalleryPhoto } from "@/content/hooks";
+import { useGallery, useInnovation, usePatents } from "@/content/hooks";
 import { innovationThemes } from "@/data/innovation";
 import { Seo } from "@/components/shared/Seo";
 import { useI18n } from "@/i18n/I18nProvider";
@@ -37,7 +37,7 @@ function Shell({ id, lede, empty, children, count = 0 }: { id: string; lede: str
       <section className="container teach-page">
         <header className="teach-head">
           <h1 className="page-title">{t(`nav.${id}`)}</h1>
-          <p className="page-lede">{empty ? t("teaching.pending") : lede}</p>
+          {empty ? <p className="page-lede">{t("teaching.pending")}</p> : lede ? <p className="page-lede">{lede}</p> : null}
         </header>
         {empty ? null : children}
       </section>
@@ -153,8 +153,20 @@ export function InnovationPage() {
 
 export function GalleryPage() {
   const { locale, t } = useI18n();
-  const photos = useGallery();
-  const [open, setOpen] = useState<GalleryPhoto | null>(null);
+  const albums = useGallery();
+  const themes = albums
+    .map((album) => {
+      const images = (album.images?.length ? album.images : album.image ? [album.image] : []).filter(Boolean);
+      return {
+        id: album.id,
+        title: text(locale, album.title) || text(locale, album.caption),
+        description: text(locale, album.description),
+        date: album.date?.trim() ?? "",
+        images,
+      };
+    })
+    .filter((album) => album.images.length > 0 || album.title || album.description);
+  const [open, setOpen] = useState<{ src: string; title: string; description: string; date: string } | null>(null);
 
   useEffect(() => {
     if (!open) return;
@@ -164,13 +176,38 @@ export function GalleryPage() {
   }, [open]);
 
   return (
-    <Shell id="gallery" lede={t("showcase.galleryLede")} empty={photos.length === 0}>
-      <div className="gallery-grid">
-        {photos.map((photo) => (
-          <button key={photo.id} type="button" className="gallery-item" onClick={() => setOpen(photo)}>
-            <img src={photo.image} alt={text(locale, photo.caption)} loading="lazy" />
-            {text(locale, photo.caption) ? <span>{text(locale, photo.caption)}</span> : null}
-          </button>
+    <Shell id="gallery" lede="" empty={themes.length === 0}>
+      <div className="gallery-themes">
+        {themes.map((theme, themeIndex) => (
+          <section key={theme.id} className="gallery-theme" style={{ animationDelay: `${themeIndex * 60}ms` }}>
+            <header className="gallery-theme-copy">
+              {theme.date ? <span className="gallery-theme-date">{theme.date}</span> : null}
+              <h2>{theme.title || t("nav.gallery")}</h2>
+              {theme.description ? <p className="gallery-theme-desc">{theme.description}</p> : null}
+            </header>
+            {theme.images.length ? (
+              <div className="gallery-strip" role="list">
+                {theme.images.map((src, index) => (
+                  <button
+                    key={`${theme.id}-${src}-${index}`}
+                    type="button"
+                    className="gallery-item"
+                    role="listitem"
+                    onClick={() =>
+                      setOpen({
+                        src,
+                        title: theme.title,
+                        description: theme.description,
+                        date: theme.date,
+                      })
+                    }
+                  >
+                    <img src={src} alt="" loading="lazy" />
+                  </button>
+                ))}
+              </div>
+            ) : null}
+          </section>
         ))}
       </div>
       {open ? (
@@ -179,9 +216,13 @@ export function GalleryPage() {
             <X size={22} />
           </button>
           <figure onClick={(event) => event.stopPropagation()}>
-            <img src={open.image} alt={text(locale, open.caption)} />
-            {text(locale, open.caption) || open.date ? (
-              <figcaption>{joinText(locale, [open.caption, open.date])}</figcaption>
+            <img src={open.src} alt={open.title} />
+            {open.title || open.description || open.date ? (
+              <figcaption>
+                <strong>{open.title}</strong>
+                {open.date ? <span>{open.date}</span> : null}
+                {open.description ? <em>{open.description}</em> : null}
+              </figcaption>
             ) : null}
           </figure>
         </div>

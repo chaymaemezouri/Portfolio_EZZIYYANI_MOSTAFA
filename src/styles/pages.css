@@ -2925,43 +2925,130 @@ a.book-card:hover .book-springer {
   font-weight: 600;
 }
 
-.gallery-grid {
+.gallery-themes {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 0.8rem;
-  margin-top: 1.6rem;
+  gap: 2rem;
+  margin-top: 1.4rem;
+}
+
+.gallery-theme {
+  position: relative;
+  overflow: hidden;
+  padding: 1.35rem 1.2rem 1.15rem;
+  border: 1px solid rgba(25, 55, 90, 0.1);
+  border-radius: 22px;
+  background:
+    radial-gradient(120% 90% at 100% 0%, rgba(255, 140, 66, 0.1), transparent 42%),
+    linear-gradient(165deg, #f7fbff 0%, #eef5fb 52%, #e8f0f7 100%);
+  box-shadow: 0 18px 40px rgba(12, 32, 58, 0.06);
+  animation: gallery-theme-in 0.55s ease both;
+}
+
+.gallery-theme::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto auto 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(180deg, #ff8c42, #1d4f7c);
+}
+
+@keyframes gallery-theme-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.gallery-theme-copy {
+  max-width: 46rem;
+  margin: 0 0 1rem 0.45rem;
+}
+
+.gallery-theme-copy h2 {
+  margin: 0.45rem 0 0;
+  color: var(--navy-900);
+  font-size: clamp(1.45rem, 2.6vw, 2rem);
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+
+.gallery-theme-desc {
+  margin: 0.7rem 0 0;
+  max-width: 40rem;
+  color: var(--navy-700, #35506b);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.gallery-theme-date {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.28rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(29, 79, 124, 0.1);
+  color: #1d4f7c;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.gallery-strip {
+  display: flex;
+  gap: 0.85rem;
+  overflow-x: auto;
+  margin-inline: -0.2rem;
+  padding: 0.2rem 0.2rem 0.65rem;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  mask-image: linear-gradient(90deg, transparent, #000 1.2%, #000 96%, transparent);
+}
+
+.gallery-strip::-webkit-scrollbar {
+  height: 5px;
+}
+
+.gallery-strip::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: rgba(29, 79, 124, 0.28);
 }
 
 .gallery-item {
   position: relative;
+  flex: 0 0 min(300px, 76vw);
   overflow: hidden;
   padding: 0;
   border: 0;
-  border-radius: 12px;
-  background: var(--navy-900);
+  border-radius: 16px;
+  background: #10253c;
+  box-shadow: 0 12px 28px rgba(10, 28, 48, 0.16);
   cursor: zoom-in;
+  scroll-snap-align: start;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.gallery-item:hover,
+.gallery-item:focus-visible {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 34px rgba(10, 28, 48, 0.22);
 }
 
 .gallery-item img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 5 / 4;
   object-fit: cover;
-  transition: transform 0.4s ease;
+  transition: transform 0.55s ease;
 }
 
-.gallery-item:hover img {
-  transform: scale(1.04);
-}
-
-.gallery-item span {
-  position: absolute;
-  inset: auto 0 0;
-  padding: 1.6rem 0.8rem 0.6rem;
-  background: linear-gradient(transparent, rgba(8, 18, 40, 0.85));
-  color: white;
-  font-size: 0.82rem;
-  text-align: start;
+.gallery-item:hover img,
+.gallery-item:focus-visible img {
+  transform: scale(1.05);
 }
 
 .gallery-viewer {
@@ -2972,6 +3059,7 @@ a.book-card:hover .book-springer {
   place-items: center;
   padding: 2rem;
   background: rgba(6, 12, 28, 0.92);
+  backdrop-filter: blur(8px);
 }
 
 .gallery-viewer figure {
@@ -2981,15 +3069,51 @@ a.book-card:hover .book-springer {
 
 .gallery-viewer img {
   max-width: 100%;
-  max-height: 80vh;
-  border-radius: 10px;
+  max-height: 74vh;
+  border-radius: 14px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
 }
 
 .gallery-viewer figcaption {
-  margin-top: 0.7rem;
-  color: rgba(255, 255, 255, 0.85);
-  font-size: 0.9rem;
+  display: grid;
+  gap: 0.35rem;
+  margin-top: 0.85rem;
+  color: rgba(255, 255, 255, 0.9);
   text-align: center;
+}
+
+.gallery-viewer figcaption strong {
+  font-size: 1.05rem;
+}
+
+.gallery-viewer figcaption span {
+  color: #ffb07a;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.gallery-viewer figcaption em {
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 720px) {
+  .gallery-theme {
+    padding: 1.1rem 0.9rem 0.95rem;
+    border-radius: 18px;
+  }
+
+  .gallery-theme-copy {
+    margin-inline-start: 0.35rem;
+  }
+
+  .gallery-item {
+    flex-basis: min(240px, 82vw);
+  }
 }
 
 .gallery-close {

@@ -30,12 +30,17 @@ import { useCollection } from "./useCollection";
 
 export type { Innovation, Patent };
 
-export interface GalleryPhoto {
+export interface GalleryAlbum {
   id: string;
-  image: string;
+  title?: TextValue;
+  description?: TextValue;
   caption?: TextValue;
   date?: string;
+  images?: string[];
+  image?: string;
 }
+
+export type GalleryPhoto = GalleryAlbum;
 
 export type ProfileSectionEntry = ProfileSection & { title?: TextValue };
 
@@ -44,7 +49,7 @@ export const useBooks = () => useCollection<BookEdition>("books", bookEditions);
 export const useProjects = () => useCollection<ResearchProject>("projects", projects);
 export const usePatents = () => useCollection<Patent>("patents", patents);
 export const useInnovation = () => useCollection<Innovation>("innovation", innovations);
-export const useGallery = () => useCollection<GalleryPhoto>("gallery", []);
+export const useGallery = () => useCollection<GalleryAlbum>("gallery", []);
 export const useVideos = () => useCollection<MediaItem>("videos", mediaItems);
 export const useArticles = () => useCollection<VisionArticle>("articles", visionArticles);
 export const usePosts = () => useCollection<PublicPost>("posts", publicPosts);
