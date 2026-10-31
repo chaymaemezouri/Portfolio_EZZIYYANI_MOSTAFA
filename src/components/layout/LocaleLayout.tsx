@@ -25,18 +25,20 @@ function ScrollToTop() {
 
 export function LocaleLayout() {
   const { locale } = useParams();
+  const { pathname } = useLocation();
   if (!isLocale(locale)) return <Navigate to={`/${defaultLocale}`} replace />;
+  const avatarStudio = pathname.endsWith("/avatar");
 
   return (
     <I18nProvider locale={locale}>
-      <div className="site">
+      <div className={`site${avatarStudio ? " is-avatar" : ""}`}>
         <SkipLink />
         <ScrollToTop />
         <Header />
         <main id="main">
           <Outlet />
         </main>
-        <Footer />
+        {avatarStudio ? null : <Footer />}
       </div>
     </I18nProvider>
   );

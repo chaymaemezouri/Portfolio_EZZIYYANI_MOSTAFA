@@ -1,0 +1,2142 @@
+[
+  {
+    "id": "ia-1",
+    "source": "ia",
+    "keywords": [
+      "intelligence",
+      "artificielle",
+      "delà",
+      "définition",
+      "classique"
+    ],
+    "question": {
+      "en": "Qu’est-ce que l’intelligence artificielle, au-delà de la définition classique ?",
+      "fr": "Qu’est-ce que l’intelligence artificielle, au-delà de la définition classique ?",
+      "ar": "Qu’est-ce que l’intelligence artificielle, au-delà de la définition classique ?"
+    },
+    "answer": {
+      "en": "L’intelligence artificielle est un ensemble de méthodes informatiques et mathématiques permettant à des systèmes de réaliser des tâches qui nécessitent habituellement certaines capacités associées à l’intelligence humaine : percevoir, apprendre, reconnaître des structures, comprendre le langage, prévoir, planifier ou aider à prendre des décisions. Il est toutefois essentiel de distinguer la performance observable de la compréhension humaine. Un système d’IA peut résoudre efficacement un problème sans comprendre son contexte avec la même profondeur qu’un être humain. L’IA ne se réduit donc ni aux robots ni aux assistants conversationnels : elle englobe également l’optimisation, les systèmes experts, l’apprentissage statistique, la vision par ordinateur et l’aide à la décision.",
+      "fr": "L’intelligence artificielle est un ensemble de méthodes informatiques et mathématiques permettant à des systèmes de réaliser des tâches qui nécessitent habituellement certaines capacités associées à l’intelligence humaine : percevoir, apprendre, reconnaître des structures, comprendre le langage, prévoir, planifier ou aider à prendre des décisions. Il est toutefois essentiel de distinguer la performance observable de la compréhension humaine. Un système d’IA peut résoudre efficacement un problème sans comprendre son contexte avec la même profondeur qu’un être humain. L’IA ne se réduit donc ni aux robots ni aux assistants conversationnels : elle englobe également l’optimisation, les systèmes experts, l’apprentissage statistique, la vision par ordinateur et l’aide à la décision.",
+      "ar": "L’intelligence artificielle est un ensemble de méthodes informatiques et mathématiques permettant à des systèmes de réaliser des tâches qui nécessitent habituellement certaines capacités associées à l’intelligence humaine : percevoir, apprendre, reconnaître des structures, comprendre le langage, prévoir, planifier ou aider à prendre des décisions. Il est toutefois essentiel de distinguer la performance observable de la compréhension humaine. Un système d’IA peut résoudre efficacement un problème sans comprendre son contexte avec la même profondeur qu’un être humain. L’IA ne se réduit donc ni aux robots ni aux assistants conversationnels : elle englobe également l’optimisation, les systèmes experts, l’apprentissage statistique, la vision par ordinateur et l’aide à la décision."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-2",
+    "source": "ia",
+    "keywords": [
+      "quelle",
+      "différence",
+      "intelligence",
+      "artificielle",
+      "machine",
+      "learning",
+      "deep"
+    ],
+    "question": {
+      "en": "Quelle est la différence entre l’intelligence artificielle, le Machine Learning et le Deep Learning ?",
+      "fr": "Quelle est la différence entre l’intelligence artificielle, le Machine Learning et le Deep Learning ?",
+      "ar": "Quelle est la différence entre l’intelligence artificielle, le Machine Learning et le Deep Learning ?"
+    },
+    "answer": {
+      "en": "L’intelligence artificielle constitue le domaine général. Le Machine Learning, ou apprentissage automatique, en est une branche qui permet aux systèmes d’apprendre des relations à partir des données plutôt que de dépendre exclusivement de règles explicitement programmées. Le Deep Learning est une sous-catégorie du Machine Learning qui utilise des réseaux neuronaux comportant plusieurs couches de calcul. Ces approches ne sont pas interchangeables : une IA peut reposer sur des règles sans apprentissage automatique, tandis qu’un modèle de Deep Learning nécessite généralement des données et des ressources de calcul importantes. Le choix dépend du problème, de la disponibilité des données, des contraintes opérationnelles et du niveau d’explicabilité recherché.",
+      "fr": "L’intelligence artificielle constitue le domaine général. Le Machine Learning, ou apprentissage automatique, en est une branche qui permet aux systèmes d’apprendre des relations à partir des données plutôt que de dépendre exclusivement de règles explicitement programmées. Le Deep Learning est une sous-catégorie du Machine Learning qui utilise des réseaux neuronaux comportant plusieurs couches de calcul. Ces approches ne sont pas interchangeables : une IA peut reposer sur des règles sans apprentissage automatique, tandis qu’un modèle de Deep Learning nécessite généralement des données et des ressources de calcul importantes. Le choix dépend du problème, de la disponibilité des données, des contraintes opérationnelles et du niveau d’explicabilité recherché.",
+      "ar": "L’intelligence artificielle constitue le domaine général. Le Machine Learning, ou apprentissage automatique, en est une branche qui permet aux systèmes d’apprendre des relations à partir des données plutôt que de dépendre exclusivement de règles explicitement programmées. Le Deep Learning est une sous-catégorie du Machine Learning qui utilise des réseaux neuronaux comportant plusieurs couches de calcul. Ces approches ne sont pas interchangeables : une IA peut reposer sur des règles sans apprentissage automatique, tandis qu’un modèle de Deep Learning nécessite généralement des données et des ressources de calcul importantes. Le choix dépend du problème, de la disponibilité des données, des contraintes opérationnelles et du niveau d’explicabilité recherché."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-3",
+    "source": "ia",
+    "keywords": [
+      "quelle",
+      "différence",
+      "existe",
+      "spécialisée",
+      "intelligence",
+      "artificielle",
+      "générale"
+    ],
+    "question": {
+      "en": "Quelle différence existe-t-il entre une IA spécialisée et une intelligence artificielle générale ?",
+      "fr": "Quelle différence existe-t-il entre une IA spécialisée et une intelligence artificielle générale ?",
+      "ar": "Quelle différence existe-t-il entre une IA spécialisée et une intelligence artificielle générale ?"
+    },
+    "answer": {
+      "en": "Une IA spécialisée est conçue pour une tâche ou un ensemble limité de tâches : diagnostiquer certaines anomalies, traduire des textes, reconnaître des objets ou prévoir une consommation énergétique. Elle peut atteindre des performances remarquables sans posséder une intelligence générale. L’intelligence artificielle générale, souvent désignée par AGI, correspond à une capacité hypothétique à apprendre et à résoudre une grande variété de problèmes intellectuels dans des contextes différents, avec une flexibilité comparable à celle de l’être humain. Malgré les progrès des modèles généralistes, il n’existe pas de consensus scientifique établissant qu’une telle intelligence générale a été atteinte. Il faut donc distinguer les capacités observées, les critères d’évaluation et les projections concernant l’avenir.",
+      "fr": "Une IA spécialisée est conçue pour une tâche ou un ensemble limité de tâches : diagnostiquer certaines anomalies, traduire des textes, reconnaître des objets ou prévoir une consommation énergétique. Elle peut atteindre des performances remarquables sans posséder une intelligence générale. L’intelligence artificielle générale, souvent désignée par AGI, correspond à une capacité hypothétique à apprendre et à résoudre une grande variété de problèmes intellectuels dans des contextes différents, avec une flexibilité comparable à celle de l’être humain. Malgré les progrès des modèles généralistes, il n’existe pas de consensus scientifique établissant qu’une telle intelligence générale a été atteinte. Il faut donc distinguer les capacités observées, les critères d’évaluation et les projections concernant l’avenir.",
+      "ar": "Une IA spécialisée est conçue pour une tâche ou un ensemble limité de tâches : diagnostiquer certaines anomalies, traduire des textes, reconnaître des objets ou prévoir une consommation énergétique. Elle peut atteindre des performances remarquables sans posséder une intelligence générale. L’intelligence artificielle générale, souvent désignée par AGI, correspond à une capacité hypothétique à apprendre et à résoudre une grande variété de problèmes intellectuels dans des contextes différents, avec une flexibilité comparable à celle de l’être humain. Malgré les progrès des modèles généralistes, il n’existe pas de consensus scientifique établissant qu’une telle intelligence générale a été atteinte. Il faut donc distinguer les capacités observées, les critères d’évaluation et les projections concernant l’avenir."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-4",
+    "source": "ia",
+    "keywords": [
+      "intelligence",
+      "artificielle",
+      "peut",
+      "elle",
+      "réellement",
+      "raisonner"
+    ],
+    "question": {
+      "en": "L’intelligence artificielle peut-elle réellement raisonner ?",
+      "fr": "L’intelligence artificielle peut-elle réellement raisonner ?",
+      "ar": "L’intelligence artificielle peut-elle réellement raisonner ?"
+    },
+    "answer": {
+      "en": "La réponse dépend de ce que l’on entend par raisonnement. Un système d’IA peut effectuer des déductions, comparer des hypothèses, résoudre des problèmes mathématiques, élaborer des plans et combiner plusieurs étapes de traitement. Ces comportements peuvent constituer des formes opérationnelles de raisonnement. Cependant, la réussite sur certains tests ne garantit pas une capacité de raisonnement robuste dans toutes les situations. Un modèle peut produire une réponse convaincante tout en commettant une erreur logique ou en utilisant une prémisse incorrecte. L’évaluation scientifique doit donc examiner la validité des étapes, la stabilité des résultats, la capacité à reconnaître l’incertitude et la résistance aux changements de contexte, plutôt que de se limiter à la qualité apparente de la réponse.",
+      "fr": "La réponse dépend de ce que l’on entend par raisonnement. Un système d’IA peut effectuer des déductions, comparer des hypothèses, résoudre des problèmes mathématiques, élaborer des plans et combiner plusieurs étapes de traitement. Ces comportements peuvent constituer des formes opérationnelles de raisonnement. Cependant, la réussite sur certains tests ne garantit pas une capacité de raisonnement robuste dans toutes les situations. Un modèle peut produire une réponse convaincante tout en commettant une erreur logique ou en utilisant une prémisse incorrecte. L’évaluation scientifique doit donc examiner la validité des étapes, la stabilité des résultats, la capacité à reconnaître l’incertitude et la résistance aux changements de contexte, plutôt que de se limiter à la qualité apparente de la réponse.",
+      "ar": "La réponse dépend de ce que l’on entend par raisonnement. Un système d’IA peut effectuer des déductions, comparer des hypothèses, résoudre des problèmes mathématiques, élaborer des plans et combiner plusieurs étapes de traitement. Ces comportements peuvent constituer des formes opérationnelles de raisonnement. Cependant, la réussite sur certains tests ne garantit pas une capacité de raisonnement robuste dans toutes les situations. Un modèle peut produire une réponse convaincante tout en commettant une erreur logique ou en utilisant une prémisse incorrecte. L’évaluation scientifique doit donc examiner la validité des étapes, la stabilité des résultats, la capacité à reconnaître l’incertitude et la résistance aux changements de contexte, plutôt que de se limiter à la qualité apparente de la réponse."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-5",
+    "source": "ia",
+    "keywords": [
+      "comprend",
+      "elle",
+      "réellement",
+      "produit"
+    ],
+    "question": {
+      "en": "L’IA comprend-elle réellement ce qu’elle produit ?",
+      "fr": "L’IA comprend-elle réellement ce qu’elle produit ?",
+      "ar": "L’IA comprend-elle réellement ce qu’elle produit ?"
+    },
+    "answer": {
+      "en": "Il faut distinguer la maîtrise fonctionnelle d’une tâche de la compréhension au sens humain. Un modèle de langage apprend des régularités complexes entre les mots, les concepts et les contextes. Il peut ainsi expliquer un raisonnement, résumer un document ou produire un programme informatique. Néanmoins, ces capacités ne démontrent pas automatiquement qu’il possède une compréhension consciente, une expérience vécue ou une représentation du monde identique à celle d’un humain. Le débat sur la nature de la compréhension des systèmes artificiels demeure ouvert. Pour une utilisation professionnelle, la question la plus pertinente consiste à vérifier si le système produit des résultats exacts, cohérents, justifiables et adaptés au contexte, tout en identifiant les situations où il échoue.",
+      "fr": "Il faut distinguer la maîtrise fonctionnelle d’une tâche de la compréhension au sens humain. Un modèle de langage apprend des régularités complexes entre les mots, les concepts et les contextes. Il peut ainsi expliquer un raisonnement, résumer un document ou produire un programme informatique. Néanmoins, ces capacités ne démontrent pas automatiquement qu’il possède une compréhension consciente, une expérience vécue ou une représentation du monde identique à celle d’un humain. Le débat sur la nature de la compréhension des systèmes artificiels demeure ouvert. Pour une utilisation professionnelle, la question la plus pertinente consiste à vérifier si le système produit des résultats exacts, cohérents, justifiables et adaptés au contexte, tout en identifiant les situations où il échoue.",
+      "ar": "Il faut distinguer la maîtrise fonctionnelle d’une tâche de la compréhension au sens humain. Un modèle de langage apprend des régularités complexes entre les mots, les concepts et les contextes. Il peut ainsi expliquer un raisonnement, résumer un document ou produire un programme informatique. Néanmoins, ces capacités ne démontrent pas automatiquement qu’il possède une compréhension consciente, une expérience vécue ou une représentation du monde identique à celle d’un humain. Le débat sur la nature de la compréhension des systèmes artificiels demeure ouvert. Pour une utilisation professionnelle, la question la plus pertinente consiste à vérifier si le système produit des résultats exacts, cohérents, justifiables et adaptés au contexte, tout en identifiant les situations où il échoue."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-6",
+    "source": "ia",
+    "keywords": [
+      "quelles",
+      "sont",
+      "principales",
+      "étapes",
+      "évolution"
+    ],
+    "question": {
+      "en": "Quelles sont les principales étapes de l’évolution de l’IA ?",
+      "fr": "Quelles sont les principales étapes de l’évolution de l’IA ?",
+      "ar": "Quelles sont les principales étapes de l’évolution de l’IA ?"
+    },
+    "answer": {
+      "en": "L’IA s’est développée à travers plusieurs grandes périodes. Les premières approches ont privilégié la logique, les règles et la représentation explicite des connaissances. Les systèmes experts ont ensuite permis de reproduire certaines décisions spécialisées. L’essor des données, de la puissance de calcul et des méthodes statistiques a favorisé le Machine Learning, puis le Deep Learning, qui a fortement amélioré la reconnaissance d’images, de la parole et des structures complexes. Les architectures de type Transformer ont ensuite contribué aux progrès des grands modèles de langage et de l’IA générative. Aujourd’hui, la recherche porte notamment sur les systèmes multimodaux, les agents, l’efficacité énergétique, la fiabilité et l’intégration de connaissances vérifiables. Cette évolution résulte de la convergence entre mathématiques, informatique, données, infrastructures et recherche scientifique.",
+      "fr": "L’IA s’est développée à travers plusieurs grandes périodes. Les premières approches ont privilégié la logique, les règles et la représentation explicite des connaissances. Les systèmes experts ont ensuite permis de reproduire certaines décisions spécialisées. L’essor des données, de la puissance de calcul et des méthodes statistiques a favorisé le Machine Learning, puis le Deep Learning, qui a fortement amélioré la reconnaissance d’images, de la parole et des structures complexes. Les architectures de type Transformer ont ensuite contribué aux progrès des grands modèles de langage et de l’IA générative. Aujourd’hui, la recherche porte notamment sur les systèmes multimodaux, les agents, l’efficacité énergétique, la fiabilité et l’intégration de connaissances vérifiables. Cette évolution résulte de la convergence entre mathématiques, informatique, données, infrastructures et recherche scientifique.",
+      "ar": "L’IA s’est développée à travers plusieurs grandes périodes. Les premières approches ont privilégié la logique, les règles et la représentation explicite des connaissances. Les systèmes experts ont ensuite permis de reproduire certaines décisions spécialisées. L’essor des données, de la puissance de calcul et des méthodes statistiques a favorisé le Machine Learning, puis le Deep Learning, qui a fortement amélioré la reconnaissance d’images, de la parole et des structures complexes. Les architectures de type Transformer ont ensuite contribué aux progrès des grands modèles de langage et de l’IA générative. Aujourd’hui, la recherche porte notamment sur les systèmes multimodaux, les agents, l’efficacité énergétique, la fiabilité et l’intégration de connaissances vérifiables. Cette évolution résulte de la convergence entre mathématiques, informatique, données, infrastructures et recherche scientifique."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-7",
+    "source": "ia",
+    "keywords": [
+      "quelle",
+      "différence",
+      "déterministe",
+      "probabiliste"
+    ],
+    "question": {
+      "en": "Quelle est la différence entre une IA déterministe et une IA probabiliste ?",
+      "fr": "Quelle est la différence entre une IA déterministe et une IA probabiliste ?",
+      "ar": "Quelle est la différence entre une IA déterministe et une IA probabiliste ?"
+    },
+    "answer": {
+      "en": "Un système déterministe produit le même résultat lorsque les mêmes entrées et les mêmes conditions sont reproduites. Un système probabiliste représente ou exploite l’incertitude, par exemple en estimant la probabilité d’une maladie, d’une panne ou d’un événement futur. De nombreux systèmes d’apprentissage automatique sont probabilistes, même si leur exécution peut être déterministe lorsque les paramètres, les entrées et les conditions de calcul sont fixés. Les modèles génératifs peuvent également produire des réponses différentes selon leurs paramètres de génération. En pratique, cette distinction est importante pour la reproductibilité, l’interprétation des résultats et la gestion du risque. Une probabilité élevée n’est pas une certitude, et une prédiction doit être interprétée en fonction de sa calibration et des conséquences d’une erreur.",
+      "fr": "Un système déterministe produit le même résultat lorsque les mêmes entrées et les mêmes conditions sont reproduites. Un système probabiliste représente ou exploite l’incertitude, par exemple en estimant la probabilité d’une maladie, d’une panne ou d’un événement futur. De nombreux systèmes d’apprentissage automatique sont probabilistes, même si leur exécution peut être déterministe lorsque les paramètres, les entrées et les conditions de calcul sont fixés. Les modèles génératifs peuvent également produire des réponses différentes selon leurs paramètres de génération. En pratique, cette distinction est importante pour la reproductibilité, l’interprétation des résultats et la gestion du risque. Une probabilité élevée n’est pas une certitude, et une prédiction doit être interprétée en fonction de sa calibration et des conséquences d’une erreur.",
+      "ar": "Un système déterministe produit le même résultat lorsque les mêmes entrées et les mêmes conditions sont reproduites. Un système probabiliste représente ou exploite l’incertitude, par exemple en estimant la probabilité d’une maladie, d’une panne ou d’un événement futur. De nombreux systèmes d’apprentissage automatique sont probabilistes, même si leur exécution peut être déterministe lorsque les paramètres, les entrées et les conditions de calcul sont fixés. Les modèles génératifs peuvent également produire des réponses différentes selon leurs paramètres de génération. En pratique, cette distinction est importante pour la reproductibilité, l’interprétation des résultats et la gestion du risque. Une probabilité élevée n’est pas une certitude, et une prédiction doit être interprétée en fonction de sa calibration et des conséquences d’une erreur."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-8",
+    "source": "ia",
+    "keywords": [
+      "elle",
+      "nécessairement",
+      "intelligente",
+      "lorsqu",
+      "utilise",
+      "davantage",
+      "données"
+    ],
+    "question": {
+      "en": "L’IA est-elle nécessairement plus intelligente lorsqu’elle utilise davantage de données ?",
+      "fr": "L’IA est-elle nécessairement plus intelligente lorsqu’elle utilise davantage de données ?",
+      "ar": "L’IA est-elle nécessairement plus intelligente lorsqu’elle utilise davantage de données ?"
+    },
+    "answer": {
+      "en": "Non. Le volume de données ne suffit pas à garantir la qualité d’un système d’IA. Des données nombreuses mais erronées, déséquilibrées, redondantes ou mal représentatives peuvent dégrader les résultats. La qualité des annotations, la pertinence des variables, la diversité des situations observées et l’adéquation entre les données d’entraînement et le contexte réel sont souvent déterminantes. Il faut également éviter les fuites de données, qui peuvent donner artificiellement l’impression qu’un modèle est performant. Une démarche rigoureuse privilégie donc la qualité, la représentativité, la traçabilité et la gouvernance des données, ainsi qu’une évaluation indépendante. Dans certains cas, un modèle plus simple, entraîné sur des données bien choisies, peut être plus fiable et plus utile qu’un modèle beaucoup plus complexe.",
+      "fr": "Non. Le volume de données ne suffit pas à garantir la qualité d’un système d’IA. Des données nombreuses mais erronées, déséquilibrées, redondantes ou mal représentatives peuvent dégrader les résultats. La qualité des annotations, la pertinence des variables, la diversité des situations observées et l’adéquation entre les données d’entraînement et le contexte réel sont souvent déterminantes. Il faut également éviter les fuites de données, qui peuvent donner artificiellement l’impression qu’un modèle est performant. Une démarche rigoureuse privilégie donc la qualité, la représentativité, la traçabilité et la gouvernance des données, ainsi qu’une évaluation indépendante. Dans certains cas, un modèle plus simple, entraîné sur des données bien choisies, peut être plus fiable et plus utile qu’un modèle beaucoup plus complexe.",
+      "ar": "Non. Le volume de données ne suffit pas à garantir la qualité d’un système d’IA. Des données nombreuses mais erronées, déséquilibrées, redondantes ou mal représentatives peuvent dégrader les résultats. La qualité des annotations, la pertinence des variables, la diversité des situations observées et l’adéquation entre les données d’entraînement et le contexte réel sont souvent déterminantes. Il faut également éviter les fuites de données, qui peuvent donner artificiellement l’impression qu’un modèle est performant. Une démarche rigoureuse privilégie donc la qualité, la représentativité, la traçabilité et la gouvernance des données, ainsi qu’une évaluation indépendante. Dans certains cas, un modèle plus simple, entraîné sur des données bien choisies, peut être plus fiable et plus utile qu’un modèle beaucoup plus complexe."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-9",
+    "source": "ia",
+    "keywords": [
+      "quelle",
+      "différence",
+      "existe",
+      "automatisation",
+      "classique",
+      "intelligence",
+      "artificielle"
+    ],
+    "question": {
+      "en": "Quelle différence existe-t-il entre automatisation classique et intelligence artificielle ?",
+      "fr": "Quelle différence existe-t-il entre automatisation classique et intelligence artificielle ?",
+      "ar": "Quelle différence existe-t-il entre automatisation classique et intelligence artificielle ?"
+    },
+    "answer": {
+      "en": "L’automatisation classique exécute généralement des procédures définies à l’avance : si une condition est remplie, une action prédéterminée est déclenchée. L’intelligence artificielle peut compléter ces procédures en identifiant des motifs, en estimant des probabilités, en interprétant des contenus ou en adaptant certaines décisions à partir de données. Les deux approches sont complémentaires. Dans une chaîne industrielle, par exemple, un automate peut contrôler une machine selon des règles précises, tandis qu’un modèle d’IA détecte des signes précurseurs de panne. La meilleure architecture ne consiste donc pas systématiquement à remplacer l’automatisation existante par de l’IA, mais à introduire l’apprentissage là où il apporte une valeur mesurable, en conservant des contrôles déterministes pour les fonctions qui exigent une sécurité stricte.",
+      "fr": "L’automatisation classique exécute généralement des procédures définies à l’avance : si une condition est remplie, une action prédéterminée est déclenchée. L’intelligence artificielle peut compléter ces procédures en identifiant des motifs, en estimant des probabilités, en interprétant des contenus ou en adaptant certaines décisions à partir de données. Les deux approches sont complémentaires. Dans une chaîne industrielle, par exemple, un automate peut contrôler une machine selon des règles précises, tandis qu’un modèle d’IA détecte des signes précurseurs de panne. La meilleure architecture ne consiste donc pas systématiquement à remplacer l’automatisation existante par de l’IA, mais à introduire l’apprentissage là où il apporte une valeur mesurable, en conservant des contrôles déterministes pour les fonctions qui exigent une sécurité stricte.",
+      "ar": "L’automatisation classique exécute généralement des procédures définies à l’avance : si une condition est remplie, une action prédéterminée est déclenchée. L’intelligence artificielle peut compléter ces procédures en identifiant des motifs, en estimant des probabilités, en interprétant des contenus ou en adaptant certaines décisions à partir de données. Les deux approches sont complémentaires. Dans une chaîne industrielle, par exemple, un automate peut contrôler une machine selon des règles précises, tandis qu’un modèle d’IA détecte des signes précurseurs de panne. La meilleure architecture ne consiste donc pas systématiquement à remplacer l’automatisation existante par de l’IA, mais à introduire l’apprentissage là où il apporte une valeur mesurable, en conservant des contrôles déterministes pour les fonctions qui exigent une sécurité stricte."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-10",
+    "source": "ia",
+    "keywords": [
+      "peut",
+      "elle",
+      "remplacer",
+      "intelligence",
+      "humaine"
+    ],
+    "question": {
+      "en": "L’IA peut-elle remplacer l’intelligence humaine ?",
+      "fr": "L’IA peut-elle remplacer l’intelligence humaine ?",
+      "ar": "L’IA peut-elle remplacer l’intelligence humaine ?"
+    },
+    "answer": {
+      "en": "L’IA peut remplacer ou transformer certaines tâches intellectuelles, mais cela ne signifie pas qu’elle remplace globalement l’intelligence humaine. Les systèmes artificiels excellent dans plusieurs activités spécifiques, notamment le traitement rapide de grandes quantités de données, la détection de régularités et la génération de contenus. Les êtres humains conservent un rôle essentiel dans la définition des objectifs, l’interprétation sociale et morale des décisions, la responsabilité, la compréhension des situations vécues et l’arbitrage entre des valeurs contradictoires. La question stratégique n’est donc pas uniquement de savoir quelles tâches peuvent être automatisées, mais comment organiser une complémentarité efficace entre les capacités humaines et artificielles. L’enjeu est de renforcer les compétences, de préserver l’autonomie des personnes et de garantir que les décisions importantes restent correctement encadrées.",
+      "fr": "L’IA peut remplacer ou transformer certaines tâches intellectuelles, mais cela ne signifie pas qu’elle remplace globalement l’intelligence humaine. Les systèmes artificiels excellent dans plusieurs activités spécifiques, notamment le traitement rapide de grandes quantités de données, la détection de régularités et la génération de contenus. Les êtres humains conservent un rôle essentiel dans la définition des objectifs, l’interprétation sociale et morale des décisions, la responsabilité, la compréhension des situations vécues et l’arbitrage entre des valeurs contradictoires. La question stratégique n’est donc pas uniquement de savoir quelles tâches peuvent être automatisées, mais comment organiser une complémentarité efficace entre les capacités humaines et artificielles. L’enjeu est de renforcer les compétences, de préserver l’autonomie des personnes et de garantir que les décisions importantes restent correctement encadrées.",
+      "ar": "L’IA peut remplacer ou transformer certaines tâches intellectuelles, mais cela ne signifie pas qu’elle remplace globalement l’intelligence humaine. Les systèmes artificiels excellent dans plusieurs activités spécifiques, notamment le traitement rapide de grandes quantités de données, la détection de régularités et la génération de contenus. Les êtres humains conservent un rôle essentiel dans la définition des objectifs, l’interprétation sociale et morale des décisions, la responsabilité, la compréhension des situations vécues et l’arbitrage entre des valeurs contradictoires. La question stratégique n’est donc pas uniquement de savoir quelles tâches peuvent être automatisées, mais comment organiser une complémentarité efficace entre les capacités humaines et artificielles. L’enjeu est de renforcer les compétences, de préserver l’autonomie des personnes et de garantir que les décisions importantes restent correctement encadrées."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-11",
+    "source": "ia",
+    "keywords": [
+      "fonctionne",
+      "concrètement",
+      "machine",
+      "learning"
+    ],
+    "question": {
+      "en": "Comment fonctionne concrètement le Machine Learning ?",
+      "fr": "Comment fonctionne concrètement le Machine Learning ?",
+      "ar": "Comment fonctionne concrètement le Machine Learning ?"
+    },
+    "answer": {
+      "en": "Le Machine Learning consiste à construire un modèle à partir d’exemples afin qu’il apprenne des relations utiles pour effectuer des prédictions ou prendre certaines décisions. Dans un problème supervisé, on fournit des exemples associés à des résultats connus, comme des images étiquetées ou des historiques de consommation. L’algorithme ajuste ses paramètres pour réduire une fonction de perte, puis ses performances sont évaluées sur des données distinctes de celles utilisées pour l’entraînement. D’autres approches, notamment l’apprentissage non supervisé et l’apprentissage par renforcement, répondent à des objectifs différents. Un projet sérieux exige donc une définition précise du problème, une préparation des données, une méthode d’évaluation adaptée et une surveillance après le déploiement.",
+      "fr": "Le Machine Learning consiste à construire un modèle à partir d’exemples afin qu’il apprenne des relations utiles pour effectuer des prédictions ou prendre certaines décisions. Dans un problème supervisé, on fournit des exemples associés à des résultats connus, comme des images étiquetées ou des historiques de consommation. L’algorithme ajuste ses paramètres pour réduire une fonction de perte, puis ses performances sont évaluées sur des données distinctes de celles utilisées pour l’entraînement. D’autres approches, notamment l’apprentissage non supervisé et l’apprentissage par renforcement, répondent à des objectifs différents. Un projet sérieux exige donc une définition précise du problème, une préparation des données, une méthode d’évaluation adaptée et une surveillance après le déploiement.",
+      "ar": "Le Machine Learning consiste à construire un modèle à partir d’exemples afin qu’il apprenne des relations utiles pour effectuer des prédictions ou prendre certaines décisions. Dans un problème supervisé, on fournit des exemples associés à des résultats connus, comme des images étiquetées ou des historiques de consommation. L’algorithme ajuste ses paramètres pour réduire une fonction de perte, puis ses performances sont évaluées sur des données distinctes de celles utilisées pour l’entraînement. D’autres approches, notamment l’apprentissage non supervisé et l’apprentissage par renforcement, répondent à des objectifs différents. Un projet sérieux exige donc une définition précise du problème, une préparation des données, une méthode d’évaluation adaptée et une surveillance après le déploiement."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-12",
+    "source": "ia",
+    "keywords": [
+      "quelle",
+      "différence",
+      "existe",
+      "apprentissage",
+      "supervisé",
+      "renforcement"
+    ],
+    "question": {
+      "en": "Quelle différence existe-t-il entre apprentissage supervisé, non supervisé et par renforcement ?",
+      "fr": "Quelle différence existe-t-il entre apprentissage supervisé, non supervisé et par renforcement ?",
+      "ar": "Quelle différence existe-t-il entre apprentissage supervisé, non supervisé et par renforcement ?"
+    },
+    "answer": {
+      "en": "L’apprentissage supervisé utilise des exemples accompagnés de réponses attendues pour apprendre à prédire une classe ou une valeur. L’apprentissage non supervisé recherche des structures dans des données sans étiquettes explicites, par exemple des groupes de clients ou des anomalies potentielles. L’apprentissage par renforcement repose sur les interactions d’un agent avec un environnement, dans lequel ses actions influencent les états futurs et les récompenses obtenues. Ces trois approches répondent à des besoins distincts. La classification de dossiers médicaux peut relever du supervisé, la segmentation d’usagers du non supervisé, et l’optimisation de certaines stratégies de commande du renforcement. Le choix ne doit pas dépendre de la popularité d’une technique, mais de la nature du problème, des données disponibles et des objectifs mesurables.",
+      "fr": "L’apprentissage supervisé utilise des exemples accompagnés de réponses attendues pour apprendre à prédire une classe ou une valeur. L’apprentissage non supervisé recherche des structures dans des données sans étiquettes explicites, par exemple des groupes de clients ou des anomalies potentielles. L’apprentissage par renforcement repose sur les interactions d’un agent avec un environnement, dans lequel ses actions influencent les états futurs et les récompenses obtenues. Ces trois approches répondent à des besoins distincts. La classification de dossiers médicaux peut relever du supervisé, la segmentation d’usagers du non supervisé, et l’optimisation de certaines stratégies de commande du renforcement. Le choix ne doit pas dépendre de la popularité d’une technique, mais de la nature du problème, des données disponibles et des objectifs mesurables.",
+      "ar": "L’apprentissage supervisé utilise des exemples accompagnés de réponses attendues pour apprendre à prédire une classe ou une valeur. L’apprentissage non supervisé recherche des structures dans des données sans étiquettes explicites, par exemple des groupes de clients ou des anomalies potentielles. L’apprentissage par renforcement repose sur les interactions d’un agent avec un environnement, dans lequel ses actions influencent les états futurs et les récompenses obtenues. Ces trois approches répondent à des besoins distincts. La classification de dossiers médicaux peut relever du supervisé, la segmentation d’usagers du non supervisé, et l’optimisation de certaines stratégies de commande du renforcement. Le choix ne doit pas dépendre de la popularité d’une technique, mais de la nature du problème, des données disponibles et des objectifs mesurables."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-13",
+    "source": "ia",
+    "keywords": [
+      "réseau",
+      "neuronal",
+      "artificiel"
+    ],
+    "question": {
+      "en": "Qu’est-ce qu’un réseau neuronal artificiel ?",
+      "fr": "Qu’est-ce qu’un réseau neuronal artificiel ?",
+      "ar": "Qu’est-ce qu’un réseau neuronal artificiel ?"
+    },
+    "answer": {
+      "en": "Un réseau neuronal artificiel est un modèle mathématique constitué de composants de calcul interconnectés, organisés en couches. Chaque composant combine des entrées pondérées, applique généralement une transformation non linéaire et transmet le résultat aux couches suivantes. Pendant l’entraînement, les paramètres sont ajustés pour améliorer les performances du réseau sur une tâche donnée. La rétropropagation du gradient permet de calculer comment les paramètres contribuent à l’erreur, tandis qu’un algorithme d’optimisation détermine leur mise à jour. Malgré son inspiration biologique, un réseau neuronal artificiel n’est pas une reproduction fidèle du cerveau humain. C’est avant tout une structure computationnelle dont l’efficacité dépend de son architecture, de ses données, de son objectif et de ses conditions d’apprentissage.",
+      "fr": "Un réseau neuronal artificiel est un modèle mathématique constitué de composants de calcul interconnectés, organisés en couches. Chaque composant combine des entrées pondérées, applique généralement une transformation non linéaire et transmet le résultat aux couches suivantes. Pendant l’entraînement, les paramètres sont ajustés pour améliorer les performances du réseau sur une tâche donnée. La rétropropagation du gradient permet de calculer comment les paramètres contribuent à l’erreur, tandis qu’un algorithme d’optimisation détermine leur mise à jour. Malgré son inspiration biologique, un réseau neuronal artificiel n’est pas une reproduction fidèle du cerveau humain. C’est avant tout une structure computationnelle dont l’efficacité dépend de son architecture, de ses données, de son objectif et de ses conditions d’apprentissage.",
+      "ar": "Un réseau neuronal artificiel est un modèle mathématique constitué de composants de calcul interconnectés, organisés en couches. Chaque composant combine des entrées pondérées, applique généralement une transformation non linéaire et transmet le résultat aux couches suivantes. Pendant l’entraînement, les paramètres sont ajustés pour améliorer les performances du réseau sur une tâche donnée. La rétropropagation du gradient permet de calculer comment les paramètres contribuent à l’erreur, tandis qu’un algorithme d’optimisation détermine leur mise à jour. Malgré son inspiration biologique, un réseau neuronal artificiel n’est pas une reproduction fidèle du cerveau humain. C’est avant tout une structure computationnelle dont l’efficacité dépend de son architecture, de ses données, de son objectif et de ses conditions d’apprentissage."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-14",
+    "source": "ia",
+    "keywords": [
+      "surapprentissage",
+      "overfitting",
+      "éviter"
+    ],
+    "question": {
+      "en": "Qu’est-ce que le surapprentissage, ou overfitting, et comment l’éviter ?",
+      "fr": "Qu’est-ce que le surapprentissage, ou overfitting, et comment l’éviter ?",
+      "ar": "Qu’est-ce que le surapprentissage, ou overfitting, et comment l’éviter ?"
+    },
+    "answer": {
+      "en": "Le surapprentissage apparaît lorsqu’un modèle s’adapte excessivement aux particularités des données d’entraînement, y compris au bruit, et généralise mal à de nouvelles données. Il peut afficher une excellente performance pendant l’entraînement tout en produisant des résultats décevants en situation réelle. Pour le limiter, on peut utiliser une séparation rigoureuse entre entraînement, validation et test, la régularisation, la réduction de la complexité, l’arrêt anticipé ou des données supplémentaires représentatives. La validation croisée est également utile lorsque le volume de données est limité, sous réserve de respecter la structure des données. Dans les séries temporelles, par exemple, une séparation chronologique est souvent préférable à un découpage aléatoire. L’objectif scientifique est de mesurer la généralisation, pas seulement de maximiser un score sur les exemples déjà connus.",
+      "fr": "Le surapprentissage apparaît lorsqu’un modèle s’adapte excessivement aux particularités des données d’entraînement, y compris au bruit, et généralise mal à de nouvelles données. Il peut afficher une excellente performance pendant l’entraînement tout en produisant des résultats décevants en situation réelle. Pour le limiter, on peut utiliser une séparation rigoureuse entre entraînement, validation et test, la régularisation, la réduction de la complexité, l’arrêt anticipé ou des données supplémentaires représentatives. La validation croisée est également utile lorsque le volume de données est limité, sous réserve de respecter la structure des données. Dans les séries temporelles, par exemple, une séparation chronologique est souvent préférable à un découpage aléatoire. L’objectif scientifique est de mesurer la généralisation, pas seulement de maximiser un score sur les exemples déjà connus.",
+      "ar": "Le surapprentissage apparaît lorsqu’un modèle s’adapte excessivement aux particularités des données d’entraînement, y compris au bruit, et généralise mal à de nouvelles données. Il peut afficher une excellente performance pendant l’entraînement tout en produisant des résultats décevants en situation réelle. Pour le limiter, on peut utiliser une séparation rigoureuse entre entraînement, validation et test, la régularisation, la réduction de la complexité, l’arrêt anticipé ou des données supplémentaires représentatives. La validation croisée est également utile lorsque le volume de données est limité, sous réserve de respecter la structure des données. Dans les séries temporelles, par exemple, une séparation chronologique est souvent préférable à un découpage aléatoire. L’objectif scientifique est de mesurer la généralisation, pas seulement de maximiser un score sur les exemples déjà connus."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-15",
+    "source": "ia",
+    "keywords": [
+      "évaluer",
+      "correctement",
+      "performances",
+      "modèle"
+    ],
+    "question": {
+      "en": "Comment évaluer correctement les performances d’un modèle d’IA ?",
+      "fr": "Comment évaluer correctement les performances d’un modèle d’IA ?",
+      "ar": "Comment évaluer correctement les performances d’un modèle d’IA ?"
+    },
+    "answer": {
+      "en": "L’évaluation doit être adaptée à la tâche et aux conséquences des erreurs. En classification, l’exactitude globale peut être trompeuse lorsque les classes sont déséquilibrées ; il faut alors examiner notamment la précision, le rappel, le score F1 et la matrice de confusion. En régression, on peut utiliser l’erreur absolue moyenne ou la racine de l’erreur quadratique moyenne. Pour les systèmes probabilistes, la calibration et la qualité des probabilités estimées sont également importantes. Il faut compléter ces indicateurs par des tests sur des données indépendantes, des analyses par sous-groupes et des évaluations en conditions réelles. Un modèle performant selon une métrique n’est pas nécessairement le meilleur choix opérationnel si son coût, son manque d’explicabilité ou son taux d’erreur critique sont trop élevés.",
+      "fr": "L’évaluation doit être adaptée à la tâche et aux conséquences des erreurs. En classification, l’exactitude globale peut être trompeuse lorsque les classes sont déséquilibrées ; il faut alors examiner notamment la précision, le rappel, le score F1 et la matrice de confusion. En régression, on peut utiliser l’erreur absolue moyenne ou la racine de l’erreur quadratique moyenne. Pour les systèmes probabilistes, la calibration et la qualité des probabilités estimées sont également importantes. Il faut compléter ces indicateurs par des tests sur des données indépendantes, des analyses par sous-groupes et des évaluations en conditions réelles. Un modèle performant selon une métrique n’est pas nécessairement le meilleur choix opérationnel si son coût, son manque d’explicabilité ou son taux d’erreur critique sont trop élevés.",
+      "ar": "L’évaluation doit être adaptée à la tâche et aux conséquences des erreurs. En classification, l’exactitude globale peut être trompeuse lorsque les classes sont déséquilibrées ; il faut alors examiner notamment la précision, le rappel, le score F1 et la matrice de confusion. En régression, on peut utiliser l’erreur absolue moyenne ou la racine de l’erreur quadratique moyenne. Pour les systèmes probabilistes, la calibration et la qualité des probabilités estimées sont également importantes. Il faut compléter ces indicateurs par des tests sur des données indépendantes, des analyses par sous-groupes et des évaluations en conditions réelles. Un modèle performant selon une métrique n’est pas nécessairement le meilleur choix opérationnel si son coût, son manque d’explicabilité ou son taux d’erreur critique sont trop élevés."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-16",
+    "source": "ia",
+    "keywords": [
+      "qualité",
+      "données",
+      "elle",
+      "aussi",
+      "importante",
+      "choix",
+      "algorithme"
+    ],
+    "question": {
+      "en": "Pourquoi la qualité des données est-elle aussi importante que le choix de l’algorithme ?",
+      "fr": "Pourquoi la qualité des données est-elle aussi importante que le choix de l’algorithme ?",
+      "ar": "Pourquoi la qualité des données est-elle aussi importante que le choix de l’algorithme ?"
+    },
+    "answer": {
+      "en": "Un algorithme ne peut généralement pas compenser entièrement des données défectueuses ou inadaptées. Des erreurs de mesure, des étiquettes incorrectes, des valeurs manquantes, des biais de sélection ou une représentation insuffisante de certaines populations peuvent conduire à des prédictions peu fiables. En outre, les données historiques peuvent refléter des pratiques injustes ou des décisions anciennes qu’un modèle risque de reproduire. La qualité des données doit donc être traitée comme une question scientifique et organisationnelle : documentation des sources, contrôles de cohérence, gestion des valeurs manquantes, traçabilité des transformations et vérification de la représentativité. Il faut également suivre l’évolution des données après le déploiement, car un modèle fiable aujourd’hui peut perdre en performance lorsque les comportements ou l’environnement changent.",
+      "fr": "Un algorithme ne peut généralement pas compenser entièrement des données défectueuses ou inadaptées. Des erreurs de mesure, des étiquettes incorrectes, des valeurs manquantes, des biais de sélection ou une représentation insuffisante de certaines populations peuvent conduire à des prédictions peu fiables. En outre, les données historiques peuvent refléter des pratiques injustes ou des décisions anciennes qu’un modèle risque de reproduire. La qualité des données doit donc être traitée comme une question scientifique et organisationnelle : documentation des sources, contrôles de cohérence, gestion des valeurs manquantes, traçabilité des transformations et vérification de la représentativité. Il faut également suivre l’évolution des données après le déploiement, car un modèle fiable aujourd’hui peut perdre en performance lorsque les comportements ou l’environnement changent.",
+      "ar": "Un algorithme ne peut généralement pas compenser entièrement des données défectueuses ou inadaptées. Des erreurs de mesure, des étiquettes incorrectes, des valeurs manquantes, des biais de sélection ou une représentation insuffisante de certaines populations peuvent conduire à des prédictions peu fiables. En outre, les données historiques peuvent refléter des pratiques injustes ou des décisions anciennes qu’un modèle risque de reproduire. La qualité des données doit donc être traitée comme une question scientifique et organisationnelle : documentation des sources, contrôles de cohérence, gestion des valeurs manquantes, traçabilité des transformations et vérification de la représentativité. Il faut également suivre l’évolution des données après le déploiement, car un modèle fiable aujourd’hui peut perdre en performance lorsque les comportements ou l’environnement changent."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-17",
+    "source": "ia",
+    "keywords": [
+      "apprentissage",
+      "transfert"
+    ],
+    "question": {
+      "en": "Qu’est-ce que l’apprentissage par transfert ?",
+      "fr": "Qu’est-ce que l’apprentissage par transfert ?",
+      "ar": "Qu’est-ce que l’apprentissage par transfert ?"
+    },
+    "answer": {
+      "en": "L’apprentissage par transfert consiste à réutiliser les connaissances acquises par un modèle sur une tâche ou un ensemble de données pour faciliter son adaptation à une autre tâche. Cette stratégie est particulièrement utile lorsque les données propres au nouveau problème sont limitées ou coûteuses à obtenir. Un modèle préentraîné sur de nombreuses images peut, par exemple, être adapté à la détection d’un défaut industriel avec un ensemble plus restreint d’images spécialisées. Le transfert peut réduire le temps d’entraînement et les besoins en données, mais il ne garantit pas une amélioration systématique. Si les domaines sont trop différents, le modèle peut transférer des représentations inadaptées. Une évaluation indépendante demeure indispensable pour vérifier que le transfert apporte un bénéfice réel.",
+      "fr": "L’apprentissage par transfert consiste à réutiliser les connaissances acquises par un modèle sur une tâche ou un ensemble de données pour faciliter son adaptation à une autre tâche. Cette stratégie est particulièrement utile lorsque les données propres au nouveau problème sont limitées ou coûteuses à obtenir. Un modèle préentraîné sur de nombreuses images peut, par exemple, être adapté à la détection d’un défaut industriel avec un ensemble plus restreint d’images spécialisées. Le transfert peut réduire le temps d’entraînement et les besoins en données, mais il ne garantit pas une amélioration systématique. Si les domaines sont trop différents, le modèle peut transférer des représentations inadaptées. Une évaluation indépendante demeure indispensable pour vérifier que le transfert apporte un bénéfice réel.",
+      "ar": "L’apprentissage par transfert consiste à réutiliser les connaissances acquises par un modèle sur une tâche ou un ensemble de données pour faciliter son adaptation à une autre tâche. Cette stratégie est particulièrement utile lorsque les données propres au nouveau problème sont limitées ou coûteuses à obtenir. Un modèle préentraîné sur de nombreuses images peut, par exemple, être adapté à la détection d’un défaut industriel avec un ensemble plus restreint d’images spécialisées. Le transfert peut réduire le temps d’entraînement et les besoins en données, mais il ne garantit pas une amélioration systématique. Si les domaines sont trop différents, le modèle peut transférer des représentations inadaptées. Une évaluation indépendante demeure indispensable pour vérifier que le transfert apporte un bénéfice réel."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-18",
+    "source": "ia",
+    "keywords": [
+      "signifie",
+      "explicabilité",
+      "modèle"
+    ],
+    "question": {
+      "en": "Que signifie l’explicabilité d’un modèle d’IA ?",
+      "fr": "Que signifie l’explicabilité d’un modèle d’IA ?",
+      "ar": "Que signifie l’explicabilité d’un modèle d’IA ?"
+    },
+    "answer": {
+      "en": "L’explicabilité désigne la capacité à comprendre, à différents niveaux, les facteurs qui influencent les résultats d’un système. Certains modèles, comme les arbres de décision de petite taille ou les régressions simples, sont relativement interprétables. Pour des modèles plus complexes, on peut utiliser des méthodes d’explication locale ou globale, telles que SHAP ou LIME, avec les précautions méthodologiques nécessaires. Toutefois, une explication approximative n’est pas une preuve de causalité, et plusieurs méthodes peuvent produire des interprétations différentes. L’explicabilité doit être adaptée à l’utilisateur et au risque : un chercheur peut avoir besoin d’une analyse technique détaillée, tandis qu’une personne affectée par une décision doit recevoir une explication intelligible et pertinente. La transparence doit aussi inclure les limites connues du modèle.",
+      "fr": "L’explicabilité désigne la capacité à comprendre, à différents niveaux, les facteurs qui influencent les résultats d’un système. Certains modèles, comme les arbres de décision de petite taille ou les régressions simples, sont relativement interprétables. Pour des modèles plus complexes, on peut utiliser des méthodes d’explication locale ou globale, telles que SHAP ou LIME, avec les précautions méthodologiques nécessaires. Toutefois, une explication approximative n’est pas une preuve de causalité, et plusieurs méthodes peuvent produire des interprétations différentes. L’explicabilité doit être adaptée à l’utilisateur et au risque : un chercheur peut avoir besoin d’une analyse technique détaillée, tandis qu’une personne affectée par une décision doit recevoir une explication intelligible et pertinente. La transparence doit aussi inclure les limites connues du modèle.",
+      "ar": "L’explicabilité désigne la capacité à comprendre, à différents niveaux, les facteurs qui influencent les résultats d’un système. Certains modèles, comme les arbres de décision de petite taille ou les régressions simples, sont relativement interprétables. Pour des modèles plus complexes, on peut utiliser des méthodes d’explication locale ou globale, telles que SHAP ou LIME, avec les précautions méthodologiques nécessaires. Toutefois, une explication approximative n’est pas une preuve de causalité, et plusieurs méthodes peuvent produire des interprétations différentes. L’explicabilité doit être adaptée à l’utilisateur et au risque : un chercheur peut avoir besoin d’une analyse technique détaillée, tandis qu’une personne affectée par une décision doit recevoir une explication intelligible et pertinente. La transparence doit aussi inclure les limites connues du modèle."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-19",
+    "source": "ia",
+    "keywords": [
+      "grands",
+      "modèles",
+      "sont",
+      "toujours",
+      "meilleurs",
+      "petits"
+    ],
+    "question": {
+      "en": "Les grands modèles sont-ils toujours meilleurs que les petits modèles ?",
+      "fr": "Les grands modèles sont-ils toujours meilleurs que les petits modèles ?",
+      "ar": "Les grands modèles sont-ils toujours meilleurs que les petits modèles ?"
+    },
+    "answer": {
+      "en": "Non. Les grands modèles peuvent disposer de capacités plus étendues, mais ils nécessitent généralement davantage de ressources de calcul, de mémoire, d’énergie et de maintenance. Un modèle spécialisé de taille réduite peut être plus rapide, moins coûteux, plus facile à déployer localement et parfois plus fiable sur une tâche bien définie. Le choix doit considérer la performance, la latence, le coût total, la confidentialité, la robustesse et les contraintes d’infrastructure. Dans certains environnements industriels ou embarqués, un modèle compact exécuté sur un appareil local est préférable à un grand modèle hébergé dans le cloud. L’expertise consiste à sélectionner l’architecture appropriée, plutôt qu’à rechercher systématiquement le plus grand nombre de paramètres.",
+      "fr": "Non. Les grands modèles peuvent disposer de capacités plus étendues, mais ils nécessitent généralement davantage de ressources de calcul, de mémoire, d’énergie et de maintenance. Un modèle spécialisé de taille réduite peut être plus rapide, moins coûteux, plus facile à déployer localement et parfois plus fiable sur une tâche bien définie. Le choix doit considérer la performance, la latence, le coût total, la confidentialité, la robustesse et les contraintes d’infrastructure. Dans certains environnements industriels ou embarqués, un modèle compact exécuté sur un appareil local est préférable à un grand modèle hébergé dans le cloud. L’expertise consiste à sélectionner l’architecture appropriée, plutôt qu’à rechercher systématiquement le plus grand nombre de paramètres.",
+      "ar": "Non. Les grands modèles peuvent disposer de capacités plus étendues, mais ils nécessitent généralement davantage de ressources de calcul, de mémoire, d’énergie et de maintenance. Un modèle spécialisé de taille réduite peut être plus rapide, moins coûteux, plus facile à déployer localement et parfois plus fiable sur une tâche bien définie. Le choix doit considérer la performance, la latence, le coût total, la confidentialité, la robustesse et les contraintes d’infrastructure. Dans certains environnements industriels ou embarqués, un modèle compact exécuté sur un appareil local est préférable à un grand modèle hébergé dans le cloud. L’expertise consiste à sélectionner l’architecture appropriée, plutôt qu’à rechercher systématiquement le plus grand nombre de paramètres."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-20",
+    "source": "ia",
+    "keywords": [
+      "passer",
+      "modèle",
+      "expérimental",
+      "système",
+      "réellement",
+      "opérationnel"
+    ],
+    "question": {
+      "en": "Comment passer d’un modèle expérimental à un système d’IA réellement opérationnel ?",
+      "fr": "Comment passer d’un modèle expérimental à un système d’IA réellement opérationnel ?",
+      "ar": "Comment passer d’un modèle expérimental à un système d’IA réellement opérationnel ?"
+    },
+    "answer": {
+      "en": "Le passage à la production nécessite bien davantage que l’obtention d’un bon score expérimental. Il faut intégrer le modèle aux systèmes d’information, assurer la qualité et la sécurité des données, gérer les versions, contrôler les coûts d’exécution et définir les responsabilités en cas d’erreur. Une démarche MLOps permet d’organiser le cycle de vie du modèle : entraînement, validation, déploiement, surveillance, mise à jour et retour arrière. Il convient également de surveiller la dérive des données et des performances, de documenter les changements et de prévoir une intervention humaine lorsque cela est nécessaire. Enfin, la réussite doit être mesurée par des indicateurs opérationnels : réduction des erreurs, amélioration des délais, qualité du service, maîtrise des risques et bénéfices effectivement constatés.",
+      "fr": "Le passage à la production nécessite bien davantage que l’obtention d’un bon score expérimental. Il faut intégrer le modèle aux systèmes d’information, assurer la qualité et la sécurité des données, gérer les versions, contrôler les coûts d’exécution et définir les responsabilités en cas d’erreur. Une démarche MLOps permet d’organiser le cycle de vie du modèle : entraînement, validation, déploiement, surveillance, mise à jour et retour arrière. Il convient également de surveiller la dérive des données et des performances, de documenter les changements et de prévoir une intervention humaine lorsque cela est nécessaire. Enfin, la réussite doit être mesurée par des indicateurs opérationnels : réduction des erreurs, amélioration des délais, qualité du service, maîtrise des risques et bénéfices effectivement constatés.",
+      "ar": "Le passage à la production nécessite bien davantage que l’obtention d’un bon score expérimental. Il faut intégrer le modèle aux systèmes d’information, assurer la qualité et la sécurité des données, gérer les versions, contrôler les coûts d’exécution et définir les responsabilités en cas d’erreur. Une démarche MLOps permet d’organiser le cycle de vie du modèle : entraînement, validation, déploiement, surveillance, mise à jour et retour arrière. Il convient également de surveiller la dérive des données et des performances, de documenter les changements et de prévoir une intervention humaine lorsque cela est nécessaire. Enfin, la réussite doit être mesurée par des indicateurs opérationnels : réduction des erreurs, amélioration des délais, qualité du service, maîtrise des risques et bénéfices effectivement constatés."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-21",
+    "source": "ia",
+    "keywords": [
+      "intelligence",
+      "artificielle",
+      "générative"
+    ],
+    "question": {
+      "en": "Qu’est-ce que l’intelligence artificielle générative ?",
+      "fr": "Qu’est-ce que l’intelligence artificielle générative ?",
+      "ar": "Qu’est-ce que l’intelligence artificielle générative ?"
+    },
+    "answer": {
+      "en": "L’IA générative regroupe les systèmes capables de produire de nouveaux contenus à partir de structures apprises pendant leur entraînement. Ces contenus peuvent être des textes, des images, du son, des vidéos, des programmes ou des représentations multimodales. Le système ne se contente donc pas de classer des éléments existants : il génère une sortie à partir d’une consigne, d’un contexte ou d’autres données d’entrée. Cependant, générer un contenu plausible ne signifie pas qu’il est exact, original au sens juridique ou scientifiquement validé. Dans un environnement professionnel, il faut distinguer la génération, la vérification et la validation. L’IA générative est particulièrement utile pour assister la rédaction, l’analyse et le développement, à condition de conserver des mécanismes de contrôle adaptés.",
+      "fr": "L’IA générative regroupe les systèmes capables de produire de nouveaux contenus à partir de structures apprises pendant leur entraînement. Ces contenus peuvent être des textes, des images, du son, des vidéos, des programmes ou des représentations multimodales. Le système ne se contente donc pas de classer des éléments existants : il génère une sortie à partir d’une consigne, d’un contexte ou d’autres données d’entrée. Cependant, générer un contenu plausible ne signifie pas qu’il est exact, original au sens juridique ou scientifiquement validé. Dans un environnement professionnel, il faut distinguer la génération, la vérification et la validation. L’IA générative est particulièrement utile pour assister la rédaction, l’analyse et le développement, à condition de conserver des mécanismes de contrôle adaptés.",
+      "ar": "L’IA générative regroupe les systèmes capables de produire de nouveaux contenus à partir de structures apprises pendant leur entraînement. Ces contenus peuvent être des textes, des images, du son, des vidéos, des programmes ou des représentations multimodales. Le système ne se contente donc pas de classer des éléments existants : il génère une sortie à partir d’une consigne, d’un contexte ou d’autres données d’entrée. Cependant, générer un contenu plausible ne signifie pas qu’il est exact, original au sens juridique ou scientifiquement validé. Dans un environnement professionnel, il faut distinguer la génération, la vérification et la validation. L’IA générative est particulièrement utile pour assister la rédaction, l’analyse et le développement, à condition de conserver des mécanismes de contrôle adaptés."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-22",
+    "source": "ia",
+    "keywords": [
+      "fonctionne",
+      "grand",
+      "modèle",
+      "langage"
+    ],
+    "question": {
+      "en": "Comment fonctionne un grand modèle de langage, ou LLM ?",
+      "fr": "Comment fonctionne un grand modèle de langage, ou LLM ?",
+      "ar": "Comment fonctionne un grand modèle de langage, ou LLM ?"
+    },
+    "answer": {
+      "en": "Un grand modèle de langage est généralement entraîné à apprendre des régularités statistiques et structurelles dans de grandes quantités de textes et, selon les systèmes, d’autres types de données. Les textes sont convertis en unités appelées tokens. Dans les architectures modernes fondées sur les Transformers, un mécanisme d’attention permet de traiter les relations entre les éléments du contexte. Le modèle apprend notamment à prédire des tokens et à construire des représentations utiles à la génération. Des étapes supplémentaires peuvent améliorer le suivi des instructions et l’utilité des réponses. Le résultat est un système capable de produire du langage élaboré, mais sa génération reste susceptible d’erreurs factuelles, de biais et de limites liées à ses données, à son contexte et à son architecture.",
+      "fr": "Un grand modèle de langage est généralement entraîné à apprendre des régularités statistiques et structurelles dans de grandes quantités de textes et, selon les systèmes, d’autres types de données. Les textes sont convertis en unités appelées tokens. Dans les architectures modernes fondées sur les Transformers, un mécanisme d’attention permet de traiter les relations entre les éléments du contexte. Le modèle apprend notamment à prédire des tokens et à construire des représentations utiles à la génération. Des étapes supplémentaires peuvent améliorer le suivi des instructions et l’utilité des réponses. Le résultat est un système capable de produire du langage élaboré, mais sa génération reste susceptible d’erreurs factuelles, de biais et de limites liées à ses données, à son contexte et à son architecture.",
+      "ar": "Un grand modèle de langage est généralement entraîné à apprendre des régularités statistiques et structurelles dans de grandes quantités de textes et, selon les systèmes, d’autres types de données. Les textes sont convertis en unités appelées tokens. Dans les architectures modernes fondées sur les Transformers, un mécanisme d’attention permet de traiter les relations entre les éléments du contexte. Le modèle apprend notamment à prédire des tokens et à construire des représentations utiles à la génération. Des étapes supplémentaires peuvent améliorer le suivi des instructions et l’utilité des réponses. Le résultat est un système capable de produire du langage élaboré, mais sa génération reste susceptible d’erreurs factuelles, de biais et de limites liées à ses données, à son contexte et à son architecture."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-23",
+    "source": "ia",
+    "keywords": [
+      "modèle",
+      "langage",
+      "peut",
+      "produire",
+      "hallucinations"
+    ],
+    "question": {
+      "en": "Pourquoi un modèle de langage peut-il produire des hallucinations ?",
+      "fr": "Pourquoi un modèle de langage peut-il produire des hallucinations ?",
+      "ar": "Pourquoi un modèle de langage peut-il produire des hallucinations ?"
+    },
+    "answer": {
+      "en": "Une hallucination est une sortie présentée comme plausible alors qu’elle est fausse, insuffisamment étayée ou inventée. Elle peut concerner une référence scientifique, une statistique, un nom, une explication technique ou un fait historique. Ce phénomène s’explique notamment par le fait qu’un modèle génératif est optimisé pour produire des séquences adaptées au contexte, et non nécessairement pour vérifier chaque affirmation contre une source fiable. Le risque augmente lorsque la question est ambiguë, que l’information manque ou que le modèle est poussé à répondre malgré l’incertitude. Les solutions comprennent la récupération de documents fiables, la citation vérifiable des sources, les outils de calcul ou de recherche, les tests et la possibilité de reconnaître qu’une information n’est pas disponible. Aucune de ces mesures n’élimine totalement le risque.",
+      "fr": "Une hallucination est une sortie présentée comme plausible alors qu’elle est fausse, insuffisamment étayée ou inventée. Elle peut concerner une référence scientifique, une statistique, un nom, une explication technique ou un fait historique. Ce phénomène s’explique notamment par le fait qu’un modèle génératif est optimisé pour produire des séquences adaptées au contexte, et non nécessairement pour vérifier chaque affirmation contre une source fiable. Le risque augmente lorsque la question est ambiguë, que l’information manque ou que le modèle est poussé à répondre malgré l’incertitude. Les solutions comprennent la récupération de documents fiables, la citation vérifiable des sources, les outils de calcul ou de recherche, les tests et la possibilité de reconnaître qu’une information n’est pas disponible. Aucune de ces mesures n’élimine totalement le risque.",
+      "ar": "Une hallucination est une sortie présentée comme plausible alors qu’elle est fausse, insuffisamment étayée ou inventée. Elle peut concerner une référence scientifique, une statistique, un nom, une explication technique ou un fait historique. Ce phénomène s’explique notamment par le fait qu’un modèle génératif est optimisé pour produire des séquences adaptées au contexte, et non nécessairement pour vérifier chaque affirmation contre une source fiable. Le risque augmente lorsque la question est ambiguë, que l’information manque ou que le modèle est poussé à répondre malgré l’incertitude. Les solutions comprennent la récupération de documents fiables, la citation vérifiable des sources, les outils de calcul ou de recherche, les tests et la possibilité de reconnaître qu’une information n’est pas disponible. Aucune de ces mesures n’élimine totalement le risque."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-24",
+    "source": "ia",
+    "keywords": [
+      "important"
+    ],
+    "question": {
+      "en": "Qu’est-ce que le RAG et pourquoi est-il important ?",
+      "fr": "Qu’est-ce que le RAG et pourquoi est-il important ?",
+      "ar": "Qu’est-ce que le RAG et pourquoi est-il important ?"
+    },
+    "answer": {
+      "en": "Le RAG, ou génération augmentée par récupération d’informations, combine un modèle génératif avec un mécanisme de recherche dans un corpus documentaire. Lorsqu’une question est posée, le système identifie des passages pertinents, les fournit au modèle comme contexte, puis génère une réponse fondée sur ces éléments. Cette approche est utile pour interroger des règlements, des publications, des procédures internes ou une base documentaire spécialisée sans réentraîner systématiquement le modèle. Toutefois, la qualité du RAG dépend de la qualité du corpus, de son actualisation, du découpage des documents, de la recherche et de la fidélité de la réponse aux sources récupérées. Un RAG bien conçu doit donc fournir des références vérifiables, respecter les permissions d’accès et évaluer séparément la pertinence de la récupération et la qualité de la génération.",
+      "fr": "Le RAG, ou génération augmentée par récupération d’informations, combine un modèle génératif avec un mécanisme de recherche dans un corpus documentaire. Lorsqu’une question est posée, le système identifie des passages pertinents, les fournit au modèle comme contexte, puis génère une réponse fondée sur ces éléments. Cette approche est utile pour interroger des règlements, des publications, des procédures internes ou une base documentaire spécialisée sans réentraîner systématiquement le modèle. Toutefois, la qualité du RAG dépend de la qualité du corpus, de son actualisation, du découpage des documents, de la recherche et de la fidélité de la réponse aux sources récupérées. Un RAG bien conçu doit donc fournir des références vérifiables, respecter les permissions d’accès et évaluer séparément la pertinence de la récupération et la qualité de la génération.",
+      "ar": "Le RAG, ou génération augmentée par récupération d’informations, combine un modèle génératif avec un mécanisme de recherche dans un corpus documentaire. Lorsqu’une question est posée, le système identifie des passages pertinents, les fournit au modèle comme contexte, puis génère une réponse fondée sur ces éléments. Cette approche est utile pour interroger des règlements, des publications, des procédures internes ou une base documentaire spécialisée sans réentraîner systématiquement le modèle. Toutefois, la qualité du RAG dépend de la qualité du corpus, de son actualisation, du découpage des documents, de la recherche et de la fidélité de la réponse aux sources récupérées. Un RAG bien conçu doit donc fournir des références vérifiables, respecter les permissions d’accès et évaluer séparément la pertinence de la récupération et la qualité de la génération."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-25",
+    "source": "ia",
+    "keywords": [
+      "quelle",
+      "différence",
+      "existe",
+      "prompt",
+      "engineering",
+      "fine",
+      "tuning"
+    ],
+    "question": {
+      "en": "Quelle différence existe-t-il entre le prompt engineering et le fine-tuning ?",
+      "fr": "Quelle différence existe-t-il entre le prompt engineering et le fine-tuning ?",
+      "ar": "Quelle différence existe-t-il entre le prompt engineering et le fine-tuning ?"
+    },
+    "answer": {
+      "en": "Le prompt engineering améliore les instructions données au modèle sans nécessairement modifier ses paramètres. Le fine-tuning consiste à adapter les paramètres du modèle à partir de données supplémentaires. Le premier est généralement plus simple, tandis que le second peut être utile pour des besoins spécialisés.",
+      "fr": "Le prompt engineering améliore les instructions données au modèle sans nécessairement modifier ses paramètres. Le fine-tuning consiste à adapter les paramètres du modèle à partir de données supplémentaires. Le premier est généralement plus simple, tandis que le second peut être utile pour des besoins spécialisés.",
+      "ar": "Le prompt engineering améliore les instructions données au modèle sans nécessairement modifier ses paramètres. Le fine-tuning consiste à adapter les paramètres du modèle à partir de données supplémentaires. Le premier est généralement plus simple, tandis que le second peut être utile pour des besoins spécialisés."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-26",
+    "source": "ia",
+    "keywords": [
+      "agent",
+      "intelligence",
+      "artificielle"
+    ],
+    "question": {
+      "en": "Qu’est-ce qu’un agent d’intelligence artificielle ?",
+      "fr": "Qu’est-ce qu’un agent d’intelligence artificielle ?",
+      "ar": "Qu’est-ce qu’un agent d’intelligence artificielle ?"
+    },
+    "answer": {
+      "en": "Un agent d’IA est un système qui utilise des informations sur son environnement pour sélectionner des actions en vue d’un objectif. Certains agents peuvent planifier, utiliser des outils, interroger des bases de données et exécuter plusieurs étapes. Leur autonomie doit être encadrée par des permissions et des mécanismes de contrôle.",
+      "fr": "Un agent d’IA est un système qui utilise des informations sur son environnement pour sélectionner des actions en vue d’un objectif. Certains agents peuvent planifier, utiliser des outils, interroger des bases de données et exécuter plusieurs étapes. Leur autonomie doit être encadrée par des permissions et des mécanismes de contrôle.",
+      "ar": "Un agent d’IA est un système qui utilise des informations sur son environnement pour sélectionner des actions en vue d’un objectif. Certains agents peuvent planifier, utiliser des outils, interroger des bases de données et exécuter plusieurs étapes. Leur autonomie doit être encadrée par des permissions et des mécanismes de contrôle."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-27",
+    "source": "ia",
+    "keywords": [
+      "quelle",
+      "différence",
+      "existe",
+      "chatbot",
+      "agent",
+      "intelligent"
+    ],
+    "question": {
+      "en": "Quelle différence existe-t-il entre un chatbot et un agent intelligent ?",
+      "fr": "Quelle différence existe-t-il entre un chatbot et un agent intelligent ?",
+      "ar": "Quelle différence existe-t-il entre un chatbot et un agent intelligent ?"
+    },
+    "answer": {
+      "en": "Un chatbot répond principalement aux demandes conversationnelles. Un agent peut, en plus, planifier et exécuter des actions à l’aide d’outils autorisés. Cette distinction dépend toutefois de l’architecture : un chatbot peut intégrer des fonctions d’agent, et tous les agents ne sont pas autonomes.",
+      "fr": "Un chatbot répond principalement aux demandes conversationnelles. Un agent peut, en plus, planifier et exécuter des actions à l’aide d’outils autorisés. Cette distinction dépend toutefois de l’architecture : un chatbot peut intégrer des fonctions d’agent, et tous les agents ne sont pas autonomes.",
+      "ar": "Un chatbot répond principalement aux demandes conversationnelles. Un agent peut, en plus, planifier et exécuter des actions à l’aide d’outils autorisés. Cette distinction dépend toutefois de l’architecture : un chatbot peut intégrer des fonctions d’agent, et tous les agents ne sont pas autonomes."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-28",
+    "source": "ia",
+    "keywords": [
+      "peut",
+      "créer",
+      "spécialisée",
+      "entreprise",
+      "université"
+    ],
+    "question": {
+      "en": "Peut-on créer une IA spécialisée dans une entreprise ou une université ?",
+      "fr": "Peut-on créer une IA spécialisée dans une entreprise ou une université ?",
+      "ar": "Peut-on créer une IA spécialisée dans une entreprise ou une université ?"
+    },
+    "answer": {
+      "en": "Oui. Il est possible de développer un assistant spécialisé à partir de documents internes, d’une base de connaissances et d’outils adaptés. Un système bien conçu doit respecter les droits d’accès, protéger les données confidentielles, citer ses sources et permettre de vérifier ses réponses.",
+      "fr": "Oui. Il est possible de développer un assistant spécialisé à partir de documents internes, d’une base de connaissances et d’outils adaptés. Un système bien conçu doit respecter les droits d’accès, protéger les données confidentielles, citer ses sources et permettre de vérifier ses réponses.",
+      "ar": "Oui. Il est possible de développer un assistant spécialisé à partir de documents internes, d’une base de connaissances et d’outils adaptés. Un système bien conçu doit respecter les droits d’accès, protéger les données confidentielles, citer ses sources et permettre de vérifier ses réponses."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-29",
+    "source": "ia",
+    "keywords": [
+      "générative",
+      "peut",
+      "elle",
+      "produire",
+      "recherches",
+      "scientifiques",
+      "originales"
+    ],
+    "question": {
+      "en": "L’IA générative peut-elle produire des recherches scientifiques originales ?",
+      "fr": "L’IA générative peut-elle produire des recherches scientifiques originales ?",
+      "ar": "L’IA générative peut-elle produire des recherches scientifiques originales ?"
+    },
+    "answer": {
+      "en": "Elle peut aider à explorer des hypothèses, analyser la littérature, programmer des expériences et proposer des pistes de recherche. Cependant, une contribution scientifique originale doit être établie par une méthodologie rigoureuse, des résultats vérifiables et une validation humaine. La génération d’une idée ne constitue pas à elle seule une découverte scientifique.",
+      "fr": "Elle peut aider à explorer des hypothèses, analyser la littérature, programmer des expériences et proposer des pistes de recherche. Cependant, une contribution scientifique originale doit être établie par une méthodologie rigoureuse, des résultats vérifiables et une validation humaine. La génération d’une idée ne constitue pas à elle seule une découverte scientifique.",
+      "ar": "Elle peut aider à explorer des hypothèses, analyser la littérature, programmer des expériences et proposer des pistes de recherche. Cependant, une contribution scientifique originale doit être établie par une méthodologie rigoureuse, des résultats vérifiables et une validation humaine. La génération d’une idée ne constitue pas à elle seule une découverte scientifique."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-30",
+    "source": "ia",
+    "keywords": [
+      "utiliser",
+      "générative",
+      "manière",
+      "fiable"
+    ],
+    "question": {
+      "en": "Comment utiliser l’IA générative de manière fiable ?",
+      "fr": "Comment utiliser l’IA générative de manière fiable ?",
+      "ar": "Comment utiliser l’IA générative de manière fiable ?"
+    },
+    "answer": {
+      "en": "Il faut définir clairement l’objectif, fournir un contexte pertinent, vérifier les informations importantes et éviter d’introduire des données confidentielles dans des services non autorisés. Dans les activités scientifiques ou institutionnelles, l’IA doit être considérée comme un outil d’assistance soumis à des règles de contrôle, de traçabilité et de responsabilité.",
+      "fr": "Il faut définir clairement l’objectif, fournir un contexte pertinent, vérifier les informations importantes et éviter d’introduire des données confidentielles dans des services non autorisés. Dans les activités scientifiques ou institutionnelles, l’IA doit être considérée comme un outil d’assistance soumis à des règles de contrôle, de traçabilité et de responsabilité.",
+      "ar": "Il faut définir clairement l’objectif, fournir un contexte pertinent, vérifier les informations importantes et éviter d’introduire des données confidentielles dans des services non autorisés. Dans les activités scientifiques ou institutionnelles, l’IA doit être considérée comme un outil d’assistance soumis à des règles de contrôle, de traçabilité et de responsabilité."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-31",
+    "source": "ia",
+    "keywords": [
+      "transforme",
+      "elle",
+      "secteur",
+      "santé"
+    ],
+    "question": {
+      "en": "Comment l’IA transforme-t-elle le secteur de la santé ?",
+      "fr": "Comment l’IA transforme-t-elle le secteur de la santé ?",
+      "ar": "Comment l’IA transforme-t-elle le secteur de la santé ?"
+    },
+    "answer": {
+      "en": "Elle contribue à l’analyse d’images médicales, à l’aide au diagnostic, à la surveillance des patients et à la recherche pharmaceutique. Son utilisation exige une validation clinique, une protection rigoureuse des données et une supervision médicale. L’IA assiste les professionnels, mais ne doit pas être considérée comme une garantie autonome de diagnostic correct.",
+      "fr": "Elle contribue à l’analyse d’images médicales, à l’aide au diagnostic, à la surveillance des patients et à la recherche pharmaceutique. Son utilisation exige une validation clinique, une protection rigoureuse des données et une supervision médicale. L’IA assiste les professionnels, mais ne doit pas être considérée comme une garantie autonome de diagnostic correct.",
+      "ar": "Elle contribue à l’analyse d’images médicales, à l’aide au diagnostic, à la surveillance des patients et à la recherche pharmaceutique. Son utilisation exige une validation clinique, une protection rigoureuse des données et une supervision médicale. L’IA assiste les professionnels, mais ne doit pas être considérée comme une garantie autonome de diagnostic correct."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-32",
+    "source": "ia",
+    "keywords": [
+      "quel",
+      "rôle",
+      "éducation"
+    ],
+    "question": {
+      "en": "Quel est le rôle de l’IA dans l’éducation ?",
+      "fr": "Quel est le rôle de l’IA dans l’éducation ?",
+      "ar": "Quel est le rôle de l’IA dans l’éducation ?"
+    },
+    "answer": {
+      "en": "L’IA permet de personnaliser certains apprentissages, de fournir des exercices adaptés et d’assister les enseignants dans la préparation de supports. Elle peut aussi faciliter l’accessibilité pédagogique. Toutefois, l’évaluation critique, l’autonomie intellectuelle, la protection des élèves et la qualité des apprentissages doivent rester prioritaires.",
+      "fr": "L’IA permet de personnaliser certains apprentissages, de fournir des exercices adaptés et d’assister les enseignants dans la préparation de supports. Elle peut aussi faciliter l’accessibilité pédagogique. Toutefois, l’évaluation critique, l’autonomie intellectuelle, la protection des élèves et la qualité des apprentissages doivent rester prioritaires.",
+      "ar": "L’IA permet de personnaliser certains apprentissages, de fournir des exercices adaptés et d’assister les enseignants dans la préparation de supports. Elle peut aussi faciliter l’accessibilité pédagogique. Toutefois, l’évaluation critique, l’autonomie intellectuelle, la protection des élèves et la qualité des apprentissages doivent rester prioritaires."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-33",
+    "source": "ia",
+    "keywords": [
+      "améliore",
+      "elle",
+      "agriculture"
+    ],
+    "question": {
+      "en": "Comment l’IA améliore-t-elle l’agriculture ?",
+      "fr": "Comment l’IA améliore-t-elle l’agriculture ?",
+      "ar": "Comment l’IA améliore-t-elle l’agriculture ?"
+    },
+    "answer": {
+      "en": "Elle peut analyser des images satellitaires, surveiller les cultures, détecter certaines maladies, prévoir les rendements et optimiser l’irrigation. Associée à l’IoT et aux données météorologiques, elle contribue à une agriculture plus précise. Sa performance dépend de la qualité des données locales et de l’adaptation aux conditions du terrain.",
+      "fr": "Elle peut analyser des images satellitaires, surveiller les cultures, détecter certaines maladies, prévoir les rendements et optimiser l’irrigation. Associée à l’IoT et aux données météorologiques, elle contribue à une agriculture plus précise. Sa performance dépend de la qualité des données locales et de l’adaptation aux conditions du terrain.",
+      "ar": "Elle peut analyser des images satellitaires, surveiller les cultures, détecter certaines maladies, prévoir les rendements et optimiser l’irrigation. Associée à l’IoT et aux données météorologiques, elle contribue à une agriculture plus précise. Sa performance dépend de la qualité des données locales et de l’adaptation aux conditions du terrain."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-34",
+    "source": "ia",
+    "keywords": [
+      "quel",
+      "apport",
+      "gestion"
+    ],
+    "question": {
+      "en": "Quel est l’apport de l’IA à la gestion de l’eau ?",
+      "fr": "Quel est l’apport de l’IA à la gestion de l’eau ?",
+      "ar": "Quel est l’apport de l’IA à la gestion de l’eau ?"
+    },
+    "answer": {
+      "en": "L’IA peut prévoir la demande en eau, détecter les fuites, estimer les risques de sécheresse et améliorer la gestion des ressources hydriques. Associée aux capteurs IoT, aux systèmes d’information géographique et aux jumeaux numériques, elle peut soutenir une gestion plus anticipative et durable de l’eau.",
+      "fr": "L’IA peut prévoir la demande en eau, détecter les fuites, estimer les risques de sécheresse et améliorer la gestion des ressources hydriques. Associée aux capteurs IoT, aux systèmes d’information géographique et aux jumeaux numériques, elle peut soutenir une gestion plus anticipative et durable de l’eau.",
+      "ar": "L’IA peut prévoir la demande en eau, détecter les fuites, estimer les risques de sécheresse et améliorer la gestion des ressources hydriques. Associée aux capteurs IoT, aux systèmes d’information géographique et aux jumeaux numériques, elle peut soutenir une gestion plus anticipative et durable de l’eau."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-35",
+    "source": "ia",
+    "keywords": [
+      "contribue",
+      "elle",
+      "transition",
+      "énergétique"
+    ],
+    "question": {
+      "en": "Comment l’IA contribue-t-elle à la transition énergétique ?",
+      "fr": "Comment l’IA contribue-t-elle à la transition énergétique ?",
+      "ar": "Comment l’IA contribue-t-elle à la transition énergétique ?"
+    },
+    "answer": {
+      "en": "Elle peut prévoir la consommation, anticiper la production solaire et éolienne et optimiser certains réseaux électriques. Elle facilite ainsi l’équilibrage entre l’offre et la demande. Son déploiement doit néanmoins prendre en compte la fiabilité des infrastructures, la cybersécurité et les coûts énergétiques du calcul lui-même.",
+      "fr": "Elle peut prévoir la consommation, anticiper la production solaire et éolienne et optimiser certains réseaux électriques. Elle facilite ainsi l’équilibrage entre l’offre et la demande. Son déploiement doit néanmoins prendre en compte la fiabilité des infrastructures, la cybersécurité et les coûts énergétiques du calcul lui-même.",
+      "ar": "Elle peut prévoir la consommation, anticiper la production solaire et éolienne et optimiser certains réseaux électriques. Elle facilite ainsi l’équilibrage entre l’offre et la demande. Son déploiement doit néanmoins prendre en compte la fiabilité des infrastructures, la cybersécurité et les coûts énergétiques du calcul lui-même."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-36",
+    "source": "ia",
+    "keywords": [
+      "quel",
+      "rôle",
+      "joue",
+      "industrie"
+    ],
+    "question": {
+      "en": "Quel rôle joue l’IA dans l’industrie ?",
+      "fr": "Quel rôle joue l’IA dans l’industrie ?",
+      "ar": "Quel rôle joue l’IA dans l’industrie ?"
+    },
+    "answer": {
+      "en": "Elle favorise la maintenance prédictive, le contrôle qualité, l’optimisation des chaînes de production et l’assistance aux opérateurs. En analysant les données des machines, elle peut détecter des anomalies avant qu’elles ne provoquent une panne. Les bénéfices doivent être mesurés par des indicateurs industriels concrets.",
+      "fr": "Elle favorise la maintenance prédictive, le contrôle qualité, l’optimisation des chaînes de production et l’assistance aux opérateurs. En analysant les données des machines, elle peut détecter des anomalies avant qu’elles ne provoquent une panne. Les bénéfices doivent être mesurés par des indicateurs industriels concrets.",
+      "ar": "Elle favorise la maintenance prédictive, le contrôle qualité, l’optimisation des chaînes de production et l’assistance aux opérateurs. En analysant les données des machines, elle peut détecter des anomalies avant qu’elles ne provoquent une panne. Les bénéfices doivent être mesurés par des indicateurs industriels concrets."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-37",
+    "source": "ia",
+    "keywords": [
+      "peut",
+      "elle",
+      "améliorer",
+      "services",
+      "publics"
+    ],
+    "question": {
+      "en": "L’IA peut-elle améliorer les services publics ?",
+      "fr": "L’IA peut-elle améliorer les services publics ?",
+      "ar": "L’IA peut-elle améliorer les services publics ?"
+    },
+    "answer": {
+      "en": "Oui. Elle peut faciliter le traitement documentaire, l’analyse des demandes, la détection d’anomalies et l’orientation des citoyens. Cependant, les décisions administratives doivent respecter le droit, la transparence, l’égalité de traitement et les possibilités de recours. L’efficacité ne doit jamais se faire au détriment des droits des citoyens.",
+      "fr": "Oui. Elle peut faciliter le traitement documentaire, l’analyse des demandes, la détection d’anomalies et l’orientation des citoyens. Cependant, les décisions administratives doivent respecter le droit, la transparence, l’égalité de traitement et les possibilités de recours. L’efficacité ne doit jamais se faire au détriment des droits des citoyens.",
+      "ar": "Oui. Elle peut faciliter le traitement documentaire, l’analyse des demandes, la détection d’anomalies et l’orientation des citoyens. Cependant, les décisions administratives doivent respecter le droit, la transparence, l’égalité de traitement et les possibilités de recours. L’efficacité ne doit jamais se faire au détriment des droits des citoyens."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-38",
+    "source": "ia",
+    "keywords": [
+      "transforme",
+      "elle",
+      "finance"
+    ],
+    "question": {
+      "en": "Comment l’IA transforme-t-elle la finance ?",
+      "fr": "Comment l’IA transforme-t-elle la finance ?",
+      "ar": "Comment l’IA transforme-t-elle la finance ?"
+    },
+    "answer": {
+      "en": "Elle contribue à l’évaluation des risques, à la détection des fraudes, à l’analyse des transactions et à l’automatisation de certaines opérations. Elle peut améliorer la rapidité des analyses, mais elle risque également d’amplifier des biais ou de produire des décisions difficiles à expliquer. Une gouvernance rigoureuse est indispensable.",
+      "fr": "Elle contribue à l’évaluation des risques, à la détection des fraudes, à l’analyse des transactions et à l’automatisation de certaines opérations. Elle peut améliorer la rapidité des analyses, mais elle risque également d’amplifier des biais ou de produire des décisions difficiles à expliquer. Une gouvernance rigoureuse est indispensable.",
+      "ar": "Elle contribue à l’évaluation des risques, à la détection des fraudes, à l’analyse des transactions et à l’automatisation de certaines opérations. Elle peut améliorer la rapidité des analyses, mais elle risque également d’amplifier des biais ou de produire des décisions difficiles à expliquer. Une gouvernance rigoureuse est indispensable."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-39",
+    "source": "ia",
+    "keywords": [
+      "jumeau",
+      "numérique",
+      "intelligent"
+    ],
+    "question": {
+      "en": "Qu’est-ce qu’un jumeau numérique intelligent ?",
+      "fr": "Qu’est-ce qu’un jumeau numérique intelligent ?",
+      "ar": "Qu’est-ce qu’un jumeau numérique intelligent ?"
+    },
+    "answer": {
+      "en": "Un jumeau numérique est une représentation numérique d’un objet, d’un processus ou d’un système réel, alimentée par des données. L’intégration de l’IA peut permettre de simuler des scénarios, prévoir des défaillances et optimiser des opérations. Sa valeur dépend de la qualité du modèle, des données et de sa mise à jour.",
+      "fr": "Un jumeau numérique est une représentation numérique d’un objet, d’un processus ou d’un système réel, alimentée par des données. L’intégration de l’IA peut permettre de simuler des scénarios, prévoir des défaillances et optimiser des opérations. Sa valeur dépend de la qualité du modèle, des données et de sa mise à jour.",
+      "ar": "Un jumeau numérique est une représentation numérique d’un objet, d’un processus ou d’un système réel, alimentée par des données. L’intégration de l’IA peut permettre de simuler des scénarios, prévoir des défaillances et optimiser des opérations. Sa valeur dépend de la qualité du modèle, des données et de sa mise à jour."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-40",
+    "source": "ia",
+    "keywords": [
+      "mesurer",
+      "succès",
+      "projet"
+    ],
+    "question": {
+      "en": "Comment mesurer le succès d’un projet d’IA ?",
+      "fr": "Comment mesurer le succès d’un projet d’IA ?",
+      "ar": "Comment mesurer le succès d’un projet d’IA ?"
+    },
+    "answer": {
+      "en": "Le succès doit être évalué par des résultats mesurables : réduction des coûts, amélioration de la qualité, gain de temps, diminution des erreurs ou amélioration du service rendu. Il faut également intégrer le coût total, les risques, l’acceptabilité des utilisateurs et la durabilité du système.",
+      "fr": "Le succès doit être évalué par des résultats mesurables : réduction des coûts, amélioration de la qualité, gain de temps, diminution des erreurs ou amélioration du service rendu. Il faut également intégrer le coût total, les risques, l’acceptabilité des utilisateurs et la durabilité du système.",
+      "ar": "Le succès doit être évalué par des résultats mesurables : réduction des coûts, amélioration de la qualité, gain de temps, diminution des erreurs ou amélioration du service rendu. Il faut également intégrer le coût total, les risques, l’acceptabilité des utilisateurs et la durabilité du système."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-41",
+    "source": "ia",
+    "keywords": [
+      "données",
+      "sont",
+      "elles",
+      "considérées",
+      "comme",
+      "actif",
+      "stratégique"
+    ],
+    "question": {
+      "en": "Pourquoi les données sont-elles considérées comme un actif stratégique ?",
+      "fr": "Pourquoi les données sont-elles considérées comme un actif stratégique ?",
+      "ar": "Pourquoi les données sont-elles considérées comme un actif stratégique ?"
+    },
+    "answer": {
+      "en": "Les données permettent de comprendre les situations, d’améliorer les décisions et de développer des services intelligents. Leur valeur dépend toutefois de leur qualité, de leur pertinence, de leur gouvernance et des droits associés. Les organisations doivent les considérer comme un actif à protéger, à documenter et à exploiter de manière responsable.",
+      "fr": "Les données permettent de comprendre les situations, d’améliorer les décisions et de développer des services intelligents. Leur valeur dépend toutefois de leur qualité, de leur pertinence, de leur gouvernance et des droits associés. Les organisations doivent les considérer comme un actif à protéger, à documenter et à exploiter de manière responsable.",
+      "ar": "Les données permettent de comprendre les situations, d’améliorer les décisions et de développer des services intelligents. Leur valeur dépend toutefois de leur qualité, de leur pertinence, de leur gouvernance et des droits associés. Les organisations doivent les considérer comme un actif à protéger, à documenter et à exploiter de manière responsable."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-42",
+    "source": "ia",
+    "keywords": [
+      "gouvernance",
+      "données"
+    ],
+    "question": {
+      "en": "Qu’est-ce que la gouvernance des données ?",
+      "fr": "Qu’est-ce que la gouvernance des données ?",
+      "ar": "Qu’est-ce que la gouvernance des données ?"
+    },
+    "answer": {
+      "en": "La gouvernance des données regroupe les règles, les responsabilités et les procédures qui garantissent leur qualité, leur sécurité, leur traçabilité et leur utilisation appropriée. Elle précise notamment qui peut accéder aux données, dans quelles conditions et pour quelles finalités.",
+      "fr": "La gouvernance des données regroupe les règles, les responsabilités et les procédures qui garantissent leur qualité, leur sécurité, leur traçabilité et leur utilisation appropriée. Elle précise notamment qui peut accéder aux données, dans quelles conditions et pour quelles finalités.",
+      "ar": "La gouvernance des données regroupe les règles, les responsabilités et les procédures qui garantissent leur qualité, leur sécurité, leur traçabilité et leur utilisation appropriée. Elle précise notamment qui peut accéder aux données, dans quelles conditions et pour quelles finalités."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-43",
+    "source": "ia",
+    "keywords": [
+      "représente",
+      "elle",
+      "menace",
+      "cybersécurité"
+    ],
+    "question": {
+      "en": "L’IA représente-t-elle une menace pour la cybersécurité ?",
+      "fr": "L’IA représente-t-elle une menace pour la cybersécurité ?",
+      "ar": "L’IA représente-t-elle une menace pour la cybersécurité ?"
+    },
+    "answer": {
+      "en": "L’IA est à la fois un outil de défense et un facteur de risque. Elle peut détecter des comportements suspects, mais elle peut également faciliter certaines tentatives de fraude, de phishing ou de génération de contenus trompeurs. La cybersécurité doit donc intégrer des défenses techniques, humaines et organisationnelles.",
+      "fr": "L’IA est à la fois un outil de défense et un facteur de risque. Elle peut détecter des comportements suspects, mais elle peut également faciliter certaines tentatives de fraude, de phishing ou de génération de contenus trompeurs. La cybersécurité doit donc intégrer des défenses techniques, humaines et organisationnelles.",
+      "ar": "L’IA est à la fois un outil de défense et un facteur de risque. Elle peut détecter des comportements suspects, mais elle peut également faciliter certaines tentatives de fraude, de phishing ou de génération de contenus trompeurs. La cybersécurité doit donc intégrer des défenses techniques, humaines et organisationnelles."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-44",
+    "source": "ia",
+    "keywords": [
+      "protéger",
+      "données",
+      "personnelles",
+      "utilisées"
+    ],
+    "question": {
+      "en": "Comment protéger les données personnelles utilisées par l’IA ?",
+      "fr": "Comment protéger les données personnelles utilisées par l’IA ?",
+      "ar": "Comment protéger les données personnelles utilisées par l’IA ?"
+    },
+    "answer": {
+      "en": "Il faut limiter la collecte aux données nécessaires, contrôler les accès, sécuriser le stockage, encadrer les transferts et respecter les règles juridiques applicables. Selon le contexte, des techniques telles que la pseudonymisation, l’anonymisation ou l’apprentissage fédéré peuvent contribuer à réduire certains risques.",
+      "fr": "Il faut limiter la collecte aux données nécessaires, contrôler les accès, sécuriser le stockage, encadrer les transferts et respecter les règles juridiques applicables. Selon le contexte, des techniques telles que la pseudonymisation, l’anonymisation ou l’apprentissage fédéré peuvent contribuer à réduire certains risques.",
+      "ar": "Il faut limiter la collecte aux données nécessaires, contrôler les accès, sécuriser le stockage, encadrer les transferts et respecter les règles juridiques applicables. Selon le contexte, des techniques telles que la pseudonymisation, l’anonymisation ou l’apprentissage fédéré peuvent contribuer à réduire certains risques."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-45",
+    "source": "ia",
+    "keywords": [
+      "apprentissage",
+      "fédéré"
+    ],
+    "question": {
+      "en": "Qu’est-ce que l’apprentissage fédéré ?",
+      "fr": "Qu’est-ce que l’apprentissage fédéré ?",
+      "ar": "Qu’est-ce que l’apprentissage fédéré ?"
+    },
+    "answer": {
+      "en": "L’apprentissage fédéré permet à plusieurs entités d’entraîner collectivement un modèle sans centraliser systématiquement toutes leurs données brutes. Les modèles ou leurs mises à jour sont échangés selon une architecture définie. Cette approche peut améliorer la confidentialité, mais elle ne garantit pas à elle seule l’absence de fuite d’informations.",
+      "fr": "L’apprentissage fédéré permet à plusieurs entités d’entraîner collectivement un modèle sans centraliser systématiquement toutes leurs données brutes. Les modèles ou leurs mises à jour sont échangés selon une architecture définie. Cette approche peut améliorer la confidentialité, mais elle ne garantit pas à elle seule l’absence de fuite d’informations.",
+      "ar": "L’apprentissage fédéré permet à plusieurs entités d’entraîner collectivement un modèle sans centraliser systématiquement toutes leurs données brutes. Les modèles ou leurs mises à jour sont échangés selon une architecture définie. Cette approche peut améliorer la confidentialité, mais elle ne garantit pas à elle seule l’absence de fuite d’informations."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-46",
+    "source": "ia",
+    "keywords": [
+      "attaque",
+      "adversariale",
+      "contre"
+    ],
+    "question": {
+      "en": "Qu’est-ce qu’une attaque adversariale contre l’IA ?",
+      "fr": "Qu’est-ce qu’une attaque adversariale contre l’IA ?",
+      "ar": "Qu’est-ce qu’une attaque adversariale contre l’IA ?"
+    },
+    "answer": {
+      "en": "Il s’agit d’une manipulation conçue pour provoquer une erreur dans un modèle, par exemple en modifiant subtilement une image ou en introduisant des données malveillantes. Ces attaques montrent que les performances classiques ne suffisent pas à établir la robustesse. Des tests de sécurité spécifiques doivent être intégrés au cycle de vie du modèle.",
+      "fr": "Il s’agit d’une manipulation conçue pour provoquer une erreur dans un modèle, par exemple en modifiant subtilement une image ou en introduisant des données malveillantes. Ces attaques montrent que les performances classiques ne suffisent pas à établir la robustesse. Des tests de sécurité spécifiques doivent être intégrés au cycle de vie du modèle.",
+      "ar": "Il s’agit d’une manipulation conçue pour provoquer une erreur dans un modèle, par exemple en modifiant subtilement une image ou en introduisant des données malveillantes. Ces attaques montrent que les performances classiques ne suffisent pas à établir la robustesse. Des tests de sécurité spécifiques doivent être intégrés au cycle de vie du modèle."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-47",
+    "source": "ia",
+    "keywords": [
+      "lutter",
+      "contre",
+      "deepfakes"
+    ],
+    "question": {
+      "en": "Comment lutter contre les deepfakes ?",
+      "fr": "Comment lutter contre les deepfakes ?",
+      "ar": "Comment lutter contre les deepfakes ?"
+    },
+    "answer": {
+      "en": "La lutte contre les deepfakes combine la vérification des sources, l’analyse technique des contenus, les mécanismes de provenance numérique et la sensibilisation du public. Aucun détecteur n’est infaillible. Dans les situations sensibles, il faut croiser plusieurs indices et éviter de conclure à l’authenticité ou à la falsification sur la base d’un seul outil.",
+      "fr": "La lutte contre les deepfakes combine la vérification des sources, l’analyse technique des contenus, les mécanismes de provenance numérique et la sensibilisation du public. Aucun détecteur n’est infaillible. Dans les situations sensibles, il faut croiser plusieurs indices et éviter de conclure à l’authenticité ou à la falsification sur la base d’un seul outil.",
+      "ar": "La lutte contre les deepfakes combine la vérification des sources, l’analyse technique des contenus, les mécanismes de provenance numérique et la sensibilisation du public. Aucun détecteur n’est infaillible. Dans les situations sensibles, il faut croiser plusieurs indices et éviter de conclure à l’authenticité ou à la falsification sur la base d’un seul outil."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-48",
+    "source": "ia",
+    "keywords": [
+      "peut",
+      "garantir",
+      "sécurité",
+      "totale",
+      "système"
+    ],
+    "question": {
+      "en": "Peut-on garantir la sécurité totale d’un système d’IA ?",
+      "fr": "Peut-on garantir la sécurité totale d’un système d’IA ?",
+      "ar": "Peut-on garantir la sécurité totale d’un système d’IA ?"
+    },
+    "answer": {
+      "en": "Non. Aucun système informatique complexe ne peut être considéré comme absolument invulnérable. La sécurité repose sur la réduction des risques, les tests réguliers, le contrôle des accès, la surveillance et la capacité à réagir aux incidents. L’objectif réaliste est une sécurité proportionnée aux risques et continuellement améliorée.",
+      "fr": "Non. Aucun système informatique complexe ne peut être considéré comme absolument invulnérable. La sécurité repose sur la réduction des risques, les tests réguliers, le contrôle des accès, la surveillance et la capacité à réagir aux incidents. L’objectif réaliste est une sécurité proportionnée aux risques et continuellement améliorée.",
+      "ar": "Non. Aucun système informatique complexe ne peut être considéré comme absolument invulnérable. La sécurité repose sur la réduction des risques, les tests réguliers, le contrôle des accès, la surveillance et la capacité à réagir aux incidents. L’objectif réaliste est une sécurité proportionnée aux risques et continuellement améliorée."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-49",
+    "source": "ia",
+    "keywords": [
+      "souveraineté",
+      "données"
+    ],
+    "question": {
+      "en": "Qu’est-ce que la souveraineté des données ?",
+      "fr": "Qu’est-ce que la souveraineté des données ?",
+      "ar": "Qu’est-ce que la souveraineté des données ?"
+    },
+    "answer": {
+      "en": "La souveraineté des données désigne la capacité à maîtriser les conditions de collecte, d’hébergement, d’accès, de traitement et d’utilisation des données. Elle suppose une gouvernance juridique et technique adaptée, ainsi qu’une connaissance des dépendances envers les fournisseurs et les infrastructures étrangères.",
+      "fr": "La souveraineté des données désigne la capacité à maîtriser les conditions de collecte, d’hébergement, d’accès, de traitement et d’utilisation des données. Elle suppose une gouvernance juridique et technique adaptée, ainsi qu’une connaissance des dépendances envers les fournisseurs et les infrastructures étrangères.",
+      "ar": "La souveraineté des données désigne la capacité à maîtriser les conditions de collecte, d’hébergement, d’accès, de traitement et d’utilisation des données. Elle suppose une gouvernance juridique et technique adaptée, ainsi qu’une connaissance des dépendances envers les fournisseurs et les infrastructures étrangères."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-50",
+    "source": "ia",
+    "keywords": [
+      "cybersécurité",
+      "doit",
+      "elle",
+      "être",
+      "intégrée",
+      "conception"
+    ],
+    "question": {
+      "en": "Pourquoi la cybersécurité doit-elle être intégrée dès la conception de l’IA ?",
+      "fr": "Pourquoi la cybersécurité doit-elle être intégrée dès la conception de l’IA ?",
+      "ar": "Pourquoi la cybersécurité doit-elle être intégrée dès la conception de l’IA ?"
+    },
+    "answer": {
+      "en": "La sécurité ajoutée après le déploiement peut laisser subsister des vulnérabilités difficiles à corriger. Une approche intégrée prévoit dès le départ la protection des données, les permissions, les tests adversariaux, la journalisation et la gestion des incidents. C’est une condition essentielle pour instaurer une confiance durable.",
+      "fr": "La sécurité ajoutée après le déploiement peut laisser subsister des vulnérabilités difficiles à corriger. Une approche intégrée prévoit dès le départ la protection des données, les permissions, les tests adversariaux, la journalisation et la gestion des incidents. C’est une condition essentielle pour instaurer une confiance durable.",
+      "ar": "La sécurité ajoutée après le déploiement peut laisser subsister des vulnérabilités difficiles à corriger. Une approche intégrée prévoit dès le départ la protection des données, les permissions, les tests adversariaux, la journalisation et la gestion des incidents. C’est une condition essentielle pour instaurer une confiance durable."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-51",
+    "source": "ia",
+    "keywords": [
+      "quels",
+      "sont",
+      "principaux",
+      "risques",
+      "éthiques"
+    ],
+    "question": {
+      "en": "Quels sont les principaux risques éthiques de l’IA ?",
+      "fr": "Quels sont les principaux risques éthiques de l’IA ?",
+      "ar": "Quels sont les principaux risques éthiques de l’IA ?"
+    },
+    "answer": {
+      "en": "Les principaux risques concernent les biais, la discrimination, l’atteinte à la vie privée, la désinformation, l’opacité des décisions et la concentration du pouvoir technologique. Leur importance dépend du contexte d’utilisation. Une IA responsable doit intégrer l’évaluation des risques dès sa conception et pendant toute son exploitation.",
+      "fr": "Les principaux risques concernent les biais, la discrimination, l’atteinte à la vie privée, la désinformation, l’opacité des décisions et la concentration du pouvoir technologique. Leur importance dépend du contexte d’utilisation. Une IA responsable doit intégrer l’évaluation des risques dès sa conception et pendant toute son exploitation.",
+      "ar": "Les principaux risques concernent les biais, la discrimination, l’atteinte à la vie privée, la désinformation, l’opacité des décisions et la concentration du pouvoir technologique. Leur importance dépend du contexte d’utilisation. Une IA responsable doit intégrer l’évaluation des risques dès sa conception et pendant toute son exploitation."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-52",
+    "source": "ia",
+    "keywords": [
+      "biais",
+      "algorithmique"
+    ],
+    "question": {
+      "en": "Qu’est-ce qu’un biais algorithmique ?",
+      "fr": "Qu’est-ce qu’un biais algorithmique ?",
+      "ar": "Qu’est-ce qu’un biais algorithmique ?"
+    },
+    "answer": {
+      "en": "Un biais algorithmique est une distorsion systématique qui affecte les résultats d’un modèle. Il peut provenir des données, de la conception du système, du choix des indicateurs ou du contexte de déploiement. Il faut le rechercher par des évaluations appropriées, notamment entre différents groupes de personnes, puis corriger ses causes lorsque cela est possible.",
+      "fr": "Un biais algorithmique est une distorsion systématique qui affecte les résultats d’un modèle. Il peut provenir des données, de la conception du système, du choix des indicateurs ou du contexte de déploiement. Il faut le rechercher par des évaluations appropriées, notamment entre différents groupes de personnes, puis corriger ses causes lorsque cela est possible.",
+      "ar": "Un biais algorithmique est une distorsion systématique qui affecte les résultats d’un modèle. Il peut provenir des données, de la conception du système, du choix des indicateurs ou du contexte de déploiement. Il faut le rechercher par des évaluations appropriées, notamment entre différents groupes de personnes, puis corriger ses causes lorsque cela est possible."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-53",
+    "source": "ia",
+    "keywords": [
+      "responsable",
+      "lorsqu",
+      "commet",
+      "erreur"
+    ],
+    "question": {
+      "en": "Qui est responsable lorsqu’une IA commet une erreur ?",
+      "fr": "Qui est responsable lorsqu’une IA commet une erreur ?",
+      "ar": "Qui est responsable lorsqu’une IA commet une erreur ?"
+    },
+    "answer": {
+      "en": "La responsabilité dépend du cadre juridique, du rôle des acteurs et des circonstances. Les développeurs, les fournisseurs, les organisations utilisatrices ou les professionnels peuvent avoir des obligations distinctes. L’utilisation d’une IA ne supprime pas automatiquement la responsabilité humaine ou institutionnelle : les responsabilités doivent être définies clairement avant le déploiement.",
+      "fr": "La responsabilité dépend du cadre juridique, du rôle des acteurs et des circonstances. Les développeurs, les fournisseurs, les organisations utilisatrices ou les professionnels peuvent avoir des obligations distinctes. L’utilisation d’une IA ne supprime pas automatiquement la responsabilité humaine ou institutionnelle : les responsabilités doivent être définies clairement avant le déploiement.",
+      "ar": "La responsabilité dépend du cadre juridique, du rôle des acteurs et des circonstances. Les développeurs, les fournisseurs, les organisations utilisatrices ou les professionnels peuvent avoir des obligations distinctes. L’utilisation d’une IA ne supprime pas automatiquement la responsabilité humaine ou institutionnelle : les responsabilités doivent être définies clairement avant le déploiement."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-54",
+    "source": "ia",
+    "keywords": [
+      "faut",
+      "réglementer",
+      "intelligence",
+      "artificielle"
+    ],
+    "question": {
+      "en": "Faut-il réglementer l’intelligence artificielle ?",
+      "fr": "Faut-il réglementer l’intelligence artificielle ?",
+      "ar": "Faut-il réglementer l’intelligence artificielle ?"
+    },
+    "answer": {
+      "en": "Oui, une gouvernance adaptée est nécessaire pour protéger les droits, réduire les risques et instaurer la confiance. Cependant, une réglementation efficace doit être proportionnée aux usages et aux risques. Elle doit protéger les citoyens tout en permettant la recherche, l’innovation et le développement de solutions locales.",
+      "fr": "Oui, une gouvernance adaptée est nécessaire pour protéger les droits, réduire les risques et instaurer la confiance. Cependant, une réglementation efficace doit être proportionnée aux usages et aux risques. Elle doit protéger les citoyens tout en permettant la recherche, l’innovation et le développement de solutions locales.",
+      "ar": "Oui, une gouvernance adaptée est nécessaire pour protéger les droits, réduire les risques et instaurer la confiance. Cependant, une réglementation efficace doit être proportionnée aux usages et aux risques. Elle doit protéger les citoyens tout en permettant la recherche, l’innovation et le développement de solutions locales."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-55",
+    "source": "ia",
+    "keywords": [
+      "transparence",
+      "elle",
+      "importante"
+    ],
+    "question": {
+      "en": "Pourquoi la transparence est-elle importante ?",
+      "fr": "Pourquoi la transparence est-elle importante ?",
+      "ar": "Pourquoi la transparence est-elle importante ?"
+    },
+    "answer": {
+      "en": "La transparence permet de connaître les objectifs, les limites, les données pertinentes et les conditions d’utilisation d’un système. Elle facilite l’audit, la confiance et la contestation des décisions. Son niveau doit être adapté au contexte : expliquer une recommandation médicale n’exige pas les mêmes informations qu’expliquer un outil de génération de texte.",
+      "fr": "La transparence permet de connaître les objectifs, les limites, les données pertinentes et les conditions d’utilisation d’un système. Elle facilite l’audit, la confiance et la contestation des décisions. Son niveau doit être adapté au contexte : expliquer une recommandation médicale n’exige pas les mêmes informations qu’expliquer un outil de génération de texte.",
+      "ar": "La transparence permet de connaître les objectifs, les limites, les données pertinentes et les conditions d’utilisation d’un système. Elle facilite l’audit, la confiance et la contestation des décisions. Son niveau doit être adapté au contexte : expliquer une recommandation médicale n’exige pas les mêmes informations qu’expliquer un outil de génération de texte."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-56",
+    "source": "ia",
+    "keywords": [
+      "peut",
+      "elle",
+      "prendre",
+      "décisions",
+      "morales"
+    ],
+    "question": {
+      "en": "L’IA peut-elle prendre des décisions morales ?",
+      "fr": "L’IA peut-elle prendre des décisions morales ?",
+      "ar": "L’IA peut-elle prendre des décisions morales ?"
+    },
+    "answer": {
+      "en": "Un système peut appliquer des règles éthiques formalisées ou comparer des conséquences selon des critères définis. Toutefois, cela ne signifie pas qu’il possède une conscience morale ou qu’il assume la responsabilité de ses décisions. Les choix impliquant des valeurs humaines contradictoires nécessitent une gouvernance explicite et une responsabilité clairement attribuée.",
+      "fr": "Un système peut appliquer des règles éthiques formalisées ou comparer des conséquences selon des critères définis. Toutefois, cela ne signifie pas qu’il possède une conscience morale ou qu’il assume la responsabilité de ses décisions. Les choix impliquant des valeurs humaines contradictoires nécessitent une gouvernance explicite et une responsabilité clairement attribuée.",
+      "ar": "Un système peut appliquer des règles éthiques formalisées ou comparer des conséquences selon des critères définis. Toutefois, cela ne signifie pas qu’il possède une conscience morale ou qu’il assume la responsabilité de ses décisions. Les choix impliquant des valeurs humaines contradictoires nécessitent une gouvernance explicite et une responsabilité clairement attribuée."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-57",
+    "source": "ia",
+    "keywords": [
+      "garantir",
+      "équitable"
+    ],
+    "question": {
+      "en": "Comment garantir une IA équitable ?",
+      "fr": "Comment garantir une IA équitable ?",
+      "ar": "Comment garantir une IA équitable ?"
+    },
+    "answer": {
+      "en": "Il faut examiner la représentativité des données, les performances entre groupes, les critères de décision et les conséquences réelles des résultats. L’équité ne se résume pas à un seul indicateur mathématique : plusieurs définitions peuvent entrer en tension. Le choix des critères doit donc être justifié selon le contexte juridique, social et opérationnel.",
+      "fr": "Il faut examiner la représentativité des données, les performances entre groupes, les critères de décision et les conséquences réelles des résultats. L’équité ne se résume pas à un seul indicateur mathématique : plusieurs définitions peuvent entrer en tension. Le choix des critères doit donc être justifié selon le contexte juridique, social et opérationnel.",
+      "ar": "Il faut examiner la représentativité des données, les performances entre groupes, les critères de décision et les conséquences réelles des résultats. L’équité ne se résume pas à un seul indicateur mathématique : plusieurs définitions peuvent entrer en tension. Le choix des critères doit donc être justifié selon le contexte juridique, social et opérationnel."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-58",
+    "source": "ia",
+    "keywords": [
+      "quel",
+      "rôle",
+      "humain",
+      "responsable"
+    ],
+    "question": {
+      "en": "Quel est le rôle de l’humain dans une IA responsable ?",
+      "fr": "Quel est le rôle de l’humain dans une IA responsable ?",
+      "ar": "Quel est le rôle de l’humain dans une IA responsable ?"
+    },
+    "answer": {
+      "en": "L’humain définit les objectifs, valide les usages, contrôle les résultats et assume les responsabilités qui lui incombent. Pour les décisions à fort impact, une supervision réelle doit permettre de comprendre les recommandations, de les contester et, si nécessaire, de les interrompre.",
+      "fr": "L’humain définit les objectifs, valide les usages, contrôle les résultats et assume les responsabilités qui lui incombent. Pour les décisions à fort impact, une supervision réelle doit permettre de comprendre les recommandations, de les contester et, si nécessaire, de les interrompre.",
+      "ar": "L’humain définit les objectifs, valide les usages, contrôle les résultats et assume les responsabilités qui lui incombent. Pour les décisions à fort impact, une supervision réelle doit permettre de comprendre les recommandations, de les contester et, si nécessaire, de les interrompre."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-59",
+    "source": "ia",
+    "keywords": [
+      "digne",
+      "confiance"
+    ],
+    "question": {
+      "en": "Qu’est-ce qu’une IA digne de confiance ?",
+      "fr": "Qu’est-ce qu’une IA digne de confiance ?",
+      "ar": "Qu’est-ce qu’une IA digne de confiance ?"
+    },
+    "answer": {
+      "en": "Une IA digne de confiance doit être suffisamment fiable, sûre, transparente et respectueuse des droits pour son usage prévu. Elle doit également faire l’objet d’une gouvernance et d’un suivi adaptés. La confiance ne repose pas sur une déclaration marketing, mais sur des preuves, des tests et des mécanismes de responsabilité.",
+      "fr": "Une IA digne de confiance doit être suffisamment fiable, sûre, transparente et respectueuse des droits pour son usage prévu. Elle doit également faire l’objet d’une gouvernance et d’un suivi adaptés. La confiance ne repose pas sur une déclaration marketing, mais sur des preuves, des tests et des mécanismes de responsabilité.",
+      "ar": "Une IA digne de confiance doit être suffisamment fiable, sûre, transparente et respectueuse des droits pour son usage prévu. Elle doit également faire l’objet d’une gouvernance et d’un suivi adaptés. La confiance ne repose pas sur une déclaration marketing, mais sur des preuves, des tests et des mécanismes de responsabilité."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-60",
+    "source": "ia",
+    "keywords": [
+      "concilier",
+      "innovation",
+      "protection",
+      "citoyens"
+    ],
+    "question": {
+      "en": "Comment concilier innovation et protection des citoyens ?",
+      "fr": "Comment concilier innovation et protection des citoyens ?",
+      "ar": "Comment concilier innovation et protection des citoyens ?"
+    },
+    "answer": {
+      "en": "Il faut adopter une approche fondée sur les risques : faciliter les usages à faible risque tout en imposant des contrôles plus stricts aux applications sensibles. Les évaluations, les audits, la consultation des parties concernées et la formation permettent de préserver les droits sans bloquer inutilement l’innovation.",
+      "fr": "Il faut adopter une approche fondée sur les risques : faciliter les usages à faible risque tout en imposant des contrôles plus stricts aux applications sensibles. Les évaluations, les audits, la consultation des parties concernées et la formation permettent de préserver les droits sans bloquer inutilement l’innovation.",
+      "ar": "Il faut adopter une approche fondée sur les risques : faciliter les usages à faible risque tout en imposant des contrôles plus stricts aux applications sensibles. Les évaluations, les audits, la consultation des parties concernées et la formation permettent de préserver les droits sans bloquer inutilement l’innovation."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "ia-61",
+    "source": "ia",
+    "keywords": [
+      "transforme",
+      "elle",
+      "recherche",
+      "scientifique"
+    ],
+    "question": {
+      "en": "Comment l’IA transforme-t-elle la recherche scientifique ?",
+      "fr": "Comment l’IA transforme-t-elle la recherche scientifique ?",
+      "ar": "Comment l’IA transforme-t-elle la recherche scientifique ?"
+    },
+    "answer": {
+      "en": "Elle accélère l’analyse de données, la simulation, l’exploration d’hypothèses et certains traitements documentaires. Elle permet aux chercheurs de tester davantage de pistes, mais ne remplace ni la méthode scientifique ni la validation expérimentale. La qualité des résultats dépend toujours de la rigueur du protocole.",
+      "fr": "Elle accélère l’analyse de données, la simulation, l’exploration d’hypothèses et certains traitements documentaires. Elle permet aux chercheurs de tester davantage de pistes, mais ne remplace ni la méthode scientifique ni la validation expérimentale. La qualité des résultats dépend toujours de la rigueur du protocole.",
+      "ar": "Elle accélère l’analyse de données, la simulation, l’exploration d’hypothèses et certains traitements documentaires. Elle permet aux chercheurs de tester davantage de pistes, mais ne remplace ni la méthode scientifique ni la validation expérimentale. La qualité des résultats dépend toujours de la rigueur du protocole."
+    },
+    "related": "research"
+  },
+  {
+    "id": "ia-62",
+    "source": "ia",
+    "keywords": [
+      "peut",
+      "elle",
+      "remplacer",
+      "chercheurs"
+    ],
+    "question": {
+      "en": "L’IA peut-elle remplacer les chercheurs ?",
+      "fr": "L’IA peut-elle remplacer les chercheurs ?",
+      "ar": "L’IA peut-elle remplacer les chercheurs ?"
+    },
+    "answer": {
+      "en": "Elle peut automatiser certaines tâches et assister la formulation d’hypothèses ou l’analyse de résultats. Cependant, définir un problème scientifique pertinent, concevoir une méthodologie robuste et interpréter les implications d’une découverte restent des responsabilités essentielles des chercheurs. L’avenir repose davantage sur l’évolution du travail scientifique que sur sa disparition.",
+      "fr": "Elle peut automatiser certaines tâches et assister la formulation d’hypothèses ou l’analyse de résultats. Cependant, définir un problème scientifique pertinent, concevoir une méthodologie robuste et interpréter les implications d’une découverte restent des responsabilités essentielles des chercheurs. L’avenir repose davantage sur l’évolution du travail scientifique que sur sa disparition.",
+      "ar": "Elle peut automatiser certaines tâches et assister la formulation d’hypothèses ou l’analyse de résultats. Cependant, définir un problème scientifique pertinent, concevoir une méthodologie robuste et interpréter les implications d’une découverte restent des responsabilités essentielles des chercheurs. L’avenir repose davantage sur l’évolution du travail scientifique que sur sa disparition."
+    },
+    "related": "research"
+  },
+  {
+    "id": "ia-63",
+    "source": "ia",
+    "keywords": [
+      "doit",
+      "elle",
+      "être",
+      "utilisée",
+      "universités"
+    ],
+    "question": {
+      "en": "Comment l’IA doit-elle être utilisée dans les universités ?",
+      "fr": "Comment l’IA doit-elle être utilisée dans les universités ?",
+      "ar": "Comment l’IA doit-elle être utilisée dans les universités ?"
+    },
+    "answer": {
+      "en": "Elle doit être intégrée à la pédagogie, à la recherche et à l’administration avec des objectifs explicites. Les établissements doivent former les étudiants à son utilisation critique, définir les règles d’intégrité académique et protéger les données. L’enjeu n’est pas d’interdire systématiquement l’IA, mais d’apprendre à l’utiliser de manière rigoureuse.",
+      "fr": "Elle doit être intégrée à la pédagogie, à la recherche et à l’administration avec des objectifs explicites. Les établissements doivent former les étudiants à son utilisation critique, définir les règles d’intégrité académique et protéger les données. L’enjeu n’est pas d’interdire systématiquement l’IA, mais d’apprendre à l’utiliser de manière rigoureuse.",
+      "ar": "Elle doit être intégrée à la pédagogie, à la recherche et à l’administration avec des objectifs explicites. Les établissements doivent former les étudiants à son utilisation critique, définir les règles d’intégrité académique et protéger les données. L’enjeu n’est pas d’interdire systématiquement l’IA, mais d’apprendre à l’utiliser de manière rigoureuse."
+    },
+    "related": "research"
+  },
+  {
+    "id": "ia-64",
+    "source": "ia",
+    "keywords": [
+      "menace",
+      "elle",
+      "intégrité",
+      "scientifique"
+    ],
+    "question": {
+      "en": "L’IA menace-t-elle l’intégrité scientifique ?",
+      "fr": "L’IA menace-t-elle l’intégrité scientifique ?",
+      "ar": "L’IA menace-t-elle l’intégrité scientifique ?"
+    },
+    "answer": {
+      "en": "Elle peut faciliter la fabrication de références, la production de textes trompeurs ou la multiplication de résultats non vérifiés. Elle peut également contribuer à détecter certaines anomalies. La réponse doit reposer sur la transparence des méthodes, la vérification des sources, la reproductibilité et des politiques institutionnelles claires.",
+      "fr": "Elle peut faciliter la fabrication de références, la production de textes trompeurs ou la multiplication de résultats non vérifiés. Elle peut également contribuer à détecter certaines anomalies. La réponse doit reposer sur la transparence des méthodes, la vérification des sources, la reproductibilité et des politiques institutionnelles claires.",
+      "ar": "Elle peut faciliter la fabrication de références, la production de textes trompeurs ou la multiplication de résultats non vérifiés. Elle peut également contribuer à détecter certaines anomalies. La réponse doit reposer sur la transparence des méthodes, la vérification des sources, la reproductibilité et des politiques institutionnelles claires."
+    },
+    "related": "research"
+  },
+  {
+    "id": "ia-65",
+    "source": "ia",
+    "keywords": [
+      "quelles",
+      "compétences",
+      "faut",
+      "développer",
+      "travailler"
+    ],
+    "question": {
+      "en": "Quelles compétences faut-il développer pour travailler en IA ?",
+      "fr": "Quelles compétences faut-il développer pour travailler en IA ?",
+      "ar": "Quelles compétences faut-il développer pour travailler en IA ?"
+    },
+    "answer": {
+      "en": "Les compétences fondamentales comprennent les mathématiques, les statistiques, la programmation, les bases de données et la compréhension des algorithmes. Elles doivent être complétées par l’ingénierie logicielle, la cybersécurité, la connaissance du domaine d’application et l’éthique. La capacité à résoudre des problèmes concrets reste déterminante.",
+      "fr": "Les compétences fondamentales comprennent les mathématiques, les statistiques, la programmation, les bases de données et la compréhension des algorithmes. Elles doivent être complétées par l’ingénierie logicielle, la cybersécurité, la connaissance du domaine d’application et l’éthique. La capacité à résoudre des problèmes concrets reste déterminante.",
+      "ar": "Les compétences fondamentales comprennent les mathématiques, les statistiques, la programmation, les bases de données et la compréhension des algorithmes. Elles doivent être complétées par l’ingénierie logicielle, la cybersécurité, la connaissance du domaine d’application et l’éthique. La capacité à résoudre des problèmes concrets reste déterminante."
+    },
+    "related": "research"
+  },
+  {
+    "id": "ia-66",
+    "source": "ia",
+    "keywords": [
+      "quelle",
+      "différence",
+      "existe",
+      "utiliser",
+      "maîtriser"
+    ],
+    "question": {
+      "en": "Quelle différence existe-t-il entre utiliser l’IA et maîtriser l’IA ?",
+      "fr": "Quelle différence existe-t-il entre utiliser l’IA et maîtriser l’IA ?",
+      "ar": "Quelle différence existe-t-il entre utiliser l’IA et maîtriser l’IA ?"
+    },
+    "answer": {
+      "en": "Utiliser l’IA consiste à exploiter des outils existants. La maîtriser suppose de comprendre leurs principes, leurs limites, leurs coûts, leurs données et leurs risques. Cette distinction est importante pour passer d’une consommation de solutions étrangères à la conception de systèmes adaptés aux besoins nationaux.",
+      "fr": "Utiliser l’IA consiste à exploiter des outils existants. La maîtriser suppose de comprendre leurs principes, leurs limites, leurs coûts, leurs données et leurs risques. Cette distinction est importante pour passer d’une consommation de solutions étrangères à la conception de systèmes adaptés aux besoins nationaux.",
+      "ar": "Utiliser l’IA consiste à exploiter des outils existants. La maîtriser suppose de comprendre leurs principes, leurs limites, leurs coûts, leurs données et leurs risques. Cette distinction est importante pour passer d’une consommation de solutions étrangères à la conception de systèmes adaptés aux besoins nationaux."
+    },
+    "related": "research"
+  },
+  {
+    "id": "ia-67",
+    "source": "ia",
+    "keywords": [
+      "choisir",
+      "sujet",
+      "doctorat"
+    ],
+    "question": {
+      "en": "Comment choisir un sujet de doctorat en IA ?",
+      "fr": "Comment choisir un sujet de doctorat en IA ?",
+      "ar": "Comment choisir un sujet de doctorat en IA ?"
+    },
+    "answer": {
+      "en": "Un bon sujet répond à un problème scientifique clairement formulé, présente une contribution originale et reste réalisable avec les données, les compétences et les ressources disponibles. Il doit définir une méthodologie d’évaluation et un apport mesurable par rapport à l’état de l’art. L’application seule ne suffit pas à constituer une contribution scientifique.",
+      "fr": "Un bon sujet répond à un problème scientifique clairement formulé, présente une contribution originale et reste réalisable avec les données, les compétences et les ressources disponibles. Il doit définir une méthodologie d’évaluation et un apport mesurable par rapport à l’état de l’art. L’application seule ne suffit pas à constituer une contribution scientifique.",
+      "ar": "Un bon sujet répond à un problème scientifique clairement formulé, présente une contribution originale et reste réalisable avec les données, les compétences et les ressources disponibles. Il doit définir une méthodologie d’évaluation et un apport mesurable par rapport à l’état de l’art. L’application seule ne suffit pas à constituer une contribution scientifique."
+    },
+    "related": "research"
+  },
+  {
+    "id": "ia-68",
+    "source": "ia",
+    "keywords": [
+      "reproductibilité",
+      "elle",
+      "importante"
+    ],
+    "question": {
+      "en": "Pourquoi la reproductibilité est-elle importante en IA ?",
+      "fr": "Pourquoi la reproductibilité est-elle importante en IA ?",
+      "ar": "Pourquoi la reproductibilité est-elle importante en IA ?"
+    },
+    "answer": {
+      "en": "Elle permet à d’autres chercheurs de vérifier les résultats et d’évaluer la solidité des conclusions. Elle nécessite, selon les contraintes de confidentialité et de propriété intellectuelle, une documentation suffisante des données, des paramètres, du code et du protocole expérimental. Sans reproductibilité, les performances annoncées peuvent être difficiles à interpréter.",
+      "fr": "Elle permet à d’autres chercheurs de vérifier les résultats et d’évaluer la solidité des conclusions. Elle nécessite, selon les contraintes de confidentialité et de propriété intellectuelle, une documentation suffisante des données, des paramètres, du code et du protocole expérimental. Sans reproductibilité, les performances annoncées peuvent être difficiles à interpréter.",
+      "ar": "Elle permet à d’autres chercheurs de vérifier les résultats et d’évaluer la solidité des conclusions. Elle nécessite, selon les contraintes de confidentialité et de propriété intellectuelle, une documentation suffisante des données, des paramètres, du code et du protocole expérimental. Sans reproductibilité, les performances annoncées peuvent être difficiles à interpréter."
+    },
+    "related": "research"
+  },
+  {
+    "id": "ia-69",
+    "source": "ia",
+    "keywords": [
+      "valoriser",
+      "résultats",
+      "recherche"
+    ],
+    "question": {
+      "en": "Comment valoriser les résultats de recherche en IA ?",
+      "fr": "Comment valoriser les résultats de recherche en IA ?",
+      "ar": "Comment valoriser les résultats de recherche en IA ?"
+    },
+    "answer": {
+      "en": "La valorisation peut passer par des logiciels, des brevets lorsque les conditions sont réunies, des licences, des partenariats industriels ou la création d’entreprises. Il faut identifier les utilisateurs, démontrer la valeur de la solution et prévoir les conditions de maintenance, de transfert et de propriété intellectuelle.",
+      "fr": "La valorisation peut passer par des logiciels, des brevets lorsque les conditions sont réunies, des licences, des partenariats industriels ou la création d’entreprises. Il faut identifier les utilisateurs, démontrer la valeur de la solution et prévoir les conditions de maintenance, de transfert et de propriété intellectuelle.",
+      "ar": "La valorisation peut passer par des logiciels, des brevets lorsque les conditions sont réunies, des licences, des partenariats industriels ou la création d’entreprises. Il faut identifier les utilisateurs, démontrer la valeur de la solution et prévoir les conditions de maintenance, de transfert et de propriété intellectuelle."
+    },
+    "related": "research"
+  },
+  {
+    "id": "ia-70",
+    "source": "ia",
+    "keywords": [
+      "quel",
+      "rôle",
+      "partenariats",
+      "universités",
+      "entreprises"
+    ],
+    "question": {
+      "en": "Quel est le rôle des partenariats entre universités et entreprises ?",
+      "fr": "Quel est le rôle des partenariats entre universités et entreprises ?",
+      "ar": "Quel est le rôle des partenariats entre universités et entreprises ?"
+    },
+    "answer": {
+      "en": "Ils permettent de rapprocher la recherche des besoins réels, de partager les compétences et de faciliter le transfert technologique. Pour être durables, ils doivent définir les objectifs, les ressources, les responsabilités, la propriété intellectuelle et les indicateurs de réussite. La coopération doit préserver la qualité scientifique tout en créant une valeur économique et sociale.",
+      "fr": "Ils permettent de rapprocher la recherche des besoins réels, de partager les compétences et de faciliter le transfert technologique. Pour être durables, ils doivent définir les objectifs, les ressources, les responsabilités, la propriété intellectuelle et les indicateurs de réussite. La coopération doit préserver la qualité scientifique tout en créant une valeur économique et sociale.",
+      "ar": "Ils permettent de rapprocher la recherche des besoins réels, de partager les compétences et de faciliter le transfert technologique. Pour être durables, ils doivent définir les objectifs, les ressources, les responsabilités, la propriété intellectuelle et les indicateurs de réussite. La coopération doit préserver la qualité scientifique tout en créant une valeur économique et sociale."
+    },
+    "related": "research"
+  },
+  {
+    "id": "ia-71",
+    "source": "ia",
+    "keywords": [
+      "elle",
+      "détruire",
+      "emplois"
+    ],
+    "question": {
+      "en": "L’IA va-t-elle détruire des emplois ?",
+      "fr": "L’IA va-t-elle détruire des emplois ?",
+      "ar": "L’IA va-t-elle détruire des emplois ?"
+    },
+    "answer": {
+      "en": "Elle peut supprimer certaines tâches, transformer des postes et créer de nouvelles activités. L’impact net dépend du secteur, de la vitesse d’adoption, de la formation et de la capacité des économies à créer de nouveaux métiers. La priorité doit être d’anticiper les transitions professionnelles et de développer les compétences.",
+      "fr": "Elle peut supprimer certaines tâches, transformer des postes et créer de nouvelles activités. L’impact net dépend du secteur, de la vitesse d’adoption, de la formation et de la capacité des économies à créer de nouveaux métiers. La priorité doit être d’anticiper les transitions professionnelles et de développer les compétences.",
+      "ar": "Elle peut supprimer certaines tâches, transformer des postes et créer de nouvelles activités. L’impact net dépend du secteur, de la vitesse d’adoption, de la formation et de la capacité des économies à créer de nouveaux métiers. La priorité doit être d’anticiper les transitions professionnelles et de développer les compétences."
+    },
+    "related": "research"
+  },
+  {
+    "id": "ia-72",
+    "source": "ia",
+    "keywords": [
+      "quels",
+      "métiers",
+      "seront",
+      "transformés"
+    ],
+    "question": {
+      "en": "Quels métiers seront les plus transformés par l’IA ?",
+      "fr": "Quels métiers seront les plus transformés par l’IA ?",
+      "ar": "Quels métiers seront les plus transformés par l’IA ?"
+    },
+    "answer": {
+      "en": "Les métiers comportant beaucoup de tâches numériques, répétitives ou documentaires sont susceptibles d’être fortement transformés. Cela concerne notamment certaines activités administratives, analytiques, commerciales et de développement informatique. Toutefois, l’impact porte souvent sur des tâches plutôt que sur des professions entières, et varie selon les contextes.",
+      "fr": "Les métiers comportant beaucoup de tâches numériques, répétitives ou documentaires sont susceptibles d’être fortement transformés. Cela concerne notamment certaines activités administratives, analytiques, commerciales et de développement informatique. Toutefois, l’impact porte souvent sur des tâches plutôt que sur des professions entières, et varie selon les contextes.",
+      "ar": "Les métiers comportant beaucoup de tâches numériques, répétitives ou documentaires sont susceptibles d’être fortement transformés. Cela concerne notamment certaines activités administratives, analytiques, commerciales et de développement informatique. Toutefois, l’impact porte souvent sur des tâches plutôt que sur des professions entières, et varie selon les contextes."
+    },
+    "related": "research"
+  },
+  {
+    "id": "ia-73",
+    "source": "ia",
+    "keywords": [
+      "peut",
+      "elle",
+      "favoriser",
+      "entrepreneuriat"
+    ],
+    "question": {
+      "en": "L’IA peut-elle favoriser l’entrepreneuriat ?",
+      "fr": "L’IA peut-elle favoriser l’entrepreneuriat ?",
+      "ar": "L’IA peut-elle favoriser l’entrepreneuriat ?"
+    },
+    "answer": {
+      "en": "Oui. Elle réduit certains coûts de prototypage, de développement logiciel, d’analyse de marché et de production de contenus. Les entrepreneurs peuvent tester plus rapidement leurs idées, mais doivent toujours valider le besoin réel, protéger leurs données et construire un modèle économique viable.",
+      "fr": "Oui. Elle réduit certains coûts de prototypage, de développement logiciel, d’analyse de marché et de production de contenus. Les entrepreneurs peuvent tester plus rapidement leurs idées, mais doivent toujours valider le besoin réel, protéger leurs données et construire un modèle économique viable.",
+      "ar": "Oui. Elle réduit certains coûts de prototypage, de développement logiciel, d’analyse de marché et de production de contenus. Les entrepreneurs peuvent tester plus rapidement leurs idées, mais doivent toujours valider le besoin réel, protéger leurs données et construire un modèle économique viable."
+    },
+    "related": "research"
+  },
+  {
+    "id": "ia-74",
+    "source": "ia",
+    "keywords": [
+      "peut",
+      "elle",
+      "commencer",
+      "intégrer"
+    ],
+    "question": {
+      "en": "Comment une PME peut-elle commencer à intégrer l’IA ?",
+      "fr": "Comment une PME peut-elle commencer à intégrer l’IA ?",
+      "ar": "Comment une PME peut-elle commencer à intégrer l’IA ?"
+    },
+    "answer": {
+      "en": "Elle devrait commencer par identifier un problème concret et mesurable : automatiser un traitement documentaire, améliorer le service client ou prévoir les ventes. Un projet pilote limité permet de tester les bénéfices, les risques et les coûts avant un déploiement plus large. La réussite dépend autant de l’organisation que de la technologie.",
+      "fr": "Elle devrait commencer par identifier un problème concret et mesurable : automatiser un traitement documentaire, améliorer le service client ou prévoir les ventes. Un projet pilote limité permet de tester les bénéfices, les risques et les coûts avant un déploiement plus large. La réussite dépend autant de l’organisation que de la technologie.",
+      "ar": "Elle devrait commencer par identifier un problème concret et mesurable : automatiser un traitement documentaire, améliorer le service client ou prévoir les ventes. Un projet pilote limité permet de tester les bénéfices, les risques et les coûts avant un déploiement plus large. La réussite dépend autant de l’organisation que de la technologie."
+    },
+    "related": "research"
+  },
+  {
+    "id": "ia-75",
+    "source": "ia",
+    "keywords": [
+      "quel",
+      "coût",
+      "réel",
+      "projet"
+    ],
+    "question": {
+      "en": "Quel est le coût réel d’un projet d’IA ?",
+      "fr": "Quel est le coût réel d’un projet d’IA ?",
+      "ar": "Quel est le coût réel d’un projet d’IA ?"
+    },
+    "answer": {
+      "en": "Le coût comprend les données, le développement, les infrastructures, les licences, la cybersécurité, l’intégration, la maintenance et la formation. Il faut également prendre en compte les erreurs potentielles et les coûts de mise à jour. Une estimation réaliste porte sur le coût total de possession, et non sur le seul coût initial du modèle.",
+      "fr": "Le coût comprend les données, le développement, les infrastructures, les licences, la cybersécurité, l’intégration, la maintenance et la formation. Il faut également prendre en compte les erreurs potentielles et les coûts de mise à jour. Une estimation réaliste porte sur le coût total de possession, et non sur le seul coût initial du modèle.",
+      "ar": "Le coût comprend les données, le développement, les infrastructures, les licences, la cybersécurité, l’intégration, la maintenance et la formation. Il faut également prendre en compte les erreurs potentielles et les coûts de mise à jour. Une estimation réaliste porte sur le coût total de possession, et non sur le seul coût initial du modèle."
+    },
+    "related": "research"
+  },
+  {
+    "id": "ia-76",
+    "source": "ia",
+    "keywords": [
+      "mesurer",
+      "retour",
+      "investissement"
+    ],
+    "question": {
+      "en": "Comment mesurer le retour sur investissement de l’IA ?",
+      "fr": "Comment mesurer le retour sur investissement de l’IA ?",
+      "ar": "Comment mesurer le retour sur investissement de l’IA ?"
+    },
+    "answer": {
+      "en": "Il faut comparer les bénéfices mesurables aux coûts complets du projet. Les bénéfices peuvent inclure les gains de productivité, la réduction des erreurs, l’amélioration du service et la diminution de certains risques. L’évaluation doit utiliser une situation de référence et tenir compte des effets indirects.",
+      "fr": "Il faut comparer les bénéfices mesurables aux coûts complets du projet. Les bénéfices peuvent inclure les gains de productivité, la réduction des erreurs, l’amélioration du service et la diminution de certains risques. L’évaluation doit utiliser une situation de référence et tenir compte des effets indirects.",
+      "ar": "Il faut comparer les bénéfices mesurables aux coûts complets du projet. Les bénéfices peuvent inclure les gains de productivité, la réduction des erreurs, l’amélioration du service et la diminution de certains risques. L’évaluation doit utiliser une situation de référence et tenir compte des effets indirects."
+    },
+    "related": "research"
+  },
+  {
+    "id": "ia-77",
+    "source": "ia",
+    "keywords": [
+      "elle",
+      "accessible",
+      "petites",
+      "entreprises"
+    ],
+    "question": {
+      "en": "L’IA est-elle accessible aux petites entreprises ?",
+      "fr": "L’IA est-elle accessible aux petites entreprises ?",
+      "ar": "L’IA est-elle accessible aux petites entreprises ?"
+    },
+    "answer": {
+      "en": "Oui, notamment grâce aux services cloud, aux modèles préentraînés et aux logiciels spécialisés. Cependant, l’accessibilité dépend du coût, des compétences, de la confidentialité et de la dépendance envers les fournisseurs. Une petite entreprise peut obtenir de bons résultats en ciblant des usages précis plutôt qu’en développant son propre grand modèle.",
+      "fr": "Oui, notamment grâce aux services cloud, aux modèles préentraînés et aux logiciels spécialisés. Cependant, l’accessibilité dépend du coût, des compétences, de la confidentialité et de la dépendance envers les fournisseurs. Une petite entreprise peut obtenir de bons résultats en ciblant des usages précis plutôt qu’en développant son propre grand modèle.",
+      "ar": "Oui, notamment grâce aux services cloud, aux modèles préentraînés et aux logiciels spécialisés. Cependant, l’accessibilité dépend du coût, des compétences, de la confidentialité et de la dépendance envers les fournisseurs. Une petite entreprise peut obtenir de bons résultats en ciblant des usages précis plutôt qu’en développant son propre grand modèle."
+    },
+    "related": "research"
+  },
+  {
+    "id": "ia-78",
+    "source": "ia",
+    "keywords": [
+      "quel",
+      "impact",
+      "productivité"
+    ],
+    "question": {
+      "en": "Quel est l’impact de l’IA sur la productivité ?",
+      "fr": "Quel est l’impact de l’IA sur la productivité ?",
+      "ar": "Quel est l’impact de l’IA sur la productivité ?"
+    },
+    "answer": {
+      "en": "L’IA peut accélérer certaines tâches, améliorer l’accès à l’information et soutenir la prise de décision. Toutefois, les gains ne sont pas automatiques : ils dépendent de la qualité des processus, de la formation et de l’intégration technique. Une organisation doit mesurer les résultats réels plutôt que supposer que l’adoption d’un outil entraîne nécessairement une hausse de productivité.",
+      "fr": "L’IA peut accélérer certaines tâches, améliorer l’accès à l’information et soutenir la prise de décision. Toutefois, les gains ne sont pas automatiques : ils dépendent de la qualité des processus, de la formation et de l’intégration technique. Une organisation doit mesurer les résultats réels plutôt que supposer que l’adoption d’un outil entraîne nécessairement une hausse de productivité.",
+      "ar": "L’IA peut accélérer certaines tâches, améliorer l’accès à l’information et soutenir la prise de décision. Toutefois, les gains ne sont pas automatiques : ils dépendent de la qualité des processus, de la formation et de l’intégration technique. Une organisation doit mesurer les résultats réels plutôt que supposer que l’adoption d’un outil entraîne nécessairement une hausse de productivité."
+    },
+    "related": "research"
+  },
+  {
+    "id": "ia-79",
+    "source": "ia",
+    "keywords": [
+      "éviter",
+      "dépendance",
+      "économique",
+      "fournisseurs"
+    ],
+    "question": {
+      "en": "Comment éviter une dépendance économique aux fournisseurs d’IA ?",
+      "fr": "Comment éviter une dépendance économique aux fournisseurs d’IA ?",
+      "ar": "Comment éviter une dépendance économique aux fournisseurs d’IA ?"
+    },
+    "answer": {
+      "en": "Il faut diversifier les fournisseurs, privilégier l’interopérabilité, documenter les architectures et conserver la maîtrise des données. Lorsque cela est pertinent, l’utilisation de modèles ouverts ou hébergés localement peut réduire certaines dépendances. La stratégie doit équilibrer autonomie, coût, performance et sécurité.",
+      "fr": "Il faut diversifier les fournisseurs, privilégier l’interopérabilité, documenter les architectures et conserver la maîtrise des données. Lorsque cela est pertinent, l’utilisation de modèles ouverts ou hébergés localement peut réduire certaines dépendances. La stratégie doit équilibrer autonomie, coût, performance et sécurité.",
+      "ar": "Il faut diversifier les fournisseurs, privilégier l’interopérabilité, documenter les architectures et conserver la maîtrise des données. Lorsque cela est pertinent, l’utilisation de modèles ouverts ou hébergés localement peut réduire certaines dépendances. La stratégie doit équilibrer autonomie, coût, performance et sécurité."
+    },
+    "related": "research"
+  },
+  {
+    "id": "ia-80",
+    "source": "ia",
+    "keywords": [
+      "quelles",
+      "opportunités",
+      "offre",
+      "elle",
+      "jeunes",
+      "entrepreneurs"
+    ],
+    "question": {
+      "en": "Quelles opportunités l’IA offre-t-elle aux jeunes entrepreneurs ?",
+      "fr": "Quelles opportunités l’IA offre-t-elle aux jeunes entrepreneurs ?",
+      "ar": "Quelles opportunités l’IA offre-t-elle aux jeunes entrepreneurs ?"
+    },
+    "answer": {
+      "en": "Elle ouvre des possibilités dans les logiciels spécialisés, l’agriculture intelligente, la santé numérique, l’éducation, la cybersécurité, la gestion de l’eau et les services aux entreprises. Les opportunités les plus solides répondent à un besoin réel, s’appuient sur des données accessibles et proposent une valeur mesurable plutôt qu’un simple effet de mode technologique.",
+      "fr": "Elle ouvre des possibilités dans les logiciels spécialisés, l’agriculture intelligente, la santé numérique, l’éducation, la cybersécurité, la gestion de l’eau et les services aux entreprises. Les opportunités les plus solides répondent à un besoin réel, s’appuient sur des données accessibles et proposent une valeur mesurable plutôt qu’un simple effet de mode technologique.",
+      "ar": "Elle ouvre des possibilités dans les logiciels spécialisés, l’agriculture intelligente, la santé numérique, l’éducation, la cybersécurité, la gestion de l’eau et les services aux entreprises. Les opportunités les plus solides répondent à un besoin réel, s’appuient sur des données accessibles et proposent une valeur mesurable plutôt qu’un simple effet de mode technologique."
+    },
+    "related": "research"
+  },
+  {
+    "id": "ia-81",
+    "source": "ia",
+    "keywords": [
+      "souveraineté",
+      "numérique"
+    ],
+    "question": {
+      "en": "Qu’est-ce que la souveraineté numérique ?",
+      "fr": "Qu’est-ce que la souveraineté numérique ?",
+      "ar": "Qu’est-ce que la souveraineté numérique ?"
+    },
+    "answer": {
+      "en": "La souveraineté numérique est la capacité d’un pays à maîtriser ses choix technologiques, ses infrastructures critiques, ses données et ses compétences. Elle ne signifie pas nécessairement produire localement chaque composant, mais réduire les dépendances stratégiques et conserver une capacité réelle de décision.",
+      "fr": "La souveraineté numérique est la capacité d’un pays à maîtriser ses choix technologiques, ses infrastructures critiques, ses données et ses compétences. Elle ne signifie pas nécessairement produire localement chaque composant, mais réduire les dépendances stratégiques et conserver une capacité réelle de décision.",
+      "ar": "La souveraineté numérique est la capacité d’un pays à maîtriser ses choix technologiques, ses infrastructures critiques, ses données et ses compétences. Elle ne signifie pas nécessairement produire localement chaque composant, mais réduire les dépendances stratégiques et conserver une capacité réelle de décision."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "ia-82",
+    "source": "ia",
+    "keywords": [
+      "maroc",
+      "doit",
+      "investir",
+      "intelligence",
+      "artificielle"
+    ],
+    "question": {
+      "en": "Pourquoi le Maroc doit-il investir dans l’intelligence artificielle ?",
+      "fr": "Pourquoi le Maroc doit-il investir dans l’intelligence artificielle ?",
+      "ar": "Pourquoi le Maroc doit-il investir dans l’intelligence artificielle ?"
+    },
+    "answer": {
+      "en": "L’IA peut renforcer la compétitivité économique, améliorer les services publics et soutenir des secteurs prioritaires comme l’agriculture, l’eau, l’énergie, la santé et l’industrie. Pour produire des bénéfices durables, l’investissement doit associer formation, recherche, infrastructures, données de qualité, entrepreneuriat et gouvernance.",
+      "fr": "L’IA peut renforcer la compétitivité économique, améliorer les services publics et soutenir des secteurs prioritaires comme l’agriculture, l’eau, l’énergie, la santé et l’industrie. Pour produire des bénéfices durables, l’investissement doit associer formation, recherche, infrastructures, données de qualité, entrepreneuriat et gouvernance.",
+      "ar": "L’IA peut renforcer la compétitivité économique, améliorer les services publics et soutenir des secteurs prioritaires comme l’agriculture, l’eau, l’énergie, la santé et l’industrie. Pour produire des bénéfices durables, l’investissement doit associer formation, recherche, infrastructures, données de qualité, entrepreneuriat et gouvernance."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "ia-83",
+    "source": "ia",
+    "keywords": [
+      "quelles",
+      "sont",
+      "priorités",
+      "stratégie",
+      "nationale"
+    ],
+    "question": {
+      "en": "Quelles sont les priorités d’une stratégie nationale de l’IA ?",
+      "fr": "Quelles sont les priorités d’une stratégie nationale de l’IA ?",
+      "ar": "Quelles sont les priorités d’une stratégie nationale de l’IA ?"
+    },
+    "answer": {
+      "en": "Les priorités devraient inclure le développement des compétences, la recherche appliquée, des infrastructures de calcul adaptées, la gouvernance des données, la cybersécurité et le soutien aux entreprises innovantes. Il faut également identifier quelques domaines stratégiques, fixer des objectifs mesurables et évaluer régulièrement les résultats.",
+      "fr": "Les priorités devraient inclure le développement des compétences, la recherche appliquée, des infrastructures de calcul adaptées, la gouvernance des données, la cybersécurité et le soutien aux entreprises innovantes. Il faut également identifier quelques domaines stratégiques, fixer des objectifs mesurables et évaluer régulièrement les résultats.",
+      "ar": "Les priorités devraient inclure le développement des compétences, la recherche appliquée, des infrastructures de calcul adaptées, la gouvernance des données, la cybersécurité et le soutien aux entreprises innovantes. Il faut également identifier quelques domaines stratégiques, fixer des objectifs mesurables et évaluer régulièrement les résultats."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "ia-84",
+    "source": "ia",
+    "keywords": [
+      "données",
+      "nationales",
+      "sont",
+      "elles",
+      "stratégiques"
+    ],
+    "question": {
+      "en": "Pourquoi les données nationales sont-elles stratégiques ?",
+      "fr": "Pourquoi les données nationales sont-elles stratégiques ?",
+      "ar": "Pourquoi les données nationales sont-elles stratégiques ?"
+    },
+    "answer": {
+      "en": "Elles permettent de concevoir des systèmes adaptés aux langues, aux besoins, aux réalités économiques et aux services publics du pays. Leur valeur dépend toutefois de leur qualité, de leur accessibilité légitime et de leur protection. Une politique nationale doit donc organiser leur partage responsable et éviter leur fragmentation.",
+      "fr": "Elles permettent de concevoir des systèmes adaptés aux langues, aux besoins, aux réalités économiques et aux services publics du pays. Leur valeur dépend toutefois de leur qualité, de leur accessibilité légitime et de leur protection. Une politique nationale doit donc organiser leur partage responsable et éviter leur fragmentation.",
+      "ar": "Elles permettent de concevoir des systèmes adaptés aux langues, aux besoins, aux réalités économiques et aux services publics du pays. Leur valeur dépend toutefois de leur qualité, de leur accessibilité légitime et de leur protection. Une politique nationale doit donc organiser leur partage responsable et éviter leur fragmentation."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "ia-85",
+    "source": "ia",
+    "keywords": [
+      "faut",
+      "développer",
+      "modèles",
+      "arabe",
+      "darija",
+      "marocaine"
+    ],
+    "question": {
+      "en": "Faut-il développer des modèles d’IA en arabe et en darija marocaine ?",
+      "fr": "Faut-il développer des modèles d’IA en arabe et en darija marocaine ?",
+      "ar": "Faut-il développer des modèles d’IA en arabe et en darija marocaine ?"
+    },
+    "answer": {
+      "en": "Oui, car la diversité linguistique influence l’accès aux services numériques et la qualité des résultats. Des modèles adaptés à l’arabe standard, à la darija et aux langues amazighes peuvent améliorer l’inclusion. Leur développement nécessite des corpus représentatifs, une validation linguistique et culturelle ainsi que des moyens de calcul adaptés.",
+      "fr": "Oui, car la diversité linguistique influence l’accès aux services numériques et la qualité des résultats. Des modèles adaptés à l’arabe standard, à la darija et aux langues amazighes peuvent améliorer l’inclusion. Leur développement nécessite des corpus représentatifs, une validation linguistique et culturelle ainsi que des moyens de calcul adaptés.",
+      "ar": "Oui, car la diversité linguistique influence l’accès aux services numériques et la qualité des résultats. Des modèles adaptés à l’arabe standard, à la darija et aux langues amazighes peuvent améliorer l’inclusion. Leur développement nécessite des corpus représentatifs, une validation linguistique et culturelle ainsi que des moyens de calcul adaptés."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "ia-86",
+    "source": "ia",
+    "keywords": [
+      "quel",
+      "rôle",
+      "universités",
+      "doivent",
+      "elles",
+      "jouer",
+      "souveraineté",
+      "numérique"
+    ],
+    "question": {
+      "en": "Quel rôle les universités doivent-elles jouer dans la souveraineté numérique ?",
+      "fr": "Quel rôle les universités doivent-elles jouer dans la souveraineté numérique ?",
+      "ar": "Quel rôle les universités doivent-elles jouer dans la souveraineté numérique ?"
+    },
+    "answer": {
+      "en": "Les universités doivent former des spécialistes, produire des connaissances, développer des prototypes et contribuer à l’évaluation indépendante des technologies. Elles peuvent également accompagner les administrations et les entreprises. Leur rôle est stratégique lorsqu’elles transforment la recherche en compétences, en innovations et en solutions adaptées aux besoins du pays.",
+      "fr": "Les universités doivent former des spécialistes, produire des connaissances, développer des prototypes et contribuer à l’évaluation indépendante des technologies. Elles peuvent également accompagner les administrations et les entreprises. Leur rôle est stratégique lorsqu’elles transforment la recherche en compétences, en innovations et en solutions adaptées aux besoins du pays.",
+      "ar": "Les universités doivent former des spécialistes, produire des connaissances, développer des prototypes et contribuer à l’évaluation indépendante des technologies. Elles peuvent également accompagner les administrations et les entreprises. Leur rôle est stratégique lorsqu’elles transforment la recherche en compétences, en innovations et en solutions adaptées aux besoins du pays."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "ia-87",
+    "source": "ia",
+    "keywords": [
+      "afrique",
+      "peut",
+      "elle",
+      "tirer",
+      "profit"
+    ],
+    "question": {
+      "en": "Comment l’Afrique peut-elle tirer profit de l’IA ?",
+      "fr": "Comment l’Afrique peut-elle tirer profit de l’IA ?",
+      "ar": "Comment l’Afrique peut-elle tirer profit de l’IA ?"
+    },
+    "answer": {
+      "en": "L’Afrique peut utiliser l’IA pour améliorer la santé, l’agriculture, l’éducation, l’énergie et la gestion des ressources. Elle doit parallèlement investir dans les compétences locales, les infrastructures et les données adaptées à ses réalités. La coopération régionale peut mutualiser les ressources et renforcer la capacité de négociation technologique.",
+      "fr": "L’Afrique peut utiliser l’IA pour améliorer la santé, l’agriculture, l’éducation, l’énergie et la gestion des ressources. Elle doit parallèlement investir dans les compétences locales, les infrastructures et les données adaptées à ses réalités. La coopération régionale peut mutualiser les ressources et renforcer la capacité de négociation technologique.",
+      "ar": "L’Afrique peut utiliser l’IA pour améliorer la santé, l’agriculture, l’éducation, l’énergie et la gestion des ressources. Elle doit parallèlement investir dans les compétences locales, les infrastructures et les données adaptées à ses réalités. La coopération régionale peut mutualiser les ressources et renforcer la capacité de négociation technologique."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "ia-88",
+    "source": "ia",
+    "keywords": [
+      "coopération",
+      "arabe",
+      "serait",
+      "elle",
+      "utile"
+    ],
+    "question": {
+      "en": "Pourquoi une coopération arabe en IA serait-elle utile ?",
+      "fr": "Pourquoi une coopération arabe en IA serait-elle utile ?",
+      "ar": "Pourquoi une coopération arabe en IA serait-elle utile ?"
+    },
+    "answer": {
+      "en": "Les pays arabes partagent des défis dans l’eau, l’énergie, la santé, l’éducation et les langues. Une coopération peut faciliter les projets communs, la recherche, les échanges de données encadrés et le développement de ressources linguistiques. Elle doit reposer sur des objectifs partagés, le respect de la souveraineté de chaque pays et un partage équilibré des bénéfices.",
+      "fr": "Les pays arabes partagent des défis dans l’eau, l’énergie, la santé, l’éducation et les langues. Une coopération peut faciliter les projets communs, la recherche, les échanges de données encadrés et le développement de ressources linguistiques. Elle doit reposer sur des objectifs partagés, le respect de la souveraineté de chaque pays et un partage équilibré des bénéfices.",
+      "ar": "Les pays arabes partagent des défis dans l’eau, l’énergie, la santé, l’éducation et les langues. Une coopération peut faciliter les projets communs, la recherche, les échanges de données encadrés et le développement de ressources linguistiques. Elle doit reposer sur des objectifs partagés, le respect de la souveraineté de chaque pays et un partage équilibré des bénéfices."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "ia-89",
+    "source": "ia",
+    "keywords": [
+      "quel",
+      "rôle",
+      "état",
+      "développement"
+    ],
+    "question": {
+      "en": "Quel est le rôle de l’État dans le développement de l’IA ?",
+      "fr": "Quel est le rôle de l’État dans le développement de l’IA ?",
+      "ar": "Quel est le rôle de l’État dans le développement de l’IA ?"
+    },
+    "answer": {
+      "en": "L’État définit les orientations, établit les règles, soutient la recherche et favorise l’investissement dans les infrastructures et les compétences. Il doit également garantir la protection des citoyens et l’accès équitable aux bénéfices de l’innovation. Une stratégie efficace associe secteur public, universités, entreprises et société civile.",
+      "fr": "L’État définit les orientations, établit les règles, soutient la recherche et favorise l’investissement dans les infrastructures et les compétences. Il doit également garantir la protection des citoyens et l’accès équitable aux bénéfices de l’innovation. Une stratégie efficace associe secteur public, universités, entreprises et société civile.",
+      "ar": "L’État définit les orientations, établit les règles, soutient la recherche et favorise l’investissement dans les infrastructures et les compétences. Il doit également garantir la protection des citoyens et l’accès équitable aux bénéfices de l’innovation. Une stratégie efficace associe secteur public, universités, entreprises et société civile."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "ia-90",
+    "source": "ia",
+    "keywords": [
+      "mesurer",
+      "succès",
+      "politique",
+      "nationale"
+    ],
+    "question": {
+      "en": "Comment mesurer le succès d’une politique nationale de l’IA ?",
+      "fr": "Comment mesurer le succès d’une politique nationale de l’IA ?",
+      "ar": "Comment mesurer le succès d’une politique nationale de l’IA ?"
+    },
+    "answer": {
+      "en": "Il faut suivre des indicateurs tels que les compétences formées, les projets déployés, les investissements, les entreprises créées, les résultats scientifiques et les gains mesurables dans les services publics. L’évaluation doit aussi considérer l’inclusion, la sécurité, la maîtrise des données et la réduction des dépendances critiques.",
+      "fr": "Il faut suivre des indicateurs tels que les compétences formées, les projets déployés, les investissements, les entreprises créées, les résultats scientifiques et les gains mesurables dans les services publics. L’évaluation doit aussi considérer l’inclusion, la sécurité, la maîtrise des données et la réduction des dépendances critiques.",
+      "ar": "Il faut suivre des indicateurs tels que les compétences formées, les projets déployés, les investissements, les entreprises créées, les résultats scientifiques et les gains mesurables dans les services publics. L’évaluation doit aussi considérer l’inclusion, la sécurité, la maîtrise des données et la réduction des dépendances critiques."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "ia-91",
+    "source": "ia",
+    "keywords": [
+      "intelligence",
+      "artificielle",
+      "peut",
+      "elle",
+      "devenir",
+      "consciente"
+    ],
+    "question": {
+      "en": "L’intelligence artificielle peut-elle devenir consciente ?",
+      "fr": "L’intelligence artificielle peut-elle devenir consciente ?",
+      "ar": "L’intelligence artificielle peut-elle devenir consciente ?"
+    },
+    "answer": {
+      "en": "La conscience artificielle demeure une question ouverte, sans preuve scientifique concluante que les systèmes actuels possèdent une expérience subjective. Des comportements linguistiques complexes ne suffisent pas à démontrer la conscience. Il faut distinguer les capacités fonctionnelles observables des hypothèses philosophiques et scientifiques sur l’expérience vécue.",
+      "fr": "La conscience artificielle demeure une question ouverte, sans preuve scientifique concluante que les systèmes actuels possèdent une expérience subjective. Des comportements linguistiques complexes ne suffisent pas à démontrer la conscience. Il faut distinguer les capacités fonctionnelles observables des hypothèses philosophiques et scientifiques sur l’expérience vécue.",
+      "ar": "La conscience artificielle demeure une question ouverte, sans preuve scientifique concluante que les systèmes actuels possèdent une expérience subjective. Des comportements linguistiques complexes ne suffisent pas à démontrer la conscience. Il faut distinguer les capacités fonctionnelles observables des hypothèses philosophiques et scientifiques sur l’expérience vécue."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "ia-92",
+    "source": "ia",
+    "keywords": [
+      "peut",
+      "elle",
+      "être",
+      "créative"
+    ],
+    "question": {
+      "en": "L’IA peut-elle être créative ?",
+      "fr": "L’IA peut-elle être créative ?",
+      "ar": "L’IA peut-elle être créative ?"
+    },
+    "answer": {
+      "en": "Elle peut générer des textes, des images, des compositions musicales et des solutions nouvelles par rapport à ses entrées. Cependant, la nouveauté, la valeur artistique et l’intention sont des dimensions différentes. L’IA peut devenir un puissant partenaire créatif, tandis que l’évaluation de l’originalité et du sens dépend aussi du contexte humain et culturel.",
+      "fr": "Elle peut générer des textes, des images, des compositions musicales et des solutions nouvelles par rapport à ses entrées. Cependant, la nouveauté, la valeur artistique et l’intention sont des dimensions différentes. L’IA peut devenir un puissant partenaire créatif, tandis que l’évaluation de l’originalité et du sens dépend aussi du contexte humain et culturel.",
+      "ar": "Elle peut générer des textes, des images, des compositions musicales et des solutions nouvelles par rapport à ses entrées. Cependant, la nouveauté, la valeur artistique et l’intention sont des dimensions différentes. L’IA peut devenir un puissant partenaire créatif, tandis que l’évaluation de l’originalité et du sens dépend aussi du contexte humain et culturel."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "ia-93",
+    "source": "ia",
+    "keywords": [
+      "peut",
+      "elle",
+      "dépasser",
+      "intelligence",
+      "humaine",
+      "tous",
+      "domaines"
+    ],
+    "question": {
+      "en": "L’IA peut-elle dépasser l’intelligence humaine dans tous les domaines ?",
+      "fr": "L’IA peut-elle dépasser l’intelligence humaine dans tous les domaines ?",
+      "ar": "L’IA peut-elle dépasser l’intelligence humaine dans tous les domaines ?"
+    },
+    "answer": {
+      "en": "Ce scénario reste hypothétique. Les systèmes actuels affichent des performances très variables selon les tâches et présentent encore des limites de fiabilité, de robustesse et d’adaptation. Toute affirmation concernant un dépassement universel doit donc être distinguée des résultats effectivement démontrés.",
+      "fr": "Ce scénario reste hypothétique. Les systèmes actuels affichent des performances très variables selon les tâches et présentent encore des limites de fiabilité, de robustesse et d’adaptation. Toute affirmation concernant un dépassement universel doit donc être distinguée des résultats effectivement démontrés.",
+      "ar": "Ce scénario reste hypothétique. Les systèmes actuels affichent des performances très variables selon les tâches et présentent encore des limites de fiabilité, de robustesse et d’adaptation. Toute affirmation concernant un dépassement universel doit donc être distinguée des résultats effectivement démontrés."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "ia-94",
+    "source": "ia",
+    "keywords": [
+      "quels",
+      "sont",
+      "principaux",
+      "risques",
+      "futurs"
+    ],
+    "question": {
+      "en": "Quels sont les principaux risques futurs de l’IA ?",
+      "fr": "Quels sont les principaux risques futurs de l’IA ?",
+      "ar": "Quels sont les principaux risques futurs de l’IA ?"
+    },
+    "answer": {
+      "en": "Les risques incluent la désinformation à grande échelle, la cybercriminalité, les discriminations, la concentration du pouvoir technologique et les usages militaires mal encadrés. Des risques plus avancés sont également étudiés par la recherche. La réponse doit combiner évaluations techniques, gouvernance, coopération internationale et surveillance des capacités émergentes.",
+      "fr": "Les risques incluent la désinformation à grande échelle, la cybercriminalité, les discriminations, la concentration du pouvoir technologique et les usages militaires mal encadrés. Des risques plus avancés sont également étudiés par la recherche. La réponse doit combiner évaluations techniques, gouvernance, coopération internationale et surveillance des capacités émergentes.",
+      "ar": "Les risques incluent la désinformation à grande échelle, la cybercriminalité, les discriminations, la concentration du pouvoir technologique et les usages militaires mal encadrés. Des risques plus avancés sont également étudiés par la recherche. La réponse doit combiner évaluations techniques, gouvernance, coopération internationale et surveillance des capacités émergentes."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "ia-95",
+    "source": "ia",
+    "keywords": [
+      "peut",
+      "elle",
+      "prendre",
+      "contrôle",
+      "décisions",
+      "importantes"
+    ],
+    "question": {
+      "en": "L’IA peut-elle prendre le contrôle de décisions importantes ?",
+      "fr": "L’IA peut-elle prendre le contrôle de décisions importantes ?",
+      "ar": "L’IA peut-elle prendre le contrôle de décisions importantes ?"
+    },
+    "answer": {
+      "en": "Des systèmes peuvent déjà automatiser certaines décisions ou exécuter des actions avec une intervention humaine limitée. Le risque dépend des permissions accordées, des objectifs, de la fiabilité et des mécanismes de contrôle. Les applications sensibles doivent disposer de limites opérationnelles, de procédures d’arrêt et d’une responsabilité clairement définie.",
+      "fr": "Des systèmes peuvent déjà automatiser certaines décisions ou exécuter des actions avec une intervention humaine limitée. Le risque dépend des permissions accordées, des objectifs, de la fiabilité et des mécanismes de contrôle. Les applications sensibles doivent disposer de limites opérationnelles, de procédures d’arrêt et d’une responsabilité clairement définie.",
+      "ar": "Des systèmes peuvent déjà automatiser certaines décisions ou exécuter des actions avec une intervention humaine limitée. Le risque dépend des permissions accordées, des objectifs, de la fiabilité et des mécanismes de contrôle. Les applications sensibles doivent disposer de limites opérationnelles, de procédures d’arrêt et d’une responsabilité clairement définie."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "ia-96",
+    "source": "ia",
+    "keywords": [
+      "quel",
+      "sera",
+      "rôle",
+      "être",
+      "humain",
+      "monde",
+      "dominé"
+    ],
+    "question": {
+      "en": "Quel sera le rôle de l’être humain dans un monde dominé par l’IA ?",
+      "fr": "Quel sera le rôle de l’être humain dans un monde dominé par l’IA ?",
+      "ar": "Quel sera le rôle de l’être humain dans un monde dominé par l’IA ?"
+    },
+    "answer": {
+      "en": "L’humain devra davantage définir les objectifs, évaluer les résultats, exercer son jugement et assumer les responsabilités. Les compétences critiques, relationnelles, scientifiques et éthiques deviendront particulièrement importantes. L’enjeu est de mettre la technologie au service des capacités humaines plutôt que de réduire les individus à de simples exécutants.",
+      "fr": "L’humain devra davantage définir les objectifs, évaluer les résultats, exercer son jugement et assumer les responsabilités. Les compétences critiques, relationnelles, scientifiques et éthiques deviendront particulièrement importantes. L’enjeu est de mettre la technologie au service des capacités humaines plutôt que de réduire les individus à de simples exécutants.",
+      "ar": "L’humain devra davantage définir les objectifs, évaluer les résultats, exercer son jugement et assumer les responsabilités. Les compétences critiques, relationnelles, scientifiques et éthiques deviendront particulièrement importantes. L’enjeu est de mettre la technologie au service des capacités humaines plutôt que de réduire les individus à de simples exécutants."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "ia-97",
+    "source": "ia",
+    "keywords": [
+      "peut",
+      "elle",
+      "contribuer",
+      "développement",
+      "durable"
+    ],
+    "question": {
+      "en": "L’IA peut-elle contribuer au développement durable ?",
+      "fr": "L’IA peut-elle contribuer au développement durable ?",
+      "ar": "L’IA peut-elle contribuer au développement durable ?"
+    },
+    "answer": {
+      "en": "Oui. Elle peut optimiser l’énergie, améliorer l’irrigation, réduire certaines pertes industrielles et soutenir la prévision des risques environnementaux. Mais elle consomme aussi de l’énergie et des ressources matérielles. Une évaluation durable doit comparer les bénéfices obtenus aux impacts environnementaux et sociaux du système.",
+      "fr": "Oui. Elle peut optimiser l’énergie, améliorer l’irrigation, réduire certaines pertes industrielles et soutenir la prévision des risques environnementaux. Mais elle consomme aussi de l’énergie et des ressources matérielles. Une évaluation durable doit comparer les bénéfices obtenus aux impacts environnementaux et sociaux du système.",
+      "ar": "Oui. Elle peut optimiser l’énergie, améliorer l’irrigation, réduire certaines pertes industrielles et soutenir la prévision des risques environnementaux. Mais elle consomme aussi de l’énergie et des ressources matérielles. Une évaluation durable doit comparer les bénéfices obtenus aux impacts environnementaux et sociaux du système."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "ia-98",
+    "source": "ia",
+    "keywords": [
+      "éviter",
+      "accentue",
+      "inégalités"
+    ],
+    "question": {
+      "en": "Comment éviter que l’IA accentue les inégalités ?",
+      "fr": "Comment éviter que l’IA accentue les inégalités ?",
+      "ar": "Comment éviter que l’IA accentue les inégalités ?"
+    },
+    "answer": {
+      "en": "Il faut faciliter l’accès à la formation, soutenir les populations moins bien desservies et vérifier les biais des systèmes. Les politiques publiques doivent aussi accompagner les transitions professionnelles et garantir que les gains de productivité bénéficient à un ensemble large de la société. L’inclusion doit être intégrée dès la conception.",
+      "fr": "Il faut faciliter l’accès à la formation, soutenir les populations moins bien desservies et vérifier les biais des systèmes. Les politiques publiques doivent aussi accompagner les transitions professionnelles et garantir que les gains de productivité bénéficient à un ensemble large de la société. L’inclusion doit être intégrée dès la conception.",
+      "ar": "Il faut faciliter l’accès à la formation, soutenir les populations moins bien desservies et vérifier les biais des systèmes. Les politiques publiques doivent aussi accompagner les transitions professionnelles et garantir que les gains de productivité bénéficient à un ensemble large de la société. L’inclusion doit être intégrée dès la conception."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "ia-99",
+    "source": "ia",
+    "keywords": [
+      "quelle",
+      "sera",
+      "grande",
+      "révolution",
+      "prochaines",
+      "années"
+    ],
+    "question": {
+      "en": "Quelle sera la grande révolution de l’IA dans les prochaines années ?",
+      "fr": "Quelle sera la grande révolution de l’IA dans les prochaines années ?",
+      "ar": "Quelle sera la grande révolution de l’IA dans les prochaines années ?"
+    },
+    "answer": {
+      "en": "Une évolution importante sera l’intégration de l’IA dans les processus de travail, les logiciels, les infrastructures et les systèmes physiques. Les assistants pourraient devenir plus spécialisés et les agents plus capables d’exécuter des tâches complexes. Toutefois, les progrès dépendront de la fiabilité, du coût, de la sécurité et de la capacité à démontrer une valeur concrète.",
+      "fr": "Une évolution importante sera l’intégration de l’IA dans les processus de travail, les logiciels, les infrastructures et les systèmes physiques. Les assistants pourraient devenir plus spécialisés et les agents plus capables d’exécuter des tâches complexes. Toutefois, les progrès dépendront de la fiabilité, du coût, de la sécurité et de la capacité à démontrer une valeur concrète.",
+      "ar": "Une évolution importante sera l’intégration de l’IA dans les processus de travail, les logiciels, les infrastructures et les systèmes physiques. Les assistants pourraient devenir plus spécialisés et les agents plus capables d’exécuter des tâches complexes. Toutefois, les progrès dépendront de la fiabilité, du coût, de la sécurité et de la capacité à démontrer une valeur concrète."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "ia-100",
+    "source": "ia",
+    "keywords": [
+      "quel",
+      "message",
+      "stratégique",
+      "faut",
+      "retenir",
+      "avenir",
+      "intelligence",
+      "artificielle"
+    ],
+    "question": {
+      "en": "Quel message stratégique faut-il retenir sur l’avenir de l’intelligence artificielle ?",
+      "fr": "Quel message stratégique faut-il retenir sur l’avenir de l’intelligence artificielle ?",
+      "ar": "Quel message stratégique faut-il retenir sur l’avenir de l’intelligence artificielle ?"
+    },
+    "answer": {
+      "en": "L’intelligence artificielle n’est pas seulement une technologie : elle devient un enjeu scientifique, économique, éducatif et géopolitique. Les pays et les organisations qui investiront dans les compétences, les données, la recherche et la gouvernance pourront mieux en maîtriser les bénéfices. La véritable ambition n’est pas simplement d’utiliser l’IA, mais de développer la capacité de la comprendre, de la concevoir, de la contrôler et de l’orienter vers le progrès humain. L’intelligence artificielle représente une transformation majeure, mais ses résultats dépendent des choix scientifiques, économiques et politiques qui accompagnent son développement. La performance technique ne suffit pas : il faut également garantir la qualité des données, la sécurité, la responsabilité, la formation et l’utilité sociale. Pour le Maroc, l’Afrique et le monde arabe, l’enjeu stratégique consiste à passer de la simple consommation des technologies à la maîtrise progressive des compétences, des données, des infrastructures et des solutions d’intelligence artificielle, dans une logique de souveraineté numérique, de coopération et de développement durable.",
+      "fr": "L’intelligence artificielle n’est pas seulement une technologie : elle devient un enjeu scientifique, économique, éducatif et géopolitique. Les pays et les organisations qui investiront dans les compétences, les données, la recherche et la gouvernance pourront mieux en maîtriser les bénéfices. La véritable ambition n’est pas simplement d’utiliser l’IA, mais de développer la capacité de la comprendre, de la concevoir, de la contrôler et de l’orienter vers le progrès humain. L’intelligence artificielle représente une transformation majeure, mais ses résultats dépendent des choix scientifiques, économiques et politiques qui accompagnent son développement. La performance technique ne suffit pas : il faut également garantir la qualité des données, la sécurité, la responsabilité, la formation et l’utilité sociale. Pour le Maroc, l’Afrique et le monde arabe, l’enjeu stratégique consiste à passer de la simple consommation des technologies à la maîtrise progressive des compétences, des données, des infrastructures et des solutions d’intelligence artificielle, dans une logique de souveraineté numérique, de coopération et de développement durable.",
+      "ar": "L’intelligence artificielle n’est pas seulement une technologie : elle devient un enjeu scientifique, économique, éducatif et géopolitique. Les pays et les organisations qui investiront dans les compétences, les données, la recherche et la gouvernance pourront mieux en maîtriser les bénéfices. La véritable ambition n’est pas simplement d’utiliser l’IA, mais de développer la capacité de la comprendre, de la concevoir, de la contrôler et de l’orienter vers le progrès humain. L’intelligence artificielle représente une transformation majeure, mais ses résultats dépendent des choix scientifiques, économiques et politiques qui accompagnent son développement. La performance technique ne suffit pas : il faut également garantir la qualité des données, la sécurité, la responsabilité, la formation et l’utilité sociale. Pour le Maroc, l’Afrique et le monde arabe, l’enjeu stratégique consiste à passer de la simple consommation des technologies à la maîtrise progressive des compétences, des données, des infrastructures et des solutions d’intelligence artificielle, dans une logique de souveraineté numérique, de coopération et de développement durable."
+    },
+    "related": "vision"
+  }
+]

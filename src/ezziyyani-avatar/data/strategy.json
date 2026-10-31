@@ -1,0 +1,2611 @@
+[
+  {
+    "id": "strategy-1",
+    "source": "strategy",
+    "keywords": [
+      "digital",
+      "transformation",
+      "المقصود",
+      "بالتحول",
+      "الرقمي؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is digital transformation?",
+      "fr": "What is digital transformation?",
+      "ar": "ما المقصود بالتحول الرقمي؟"
+    },
+    "answer": {
+      "en": "Digital transformation is the strategic integration of digital technologies into an organization's processes, services, culture and decision-making to improve performance, innovation and value creation.",
+      "fr": "Digital transformation is the strategic integration of digital technologies into an organization's processes, services, culture and decision-making to improve performance, innovation and value creation.",
+      "ar": "التحول الرقمي هو إدماج التقنيات الرقمية بصورة استراتيجية في عمليات المؤسسة وخدماتها وثقافتها وآليات اتخاذ القرار، بهدف تحسين الأداء وتعزيز الابتكار وخلق قيمة مستدامة."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "strategy-2",
+    "source": "strategy",
+    "keywords": [
+      "main",
+      "pillars",
+      "digital",
+      "transformation",
+      "strategy",
+      "الركائز",
+      "الأساسية",
+      "لاستراتيجية",
+      "التحول",
+      "الرقمي؟"
+    ],
+    "question": {
+      "en": "What are the main pillars of a digital transformation strategy?",
+      "fr": "What are the main pillars of a digital transformation strategy?",
+      "ar": "ما الركائز الأساسية لاستراتيجية التحول الرقمي؟"
+    },
+    "answer": {
+      "en": "The main pillars are leadership, digital infrastructure, data governance, process optimization, cybersecurity, employee skills, innovation and measurable business outcomes.",
+      "fr": "The main pillars are leadership, digital infrastructure, data governance, process optimization, cybersecurity, employee skills, innovation and measurable business outcomes.",
+      "ar": "تشمل القيادة الاستراتيجية، والبنية التحتية الرقمية، وحوكمة البيانات، وتحسين العمليات، والأمن السيبراني، وتنمية الكفاءات، والابتكار، وقياس النتائج."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "strategy-3",
+    "source": "strategy",
+    "keywords": [
+      "organization",
+      "begin",
+      "digital",
+      "transformation",
+      "journey",
+      "يمكن",
+      "للمؤسسة",
+      "تبدأ",
+      "مسار",
+      "التحول",
+      "الرقمي؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How should an organization begin its digital transformation journey?",
+      "fr": "How should an organization begin its digital transformation journey?",
+      "ar": "كيف يمكن للمؤسسة أن تبدأ مسار التحول الرقمي؟"
+    },
+    "answer": {
+      "en": "It should assess its current digital maturity, identify operational challenges, define strategic objectives, prioritize projects and establish a realistic implementation roadmap.",
+      "fr": "It should assess its current digital maturity, identify operational challenges, define strategic objectives, prioritize projects and establish a realistic implementation roadmap.",
+      "ar": "ينبغي أن تبدأ بتشخيص مستوى النضج الرقمي، وتحديد التحديات التشغيلية، وصياغة أهداف واضحة، وترتيب الأولويات، وإعداد خارطة طريق واقعية للتنفيذ."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "strategy-4",
+    "source": "strategy",
+    "keywords": [
+      "digital",
+      "maturity",
+      "assessment",
+      "المقصود",
+      "بتقييم",
+      "النضج",
+      "الرقمي؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is a digital maturity assessment?",
+      "fr": "What is a digital maturity assessment?",
+      "ar": "ما المقصود بتقييم النضج الرقمي؟"
+    },
+    "answer": {
+      "en": "It evaluates an organization's capabilities in technology, data, processes, governance, cybersecurity, human resources and digital culture to identify strengths and gaps.",
+      "fr": "It evaluates an organization's capabilities in technology, data, processes, governance, cybersecurity, human resources and digital culture to identify strengths and gaps.",
+      "ar": "هو تقييم قدرات المؤسسة في مجالات التكنولوجيا والبيانات والعمليات والحوكمة والأمن السيبراني والموارد البشرية والثقافة الرقمية، بهدف تحديد نقاط القوة والفجوات."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "strategy-5",
+    "source": "strategy",
+    "keywords": [
+      "organization",
+      "develop",
+      "digital",
+      "transformation",
+      "roadmap",
+      "إعداد",
+      "خارطة",
+      "طريق",
+      "للتحول",
+      "الرقمي؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can an organization develop a digital transformation roadmap?",
+      "fr": "How can an organization develop a digital transformation roadmap?",
+      "ar": "كيف يتم إعداد خارطة طريق للتحول الرقمي؟"
+    },
+    "answer": {
+      "en": "The roadmap should define priorities, projects, budgets, responsibilities, timelines, dependencies, performance indicators and expected benefits over short-, medium- and long-term horizons.",
+      "fr": "The roadmap should define priorities, projects, budgets, responsibilities, timelines, dependencies, performance indicators and expected benefits over short-, medium- and long-term horizons.",
+      "ar": "تحدد خارطة الطريق المشاريع ذات الأولوية، والميزانيات، والمسؤوليات، والجداول الزمنية، والاعتماديات، ومؤشرات الأداء، والفوائد المنتظرة على المدى القصير والمتوسط والبعيد."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "strategy-6",
+    "source": "strategy",
+    "keywords": [
+      "difference",
+      "between",
+      "digitization",
+      "digitalization",
+      "digital",
+      "transformation",
+      "الفرق",
+      "رقمنة",
+      "المعلومات",
+      "ورقمنة",
+      "العمليات",
+      "والتحول",
+      "الرقمي؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is the difference between digitization, digitalization and digital transformation?",
+      "fr": "What is the difference between digitization, digitalization and digital transformation?",
+      "ar": "ما الفرق بين رقمنة المعلومات ورقمنة العمليات والتحول الرقمي؟"
+    },
+    "answer": {
+      "en": "Digitization converts analog information into digital form; digitalization uses digital tools to improve processes; digital transformation redesigns how an organization creates value.",
+      "fr": "Digitization converts analog information into digital form; digitalization uses digital tools to improve processes; digital transformation redesigns how an organization creates value.",
+      "ar": "تعني رقمنة المعلومات تحويل المحتوى التقليدي إلى صيغة رقمية، وتعني رقمنة العمليات استخدام الأدوات الرقمية لتحسينها، بينما يعيد التحول الرقمي تصميم طريقة خلق القيمة داخل المؤسسة."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "strategy-7",
+    "source": "strategy",
+    "keywords": [
+      "digital",
+      "transformation",
+      "improve",
+      "public",
+      "services",
+      "يساهم",
+      "التحول",
+      "الرقمي",
+      "تحسين",
+      "الخدمات",
+      "العمومية؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can digital transformation improve public services?",
+      "fr": "How can digital transformation improve public services?",
+      "ar": "كيف يساهم التحول الرقمي في تحسين الخدمات العمومية؟"
+    },
+    "answer": {
+      "en": "It can simplify administrative procedures, reduce processing time, improve transparency, enable integrated services and make public services more accessible to citizens.",
+      "fr": "It can simplify administrative procedures, reduce processing time, improve transparency, enable integrated services and make public services more accessible to citizens.",
+      "ar": "يساعد على تبسيط الإجراءات الإدارية، وتقليص آجال المعالجة، وتعزيز الشفافية، وتكامل الخدمات، وتيسير وصول المواطنين إليها."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "strategy-8",
+    "source": "strategy",
+    "keywords": [
+      "common",
+      "barriers",
+      "digital",
+      "transformation",
+      "أبرز",
+      "العوائق",
+      "التي",
+      "تواجه",
+      "التحول",
+      "الرقمي؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What are the most common barriers to digital transformation?",
+      "fr": "What are the most common barriers to digital transformation?",
+      "ar": "ما أبرز العوائق التي تواجه التحول الرقمي؟"
+    },
+    "answer": {
+      "en": "Common barriers include fragmented systems, limited funding, resistance to change, inadequate skills, weak data governance, cybersecurity risks and unclear strategic leadership.",
+      "fr": "Common barriers include fragmented systems, limited funding, resistance to change, inadequate skills, weak data governance, cybersecurity risks and unclear strategic leadership.",
+      "ar": "تشمل الأنظمة المتفرقة، وضعف التمويل، ومقاومة التغيير، ونقص الكفاءات، وضعف حوكمة البيانات، ومخاطر الأمن السيبراني، وغياب القيادة الاستراتيجية الواضحة."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "strategy-9",
+    "source": "strategy",
+    "keywords": [
+      "organizations",
+      "measure",
+      "digital",
+      "transformation",
+      "success",
+      "يمكن",
+      "قياس",
+      "نجاح",
+      "التحول",
+      "الرقمي؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can organizations measure digital transformation success?",
+      "fr": "How can organizations measure digital transformation success?",
+      "ar": "كيف يمكن قياس نجاح التحول الرقمي؟"
+    },
+    "answer": {
+      "en": "They should measure service quality, process efficiency, adoption rates, user satisfaction, cost savings, security, data quality and the achievement of strategic objectives.",
+      "fr": "They should measure service quality, process efficiency, adoption rates, user satisfaction, cost savings, security, data quality and the achievement of strategic objectives.",
+      "ar": "يمكن قياسه من خلال جودة الخدمات، وفعالية العمليات، ومعدلات الاستخدام، ورضا المستفيدين، وخفض التكاليف، وأمن الأنظمة، وجودة البيانات، وتحقيق الأهداف الاستراتيجية."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "strategy-10",
+    "source": "strategy",
+    "keywords": [
+      "role",
+      "leadership",
+      "play",
+      "digital",
+      "transformation",
+      "القيادة",
+      "إنجاح",
+      "التحول",
+      "الرقمي؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What role does leadership play in digital transformation?",
+      "fr": "What role does leadership play in digital transformation?",
+      "ar": "ما دور القيادة في إنجاح التحول الرقمي؟"
+    },
+    "answer": {
+      "en": "Leadership establishes the vision, allocates resources, coordinates stakeholders, promotes a culture of innovation and ensures that technology investments produce measurable results.",
+      "fr": "Leadership establishes the vision, allocates resources, coordinates stakeholders, promotes a culture of innovation and ensures that technology investments produce measurable results.",
+      "ar": "تحدد القيادة الرؤية، وتوفر الموارد، وتنسق بين المتدخلين، وتشجع الابتكار، وتضمن أن تحقق الاستثمارات التكنولوجية نتائج ملموسة وقابلة للقياس."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "strategy-11",
+    "source": "strategy",
+    "keywords": [
+      "artificial",
+      "intelligence",
+      "support",
+      "digital",
+      "transformation",
+      "يدعم",
+      "الذكاء",
+      "الاصطناعي",
+      "التحول",
+      "الرقمي؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can artificial intelligence support digital transformation?",
+      "fr": "How can artificial intelligence support digital transformation?",
+      "ar": "كيف يدعم الذكاء الاصطناعي التحول الرقمي؟"
+    },
+    "answer": {
+      "en": "AI can automate repetitive tasks, analyze complex information, predict future trends, support decision-making and deliver more personalized services.",
+      "fr": "AI can automate repetitive tasks, analyze complex information, predict future trends, support decision-making and deliver more personalized services.",
+      "ar": "يساعد الذكاء الاصطناعي على أتمتة المهام المتكررة، وتحليل المعلومات المعقدة، والتنبؤ بالاتجاهات، ودعم اتخاذ القرار، وتقديم خدمات أكثر ملاءمة لاحتياجات المستخدمين."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-12",
+    "source": "strategy",
+    "keywords": [
+      "difference",
+      "between",
+      "machine",
+      "learning",
+      "deep",
+      "الفرق",
+      "الذكاء",
+      "الاصطناعي",
+      "والتعلم",
+      "الآلي",
+      "العميق؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is the difference between AI, machine learning and deep learning?",
+      "fr": "What is the difference between AI, machine learning and deep learning?",
+      "ar": "ما الفرق بين الذكاء الاصطناعي والتعلم الآلي والتعلم العميق؟"
+    },
+    "answer": {
+      "en": "AI is the broader field of intelligent systems; machine learning enables systems to learn from data, while deep learning uses multilayer neural networks.",
+      "fr": "AI is the broader field of intelligent systems; machine learning enables systems to learn from data, while deep learning uses multilayer neural networks.",
+      "ar": "الذكاء الاصطناعي هو المجال الأشمل للأنظمة الذكية، والتعلم الآلي يمكّن الأنظمة من التعلم من البيانات، بينما يعتمد التعلم العميق على الشبكات العصبية متعددة الطبقات."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-13",
+    "source": "strategy",
+    "keywords": [
+      "organization",
+      "identify",
+      "suitable",
+      "projects",
+      "تختار",
+      "المؤسسة",
+      "مشاريع",
+      "الذكاء",
+      "الاصطناعي",
+      "المناسبة؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How should an organization identify suitable AI projects?",
+      "fr": "How should an organization identify suitable AI projects?",
+      "ar": "كيف تختار المؤسسة مشاريع الذكاء الاصطناعي المناسبة؟"
+    },
+    "answer": {
+      "en": "It should identify high-value problems, verify data availability, assess technical feasibility, estimate costs and risks, and define measurable success criteria.",
+      "fr": "It should identify high-value problems, verify data availability, assess technical feasibility, estimate costs and risks, and define measurable success criteria.",
+      "ar": "ينبغي تحديد المشكلات ذات القيمة العالية، والتحقق من توفر البيانات، وتقييم الجدوى التقنية، وتقدير التكاليف والمخاطر، ووضع معايير واضحة لقياس النجاح."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-14",
+    "source": "strategy",
+    "keywords": [
+      "generative",
+      "المقصود",
+      "بالذكاء",
+      "الاصطناعي",
+      "التوليدي؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is generative AI?",
+      "fr": "What is generative AI?",
+      "ar": "ما المقصود بالذكاء الاصطناعي التوليدي؟"
+    },
+    "answer": {
+      "en": "Generative AI creates content such as text, images, code and summaries by learning patterns from training data and responding to user instructions.",
+      "fr": "Generative AI creates content such as text, images, code and summaries by learning patterns from training data and responding to user instructions.",
+      "ar": "هو نوع من الذكاء الاصطناعي يستطيع إنشاء محتوى مثل النصوص والصور والبرمجيات والملخصات، اعتماداً على الأنماط التي تعلمها من البيانات وتعليمات المستخدم."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-15",
+    "source": "strategy",
+    "keywords": [
+      "improve",
+      "decision",
+      "making",
+      "يمكن",
+      "للذكاء",
+      "الاصطناعي",
+      "تحسين",
+      "اتخاذ",
+      "القرار؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can AI improve decision-making?",
+      "fr": "How can AI improve decision-making?",
+      "ar": "كيف يمكن للذكاء الاصطناعي تحسين اتخاذ القرار؟"
+    },
+    "answer": {
+      "en": "AI can combine data from multiple sources, detect patterns, estimate outcomes and generate recommendations while allowing humans to retain appropriate oversight.",
+      "fr": "AI can combine data from multiple sources, detect patterns, estimate outcomes and generate recommendations while allowing humans to retain appropriate oversight.",
+      "ar": "يمكنه دمج البيانات من مصادر متعددة، واكتشاف الأنماط، وتقدير النتائج، واقتراح البدائل، مع الحفاظ على الإشراف البشري المناسب."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-16",
+    "source": "strategy",
+    "keywords": [
+      "agent",
+      "المقصود",
+      "بالوكيل",
+      "الذكي؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is an AI agent?",
+      "fr": "What is an AI agent?",
+      "ar": "ما المقصود بالوكيل الذكي؟"
+    },
+    "answer": {
+      "en": "An AI agent is a system that can interpret information, pursue defined objectives, use available tools and perform tasks within specified permissions and constraints.",
+      "fr": "An AI agent is a system that can interpret information, pursue defined objectives, use available tools and perform tasks within specified permissions and constraints.",
+      "ar": "الوكيل الذكي هو نظام يستطيع فهم المعلومات، والسعي إلى تحقيق أهداف محددة، واستخدام الأدوات المتاحة، وتنفيذ المهام ضمن صلاحيات وضوابط محددة."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-17",
+    "source": "strategy",
+    "keywords": [
+      "organizations",
+      "deploy",
+      "responsibly",
+      "يمكن",
+      "استخدام",
+      "الذكاء",
+      "الاصطناعي",
+      "بصورة",
+      "مسؤولة؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can organizations deploy AI responsibly?",
+      "fr": "How can organizations deploy AI responsibly?",
+      "ar": "كيف يمكن استخدام الذكاء الاصطناعي بصورة مسؤولة؟"
+    },
+    "answer": {
+      "en": "They should establish governance, protect personal data, test reliability, monitor bias, document limitations, maintain human oversight and define accountability.",
+      "fr": "They should establish governance, protect personal data, test reliability, monitor bias, document limitations, maintain human oversight and define accountability.",
+      "ar": "يتطلب ذلك حوكمة واضحة، وحماية البيانات الشخصية، واختبار موثوقية النماذج، ومراقبة التحيز، وتوثيق القيود، وضمان الإشراف البشري والمساءلة."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-18",
+    "source": "strategy",
+    "keywords": [
+      "role",
+      "natural",
+      "language",
+      "processing",
+      "معالجة",
+      "اللغة",
+      "الطبيعية؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is the role of natural language processing?",
+      "fr": "What is the role of natural language processing?",
+      "ar": "ما دور معالجة اللغة الطبيعية؟"
+    },
+    "answer": {
+      "en": "Natural language processing enables computer systems to interpret, analyze and generate human language for chatbots, document processing, translation and information retrieval.",
+      "fr": "Natural language processing enables computer systems to interpret, analyze and generate human language for chatbots, document processing, translation and information retrieval.",
+      "ar": "تمكّن معالجة اللغة الطبيعية الأنظمة الحاسوبية من فهم اللغة البشرية وتحليلها وتوليدها، وتستخدم في المحادثات الذكية، ومعالجة الوثائق، والترجمة، واسترجاع المعلومات."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-19",
+    "source": "strategy",
+    "keywords": [
+      "computer",
+      "vision",
+      "support",
+      "industrial",
+      "public",
+      "sector",
+      "applications",
+      "تدعم",
+      "الرؤية",
+      "الحاسوبية",
+      "التطبيقات",
+      "الصناعية",
+      "والعمومية؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can computer vision support industrial and public-sector applications?",
+      "fr": "How can computer vision support industrial and public-sector applications?",
+      "ar": "كيف تدعم الرؤية الحاسوبية التطبيقات الصناعية والعمومية؟"
+    },
+    "answer": {
+      "en": "Computer vision can analyze images and video for quality inspection, infrastructure monitoring, medical support, traffic analysis and environmental observation, subject to appropriate safeguards.",
+      "fr": "Computer vision can analyze images and video for quality inspection, infrastructure monitoring, medical support, traffic analysis and environmental observation, subject to appropriate safeguards.",
+      "ar": "تتيح تحليل الصور ومقاطع الفيديو لأغراض مراقبة الجودة والبنية التحتية، والمساعدة الطبية، وتحليل حركة المرور، والرصد البيئي، مع مراعاة الضوابط اللازمة."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-20",
+    "source": "strategy",
+    "keywords": [
+      "difference",
+      "between",
+      "predictive",
+      "prescriptive",
+      "الفرق",
+      "الذكاء",
+      "الاصطناعي",
+      "التنبؤي",
+      "والذكاء",
+      "التوجيهي؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is the difference between predictive and prescriptive AI?",
+      "fr": "What is the difference between predictive and prescriptive AI?",
+      "ar": "ما الفرق بين الذكاء الاصطناعي التنبؤي والذكاء الاصطناعي التوجيهي؟"
+    },
+    "answer": {
+      "en": "Predictive AI estimates what may happen; prescriptive AI recommends actions that could achieve defined objectives under particular constraints.",
+      "fr": "Predictive AI estimates what may happen; prescriptive AI recommends actions that could achieve defined objectives under particular constraints.",
+      "ar": "يقدّر الذكاء الاصطناعي التنبؤي ما قد يحدث مستقبلاً، بينما يقترح الذكاء الاصطناعي التوجيهي الإجراءات التي يمكن أن تحقق أهدافاً محددة في ظل قيود معينة."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-21",
+    "source": "strategy",
+    "keywords": [
+      "role",
+      "databases",
+      "digital",
+      "transformation",
+      "أهمية",
+      "قواعد",
+      "البيانات",
+      "التحول",
+      "الرقمي؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is the role of databases in digital transformation?",
+      "fr": "What is the role of databases in digital transformation?",
+      "ar": "ما أهمية قواعد البيانات في التحول الرقمي؟"
+    },
+    "answer": {
+      "en": "Databases provide structured and reliable storage, retrieval and management of information, supporting operational systems, analytics, automation and informed decision-making.",
+      "fr": "Databases provide structured and reliable storage, retrieval and management of information, supporting operational systems, analytics, automation and informed decision-making.",
+      "ar": "توفر قواعد البيانات وسائل موثوقة لتخزين المعلومات واسترجاعها وإدارتها، وتدعم نظم التشغيل والتحليلات والأتمتة واتخاذ القرارات المبنية على البيانات."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-22",
+    "source": "strategy",
+    "keywords": [
+      "difference",
+      "between",
+      "relational",
+      "nosql",
+      "databases",
+      "الفرق",
+      "قواعد",
+      "البيانات",
+      "العلائقية",
+      "وقواعد",
+      "بيانات",
+      "nosql؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is the difference between relational and NoSQL databases?",
+      "fr": "What is the difference between relational and NoSQL databases?",
+      "ar": "ما الفرق بين قواعد البيانات العلائقية وقواعد بيانات NoSQL؟"
+    },
+    "answer": {
+      "en": "Relational databases organize data into tables with defined relationships; NoSQL databases support different models, including documents, key-value pairs, graphs and wide-column structures.",
+      "fr": "Relational databases organize data into tables with defined relationships; NoSQL databases support different models, including documents, key-value pairs, graphs and wide-column structures.",
+      "ar": "تنظم قواعد البيانات العلائقية المعلومات في جداول مترابطة، بينما تدعم قواعد بيانات NoSQL نماذج متنوعة مثل الوثائق والأزواج المفتاحية والقواعد البيانية والأعمدة الواسعة."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-23",
+    "source": "strategy",
+    "keywords": [
+      "organization",
+      "choose",
+      "database",
+      "management",
+      "system",
+      "تختار",
+      "المؤسسة",
+      "نظام",
+      "إدارة",
+      "قواعد",
+      "البيانات",
+      "المناسب؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How should an organization choose a database management system?",
+      "fr": "How should an organization choose a database management system?",
+      "ar": "كيف تختار المؤسسة نظام إدارة قواعد البيانات المناسب؟"
+    },
+    "answer": {
+      "en": "The choice should consider data structure, workload, scalability, consistency, security, availability, integration requirements, operational skills and total cost of ownership.",
+      "fr": "The choice should consider data structure, workload, scalability, consistency, security, availability, integration requirements, operational skills and total cost of ownership.",
+      "ar": "يعتمد الاختيار على طبيعة البيانات، وحجم المعالجة، وقابلية التوسع، والاتساق، والأمن، والتوافر، والتكامل، والكفاءات المتاحة، والتكلفة الإجمالية."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-24",
+    "source": "strategy",
+    "keywords": [
+      "database",
+      "normalization",
+      "المقصود",
+      "بتطبيع",
+      "قواعد",
+      "البيانات؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is database normalization?",
+      "fr": "What is database normalization?",
+      "ar": "ما المقصود بتطبيع قواعد البيانات؟"
+    },
+    "answer": {
+      "en": "Normalization organizes relational data to reduce unnecessary duplication and update anomalies while improving consistency and maintainability.",
+      "fr": "Normalization organizes relational data to reduce unnecessary duplication and update anomalies while improving consistency and maintainability.",
+      "ar": "هو تنظيم البيانات العلائقية بهدف الحد من التكرار غير الضروري ومشكلات التحديث، وتحسين الاتساق وسهولة الصيانة."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-25",
+    "source": "strategy",
+    "keywords": [
+      "database",
+      "denormalization",
+      "المقصود",
+      "بإلغاء",
+      "التطبيع",
+      "قواعد",
+      "البيانات؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is database denormalization?",
+      "fr": "What is database denormalization?",
+      "ar": "ما المقصود بإلغاء التطبيع في قواعد البيانات؟"
+    },
+    "answer": {
+      "en": "Denormalization deliberately introduces some redundancy or precomputed structures to improve performance for particular workloads, especially read-intensive applications.",
+      "fr": "Denormalization deliberately introduces some redundancy or precomputed structures to improve performance for particular workloads, especially read-intensive applications.",
+      "ar": "هو إدخال قدر مدروس من التكرار أو البنى المحسوبة مسبقاً لتحسين الأداء في حالات استخدام محددة، خصوصاً التطبيقات كثيفة القراءة."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-26",
+    "source": "strategy",
+    "keywords": [
+      "data",
+      "warehouse",
+      "مستودع",
+      "البيانات؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is a data warehouse?",
+      "fr": "What is a data warehouse?",
+      "ar": "ما هو مستودع البيانات؟"
+    },
+    "answer": {
+      "en": "A data warehouse integrates historical data from multiple sources into a structure designed for reporting, business intelligence and analytical queries.",
+      "fr": "A data warehouse integrates historical data from multiple sources into a structure designed for reporting, business intelligence and analytical queries.",
+      "ar": "هو نظام يجمع البيانات التاريخية من مصادر متعددة وينظمها لدعم التقارير، وذكاء الأعمال، والاستعلامات والتحليلات المتقدمة."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-27",
+    "source": "strategy",
+    "keywords": [
+      "data",
+      "lake",
+      "بحيرة",
+      "البيانات؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is a data lake?",
+      "fr": "What is a data lake?",
+      "ar": "ما هي بحيرة البيانات؟"
+    },
+    "answer": {
+      "en": "A data lake stores large volumes of raw or processed data in different formats for exploration, analytics, machine learning and other data-intensive applications.",
+      "fr": "A data lake stores large volumes of raw or processed data in different formats for exploration, analytics, machine learning and other data-intensive applications.",
+      "ar": "هي بيئة لتخزين كميات كبيرة من البيانات الخام أو المعالجة بصيغ متنوعة، لاستخدامها في الاستكشاف والتحليلات والتعلم الآلي والتطبيقات المعتمدة على البيانات."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-28",
+    "source": "strategy",
+    "keywords": [
+      "data",
+      "lakehouse",
+      "المقصود",
+      "ببنية",
+      "بحيرة",
+      "البيانات",
+      "ومستودع",
+      "المتكاملة؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is a data lakehouse?",
+      "fr": "What is a data lakehouse?",
+      "ar": "ما المقصود ببنية بحيرة البيانات ومستودع البيانات المتكاملة؟"
+    },
+    "answer": {
+      "en": "A data lakehouse combines aspects of data lakes and data warehouses, aiming to support diverse data formats alongside reliable management and analytical processing.",
+      "fr": "A data lakehouse combines aspects of data lakes and data warehouses, aiming to support diverse data formats alongside reliable management and analytical processing.",
+      "ar": "هي بنية تجمع بعض خصائص بحيرات البيانات ومستودعاتها، بهدف دعم صيغ بيانات متنوعة مع توفير إدارة موثوقة وإمكانات تحليلية فعالة."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-29",
+    "source": "strategy",
+    "keywords": [
+      "database",
+      "performance",
+      "optimized",
+      "يمكن",
+      "تحسين",
+      "أداء",
+      "قواعد",
+      "البيانات؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can database performance be optimized?",
+      "fr": "How can database performance be optimized?",
+      "ar": "كيف يمكن تحسين أداء قواعد البيانات؟"
+    },
+    "answer": {
+      "en": "Performance can be improved through query optimization, appropriate indexing, efficient schema design, caching, workload analysis, partitioning and suitable hardware configuration.",
+      "fr": "Performance can be improved through query optimization, appropriate indexing, efficient schema design, caching, workload analysis, partitioning and suitable hardware configuration.",
+      "ar": "يمكن تحسين الأداء من خلال تطوير الاستعلامات، واختيار الفهارس المناسبة، وتحسين تصميم المخطط، والتخزين المؤقت، وتحليل عبء العمل، وتقسيم البيانات، وضبط الموارد."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-30",
+    "source": "strategy",
+    "keywords": [
+      "organization",
+      "protect",
+      "databases",
+      "تحمي",
+      "المؤسسة",
+      "قواعد",
+      "بياناتها؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How should an organization protect its databases?",
+      "fr": "How should an organization protect its databases?",
+      "ar": "كيف تحمي المؤسسة قواعد بياناتها؟"
+    },
+    "answer": {
+      "en": "It should apply least-privilege access, encryption, auditing, secure configuration, vulnerability management, tested backups and documented recovery procedures.",
+      "fr": "It should apply least-privilege access, encryption, auditing, secure configuration, vulnerability management, tested backups and documented recovery procedures.",
+      "ar": "من خلال تطبيق مبدأ أقل الصلاحيات، والتشفير، والتدقيق، والإعداد الآمن، وإدارة الثغرات، والنسخ الاحتياطي المختبر، وخطط استعادة البيانات."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-31",
+    "source": "strategy",
+    "keywords": [
+      "data",
+      "science",
+      "المقصود",
+      "بعلوم",
+      "البيانات؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is data science?",
+      "fr": "What is data science?",
+      "ar": "ما المقصود بعلوم البيانات؟"
+    },
+    "answer": {
+      "en": "Data science combines statistics, programming, domain knowledge and analytical methods to extract useful insights from data and support evidence-based decisions.",
+      "fr": "Data science combines statistics, programming, domain knowledge and analytical methods to extract useful insights from data and support evidence-based decisions.",
+      "ar": "علوم البيانات مجال يجمع الإحصاء والبرمجة والمعرفة التخصصية والأساليب التحليلية لاستخراج المعرفة من البيانات ودعم القرارات المبنية على الأدلة."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-32",
+    "source": "strategy",
+    "keywords": [
+      "data",
+      "المقصود",
+      "بالبيانات",
+      "الضخمة؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is Big Data?",
+      "fr": "What is Big Data?",
+      "ar": "ما المقصود بالبيانات الضخمة؟"
+    },
+    "answer": {
+      "en": "Big Data refers to datasets whose scale, speed or complexity requires specialized technologies and methods for storage, processing and analysis.",
+      "fr": "Big Data refers to datasets whose scale, speed or complexity requires specialized technologies and methods for storage, processing and analysis.",
+      "ar": "تشير البيانات الضخمة إلى مجموعات بيانات يتطلب حجمها أو سرعتها أو تعقيدها استخدام تقنيات وأساليب متخصصة للتخزين والمعالجة والتحليل."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-33",
+    "source": "strategy",
+    "keywords": [
+      "main",
+      "stages",
+      "data",
+      "science",
+      "project",
+      "المراحل",
+      "الأساسية",
+      "لمشروع",
+      "علوم",
+      "البيانات؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What are the main stages of a data science project?",
+      "fr": "What are the main stages of a data science project?",
+      "ar": "ما المراحل الأساسية لمشروع علوم البيانات؟"
+    },
+    "answer": {
+      "en": "Typical stages include problem definition, data collection, data preparation, exploration, modeling, evaluation, deployment and continuous monitoring.",
+      "fr": "Typical stages include problem definition, data collection, data preparation, exploration, modeling, evaluation, deployment and continuous monitoring.",
+      "ar": "تشمل تحديد المشكلة، وجمع البيانات، وإعدادها، واستكشافها، وبناء النماذج، وتقييمها، ونشرها، ثم مراقبتها وتحسينها باستمرار."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-34",
+    "source": "strategy",
+    "keywords": [
+      "data",
+      "preprocessing",
+      "المقصود",
+      "بالمعالجة",
+      "المسبقة",
+      "للبيانات؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is data preprocessing?",
+      "fr": "What is data preprocessing?",
+      "ar": "ما المقصود بالمعالجة المسبقة للبيانات؟"
+    },
+    "answer": {
+      "en": "Data preprocessing identifies and addresses issues such as missing values, duplicates, inconsistent formats, outliers and unsuitable representations before analysis or modeling.",
+      "fr": "Data preprocessing identifies and addresses issues such as missing values, duplicates, inconsistent formats, outliers and unsuitable representations before analysis or modeling.",
+      "ar": "هي معالجة مشكلات البيانات، مثل القيم المفقودة والتكرار والتنسيقات غير المتجانسة والقيم الشاذة، قبل استخدامها في التحليل أو بناء النماذج."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-35",
+    "source": "strategy",
+    "keywords": [
+      "exploratory",
+      "data",
+      "analysis",
+      "التحليل",
+      "الاستكشافي",
+      "للبيانات؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is exploratory data analysis?",
+      "fr": "What is exploratory data analysis?",
+      "ar": "ما هو التحليل الاستكشافي للبيانات؟"
+    },
+    "answer": {
+      "en": "Exploratory data analysis uses summaries and visualizations to understand distributions, relationships, anomalies and potential patterns before formal modeling.",
+      "fr": "Exploratory data analysis uses summaries and visualizations to understand distributions, relationships, anomalies and potential patterns before formal modeling.",
+      "ar": "هو استخدام المؤشرات الإحصائية والتمثيلات البصرية لفهم توزيعات البيانات والعلاقات بينها والقيم غير العادية والأنماط المحتملة قبل بناء النماذج."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-36",
+    "source": "strategy",
+    "keywords": [
+      "difference",
+      "between",
+      "supervised",
+      "unsupervised",
+      "learning",
+      "الفرق",
+      "التعلم",
+      "الخاضع",
+      "للإشراف",
+      "والتعلم",
+      "للإشراف؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is the difference between supervised and unsupervised learning?",
+      "fr": "What is the difference between supervised and unsupervised learning?",
+      "ar": "ما الفرق بين التعلم الخاضع للإشراف والتعلم غير الخاضع للإشراف؟"
+    },
+    "answer": {
+      "en": "Supervised learning uses labeled examples to predict known targets; unsupervised learning discovers structure or patterns in data without predefined target labels.",
+      "fr": "Supervised learning uses labeled examples to predict known targets; unsupervised learning discovers structure or patterns in data without predefined target labels.",
+      "ar": "يستخدم التعلم الخاضع للإشراف أمثلة ذات نتائج معروفة للتنبؤ بأهداف محددة، بينما يكتشف التعلم غير الخاضع للإشراف البنى والأنماط دون تسميات مسبقة للنتائج."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-37",
+    "source": "strategy",
+    "keywords": [
+      "time",
+      "series",
+      "forecasting",
+      "المقصود",
+      "بالتنبؤ",
+      "بالسلاسل",
+      "الزمنية؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is time-series forecasting?",
+      "fr": "What is time-series forecasting?",
+      "ar": "ما المقصود بالتنبؤ بالسلاسل الزمنية؟"
+    },
+    "answer": {
+      "en": "Time-series forecasting estimates future values using observations ordered over time, potentially incorporating seasonality, trends, external variables and historical patterns.",
+      "fr": "Time-series forecasting estimates future values using observations ordered over time, potentially incorporating seasonality, trends, external variables and historical patterns.",
+      "ar": "هو تقدير القيم المستقبلية انطلاقاً من مشاهدات مرتبة زمنياً، مع إمكانية الاستفادة من الاتجاهات والموسمية والمتغيرات الخارجية والأنماط التاريخية."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-38",
+    "source": "strategy",
+    "keywords": [
+      "data",
+      "analytics",
+      "improve",
+      "organizational",
+      "performance",
+      "تحسن",
+      "تحليلات",
+      "البيانات",
+      "أداء",
+      "المؤسسات؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can data analytics improve organizational performance?",
+      "fr": "How can data analytics improve organizational performance?",
+      "ar": "كيف تحسن تحليلات البيانات أداء المؤسسات؟"
+    },
+    "answer": {
+      "en": "It can reveal inefficiencies, explain operational trends, improve resource allocation, support forecasting and help evaluate whether interventions achieve their intended outcomes.",
+      "fr": "It can reveal inefficiencies, explain operational trends, improve resource allocation, support forecasting and help evaluate whether interventions achieve their intended outcomes.",
+      "ar": "تساعد على اكتشاف أوجه القصور، وفهم الاتجاهات التشغيلية، وتحسين توزيع الموارد، وتطوير التنبؤات، وقياس أثر التدخلات والقرارات."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-39",
+    "source": "strategy",
+    "keywords": [
+      "data",
+      "visualization",
+      "المقصود",
+      "بتصور",
+      "البيانات؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is data visualization?",
+      "fr": "What is data visualization?",
+      "ar": "ما المقصود بتصور البيانات؟"
+    },
+    "answer": {
+      "en": "Data visualization presents information graphically through charts, maps and dashboards to make patterns, comparisons and performance indicators easier to understand.",
+      "fr": "Data visualization presents information graphically through charts, maps and dashboards to make patterns, comparisons and performance indicators easier to understand.",
+      "ar": "هو عرض المعلومات بصرياً من خلال الرسوم البيانية والخرائط ولوحات القيادة، لتسهيل فهم الأنماط والمقارنات ومؤشرات الأداء."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-40",
+    "source": "strategy",
+    "keywords": [
+      "data",
+      "driven",
+      "organization",
+      "المؤسسة",
+      "القائمة",
+      "البيانات؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is a data-driven organization?",
+      "fr": "What is a data-driven organization?",
+      "ar": "ما هي المؤسسة القائمة على البيانات؟"
+    },
+    "answer": {
+      "en": "A data-driven organization systematically uses trustworthy data, analytical evidence and measurable indicators to guide decisions rather than relying exclusively on intuition.",
+      "fr": "A data-driven organization systematically uses trustworthy data, analytical evidence and measurable indicators to guide decisions rather than relying exclusively on intuition.",
+      "ar": "هي مؤسسة تعتمد بصورة منهجية على بيانات موثوقة وتحليلات ومؤشرات قابلة للقياس في اتخاذ القرارات، بدلاً من الاعتماد على الحدس وحده."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-41",
+    "source": "strategy",
+    "keywords": [
+      "data",
+      "governance",
+      "المقصود",
+      "بحوكمة",
+      "البيانات؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is data governance?",
+      "fr": "What is data governance?",
+      "ar": "ما المقصود بحوكمة البيانات؟"
+    },
+    "answer": {
+      "en": "Data governance defines the policies, responsibilities, standards and controls needed to manage data throughout its lifecycle and ensure appropriate use.",
+      "fr": "Data governance defines the policies, responsibilities, standards and controls needed to manage data throughout its lifecycle and ensure appropriate use.",
+      "ar": "هي مجموعة السياسات والمسؤوليات والمعايير وآليات الرقابة التي تنظم إدارة البيانات طوال دورة حياتها وتضمن استخدامها بصورة مناسبة."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-42",
+    "source": "strategy",
+    "keywords": [
+      "data",
+      "quality",
+      "important",
+      "لماذا",
+      "جودة",
+      "البيانات",
+      "ضرورية",
+      "للذكاء",
+      "الاصطناعي؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "Why is data quality important for AI?",
+      "fr": "Why is data quality important for AI?",
+      "ar": "لماذا تعد جودة البيانات ضرورية للذكاء الاصطناعي؟"
+    },
+    "answer": {
+      "en": "Incomplete, inaccurate or biased data can undermine model reliability, produce misleading predictions and lead to poor operational decisions.",
+      "fr": "Incomplete, inaccurate or biased data can undermine model reliability, produce misleading predictions and lead to poor operational decisions.",
+      "ar": "لأن البيانات الناقصة أو غير الدقيقة أو المتحيزة قد تقلل موثوقية النماذج، وتؤدي إلى تنبؤات مضللة وقرارات تشغيلية غير سليمة."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-43",
+    "source": "strategy",
+    "keywords": [
+      "main",
+      "dimensions",
+      "data",
+      "quality",
+      "أبعاد",
+      "جودة",
+      "البيانات؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What are the main dimensions of data quality?",
+      "fr": "What are the main dimensions of data quality?",
+      "ar": "ما أهم أبعاد جودة البيانات؟"
+    },
+    "answer": {
+      "en": "Common dimensions include accuracy, completeness, consistency, validity, uniqueness, timeliness and fitness for the intended purpose.",
+      "fr": "Common dimensions include accuracy, completeness, consistency, validity, uniqueness, timeliness and fitness for the intended purpose.",
+      "ar": "تشمل الدقة، والاكتمال، والاتساق، والصلاحية، والتفرد، والحداثة، ومدى ملاءمة البيانات للغرض الذي ستستخدم من أجله."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-44",
+    "source": "strategy",
+    "keywords": [
+      "master",
+      "data",
+      "management",
+      "المقصود",
+      "بإدارة",
+      "البيانات",
+      "المرجعية",
+      "الرئيسية؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is master data management?",
+      "fr": "What is master data management?",
+      "ar": "ما المقصود بإدارة البيانات المرجعية الرئيسية؟"
+    },
+    "answer": {
+      "en": "Master data management establishes consistent, trusted records for key entities such as customers, products, suppliers, employees and organizational units.",
+      "fr": "Master data management establishes consistent, trusted records for key entities such as customers, products, suppliers, employees and organizational units.",
+      "ar": "هي منهجية تهدف إلى إنشاء سجلات موحدة وموثوقة للكيانات الأساسية، مثل العملاء والمنتجات والموردين والموظفين والوحدات التنظيمية."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-45",
+    "source": "strategy",
+    "keywords": [
+      "metadata",
+      "management",
+      "المقصود",
+      "بإدارة",
+      "البيانات",
+      "الوصفية؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is metadata management?",
+      "fr": "What is metadata management?",
+      "ar": "ما المقصود بإدارة البيانات الوصفية؟"
+    },
+    "answer": {
+      "en": "Metadata management documents the meaning, origin, structure, ownership, transformations and permitted use of data, improving discoverability and accountability.",
+      "fr": "Metadata management documents the meaning, origin, structure, ownership, transformations and permitted use of data, improving discoverability and accountability.",
+      "ar": "هي توثيق معنى البيانات ومصدرها وبنيتها وملكيتها والتحويلات التي خضعت لها وشروط استخدامها، بما يعزز إمكانية اكتشافها والمساءلة عنها."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-46",
+    "source": "strategy",
+    "keywords": [
+      "data",
+      "lineage",
+      "المقصود",
+      "بتتبع",
+      "منشأ",
+      "البيانات",
+      "ومسارها؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is data lineage?",
+      "fr": "What is data lineage?",
+      "ar": "ما المقصود بتتبع منشأ البيانات ومسارها؟"
+    },
+    "answer": {
+      "en": "Data lineage tracks where data originates, how it changes and where it is used, supporting auditing, troubleshooting and regulatory compliance.",
+      "fr": "Data lineage tracks where data originates, how it changes and where it is used, supporting auditing, troubleshooting and regulatory compliance.",
+      "ar": "هو تتبع مصدر البيانات والتغييرات التي طرأت عليها والأنظمة التي تستخدمها، مما يساعد في التدقيق ومعالجة الأخطاء والامتثال التنظيمي."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-47",
+    "source": "strategy",
+    "keywords": [
+      "organizations",
+      "protect",
+      "personal",
+      "data",
+      "يمكن",
+      "للمؤسسات",
+      "حماية",
+      "البيانات",
+      "الشخصية؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can organizations protect personal data?",
+      "fr": "How can organizations protect personal data?",
+      "ar": "كيف يمكن للمؤسسات حماية البيانات الشخصية؟"
+    },
+    "answer": {
+      "en": "They should define lawful purposes, minimize collection, control access, secure storage and transfer, establish retention rules and respect applicable data-protection rights.",
+      "fr": "They should define lawful purposes, minimize collection, control access, secure storage and transfer, establish retention rules and respect applicable data-protection rights.",
+      "ar": "من خلال تحديد الأغراض المشروعة، وتقليل البيانات المجمعة، وضبط الوصول، وتأمين التخزين والنقل، وتحديد مدد الاحتفاظ، واحترام الحقوق القانونية للأفراد."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-48",
+    "source": "strategy",
+    "keywords": [
+      "data",
+      "sovereignty",
+      "المقصود",
+      "بالسيادة",
+      "البيانات؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is data sovereignty?",
+      "fr": "What is data sovereignty?",
+      "ar": "ما المقصود بالسيادة على البيانات؟"
+    },
+    "answer": {
+      "en": "Data sovereignty concerns the laws, jurisdiction and governance arrangements applicable to data, including where it is stored and who can access or control it.",
+      "fr": "Data sovereignty concerns the laws, jurisdiction and governance arrangements applicable to data, including where it is stored and who can access or control it.",
+      "ar": "تتعلق سيادة البيانات بالقوانين والاختصاص القضائي وترتيبات الحوكمة التي تنطبق عليها، بما في ذلك مكان تخزينها والجهات التي يمكنها الوصول إليها أو التحكم فيها."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-49",
+    "source": "strategy",
+    "keywords": [
+      "organization",
+      "establish",
+      "data",
+      "governance",
+      "framework",
+      "تنشئ",
+      "المؤسسة",
+      "إطاراً",
+      "فعالاً",
+      "لحوكمة",
+      "البيانات؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can an organization establish a data governance framework?",
+      "fr": "How can an organization establish a data governance framework?",
+      "ar": "كيف تنشئ المؤسسة إطاراً فعالاً لحوكمة البيانات؟"
+    },
+    "answer": {
+      "en": "It should appoint accountable data owners and stewards, define standards, classify data, establish quality controls and regularly monitor compliance and performance.",
+      "fr": "It should appoint accountable data owners and stewards, define standards, classify data, establish quality controls and regularly monitor compliance and performance.",
+      "ar": "ينبغي تعيين المسؤولين عن البيانات، وتحديد المعايير، وتصنيف المعلومات، وإرساء ضوابط الجودة، ومراقبة الالتزام والأداء بصورة منتظمة."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-50",
+    "source": "strategy",
+    "keywords": [
+      "organizations",
+      "prepare",
+      "data",
+      "while",
+      "preserving",
+      "privacy",
+      "يمكن",
+      "إعداد",
+      "البيانات",
+      "للذكاء",
+      "الاصطناعي",
+      "الحفاظ",
+      "الخصوصية؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can organizations prepare data for AI while preserving privacy?",
+      "fr": "How can organizations prepare data for AI while preserving privacy?",
+      "ar": "كيف يمكن إعداد البيانات للذكاء الاصطناعي مع الحفاظ على الخصوصية؟"
+    },
+    "answer": {
+      "en": "They can use data minimization, access controls, anonymization or pseudonymization where appropriate, secure environments and privacy-enhancing techniques suited to the use case.",
+      "fr": "They can use data minimization, access controls, anonymization or pseudonymization where appropriate, secure environments and privacy-enhancing techniques suited to the use case.",
+      "ar": "يمكن تطبيق تقليل البيانات، وضبط الصلاحيات، وإخفاء الهوية أو استخدام الأسماء المستعارة عند ملاءمة ذلك، والاستعانة ببيئات آمنة وتقنيات تعزز الخصوصية."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-51",
+    "source": "strategy",
+    "keywords": [
+      "cybersecurity",
+      "essential",
+      "digital",
+      "transformation",
+      "لماذا",
+      "الأمن",
+      "السيبراني",
+      "ضرورياً",
+      "للتحول",
+      "الرقمي؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "Why is cybersecurity essential to digital transformation?",
+      "fr": "Why is cybersecurity essential to digital transformation?",
+      "ar": "لماذا يعد الأمن السيبراني ضرورياً للتحول الرقمي؟"
+    },
+    "answer": {
+      "en": "Digital services depend on the confidentiality, integrity and availability of systems and data; security failures can disrupt operations and undermine public trust.",
+      "fr": "Digital services depend on the confidentiality, integrity and availability of systems and data; security failures can disrupt operations and undermine public trust.",
+      "ar": "تعتمد الخدمات الرقمية على سرية الأنظمة والبيانات وسلامتها وتوافرها، وقد تؤدي الحوادث الأمنية إلى تعطيل العمليات وفقدان الثقة."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-52",
+    "source": "strategy",
+    "keywords": [
+      "difference",
+      "between",
+      "authentication",
+      "authorization",
+      "الفرق",
+      "المصادقة",
+      "والتحقق",
+      "الصلاحيات؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is the difference between authentication and authorization?",
+      "fr": "What is the difference between authentication and authorization?",
+      "ar": "ما الفرق بين المصادقة والتحقق من الصلاحيات؟"
+    },
+    "answer": {
+      "en": "Authentication verifies who a user or system is; authorization determines which resources and actions that identity is permitted to access.",
+      "fr": "Authentication verifies who a user or system is; authorization determines which resources and actions that identity is permitted to access.",
+      "ar": "تتحقق المصادقة من هوية المستخدم أو النظام، بينما تحدد إدارة الصلاحيات الموارد والإجراءات المسموح لتلك الهوية بالوصول إليها."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-53",
+    "source": "strategy",
+    "keywords": [
+      "multi",
+      "factor",
+      "authentication",
+      "المقصود",
+      "بالمصادقة",
+      "متعددة",
+      "العوامل؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is multi-factor authentication?",
+      "fr": "What is multi-factor authentication?",
+      "ar": "ما المقصود بالمصادقة متعددة العوامل؟"
+    },
+    "answer": {
+      "en": "Multi-factor authentication requires two or more different categories of evidence, such as something known, possessed or inherent to the user.",
+      "fr": "Multi-factor authentication requires two or more different categories of evidence, such as something known, possessed or inherent to the user.",
+      "ar": "هي آلية تتطلب تقديم عاملين أو أكثر من فئات مختلفة للتحقق من الهوية، مثل معلومة يعرفها المستخدم أو شيء يمتلكه أو خاصية حيوية لديه."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-54",
+    "source": "strategy",
+    "keywords": [
+      "zero",
+      "trust",
+      "security",
+      "model",
+      "نموذج",
+      "انعدام",
+      "الثقة",
+      "الأمن",
+      "السيبراني؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is a zero-trust security model?",
+      "fr": "What is a zero-trust security model?",
+      "ar": "ما نموذج انعدام الثقة في الأمن السيبراني؟"
+    },
+    "answer": {
+      "en": "Zero trust requires explicit verification of access requests, least-privilege permissions and continuous evaluation rather than assuming that an internal network is inherently trustworthy.",
+      "fr": "Zero trust requires explicit verification of access requests, least-privilege permissions and continuous evaluation rather than assuming that an internal network is inherently trustworthy.",
+      "ar": "يقوم هذا النموذج على التحقق الصريح من طلبات الوصول، وتطبيق أقل الصلاحيات، والتقييم المستمر، وعدم افتراض أن الشبكة الداخلية موثوقة تلقائياً."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-55",
+    "source": "strategy",
+    "keywords": [
+      "organizations",
+      "reduce",
+      "ransomware",
+      "risk",
+      "يمكن",
+      "الحد",
+      "مخاطر",
+      "برامج",
+      "الفدية؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can organizations reduce ransomware risk?",
+      "fr": "How can organizations reduce ransomware risk?",
+      "ar": "كيف يمكن الحد من مخاطر برامج الفدية؟"
+    },
+    "answer": {
+      "en": "They should maintain tested offline or immutable backups, patch vulnerabilities, restrict privileges, train employees, monitor suspicious activity and rehearse incident response.",
+      "fr": "They should maintain tested offline or immutable backups, patch vulnerabilities, restrict privileges, train employees, monitor suspicious activity and rehearse incident response.",
+      "ar": "من خلال الاحتفاظ بنسخ احتياطية معزولة أو غير قابلة للتعديل واختبارها، وتحديث الأنظمة، وتقييد الصلاحيات، وتدريب الموظفين، ومراقبة الأنشطة المشبوهة."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-56",
+    "source": "strategy",
+    "keywords": [
+      "cybersecurity",
+      "risk",
+      "assessment",
+      "المقصود",
+      "بتقييم",
+      "مخاطر",
+      "الأمن",
+      "السيبراني؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is a cybersecurity risk assessment?",
+      "fr": "What is a cybersecurity risk assessment?",
+      "ar": "ما المقصود بتقييم مخاطر الأمن السيبراني؟"
+    },
+    "answer": {
+      "en": "It identifies important assets, threats, vulnerabilities, potential impacts and existing controls to prioritize proportionate risk-reduction measures.",
+      "fr": "It identifies important assets, threats, vulnerabilities, potential impacts and existing controls to prioritize proportionate risk-reduction measures.",
+      "ar": "هو تحديد الأصول المهمة والتهديدات والثغرات والآثار المحتملة والضوابط الحالية، من أجل ترتيب أولويات الحد من المخاطر."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-57",
+    "source": "strategy",
+    "keywords": [
+      "role",
+      "encryption",
+      "التشفير",
+      "حماية",
+      "المعلومات؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is the role of encryption?",
+      "fr": "What is the role of encryption?",
+      "ar": "ما دور التشفير في حماية المعلومات؟"
+    },
+    "answer": {
+      "en": "Encryption protects information by making it unreadable without the appropriate cryptographic keys, helping secure data at rest and in transit.",
+      "fr": "Encryption protects information by making it unreadable without the appropriate cryptographic keys, helping secure data at rest and in transit.",
+      "ar": "يحول التشفير المعلومات إلى صيغة غير مقروءة دون مفاتيح التشفير المناسبة، ويساعد على حماية البيانات المخزنة والمنقولة."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-58",
+    "source": "strategy",
+    "keywords": [
+      "organization",
+      "respond",
+      "data",
+      "breach",
+      "ينبغي",
+      "للمؤسسة",
+      "التعامل",
+      "اختراق",
+      "البيانات؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How should an organization respond to a data breach?",
+      "fr": "How should an organization respond to a data breach?",
+      "ar": "كيف ينبغي للمؤسسة التعامل مع اختراق البيانات؟"
+    },
+    "answer": {
+      "en": "It should contain the incident, preserve evidence, assess impact, activate response procedures, notify relevant parties when required and implement corrective measures.",
+      "fr": "It should contain the incident, preserve evidence, assess impact, activate response procedures, notify relevant parties when required and implement corrective measures.",
+      "ar": "يجب احتواء الحادث، وحفظ الأدلة، وتقييم الأثر، وتفعيل خطة الاستجابة، وإخطار الجهات المعنية عند الاقتضاء، وتنفيذ الإجراءات التصحيحية."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-59",
+    "source": "strategy",
+    "keywords": [
+      "digital",
+      "identity",
+      "المقصود",
+      "بالهوية",
+      "الرقمية؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is digital identity?",
+      "fr": "What is digital identity?",
+      "ar": "ما المقصود بالهوية الرقمية؟"
+    },
+    "answer": {
+      "en": "Digital identity represents a person, organization or device in electronic systems and enables identification, authentication and controlled access to services.",
+      "fr": "Digital identity represents a person, organization or device in electronic systems and enables identification, authentication and controlled access to services.",
+      "ar": "هي تمثيل إلكتروني لشخص أو مؤسسة أو جهاز، يتيح التعرف على الهوية والتحقق منها وتنظيم الوصول إلى الخدمات."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-60",
+    "source": "strategy",
+    "keywords": [
+      "organizations",
+      "build",
+      "digital",
+      "trust",
+      "يمكن",
+      "للمؤسسات",
+      "بناء",
+      "الثقة",
+      "الرقمية؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can organizations build digital trust?",
+      "fr": "How can organizations build digital trust?",
+      "ar": "كيف يمكن للمؤسسات بناء الثقة الرقمية؟"
+    },
+    "answer": {
+      "en": "They can strengthen security, communicate transparently, protect privacy, demonstrate reliability, explain automated decisions and provide effective mechanisms for complaints and redress.",
+      "fr": "They can strengthen security, communicate transparently, protect privacy, demonstrate reliability, explain automated decisions and provide effective mechanisms for complaints and redress.",
+      "ar": "من خلال تعزيز الأمن، والشفافية، وحماية الخصوصية، وموثوقية الخدمات، وتوضيح القرارات الآلية، وتوفير آليات فعالة للشكاوى والتظلم."
+    },
+    "related": "expertise"
+  },
+  {
+    "id": "strategy-61",
+    "source": "strategy",
+    "keywords": [
+      "software",
+      "engineering",
+      "المقصود",
+      "بهندسة",
+      "البرمجيات؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is software engineering?",
+      "fr": "What is software engineering?",
+      "ar": "ما المقصود بهندسة البرمجيات؟"
+    },
+    "answer": {
+      "en": "Software engineering applies systematic methods to design, develop, test, deploy and maintain reliable software that meets user and organizational requirements.",
+      "fr": "Software engineering applies systematic methods to design, develop, test, deploy and maintain reliable software that meets user and organizational requirements.",
+      "ar": "هي تطبيق منهجيات منظمة لتصميم البرمجيات وتطويرها واختبارها ونشرها وصيانتها، بهدف تلبية احتياجات المستخدمين والمؤسسات بموثوقية."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-62",
+    "source": "strategy",
+    "keywords": [
+      "software",
+      "architecture",
+      "المقصود",
+      "بالهندسة",
+      "المعمارية",
+      "للأنظمة",
+      "المعلوماتية؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is software architecture?",
+      "fr": "What is software architecture?",
+      "ar": "ما المقصود بالهندسة المعمارية للأنظمة المعلوماتية؟"
+    },
+    "answer": {
+      "en": "Software architecture defines the major components of a system, their relationships, communication mechanisms and the principles guiding its evolution.",
+      "fr": "Software architecture defines the major components of a system, their relationships, communication mechanisms and the principles guiding its evolution.",
+      "ar": "هي تحديد المكونات الرئيسية للنظام، والعلاقات بينها، وآليات التواصل، والمبادئ التي توجه تطوره وصيانته."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-63",
+    "source": "strategy",
+    "keywords": [
+      "difference",
+      "between",
+      "monolithic",
+      "microservices",
+      "architectures",
+      "الفرق",
+      "البنية",
+      "الأحادية",
+      "وبنية",
+      "الخدمات",
+      "المصغرة؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is the difference between monolithic and microservices architectures?",
+      "fr": "What is the difference between monolithic and microservices architectures?",
+      "ar": "ما الفرق بين البنية الأحادية وبنية الخدمات المصغرة؟"
+    },
+    "answer": {
+      "en": "A monolith packages much of an application into one deployable unit; microservices separate capabilities into services that can be developed and deployed independently, with added operational complexity.",
+      "fr": "A monolith packages much of an application into one deployable unit; microservices separate capabilities into services that can be developed and deployed independently, with added operational complexity.",
+      "ar": "تجمع البنية الأحادية معظم وظائف التطبيق في وحدة نشر واحدة، بينما تفصل الخدمات المصغرة الوظائف إلى خدمات مستقلة نسبياً، مع زيادة متطلبات التنسيق والتشغيل."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-64",
+    "source": "strategy",
+    "keywords": [
+      "المقصود",
+      "بواجهة",
+      "برمجة",
+      "التطبيقات",
+      "api؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is an API?",
+      "fr": "What is an API?",
+      "ar": "ما المقصود بواجهة برمجة التطبيقات API؟"
+    },
+    "answer": {
+      "en": "An application programming interface defines how software components communicate, enabling systems to exchange information and access capabilities through agreed rules.",
+      "fr": "An application programming interface defines how software components communicate, enabling systems to exchange information and access capabilities through agreed rules.",
+      "ar": "هي واجهة تحدد كيفية تواصل مكونات البرمجيات، وتتيح تبادل البيانات والاستفادة من الوظائف عبر قواعد واتفاقيات محددة."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-65",
+    "source": "strategy",
+    "keywords": [
+      "cloud",
+      "computing",
+      "المقصود",
+      "بالحوسبة",
+      "السحابية؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is cloud computing?",
+      "fr": "What is cloud computing?",
+      "ar": "ما المقصود بالحوسبة السحابية؟"
+    },
+    "answer": {
+      "en": "Cloud computing provides configurable computing resources, storage and services over a network, often enabling elastic scaling and usage-based pricing.",
+      "fr": "Cloud computing provides configurable computing resources, storage and services over a network, often enabling elastic scaling and usage-based pricing.",
+      "ar": "هي توفير موارد المعالجة والتخزين والخدمات عبر الشبكات، مع إمكانية توسيع الموارد حسب الحاجة وربط التكلفة بحجم الاستخدام في كثير من الحالات."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-66",
+    "source": "strategy",
+    "keywords": [
+      "difference",
+      "between",
+      "public",
+      "private",
+      "hybrid",
+      "clouds",
+      "الفرق",
+      "السحابة",
+      "العامة",
+      "والخاصة",
+      "والهجينة؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is the difference between public, private and hybrid clouds?",
+      "fr": "What is the difference between public, private and hybrid clouds?",
+      "ar": "ما الفرق بين السحابة العامة والخاصة والهجينة؟"
+    },
+    "answer": {
+      "en": "Public clouds use provider-operated shared infrastructure; private clouds dedicate infrastructure to an organization; hybrid clouds combine environments with appropriate integration and governance.",
+      "fr": "Public clouds use provider-operated shared infrastructure; private clouds dedicate infrastructure to an organization; hybrid clouds combine environments with appropriate integration and governance.",
+      "ar": "تعتمد السحابة العامة على بنية يديرها مزود الخدمة، وتخصص السحابة الخاصة الموارد لمؤسسة معينة، بينما تجمع السحابة الهجينة بين بيئات مختلفة مع التكامل والحوكمة المناسبين."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-67",
+    "source": "strategy",
+    "keywords": [
+      "devops",
+      "المقصود",
+      "بمنهجية",
+      "devops؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is DevOps?",
+      "fr": "What is DevOps?",
+      "ar": "ما المقصود بمنهجية DevOps؟"
+    },
+    "answer": {
+      "en": "DevOps brings development and operations practices together to improve collaboration, automation, delivery speed, reliability and feedback throughout the software lifecycle.",
+      "fr": "DevOps brings development and operations practices together to improve collaboration, automation, delivery speed, reliability and feedback throughout the software lifecycle.",
+      "ar": "هي مجموعة ممارسات تجمع التطوير والتشغيل لتحسين التعاون والأتمتة وسرعة التسليم والموثوقية والاستفادة من التغذية الراجعة طوال دورة حياة البرمجيات."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-68",
+    "source": "strategy",
+    "keywords": [
+      "containerization",
+      "المقصود",
+      "بالحاويات",
+      "البرمجية؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is containerization?",
+      "fr": "What is containerization?",
+      "ar": "ما المقصود بالحاويات البرمجية؟"
+    },
+    "answer": {
+      "en": "Containerization packages applications and their dependencies into portable units that can run consistently across compatible environments.",
+      "fr": "Containerization packages applications and their dependencies into portable units that can run consistently across compatible environments.",
+      "ar": "هي طريقة لتجميع التطبيق واعتمادياته في وحدات قابلة للنقل والتشغيل بصورة متسقة عبر البيئات المتوافقة."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-69",
+    "source": "strategy",
+    "keywords": [
+      "organizations",
+      "modernize",
+      "legacy",
+      "information",
+      "systems",
+      "يمكن",
+      "تحديث",
+      "الأنظمة",
+      "المعلوماتية",
+      "القديمة؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can organizations modernize legacy information systems?",
+      "fr": "How can organizations modernize legacy information systems?",
+      "ar": "كيف يمكن تحديث الأنظمة المعلوماتية القديمة؟"
+    },
+    "answer": {
+      "en": "They should assess business criticality and technical debt, prioritize high-value components, introduce secure interfaces and migrate incrementally with testing and rollback plans.",
+      "fr": "They should assess business criticality and technical debt, prioritize high-value components, introduce secure interfaces and migrate incrementally with testing and rollback plans.",
+      "ar": "من خلال تقييم أهميتها التقنية والتشغيلية، وترتيب مكونات التحديث حسب الأولوية، واعتماد التكامل الآمن، والترحيل التدريجي مع الاختبار وخطط الرجوع."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-70",
+    "source": "strategy",
+    "keywords": [
+      "organizations",
+      "choose",
+      "between",
+      "building",
+      "buying",
+      "software",
+      "تختار",
+      "المؤسسة",
+      "تطوير",
+      "البرمجيات",
+      "وشرائها؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How should organizations choose between building and buying software?",
+      "fr": "How should organizations choose between building and buying software?",
+      "ar": "كيف تختار المؤسسة بين تطوير البرمجيات وشرائها؟"
+    },
+    "answer": {
+      "en": "They should compare strategic differentiation, functional fit, integration, security, customization, delivery time, vendor dependency and total lifecycle cost.",
+      "fr": "They should compare strategic differentiation, functional fit, integration, security, customization, delivery time, vendor dependency and total lifecycle cost.",
+      "ar": "ينبغي مقارنة القيمة الاستراتيجية، والملاءمة الوظيفية، والتكامل، والأمن، وإمكانات التخصيص، وسرعة الإنجاز، والاعتماد على المورد، والتكلفة الإجمالية طوال دورة الحياة."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-71",
+    "source": "strategy",
+    "keywords": [
+      "technological",
+      "innovation",
+      "المقصود",
+      "بالابتكار",
+      "التكنولوجي؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is technological innovation?",
+      "fr": "What is technological innovation?",
+      "ar": "ما المقصود بالابتكار التكنولوجي؟"
+    },
+    "answer": {
+      "en": "Technological innovation transforms knowledge, research or creative ideas into new or significantly improved products, services, processes or organizational capabilities.",
+      "fr": "Technological innovation transforms knowledge, research or creative ideas into new or significantly improved products, services, processes or organizational capabilities.",
+      "ar": "هو تحويل المعرفة أو نتائج البحث أو الأفكار الإبداعية إلى منتجات أو خدمات أو عمليات أو قدرات تنظيمية جديدة أو محسنة بشكل ملموس."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-72",
+    "source": "strategy",
+    "keywords": [
+      "organization",
+      "build",
+      "culture",
+      "innovation",
+      "يمكن",
+      "للمؤسسة",
+      "بناء",
+      "ثقافة",
+      "للابتكار؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can an organization build a culture of innovation?",
+      "fr": "How can an organization build a culture of innovation?",
+      "ar": "كيف يمكن للمؤسسة بناء ثقافة للابتكار؟"
+    },
+    "answer": {
+      "en": "It should encourage experimentation, interdisciplinary collaboration, continuous learning, constructive feedback and carefully managed risk-taking.",
+      "fr": "It should encourage experimentation, interdisciplinary collaboration, continuous learning, constructive feedback and carefully managed risk-taking.",
+      "ar": "من خلال تشجيع التجريب، والتعاون بين التخصصات، والتعلم المستمر، وتبادل الملاحظات البناءة، وتحمل المخاطر المحسوبة."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-73",
+    "source": "strategy",
+    "keywords": [
+      "difference",
+      "between",
+      "invention",
+      "innovation",
+      "الفرق",
+      "الاختراع",
+      "والابتكار؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is the difference between invention and innovation?",
+      "fr": "What is the difference between invention and innovation?",
+      "ar": "ما الفرق بين الاختراع والابتكار؟"
+    },
+    "answer": {
+      "en": "An invention introduces a new idea or technical solution; innovation implements and applies ideas in ways that create practical, economic or societal value.",
+      "fr": "An invention introduces a new idea or technical solution; innovation implements and applies ideas in ways that create practical, economic or societal value.",
+      "ar": "يقدم الاختراع فكرة أو حلاً تقنياً جديداً، بينما يحول الابتكار الأفكار إلى تطبيقات تخلق قيمة عملية أو اقتصادية أو اجتماعية."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-74",
+    "source": "strategy",
+    "keywords": [
+      "organizations",
+      "identify",
+      "promising",
+      "innovation",
+      "opportunities",
+      "يمكن",
+      "تحديد",
+      "الابتكار",
+      "الواعدة؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can organizations identify promising innovation opportunities?",
+      "fr": "How can organizations identify promising innovation opportunities?",
+      "ar": "كيف يمكن تحديد فرص الابتكار الواعدة؟"
+    },
+    "answer": {
+      "en": "They should analyze unmet needs, technological trends, user feedback, operational bottlenecks, market evidence and research developments.",
+      "fr": "They should analyze unmet needs, technological trends, user feedback, operational bottlenecks, market evidence and research developments.",
+      "ar": "من خلال دراسة الاحتياجات غير الملباة، والاتجاهات التكنولوجية، وملاحظات المستخدمين، والعوائق التشغيلية، ومعطيات السوق، والتطورات البحثية."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-75",
+    "source": "strategy",
+    "keywords": [
+      "proof",
+      "concept",
+      "المقصود",
+      "بإثبات",
+      "المفهوم؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is a proof of concept?",
+      "fr": "What is a proof of concept?",
+      "ar": "ما المقصود بإثبات المفهوم؟"
+    },
+    "answer": {
+      "en": "A proof of concept tests whether an idea or technical approach is feasible before committing to full-scale development.",
+      "fr": "A proof of concept tests whether an idea or technical approach is feasible before committing to full-scale development.",
+      "ar": "هو اختبار أولي يهدف إلى التحقق من إمكانية تطبيق فكرة أو مقاربة تقنية قبل الاستثمار في تطوير شامل."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-76",
+    "source": "strategy",
+    "keywords": [
+      "minimum",
+      "viable",
+      "product",
+      "المقصود",
+      "بالمنتج",
+      "الأولي",
+      "القابل",
+      "للاستخدام",
+      "والاختبار؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is a minimum viable product?",
+      "fr": "What is a minimum viable product?",
+      "ar": "ما المقصود بالمنتج الأولي القابل للاستخدام والاختبار؟"
+    },
+    "answer": {
+      "en": "A minimum viable product is an early version with enough functionality to test critical assumptions and obtain feedback from intended users.",
+      "fr": "A minimum viable product is an early version with enough functionality to test critical assumptions and obtain feedback from intended users.",
+      "ar": "هو إصدار أولي يتضمن الوظائف الأساسية اللازمة لاختبار الفرضيات الرئيسية والحصول على ملاحظات المستخدمين المستهدفين."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-77",
+    "source": "strategy",
+    "keywords": [
+      "universities",
+      "contribute",
+      "technological",
+      "innovation",
+      "تساهم",
+      "الجامعات",
+      "الابتكار",
+      "التكنولوجي؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can universities contribute to technological innovation?",
+      "fr": "How can universities contribute to technological innovation?",
+      "ar": "كيف تساهم الجامعات في الابتكار التكنولوجي؟"
+    },
+    "answer": {
+      "en": "Universities generate research, develop talent, provide specialized expertise and collaborate with industry and public institutions to address real-world challenges.",
+      "fr": "Universities generate research, develop talent, provide specialized expertise and collaborate with industry and public institutions to address real-world challenges.",
+      "ar": "تنتج الجامعات المعرفة، وتطور الكفاءات، وتوفر الخبرات المتخصصة، وتتعاون مع الصناعة والمؤسسات العمومية لمعالجة التحديات الواقعية."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-78",
+    "source": "strategy",
+    "keywords": [
+      "role",
+      "applied",
+      "research",
+      "أهمية",
+      "البحث",
+      "التطبيقي؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is the role of applied research?",
+      "fr": "What is the role of applied research?",
+      "ar": "ما أهمية البحث التطبيقي؟"
+    },
+    "answer": {
+      "en": "Applied research addresses defined practical problems and develops knowledge that can support products, services, technologies or improved public policies.",
+      "fr": "Applied research addresses defined practical problems and develops knowledge that can support products, services, technologies or improved public policies.",
+      "ar": "يعالج البحث التطبيقي مشكلات عملية محددة، وينتج معرفة يمكن تحويلها إلى منتجات وخدمات وتقنيات أو سياسات عمومية محسنة."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-79",
+    "source": "strategy",
+    "keywords": [
+      "organizations",
+      "measure",
+      "innovation",
+      "performance",
+      "يمكن",
+      "قياس",
+      "أداء",
+      "الابتكار؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can organizations measure innovation performance?",
+      "fr": "How can organizations measure innovation performance?",
+      "ar": "كيف يمكن قياس أداء الابتكار؟"
+    },
+    "answer": {
+      "en": "They can track experimentation outcomes, development time, adoption, research partnerships, intellectual property, revenue or cost impact and measurable social benefits.",
+      "fr": "They can track experimentation outcomes, development time, adoption, research partnerships, intellectual property, revenue or cost impact and measurable social benefits.",
+      "ar": "يمكن قياسه من خلال نتائج التجارب، ومدة التطوير، ومعدلات التبني، والشراكات البحثية، والملكية الفكرية، والأثر الاقتصادي والاجتماعي."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-80",
+    "source": "strategy",
+    "keywords": [
+      "accelerate",
+      "research",
+      "development",
+      "يسرّع",
+      "الذكاء",
+      "الاصطناعي",
+      "البحث",
+      "والتطوير؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can AI accelerate research and development?",
+      "fr": "How can AI accelerate research and development?",
+      "ar": "كيف يسرّع الذكاء الاصطناعي البحث والتطوير؟"
+    },
+    "answer": {
+      "en": "AI can support literature analysis, simulation, experimentation, pattern discovery and prototyping, while researchers remain responsible for validation and scientific integrity.",
+      "fr": "AI can support literature analysis, simulation, experimentation, pattern discovery and prototyping, while researchers remain responsible for validation and scientific integrity.",
+      "ar": "يساعد في تحليل الأدبيات العلمية، والمحاكاة، وتصميم التجارب، واكتشاف الأنماط، وإنشاء النماذج الأولية، مع بقاء مسؤولية التحقق والنزاهة العلمية على الباحثين."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-81",
+    "source": "strategy",
+    "keywords": [
+      "technology",
+      "transfer",
+      "المقصود",
+      "بنقل",
+      "التكنولوجيا؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is technology transfer?",
+      "fr": "What is technology transfer?",
+      "ar": "ما المقصود بنقل التكنولوجيا؟"
+    },
+    "answer": {
+      "en": "Technology transfer is the process of moving knowledge, methods, technologies or intellectual property from one organization or context to another for practical use.",
+      "fr": "Technology transfer is the process of moving knowledge, methods, technologies or intellectual property from one organization or context to another for practical use.",
+      "ar": "هو نقل المعرفة أو الأساليب أو التقنيات أو الملكية الفكرية من مؤسسة أو بيئة إلى أخرى بهدف استخدامها وتطبيقها عملياً."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-82",
+    "source": "strategy",
+    "keywords": [
+      "technology",
+      "transfer",
+      "important",
+      "economic",
+      "development",
+      "لماذا",
+      "التكنولوجيا",
+      "مهماً",
+      "للتنمية",
+      "الاقتصادية؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "Why is technology transfer important for economic development?",
+      "fr": "Why is technology transfer important for economic development?",
+      "ar": "لماذا يعد نقل التكنولوجيا مهماً للتنمية الاقتصادية؟"
+    },
+    "answer": {
+      "en": "It helps convert research into useful solutions, strengthens industrial capabilities, develops skills, encourages entrepreneurship and improves competitiveness.",
+      "fr": "It helps convert research into useful solutions, strengthens industrial capabilities, develops skills, encourages entrepreneurship and improves competitiveness.",
+      "ar": "يساعد على تحويل نتائج البحث إلى حلول عملية، وتعزيز القدرات الصناعية، وتطوير المهارات، وتشجيع ريادة الأعمال، وتحسين القدرة التنافسية."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-83",
+    "source": "strategy",
+    "keywords": [
+      "main",
+      "stages",
+      "technology",
+      "transfer",
+      "المراحل",
+      "الأساسية",
+      "لنقل",
+      "التكنولوجيا؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What are the main stages of technology transfer?",
+      "fr": "What are the main stages of technology transfer?",
+      "ar": "ما المراحل الأساسية لنقل التكنولوجيا؟"
+    },
+    "answer": {
+      "en": "Typical stages include identifying an innovation, assessing readiness, protecting intellectual property when appropriate, validating demand, selecting a transfer mechanism and supporting adoption.",
+      "fr": "Typical stages include identifying an innovation, assessing readiness, protecting intellectual property when appropriate, validating demand, selecting a transfer mechanism and supporting adoption.",
+      "ar": "تشمل تحديد الابتكار، وتقييم مستوى نضجه، وحماية الملكية الفكرية عند الاقتضاء، والتحقق من الطلب، واختيار آلية النقل، ومواكبة التطبيق."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-84",
+    "source": "strategy",
+    "keywords": [
+      "technology",
+      "readiness",
+      "level",
+      "المقصود",
+      "بمستوى",
+      "الجاهزية",
+      "التكنولوجية؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is technology readiness level?",
+      "fr": "What is technology readiness level?",
+      "ar": "ما المقصود بمستوى الجاهزية التكنولوجية؟"
+    },
+    "answer": {
+      "en": "Technology readiness level is a staged framework used to assess how mature a technology is, from early principles to demonstrated operation in a relevant or operational environment.",
+      "fr": "Technology readiness level is a staged framework used to assess how mature a technology is, from early principles to demonstrated operation in a relevant or operational environment.",
+      "ar": "هو إطار لتقييم مدى نضج التكنولوجيا، بدءاً من المبادئ الأولية وصولاً إلى إثبات فعاليتها في بيئة ملائمة أو تشغيلية."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-85",
+    "source": "strategy",
+    "keywords": [
+      "universities",
+      "transfer",
+      "technology",
+      "industry",
+      "يمكن",
+      "للجامعات",
+      "التكنولوجيا",
+      "القطاع",
+      "الصناعي؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can universities transfer technology to industry?",
+      "fr": "How can universities transfer technology to industry?",
+      "ar": "كيف يمكن للجامعات نقل التكنولوجيا إلى القطاع الصناعي؟"
+    },
+    "answer": {
+      "en": "They can use collaborative research, licensing, consulting, joint laboratories, researcher mobility, training, spin-offs and industry-supported development projects.",
+      "fr": "They can use collaborative research, licensing, consulting, joint laboratories, researcher mobility, training, spin-offs and industry-supported development projects.",
+      "ar": "من خلال البحث التعاقدي، والترخيص، والاستشارات، والمختبرات المشتركة، وتنقل الباحثين، والتكوين، وإنشاء الشركات المنبثقة عن البحث، ومشاريع التطوير المشتركة."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-86",
+    "source": "strategy",
+    "keywords": [
+      "intellectual",
+      "property",
+      "management",
+      "المقصود",
+      "بإدارة",
+      "الملكية",
+      "الفكرية؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is intellectual property management?",
+      "fr": "What is intellectual property management?",
+      "ar": "ما المقصود بإدارة الملكية الفكرية؟"
+    },
+    "answer": {
+      "en": "It involves identifying, protecting, documenting, managing and commercializing eligible creations, inventions, software and other intellectual assets.",
+      "fr": "It involves identifying, protecting, documenting, managing and commercializing eligible creations, inventions, software and other intellectual assets.",
+      "ar": "هي تحديد الأصول الفكرية المؤهلة للحماية وتوثيقها وإدارتها وحمايتها وتثمينها تجارياً، بما يشمل الاختراعات والبرمجيات وغيرها من الإبداعات."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-87",
+    "source": "strategy",
+    "keywords": [
+      "university",
+      "spin",
+      "الشركة",
+      "المنبثقة",
+      "الجامعة؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is a university spin-off?",
+      "fr": "What is a university spin-off?",
+      "ar": "ما هي الشركة المنبثقة عن الجامعة؟"
+    },
+    "answer": {
+      "en": "A university spin-off is a company created to develop or commercialize research-based technology or expertise originating from a university.",
+      "fr": "A university spin-off is a company created to develop or commercialize research-based technology or expertise originating from a university.",
+      "ar": "هي شركة تُنشأ لتطوير أو تسويق تكنولوجيا أو خبرة قائمة على نتائج البحث أو المعرفة المتولدة داخل الجامعة."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-88",
+    "source": "strategy",
+    "keywords": [
+      "organizations",
+      "encourage",
+      "knowledge",
+      "transfer",
+      "يمكن",
+      "للمؤسسات",
+      "تشجيع",
+      "المعرفة؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can organizations encourage knowledge transfer?",
+      "fr": "How can organizations encourage knowledge transfer?",
+      "ar": "كيف يمكن للمؤسسات تشجيع نقل المعرفة؟"
+    },
+    "answer": {
+      "en": "They can establish partnerships, shared projects, staff exchanges, technical documentation, mentoring, training programs and incentives for collaboration.",
+      "fr": "They can establish partnerships, shared projects, staff exchanges, technical documentation, mentoring, training programs and incentives for collaboration.",
+      "ar": "من خلال الشراكات والمشاريع المشتركة وتبادل الموظفين والتوثيق التقني والتوجيه المهني وبرامج التكوين والحوافز المخصصة للتعاون."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-89",
+    "source": "strategy",
+    "keywords": [
+      "technology",
+      "transfer",
+      "partnerships",
+      "made",
+      "sustainable",
+      "يمكن",
+      "ضمان",
+      "استدامة",
+      "شراكات",
+      "التكنولوجيا؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can technology transfer partnerships be made sustainable?",
+      "fr": "How can technology transfer partnerships be made sustainable?",
+      "ar": "كيف يمكن ضمان استدامة شراكات نقل التكنولوجيا؟"
+    },
+    "answer": {
+      "en": "They require clear objectives, balanced responsibilities, appropriate funding, intellectual property agreements, measurable outcomes and long-term capacity building.",
+      "fr": "They require clear objectives, balanced responsibilities, appropriate funding, intellectual property agreements, measurable outcomes and long-term capacity building.",
+      "ar": "تتطلب أهدافاً واضحة، ومسؤوليات متوازنة، وتمويلاً مناسباً، واتفاقيات للملكية الفكرية، ومؤشرات للنتائج، وتنمية القدرات على المدى الطويل."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-90",
+    "source": "strategy",
+    "keywords": [
+      "countries",
+      "strengthen",
+      "technological",
+      "sovereignty",
+      "يمكن",
+      "للدول",
+      "تعزيز",
+      "السيادة",
+      "التكنولوجية؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can countries strengthen technological sovereignty?",
+      "fr": "How can countries strengthen technological sovereignty?",
+      "ar": "كيف يمكن للدول تعزيز السيادة التكنولوجية؟"
+    },
+    "answer": {
+      "en": "They can develop local expertise, support research and industry, secure critical infrastructure, govern strategic data and build diversified international partnerships.",
+      "fr": "They can develop local expertise, support research and industry, secure critical infrastructure, govern strategic data and build diversified international partnerships.",
+      "ar": "من خلال تطوير الكفاءات المحلية، ودعم البحث والصناعة، وتأمين البنى التحتية الحيوية، وحوكمة البيانات الاستراتيجية، وبناء شراكات دولية متنوعة."
+    },
+    "related": "innovation"
+  },
+  {
+    "id": "strategy-91",
+    "source": "strategy",
+    "keywords": [
+      "smart",
+      "city",
+      "المقصود",
+      "بالمدينة",
+      "الذكية؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is a smart city?",
+      "fr": "What is a smart city?",
+      "ar": "ما المقصود بالمدينة الذكية؟"
+    },
+    "answer": {
+      "en": "A smart city uses digital technologies, data and coordinated governance to improve urban services, sustainability, mobility, resource management and quality of life.",
+      "fr": "A smart city uses digital technologies, data and coordinated governance to improve urban services, sustainability, mobility, resource management and quality of life.",
+      "ar": "هي مدينة تستخدم التقنيات الرقمية والبيانات والحوكمة المتكاملة لتحسين الخدمات الحضرية والاستدامة والتنقل وتدبير الموارد وجودة الحياة."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "strategy-92",
+    "source": "strategy",
+    "keywords": [
+      "improve",
+      "water",
+      "management",
+      "يساهم",
+      "الذكاء",
+      "الاصطناعي",
+      "وإنترنت",
+      "الأشياء",
+      "تحسين",
+      "تدبير",
+      "المياه؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can AI and IoT improve water management?",
+      "fr": "How can AI and IoT improve water management?",
+      "ar": "كيف يساهم الذكاء الاصطناعي وإنترنت الأشياء في تحسين تدبير المياه؟"
+    },
+    "answer": {
+      "en": "Sensors can monitor consumption, pressure and water quality, while AI can detect anomalies, forecast demand and help prioritize leak detection and resource allocation.",
+      "fr": "Sensors can monitor consumption, pressure and water quality, while AI can detect anomalies, forecast demand and help prioritize leak detection and resource allocation.",
+      "ar": "تتيح المستشعرات مراقبة الاستهلاك والضغط وجودة المياه، بينما يساعد الذكاء الاصطناعي على اكتشاف الحالات غير الطبيعية والتنبؤ بالطلب وتحديد أولويات كشف التسربات وتوزيع الموارد."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "strategy-93",
+    "source": "strategy",
+    "keywords": [
+      "digital",
+      "twin",
+      "المقصود",
+      "بالتوأم",
+      "الرقمي؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is a digital twin?",
+      "fr": "What is a digital twin?",
+      "ar": "ما المقصود بالتوأم الرقمي؟"
+    },
+    "answer": {
+      "en": "A digital twin is a digital representation of a physical asset, process or system that uses data to support monitoring, simulation and decision-making.",
+      "fr": "A digital twin is a digital representation of a physical asset, process or system that uses data to support monitoring, simulation and decision-making.",
+      "ar": "هو تمثيل رقمي لأصل مادي أو عملية أو نظام، يستخدم البيانات لدعم المراقبة والمحاكاة وتحليل السيناريوهات واتخاذ القرار."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "strategy-94",
+    "source": "strategy",
+    "keywords": [
+      "digital",
+      "transformation",
+      "support",
+      "sustainable",
+      "development",
+      "يدعم",
+      "التحول",
+      "الرقمي",
+      "التنمية",
+      "المستدامة؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can digital transformation support sustainable development?",
+      "fr": "How can digital transformation support sustainable development?",
+      "ar": "كيف يدعم التحول الرقمي التنمية المستدامة؟"
+    },
+    "answer": {
+      "en": "It can improve energy efficiency, monitor environmental indicators, optimize resource use and support evidence-based planning, provided its own environmental impacts are considered.",
+      "fr": "It can improve energy efficiency, monitor environmental indicators, optimize resource use and support evidence-based planning, provided its own environmental impacts are considered.",
+      "ar": "يساعد على تحسين كفاءة الطاقة، ومراقبة المؤشرات البيئية، وترشيد استخدام الموارد، ودعم التخطيط المبني على الأدلة، مع مراعاة الأثر البيئي للتكنولوجيا نفسها."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "strategy-95",
+    "source": "strategy",
+    "keywords": [
+      "interoperability",
+      "digital",
+      "ecosystems",
+      "المقصود",
+      "بالتشغيل",
+      "البيني",
+      "المنظومات",
+      "الرقمية؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is interoperability in digital ecosystems?",
+      "fr": "What is interoperability in digital ecosystems?",
+      "ar": "ما المقصود بالتشغيل البيني في المنظومات الرقمية؟"
+    },
+    "answer": {
+      "en": "Interoperability enables different systems and organizations to exchange, interpret and use information through compatible technical standards, interfaces and shared definitions.",
+      "fr": "Interoperability enables different systems and organizations to exchange, interpret and use information through compatible technical standards, interfaces and shared definitions.",
+      "ar": "هو قدرة الأنظمة والمؤسسات المختلفة على تبادل المعلومات وفهمها واستخدامها، اعتماداً على معايير تقنية وواجهات وتعريفات مشتركة."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "strategy-96",
+    "source": "strategy",
+    "keywords": [
+      "governments",
+      "develop",
+      "effective",
+      "digital",
+      "public",
+      "platforms",
+      "يمكن",
+      "للحكومات",
+      "تطوير",
+      "منصات",
+      "رقمية",
+      "عمومية",
+      "فعالة؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can governments develop effective digital public platforms?",
+      "fr": "How can governments develop effective digital public platforms?",
+      "ar": "كيف يمكن للحكومات تطوير منصات رقمية عمومية فعالة؟"
+    },
+    "answer": {
+      "en": "They should design user-centered services, establish interoperable systems, protect personal data, ensure accessibility and create clear governance and accountability mechanisms.",
+      "fr": "They should design user-centered services, establish interoperable systems, protect personal data, ensure accessibility and create clear governance and accountability mechanisms.",
+      "ar": "من خلال تصميم خدمات تتمحور حول المستخدم، وبناء أنظمة قابلة للتكامل، وحماية البيانات الشخصية، وضمان الولوجية، وإرساء آليات واضحة للحوكمة والمساءلة."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "strategy-97",
+    "source": "strategy",
+    "keywords": [
+      "role",
+      "technology",
+      "healthcare",
+      "transformation",
+      "التكنولوجيا",
+      "التحول",
+      "الرقمي",
+      "للقطاع",
+      "الصحي؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is the role of technology in healthcare transformation?",
+      "fr": "What is the role of technology in healthcare transformation?",
+      "ar": "ما دور التكنولوجيا في التحول الرقمي للقطاع الصحي؟"
+    },
+    "answer": {
+      "en": "Digital platforms, interoperable records, telehealth and carefully validated AI can support service coordination, clinical workflows and resource planning while protecting patient privacy.",
+      "fr": "Digital platforms, interoperable records, telehealth and carefully validated AI can support service coordination, clinical workflows and resource planning while protecting patient privacy.",
+      "ar": "تدعم المنصات الرقمية والسجلات الصحية المتكاملة والتطبيب عن بُعد والذكاء الاصطناعي الذي تم التحقق من موثوقيته تنسيق الخدمات وتحسين المسارات السريرية وتخطيط الموارد، مع حماية خصوصية المرضى."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "strategy-98",
+    "source": "strategy",
+    "keywords": [
+      "digital",
+      "transformation",
+      "support",
+      "education",
+      "research",
+      "يدعم",
+      "التحول",
+      "الرقمي",
+      "التعليم",
+      "والبحث",
+      "العلمي؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can digital transformation support education and research?",
+      "fr": "How can digital transformation support education and research?",
+      "ar": "كيف يدعم التحول الرقمي التعليم والبحث العلمي؟"
+    },
+    "answer": {
+      "en": "It can enable collaborative learning, digital laboratories, research data management, remote access to resources and AI-assisted educational tools with appropriate oversight.",
+      "fr": "It can enable collaborative learning, digital laboratories, research data management, remote access to resources and AI-assisted educational tools with appropriate oversight.",
+      "ar": "يساهم في التعلم التعاوني والمختبرات الرقمية وإدارة البيانات البحثية والوصول عن بُعد إلى الموارد وتطوير أدوات تعليمية مدعومة بالذكاء الاصطناعي، مع توفير الإشراف المناسب."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "strategy-99",
+    "source": "strategy",
+    "keywords": [
+      "international",
+      "partnerships",
+      "accelerate",
+      "digital",
+      "innovation",
+      "تسرّع",
+      "الشراكات",
+      "الدولية",
+      "الابتكار",
+      "الرقمي؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "How can international partnerships accelerate digital innovation?",
+      "fr": "How can international partnerships accelerate digital innovation?",
+      "ar": "كيف تسرّع الشراكات الدولية الابتكار الرقمي؟"
+    },
+    "answer": {
+      "en": "Partnerships enable knowledge exchange, joint research, researcher mobility, technology validation, investment opportunities and the development of locally relevant solutions.",
+      "fr": "Partnerships enable knowledge exchange, joint research, researcher mobility, technology validation, investment opportunities and the development of locally relevant solutions.",
+      "ar": "تتيح الشراكات تبادل المعرفة، وإنجاز بحوث مشتركة، وتنقل الباحثين، والتحقق من التقنيات، وتطوير فرص الاستثمار، وإنشاء حلول تستجيب للاحتياجات المحلية."
+    },
+    "related": "vision"
+  },
+  {
+    "id": "strategy-100",
+    "source": "strategy",
+    "keywords": [
+      "long",
+      "term",
+      "vision",
+      "digital",
+      "transformation",
+      "technological",
+      "innovation",
+      "رؤيتكم",
+      "المستقبلية",
+      "للتحول",
+      "الرقمي",
+      "والابتكار",
+      "التكنولوجي؟",
+      "strategy"
+    ],
+    "question": {
+      "en": "What is your long-term vision for digital transformation and technological innovation?",
+      "fr": "What is your long-term vision for digital transformation and technological innovation?",
+      "ar": "ما رؤيتكم المستقبلية للتحول الرقمي والابتكار التكنولوجي؟"
+    },
+    "answer": {
+      "en": "My vision is to build secure, inclusive and sustainable digital ecosystems in which AI, data science, advanced information systems and technology transfer strengthen institutions, develop local talent and create measurable economic and societal value.",
+      "fr": "My vision is to build secure, inclusive and sustainable digital ecosystems in which AI, data science, advanced information systems and technology transfer strengthen institutions, develop local talent and create measurable economic and societal value.",
+      "ar": "تتمثل رؤيتي في بناء منظومات رقمية آمنة وشاملة ومستدامة، توظف الذكاء الاصطناعي وعلوم البيانات ونظم المعلومات المتقدمة ونقل التكنولوجيا لتعزيز المؤسسات وتنمية الكفاءات المحلية وتحقيق قيمة اقتصادية ومجتمعية ملموسة. للحصول على مساعد رقمي بمستوى خبير في المعلوميات والذكاء الاصطناعي، أقترح اعتماد هذه الأسئلة كنواة معرفية أولية، ثم توسيعها بإجابات أكثر تخصصاً وفق المجالات التالية: الخبرة التقنية: قواعد البيانات، SQL، PostgreSQL، قواعد البيانات الموزعة، هندسة البرمجيات، السحابة، وواجهات API. الخبرة العلمية: الذكاء الاصطناعي، التعلم الآلي، التعلم العميق، التنقيب عن البيانات، النمذجة التنبؤية، وتحليل السلاسل الزمنية. الخبرة الاستراتيجية: التحول الرقمي، الحوكمة، السيادة الرقمية، إدارة المشاريع، الابتكار، وتقييم العائد على الاستثمار. الخبرة المؤسسية: نقل التكنولوجيا، الشراكات بين الجامعات والصناعة، تثمين نتائج البحث، التكوين، والاستشارات. الخبرة التطبيقية: تشخيص المشكلات، اقتراح الحلول، مقارنة البدائل التقنية، إعداد خرائط الطريق، وتحديد مؤشرات الأداء. ومن الأفضل أن يجيب الشات بوت باللغة التي يستخدمها السائل، وأن يميز بين المعلومات المؤكدة والتوصيات التقديرية، وألا يخترع مراجع أو أرقاماً أو نتائج تقنية غير متحقق منها."
+    },
+    "related": "vision"
+  }
+]

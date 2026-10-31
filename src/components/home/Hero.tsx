@@ -108,7 +108,7 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="hero-edition">
+        <Link className="hero-edition" to={localePath(locale, "avatar")}>
           <p className="hero-edition-kicker">
             <AvatarMark />
           </p>
@@ -129,7 +129,7 @@ export function Hero() {
             </span>
           </span>
           <span className="hero-edition-open">{t("hero.assistant.open")}</span>
-        </div>
+        </Link>
         <Impact />
       </section>
     </div>
