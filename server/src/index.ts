@@ -9,6 +9,7 @@ import { secureHeaders } from "hono/secure-headers";
 import { getCollection, validateItem } from "../../src/content/collections";
 import { checkCredentials, clientIp, closeSession, isLocked, openSession, requireAdmin, sessionEmail } from "./auth";
 import { createItem, deleteItem, getItem, listAudit, listItems, reorderItems, restoreAudit, updateItem } from "./db";
+import { answerWithModel, avatarConfigured } from "./avatar";
 import { env } from "./env";
 import { publishPublicContent } from "./publish";
 
@@ -42,6 +43,28 @@ app.use(
 );
 
 app.get("/api/health", (c) => c.json({ ok: true }));
+
+app.get("/api/avatar/status", (c) => c.json({ configured: avatarConfigured() }));
+
+app.post("/api/avatar/ask", async (c) => {
+  const body = (await c.req.json().catch(() => ({}))) as {
+    question?: string;
+    locale?: string;
+    history?: Array<{ role?: string; text?: string }>;
+  };
+  const locale = body.locale === "en" || body.locale === "ar" ? body.locale : "fr";
+  const history = (body.history ?? [])
+    .filter((turn) => (turn.role === "user" || turn.role === "assistant") && typeof turn.text === "string")
+    .map((turn) => ({ role: turn.role as "user" | "assistant", text: turn.text as string }));
+  const result = await answerWithModel({
+    question: body.question ?? "",
+    locale,
+    history,
+    ip: clientIp(c),
+  });
+  if ("error" in result) return c.json({ error: result.error }, result.status as 400);
+  return c.json(result);
+});
 
 app.get("/api/content/:collection", (c) => {
   const collection = getCollection(c.req.param("collection"));

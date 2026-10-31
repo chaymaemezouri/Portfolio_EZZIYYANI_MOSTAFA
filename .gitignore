@@ -11,3 +11,7 @@ server/uploads
 public/assets/academyskills/patents/*.mp4
 public/assets/Video-orchestra.mp4
 src/assets/Video-orchestra.mp4
+src/ezziyyani-avatar/data/*.docx
+src/ezziyyani-avatar/data/_extract/
+src/ezziyyani-avatar/data/_build_knowledge.py
+src/ezziyyani-avatar/data/_modele.json

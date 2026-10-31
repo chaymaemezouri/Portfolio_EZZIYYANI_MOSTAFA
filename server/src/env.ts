@@ -24,4 +24,7 @@ export const env = {
     if (secret.length < 32) throw new Error("JWT_SECRET must be at least 32 characters");
     return new TextEncoder().encode(secret);
   },
+  openaiApiKey: process.env.OPENAI_API_KEY ?? "",
+  openaiBaseUrl: (process.env.OPENAI_BASE_URL ?? "https://api.openai.com/v1").replace(/\/$/, ""),
+  openaiModel: process.env.OPENAI_MODEL ?? "gpt-4o-mini",
 };

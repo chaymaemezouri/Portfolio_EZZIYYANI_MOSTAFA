@@ -22,6 +22,7 @@ export const navItems: readonly NavItem[] = [
   { id: "collaboration", path: "international" },
   { id: "media", path: "media" },
   { id: "gallery", path: "gallery" },
+  { id: "avatar", path: "avatar" },
 ];
 
 export const footerExplore = ["profile", "expertise", "research", "projects", "vision"] as const;

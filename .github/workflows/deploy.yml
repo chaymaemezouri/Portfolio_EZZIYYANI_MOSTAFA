@@ -99,7 +99,7 @@ jobs:
             "${VPS_USER}@${VPS_HOST}:ezziyyani-cms/server/"
           rsync -az --delete -R \
             -e "$RSYNC_RSH" \
-            src/content src/data src/types src/utils deploy \
+            src/content src/data src/types src/utils src/ezziyyani-avatar deploy \
             "${VPS_USER}@${VPS_HOST}:ezziyyani-cms/"
 
       - name: Install and start CMS API

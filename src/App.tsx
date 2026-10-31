@@ -17,7 +17,7 @@ const MediaPage = lazy(() => import("@/pages/MediaPage"));
 const AcademicPage = lazy(() => import("@/pages/AcademicPage"));
 const RecognitionPage = lazy(() => import("@/pages/RecognitionPage"));
 const ContactPage = lazy(() => import("@/pages/ContactPage"));
-const AvatarPage = lazy(() => import("@/pages/AvatarPage"));
+const AvatarPage = lazy(() => import("@/ezziyyani-avatar/AvatarPage"));
 const TeachingPage = lazy(() => import("@/pages/TeachingPage"));
 const PatentsPage = lazy(() => import("@/pages/ShowcasePages").then((m) => ({ default: m.PatentsPage })));
 const InnovationPage = lazy(() => import("@/pages/ShowcasePages").then((m) => ({ default: m.InnovationPage })));
