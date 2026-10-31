@@ -8,6 +8,7 @@
       "expertise": "مجالات خبرة الأستاذ الدكتور Mostafa Ezziyyani.",
       "research": "البحث والإسهامات العلمية للأستاذ الدكتور Mostafa Ezziyyani.",
       "researchInterest": "الاهتمامات البحثية والمحاور العلمية للأستاذ الدكتور Mostafa Ezziyyani.",
+      "jury": "مشاركة الأستاذ الدكتور Mostafa Ezziyyani في اللجان الجامعية ولجان التوظيف.",
       "publications": "قائمة المنشورات العلمية للأستاذ الدكتور Mostafa Ezziyyani.",
       "books": "أعمال مؤتمري AI2SD و AIT2S للأستاذ الدكتور Mostafa Ezziyyani.",
       "projects": "المشاريع والابتكار لدى الأستاذ الدكتور Mostafa Ezziyyani.",
@@ -32,6 +33,10 @@
     "expertise": "الخبرات",
     "research": "البحث",
     "researchInterest": "الاهتمامات البحثية",
+    "jury": "اللجان",
+    "juryHabilitation": "لجنة التأهيل الجامعي",
+    "juryPhd": "لجنة مناقشة أطروحة الدكتوراه",
+    "juryRecruitment": "لجنة مباريات التوظيف",
     "publications": "المنشورات",
     "books": "الكتب",
     "projects": "المشاريع",
@@ -44,7 +49,7 @@
     "avatar": "الأفاتار",
     "leadership": "القيادة",
     "teaching": "التدريس",
-    "collaboration": "التعاون",
+    "collaboration": "التعاون والدعوات",
     "gallery": "المعرض",
     "patents": "براءات الاختراع",
     "innovation": "المنتجات والابتكار",
@@ -203,6 +208,11 @@
       "smart": "الأنظمة الذكية",
       "transformation": "التحول الرقمي"
     }
+  },
+  "jury": {
+    "intro": "المشاركة في اللجان الجامعية والمهنية.",
+    "sections": "أنواع اللجان",
+    "pending": "محتوى هذا التبويب قادم قريباً."
   },
   "researchInterest": {
     "intro": "البيانات الضخمة والأنظمة الموزعة والذكاء الاصطناعي: محاور بحثية متكاملة لتدبير البيانات والمعارف.",

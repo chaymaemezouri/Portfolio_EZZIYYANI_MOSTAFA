@@ -8,6 +8,7 @@
       "expertise": "Fields of expertise of Prof. Dr. Mostafa Ezziyyani.",
       "research": "Research and scientific contributions of Prof. Dr. Mostafa Ezziyyani.",
       "researchInterest": "Research interests and scientific axes of Prof. Dr. Mostafa Ezziyyani.",
+      "jury": "University and recruitment jury participation of Prof. Dr. Mostafa Ezziyyani.",
       "publications": "List of scientific publications by Prof. Dr. Mostafa Ezziyyani.",
       "books": "AI2SD and AIT2S conference proceedings by Prof. Dr. Mostafa Ezziyyani.",
       "projects": "Projects and innovation work of Prof. Dr. Mostafa Ezziyyani.",
@@ -32,6 +33,10 @@
     "expertise": "Expertise",
     "research": "Research",
     "researchInterest": "Research Interest",
+    "jury": "Jury",
+    "juryHabilitation": "University habilitation jury",
+    "juryPhd": "PhD thesis defense jury",
+    "juryRecruitment": "Recruitment competition jury",
     "publications": "Publications",
     "books": "Books",
     "projects": "Projects",
@@ -44,7 +49,7 @@
     "avatar": "Avatar",
     "leadership": "Leadership",
     "teaching": "Teaching",
-    "collaboration": "Collaboration",
+    "collaboration": "Collaboration & invitation",
     "gallery": "Gallery",
     "patents": "Patents",
     "innovation": "Products & Innovation",
@@ -203,6 +208,11 @@
       "smart": "Smart Systems",
       "transformation": "Digital Transformation"
     }
+  },
+  "jury": {
+    "intro": "Participation in university and professional juries.",
+    "sections": "Jury types",
+    "pending": "Content for this tab is coming soon."
   },
   "researchInterest": {
     "intro": "Big data, distributed systems and artificial intelligence: complementary research areas for data and knowledge management.",

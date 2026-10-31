@@ -69,7 +69,9 @@ export function Header() {
 
   const results = useMemo(() => {
     const needle = query.trim().toLowerCase();
-    const pages = navItems.flatMap((item) => [item, ...(item.children ?? [])]).map((item) => ({
+    const flattenNav = (items: typeof navItems): { id: string; path: string }[] =>
+      items.flatMap((item) => [item, ...(item.children ? flattenNav(item.children as typeof navItems) : [])]);
+    const pages = flattenNav(navItems).map((item) => ({
       id: item.id,
       label: t(`nav.${item.id}`),
       to: localePath(locale, item.path),
@@ -129,8 +131,12 @@ export function Header() {
         <nav className="nav-desktop" aria-label={t("nav.menu")}>
           {navItems.map((item) => {
             const href = localePath(locale, item.path);
-            const inGroup = item.children?.some((child) => pathname.startsWith(localePath(locale, child.path)));
-            const current = item.path === "" ? pathname === href : pathname.startsWith(href) || inGroup;
+            const inGroup = item.children?.some(
+              (child) =>
+                pathname.startsWith(localePath(locale, child.path)) ||
+                child.children?.some((nested) => pathname.startsWith(localePath(locale, nested.path))),
+            );
+            const current = item.path === "" ? pathname === href : pathname.startsWith(href) || Boolean(inGroup);
             if (!item.children) {
               return (
                 <Link key={item.id} to={href} aria-current={current ? "page" : undefined}>
@@ -147,6 +153,32 @@ export function Header() {
                 <div className="nav-drop">
                   {item.children.map((child) => {
                     const childHref = localePath(locale, child.path);
+                    if (child.children?.length) {
+                      return (
+                        <div key={child.id} className="nav-drop-group">
+                          <Link
+                            className="nav-drop-parent"
+                            to={childHref}
+                            aria-current={pathname.startsWith(childHref) ? "page" : undefined}
+                          >
+                            {t(`nav.${child.id}`)}
+                          </Link>
+                          {child.children.map((nested) => {
+                            const nestedHref = localePath(locale, nested.path);
+                            return (
+                              <Link
+                                key={nested.id}
+                                className="nav-drop-nested"
+                                to={nestedHref}
+                                aria-current={pathname.startsWith(nestedHref) ? "page" : undefined}
+                              >
+                                {t(`nav.${nested.id}`)}
+                              </Link>
+                            );
+                          })}
+                        </div>
+                      );
+                    }
                     return (
                       <Link key={child.id} to={childHref} aria-current={pathname.startsWith(childHref) ? "page" : undefined}>
                         {t(`nav.${child.id}`)}
@@ -222,11 +254,22 @@ export function Header() {
                 </Link>
                 {item.children ? (
                   <div className="overlay-sub">
-                    {item.children.map((child) => (
-                      <Link key={child.id} to={localePath(locale, child.path)}>
-                        {t(`nav.${child.id}`)}
-                      </Link>
-                    ))}
+                    {item.children.map((child) =>
+                      child.children?.length ? (
+                        <div key={child.id} className="overlay-sub-group">
+                          <span className="overlay-sub-label">{t(`nav.${child.id}`)}</span>
+                          {child.children.map((nested) => (
+                            <Link key={nested.id} to={localePath(locale, nested.path)}>
+                              {t(`nav.${nested.id}`)}
+                            </Link>
+                          ))}
+                        </div>
+                      ) : (
+                        <Link key={child.id} to={localePath(locale, child.path)}>
+                          {t(`nav.${child.id}`)}
+                        </Link>
+                      ),
+                    )}
                   </div>
                 ) : null}
               </div>

@@ -8,6 +8,7 @@
       "expertise": "Domaines d'expertise du Prof. Dr. Mostafa Ezziyyani.",
       "research": "Recherche et contributions scientifiques du Prof. Dr. Mostafa Ezziyyani.",
       "researchInterest": "Intérêts de recherche et axes scientifiques du Prof. Dr. Mostafa Ezziyyani.",
+      "jury": "Participation aux jurys universitaires et de recrutement du Prof. Dr. Mostafa Ezziyyani.",
       "publications": "Liste des publications scientifiques du Prof. Dr. Mostafa Ezziyyani.",
       "books": "Ouvrages et actes de conférences AI2SD et AIT2S du Prof. Dr. Mostafa Ezziyyani.",
       "projects": "Projets et innovation du Prof. Dr. Mostafa Ezziyyani.",
@@ -32,6 +33,10 @@
     "expertise": "Expertise",
     "research": "Recherche",
     "researchInterest": "Intérêts de recherche",
+    "jury": "Jury",
+    "juryHabilitation": "Jury pour Habilitation Universitaire",
+    "juryPhd": "Jury de soutenance de Thèse PhD",
+    "juryRecruitment": "Jury de concours de recrutement",
     "publications": "Publications",
     "books": "Livres",
     "projects": "Projets",
@@ -44,7 +49,7 @@
     "avatar": "Avatar",
     "leadership": "Leadership",
     "teaching": "Enseignement",
-    "collaboration": "Collaboration",
+    "collaboration": "Collaboration & invitation",
     "gallery": "Galerie",
     "patents": "Brevets",
     "innovation": "Produits & Innovation",
@@ -203,6 +208,11 @@
       "smart": "Systèmes intelligents",
       "transformation": "Transformation numérique"
     }
+  },
+  "jury": {
+    "intro": "Participation à des jurys universitaires et professionnels.",
+    "sections": "Types de jury",
+    "pending": "Contenu à venir pour cet onglet."
   },
   "researchInterest": {
     "intro": "Données massives, systèmes distribués et intelligence artificielle : des axes complémentaires pour la gestion des données et des connaissances.",

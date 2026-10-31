@@ -8,6 +8,7 @@ const ProfilePage = lazy(() => import("@/pages/ProfilePage"));
 const ExpertisePage = lazy(() => import("@/pages/ExpertisePage"));
 const ResearchPage = lazy(() => import("@/pages/ResearchPage"));
 const ResearchInterestPage = lazy(() => import("@/pages/ResearchInterestPage"));
+const JuryPage = lazy(() => import("@/pages/JuryPage"));
 const PublicationsPage = lazy(() => import("@/pages/PublicationsPage"));
 const BooksPage = lazy(() => import("@/pages/BooksPage"));
 const ProjectsPage = lazy(() => import("@/pages/ProjectsPage"));
@@ -49,6 +50,8 @@ export default function App() {
             <Route path="expertise" element={<ExpertisePage />} />
             <Route path="research" element={<ResearchPage />} />
             <Route path="research-interest" element={<ResearchInterestPage />} />
+            <Route path="jury" element={<JuryPage />} />
+            <Route path="jury/:section" element={<JuryPage />} />
             <Route path="publications" element={<PublicationsPage />} />
             <Route path="books" element={<BooksPage />} />
             <Route path="projects" element={<ProjectsPage />} />
