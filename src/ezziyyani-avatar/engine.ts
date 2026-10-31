@@ -1,5 +1,4 @@
 import { academicNarrative } from "@/data/academic";
-import { expertiseDomains } from "@/data/expertise";
 import { impactMetrics } from "@/data/impact";
 import { profile } from "@/data/profile";
 import { researchIntro } from "@/data/publications";
@@ -95,10 +94,6 @@ export function answerAvatar(raw: string, locale: Locale, t: (key: string) => st
   const learned = fromKnowledge(query, locale);
   if (learned) return learned;
 
-  const domain = (id: string) => {
-    const item = expertiseDomains.find((entry) => entry.id === id);
-    return item ? text(locale, item.summary) : "";
-  };
   const figure = (id: string) => `${metric(id)} ${t(`impact.${id}`)}`;
 
   if (
