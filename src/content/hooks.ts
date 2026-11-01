@@ -12,6 +12,8 @@ import { patents, type Patent } from "@/data/patents";
 import { projects } from "@/data/projects";
 import { listedPublications, type ListedPublication } from "@/data/publications";
 import { visionArticles, type VisionArticle } from "@/data/articles";
+import { juryDocuments, juryTypeIds, type JuryDocument } from "@/data/jury";
+import { missionDocuments, type MissionDocument } from "@/data/missions";
 import { mediaItems } from "@/data/videos";
 import type {
   Award,
@@ -52,6 +54,13 @@ export const useInnovation = () => useCollection<Innovation>("innovation", innov
 export const useGallery = () => useCollection<GalleryAlbum>("gallery", []);
 export const useVideos = () => useCollection<MediaItem>("videos", mediaItems);
 export const useArticles = () => useCollection<VisionArticle>("articles", visionArticles);
+export const useMissions = () => useCollection<MissionDocument>("missions", missionDocuments);
+export function useJury() {
+  const items = useCollection<JuryDocument>("jury", juryDocuments).filter((item) =>
+    juryTypeIds.includes(item.type as (typeof juryTypeIds)[number]),
+  );
+  return items.length ? items : juryDocuments;
+}
 export const usePosts = () => useCollection<PublicPost>("posts", publicPosts);
 export const useAwards = () => useCollection<Award>("awards", awards);
 export const useLeadership = () => useCollection<LeadershipRole>("leadership", leadershipRoles);

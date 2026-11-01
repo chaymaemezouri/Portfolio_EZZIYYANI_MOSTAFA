@@ -1,27 +1,39 @@
-import { useInternational } from "@/content/hooks";
+import { ArticlesReader } from "@/components/vision/ArticlesReader";
 import { InternationalPresence } from "@/components/home/InternationalPresence";
 import { Seo } from "@/components/shared/Seo";
+import { useMissions } from "@/content/hooks";
 import { useI18n } from "@/i18n/I18nProvider";
 import { localePath } from "@/utils/locale";
-import { text } from "@/utils/text";
 
 export default function InternationalPage() {
   const { locale, t } = useI18n();
-  const internationalActivities = useInternational();
+  const missions = useMissions();
+
   return (
     <>
-      <Seo title={t("international.title")} description={t("meta.pages.international")} path={localePath(locale, "international")} />
-      <header className="container page-hero">
-        <h1 className="page-title">{t("international.homeTitle")}</h1>
+      <Seo
+        title={t("nav.collaboration")}
+        description={t("meta.pages.international")}
+        path={localePath(locale, "international")}
+      />
+      <header className="container vision-open">
+        <div>
+          <h1 className="page-title">{t("nav.collaboration")}</h1>
+        </div>
+        <p className="page-lede">{t("international.subtitle")}</p>
       </header>
+      <section className="container vision-doc-wrap">
+        <ArticlesReader
+          items={missions}
+          labels={{
+            list: t("international.documents"),
+            download: t("international.download"),
+            empty: t("international.noDocuments"),
+            select: t("international.selectDocument"),
+          }}
+        />
+      </section>
       <InternationalPresence heading={false} showRegions={false} />
-      <div className="container international-countries">
-        <ul className="international-country-list" aria-label={t("international.title")}>
-          {[...new Map(internationalActivities.map((item) => [text(locale, item.country), item])).values()].map((item) => (
-            <li key={item.id}>{text(locale, item.country)}</li>
-          ))}
-        </ul>
-      </div>
     </>
   );
 }

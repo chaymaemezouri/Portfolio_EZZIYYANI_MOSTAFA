@@ -1,35 +1,46 @@
 import { useEffect, useState } from "react";
 import { Download, FileText } from "lucide-react";
-import { useArticles } from "@/content/hooks";
+import type { VisionArticle } from "@/data/articles";
 import { useI18n } from "@/i18n/I18nProvider";
 import { text } from "@/utils/text";
 
-export function ArticlesReader() {
+type Labels = {
+  list: string;
+  download: string;
+  empty: string;
+  select: string;
+};
+
+type Props = {
+  items: VisionArticle[];
+  labels: Labels;
+};
+
+export function ArticlesReader({ items, labels }: Props) {
   const { locale, t } = useI18n();
-  const articles = useArticles();
-  const [activeId, setActiveId] = useState(articles[0]?.id ?? "");
+  const [activeId, setActiveId] = useState(items[0]?.id ?? "");
 
   useEffect(() => {
-    if (!articles.length) {
+    if (!items.length) {
       setActiveId("");
       return;
     }
-    if (!articles.some((item) => item.id === activeId)) {
-      setActiveId(articles[0].id);
+    if (!items.some((item) => item.id === activeId)) {
+      setActiveId(items[0].id);
     }
-  }, [articles, activeId]);
+  }, [items, activeId]);
 
-  const active = articles.find((item) => item.id === activeId) ?? articles[0];
+  const active = items.find((item) => item.id === activeId) ?? items[0];
   const body = active ? text(locale, active.content) : "";
   const summary = active ? text(locale, active.summary) : "";
 
   return (
     <article className="articles-reader">
-      <aside className="articles-nav" aria-label={t("vision.articles")}>
-        <p className="eyebrow">{t("vision.articles")}</p>
-        {articles.length ? (
+      <aside className="articles-nav" aria-label={labels.list}>
+        <p className="eyebrow">{labels.list}</p>
+        {items.length ? (
           <ul>
-            {articles.map((item, index) => {
+            {items.map((item, index) => {
               const title = text(locale, item.title);
               const current = item.id === active?.id;
               return (
@@ -50,7 +61,7 @@ export function ArticlesReader() {
             })}
           </ul>
         ) : (
-          <p className="articles-empty">{t("vision.noArticles")}</p>
+          <p className="articles-empty">{labels.empty}</p>
         )}
       </aside>
 
@@ -65,7 +76,7 @@ export function ArticlesReader() {
                 {active.file ? (
                   <a className="articles-download" href={active.file} download>
                     <Download size={15} aria-hidden="true" />
-                    {t("vision.download")}
+                    {labels.download}
                   </a>
                 ) : null}
               </div>
@@ -83,13 +94,13 @@ export function ArticlesReader() {
                 title={text(locale, active.title)}
               />
             ) : !body ? (
-              <p className="articles-empty">{t("vision.selectArticle")}</p>
+              <p className="articles-empty">{labels.select}</p>
             ) : null}
           </>
         ) : (
           <div className="articles-placeholder">
             <FileText size={28} aria-hidden="true" />
-            <p>{t("vision.noArticles")}</p>
+            <p>{labels.empty}</p>
           </div>
         )}
       </div>

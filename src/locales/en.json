@@ -13,7 +13,7 @@
       "books": "AI2SD and AIT2S conference proceedings by Prof. Dr. Mostafa Ezziyyani.",
       "projects": "Projects and innovation work of Prof. Dr. Mostafa Ezziyyani.",
       "vision": "Strategic vision on technology, knowledge and digital transformation.",
-      "international": "International scientific presence of Prof. Dr. Mostafa Ezziyyani.",
+      "international": "Missions, collaboration and international presence of Prof. Dr. Mostafa Ezziyyani.",
       "media": "Talks, interviews and media appearances of Prof. Dr. Mostafa Ezziyyani.",
       "academic": "Teaching and academic mentorship of Prof. Dr. Mostafa Ezziyyani.",
       "recognition": "Awards, distinctions and institutional leadership.",
@@ -49,7 +49,7 @@
     "avatar": "Avatar",
     "leadership": "Leadership",
     "teaching": "Teaching",
-    "collaboration": "Collaboration & invitation",
+    "collaboration": "Mission & collaboration",
     "gallery": "Gallery",
     "patents": "Patents",
     "innovation": "Products & Innovation",
@@ -230,7 +230,10 @@
   "jury": {
     "intro": "Participation in university and professional juries.",
     "sections": "Jury types",
-    "pending": "Content for this tab is coming soon."
+    "listHint": "Select a document to view it.",
+    "pending": "No documents for this type yet.",
+    "viewPdf": "View PDF",
+    "download": "Download PDF"
   },
   "researchInterest": {
     "intro": "Big data, distributed systems and artificial intelligence: complementary research areas for data and knowledge management.",
@@ -316,9 +319,14 @@
   },
   "international": {
     "index": "05",
-    "title": "International Presence",
+    "title": "Mission & collaboration",
     "homeTitle": "A Global Footprint",
+    "subtitle": "Collaboration, visits and scientific missions",
     "intro": "Collaboration, visits and scientific missions.",
+    "documents": "Documents",
+    "download": "Download PDF",
+    "noDocuments": "Documents coming soon.",
+    "selectDocument": "This document’s content will be added here.",
     "mapLabel": "World map of international activity",
     "explore": "Explore international presence",
     "empty": "Source records will be added here.",

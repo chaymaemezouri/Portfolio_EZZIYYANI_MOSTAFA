@@ -349,6 +349,43 @@ export const collections: Collection[] = [
     ],
   },
   {
+    id: "missions",
+    label: "Documents — Mission & collaboration",
+    group: "International",
+    titleField: "title",
+    fields: [
+      { name: "title", label: "Titre", type: "l10n", required: true },
+      { name: "summary", label: "Résumé", type: "l10n", multiline: true },
+      { name: "content", label: "Texte du document", type: "l10n", multiline: true, help: "Optionnel si un PDF est joint." },
+      { name: "year", label: "Année / période", type: "text" },
+      { name: "file", label: "PDF", type: "file" },
+    ],
+  },
+  {
+    id: "jury",
+    label: "Jury — Documents PDF",
+    group: "Recherche",
+    titleField: "title",
+    fields: [
+      { name: "title", label: "Titre du document", type: "l10n", required: true },
+      {
+        name: "type",
+        label: "Type de jury",
+        type: "select",
+        required: true,
+        options: options({
+          habilitation: "Habilitation Universitaire",
+          phd: "Soutenance de Thèse PhD",
+          recruitment: "Concours de recrutement",
+        }),
+        help: "Le document apparaît dans la liste de ce type.",
+      },
+      { name: "summary", label: "Résumé", type: "l10n", multiline: true },
+      { name: "year", label: "Année / période", type: "text" },
+      { name: "file", label: "PDF", type: "file", required: true },
+    ],
+  },
+  {
     id: "gallery",
     label: "Galerie",
     group: "Médias",

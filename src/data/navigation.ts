@@ -11,15 +11,7 @@ export const navItems: readonly NavItem[] = [
     path: "research",
     children: [
       { id: "researchInterest", path: "research-interest" },
-      {
-        id: "jury",
-        path: "jury",
-        children: [
-          { id: "juryHabilitation", path: "jury/habilitation" },
-          { id: "juryPhd", path: "jury/phd" },
-          { id: "juryRecruitment", path: "jury/recruitment" },
-        ],
-      },
+      { id: "jury", path: "jury" },
       { id: "publications", path: "publications" },
       { id: "projects", path: "projects" },
       { id: "patents", path: "patents" },

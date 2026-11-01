@@ -147,6 +147,8 @@ const collectionIcons: Record<string, LucideIcon> = {
   videos: Video,
   posts: Newspaper,
   articles: FileText,
+  missions: FileText,
+  jury: FileText,
   gallery: Images,
   awards: Trophy,
   leadership: Briefcase,

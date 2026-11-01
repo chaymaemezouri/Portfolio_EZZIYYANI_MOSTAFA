@@ -13,6 +13,8 @@ import { projects } from "../../src/data/projects";
 import { doctoralStudents } from "../../src/data/team";
 import { courses, pfeLicence, pfeMaster, visits } from "../../src/data/teaching";
 import { visionArticles } from "../../src/data/articles";
+import { juryDocuments } from "../../src/data/jury";
+import { missionDocuments } from "../../src/data/missions";
 import { internationalActivities } from "../../src/data/international";
 import { mediaItems } from "../../src/data/videos";
 import { getCollection, validateItem, type ItemData } from "../../src/content/collections";
@@ -59,6 +61,8 @@ seed("pfe", [
 seed("visits", rows(visits));
 seed("videos", rows(mediaItems));
 seed("articles", rows(visionArticles));
+seed("missions", rows(missionDocuments));
+seed("jury", rows(juryDocuments));
 seed("posts", rows(publicPosts));
 seed("gallery", []);
 seed("awards", rows(awards));

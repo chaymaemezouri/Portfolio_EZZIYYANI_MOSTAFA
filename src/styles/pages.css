@@ -1034,6 +1034,148 @@ html[dir="rtl"] .timeline-spine::after {
   color: var(--muted);
 }
 
+.jury-doc-list {
+  display: grid;
+  gap: 0.55rem;
+  margin: 0;
+  padding: 1rem 1.15rem 1.35rem;
+  list-style: none;
+}
+
+.jury-doc-item {
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.95rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #f7f8fb;
+  text-align: start;
+  color: var(--navy-900);
+  cursor: pointer;
+  transition: background 0.18s var(--ease), border-color 0.18s var(--ease), transform 0.18s var(--ease);
+}
+
+.jury-doc-item:hover:not(:disabled) {
+  background: white;
+  border-color: #c5d0de;
+  transform: translateY(-1px);
+}
+
+.jury-doc-item:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.jury-doc-item-copy {
+  display: grid;
+  gap: 0.25rem;
+  min-width: 0;
+}
+
+.jury-doc-item-title {
+  font-family: var(--serif);
+  font-size: 1.02rem;
+  line-height: 1.35;
+}
+
+.jury-doc-item-year {
+  color: var(--gold-700);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.jury-doc-item-summary {
+  color: var(--muted);
+  font-size: 0.86rem;
+  line-height: 1.45;
+}
+
+.jury-doc-item-icon {
+  margin-top: 0.15rem;
+  color: #7b8ba3;
+}
+
+.jury-pdf-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 230;
+  display: grid;
+  place-items: center;
+  padding: 1.25rem;
+  background: rgba(8, 16, 36, 0.55);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.jury-pdf-card {
+  display: flex;
+  flex-direction: column;
+  width: min(920px, 100%);
+  height: min(86vh, 900px);
+  overflow: hidden;
+  border-radius: 18px;
+  background: white;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 28px 80px rgba(6, 12, 28, 0.35);
+}
+
+.jury-pdf-card-head {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.1rem 1.25rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.jury-pdf-card-head h2 {
+  margin: 0.15rem 0 0;
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(1.1rem, 2vw, 1.45rem);
+  line-height: 1.3;
+  color: var(--navy-900);
+}
+
+.jury-pdf-card-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  flex: none;
+}
+
+.jury-pdf-card-actions .articles-download {
+  margin-top: 0;
+}
+
+.jury-pdf-close {
+  display: grid;
+  place-items: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #f4f5f8;
+  color: var(--navy-800);
+  cursor: pointer;
+}
+
+.jury-pdf-close:hover {
+  background: #ebeff4;
+}
+
+.jury-pdf-frame {
+  flex: 1;
+  width: 100%;
+  border: 0;
+  background: #eef1f5;
+}
+
 .articles-placeholder {
   display: grid;
   place-items: center;

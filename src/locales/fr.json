@@ -13,7 +13,7 @@
       "books": "Ouvrages et actes de conférences AI2SD et AIT2S du Prof. Dr. Mostafa Ezziyyani.",
       "projects": "Projets et innovation du Prof. Dr. Mostafa Ezziyyani.",
       "vision": "Vision stratégique sur la technologie, le savoir et la transformation numérique.",
-      "international": "Présence scientifique internationale du Prof. Dr. Mostafa Ezziyyani.",
+      "international": "Missions, collaborations et présence internationale du Prof. Dr. Mostafa Ezziyyani.",
       "media": "Conférences, entretiens et apparitions médiatiques du Prof. Dr. Mostafa Ezziyyani.",
       "academic": "Enseignement et encadrement académique du Prof. Dr. Mostafa Ezziyyani.",
       "recognition": "Distinctions, prix et leadership institutionnel.",
@@ -49,7 +49,7 @@
     "avatar": "Avatar",
     "leadership": "Leadership",
     "teaching": "Enseignement",
-    "collaboration": "Collaboration & invitation",
+    "collaboration": "Mission & collaboration",
     "gallery": "Galerie",
     "patents": "Brevets",
     "innovation": "Produits & Innovation",
@@ -230,7 +230,10 @@
   "jury": {
     "intro": "Participation à des jurys universitaires et professionnels.",
     "sections": "Types de jury",
-    "pending": "Contenu à venir pour cet onglet."
+    "listHint": "Sélectionnez un document pour l’afficher.",
+    "pending": "Aucun document pour ce type pour le moment.",
+    "viewPdf": "Visualiser le PDF",
+    "download": "Télécharger le PDF"
   },
   "researchInterest": {
     "intro": "Données massives, systèmes distribués et intelligence artificielle : des axes complémentaires pour la gestion des données et des connaissances.",
@@ -316,9 +319,14 @@
   },
   "international": {
     "index": "05",
-    "title": "Présence internationale",
+    "title": "Mission & collaboration",
     "homeTitle": "Une présence mondiale",
+    "subtitle": "Collaborations, visites et missions scientifiques",
     "intro": "Collaborations, visites et missions scientifiques.",
+    "documents": "Documents",
+    "download": "Télécharger le PDF",
+    "noDocuments": "Documents à venir.",
+    "selectDocument": "Le contenu de ce document sera ajouté ici.",
     "mapLabel": "Carte de l'activité internationale",
     "explore": "Explorer la présence internationale",
     "empty": "Les données sources seront ajoutées ici.",
