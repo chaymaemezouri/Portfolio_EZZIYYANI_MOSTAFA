@@ -1,3 +1,4 @@
+import { useMemo } from "react";
 import { Seo } from "@/components/shared/Seo";
 import { useCollection } from "@/content/useCollection";
 import { doctoralStudents as fallbackStudents, type DoctoralStudent } from "@/data/team";
@@ -15,7 +16,12 @@ function initials(name: string) {
 
 export default function TeamPage() {
   const { locale, t } = useI18n();
-  const doctoralStudents = useCollection<DoctoralStudent>("team", fallbackStudents);
+  const fromCms = useCollection<DoctoralStudent>("team", fallbackStudents);
+  const doctoralStudents = useMemo(() => {
+    const seen = new Set(fromCms.map((item) => item.id));
+    const missing = fallbackStudents.filter((item) => !seen.has(item.id));
+    return missing.length ? [...fromCms, ...missing] : fromCms;
+  }, [fromCms]);
 
   return (
     <>
