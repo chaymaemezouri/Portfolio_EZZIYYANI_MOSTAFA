@@ -187,6 +187,18 @@ export const collections: Collection[] = [
     ],
   },
   {
+    id: "platforms",
+    label: "Plateformes en ligne",
+    group: "Recherche",
+    titleField: "title",
+    fields: [
+      { name: "title", label: "Titre", type: "l10n", required: true },
+      { name: "description", label: "Description", type: "l10n", multiline: true, required: true },
+      { name: "href", label: "Lien", type: "url", required: true },
+      { name: "host", label: "Nom d’hôte (affiché)", type: "text", help: "Ex. phdflow.academyskills.net" },
+    ],
+  },
+  {
     id: "innovation",
     label: "Projets par thématique",
     group: "Recherche",

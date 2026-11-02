@@ -14,6 +14,7 @@ import { listedPublications, type ListedPublication } from "@/data/publications"
 import { visionArticles, type VisionArticle } from "@/data/articles";
 import { juryDocuments, juryTypeIds, type JuryDocument } from "@/data/jury";
 import { missionDocuments, type MissionDocument } from "@/data/missions";
+import { platformProjects, type PlatformProject } from "@/data/platforms";
 import { mediaItems } from "@/data/videos";
 import type {
   Award,
@@ -55,6 +56,7 @@ export const useGallery = () => useCollection<GalleryAlbum>("gallery", []);
 export const useVideos = () => useCollection<MediaItem>("videos", mediaItems);
 export const useArticles = () => useCollection<VisionArticle>("articles", visionArticles);
 export const useMissions = () => useCollection<MissionDocument>("missions", missionDocuments);
+export const usePlatforms = () => useCollection<PlatformProject>("platforms", platformProjects);
 export function useJury() {
   const items = useCollection<JuryDocument>("jury", juryDocuments).filter((item) =>
     juryTypeIds.includes(item.type as (typeof juryTypeIds)[number]),

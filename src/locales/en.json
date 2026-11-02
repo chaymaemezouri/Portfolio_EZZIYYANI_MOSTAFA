@@ -193,6 +193,12 @@
       "transfer": "Innovation & Technology Transfer"
     }
   },
+  "platforms": {
+    "eyebrow": "Platforms",
+    "title": "Online projects & platforms",
+    "lede": "Applications and demonstrators arising from research work.",
+    "open": "Open project"
+  },
   "research": {
     "index": "02",
     "title": "Featured Research",

@@ -193,6 +193,12 @@
       "transfer": "Innovation et transfert technologique"
     }
   },
+  "platforms": {
+    "eyebrow": "Plateformes",
+    "title": "Projets et plateformes en ligne",
+    "lede": "Applications et démonstrateurs issus des travaux de recherche.",
+    "open": "Ouvrir le projet"
+  },
   "research": {
     "index": "02",
     "title": "Recherche à la une",

@@ -140,6 +140,7 @@ const collectionIcons: Record<string, LucideIcon> = {
   projects: FolderKanban,
   patents: Award,
   innovation: Lightbulb,
+  platforms: Globe,
   team: Users,
   courses: BookMarked,
   pfe: FileSpreadsheet,

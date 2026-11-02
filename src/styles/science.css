@@ -107,7 +107,68 @@
 .science-page .research-figures dt svg { flex: none; color: #8b98aa; }
 .science-page .research-figures dd { margin: 0; font-family: var(--sans); font-weight: 500; font-size: 2.7rem; letter-spacing: -0.065em; font-variant-numeric: tabular-nums; }
 .science-page .research-figures dd span { color: #d77723; font-weight: 400; font-size: 0.7em; vertical-align: top; margin-inline-start: 4px; }
-.science-page .research-corpus { padding-block: 60px 70px; }
+.science-page .research-corpus { padding-block: 40px 70px; }
+.platform-section { padding-block: 12px 28px; }
+.platform-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+.platform-card {
+  display: grid;
+  gap: 0.7rem;
+  padding: 1.35rem 1.4rem 1.45rem;
+  border: 1px solid var(--science-line);
+  border-radius: 16px;
+  background: white;
+  transition: transform 220ms var(--ease), box-shadow 220ms, border-color 220ms;
+}
+.platform-card:hover {
+  transform: translateY(-3px);
+  border-color: #b8c4d4;
+  box-shadow: 0 12px 32px #0f1e3f0a;
+}
+.platform-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+.platform-host {
+  color: #8c97a8;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.platform-card h3 {
+  margin: 0;
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 1.05rem;
+  letter-spacing: -0.03em;
+  line-height: 1.35;
+  color: var(--navy-900, #0f1d3a);
+}
+.platform-card p {
+  margin: 0;
+  color: var(--science-muted);
+  font-size: 0.84rem;
+  line-height: 1.7;
+}
+.platform-card a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.25rem;
+  color: var(--navy-900, #0f1d3a);
+  font-size: 0.78rem;
+  font-weight: 650;
+  border-bottom: 1.5px solid #d77728;
+  justify-self: start;
+}
+@media (max-width: 720px) {
+  .platform-grid { grid-template-columns: 1fr; }
+}
 .science-section-heading { display: flex; align-items: end; justify-content: space-between; gap: 35px; margin-bottom: 26px; }
 .science-section-heading .eyebrow { font-size: 0.61rem; letter-spacing: 0.12em; color: var(--science-muted); margin-bottom: 10px; }
 .science-section-heading .eyebrow::before { background: #d77c28; width: 14px; }
