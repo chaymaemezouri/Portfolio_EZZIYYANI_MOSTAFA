@@ -12,5 +12,5 @@
       "@/*": ["../src/*"]
     }
   },
-  "include": ["src", "../src/content"]
+  "include": ["src", "../src/content", "../src/data", "../src/utils", "../src/types"]
 }
