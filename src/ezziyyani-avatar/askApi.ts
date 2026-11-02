@@ -16,7 +16,8 @@ export async function askAvatarApi(
         history: history.map((message) => ({ role: message.role, text: message.text })),
       }),
     });
-    if (!response.ok) return null;
+    const kind = response.headers.get("content-type") ?? "";
+    if (!response.ok || !kind.includes("json")) return null;
     const data = (await response.json()) as { text?: string; related?: string };
     if (typeof data.text !== "string" || !data.text.trim()) return null;
     return {

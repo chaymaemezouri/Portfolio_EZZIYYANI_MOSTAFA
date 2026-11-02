@@ -18,18 +18,22 @@ const STOP = new Set([
 ]);
 
 const SYNONYMS: Record<string, string[]> = {
+  ia: ["intelligence", "artificielle", "ia", "ai"],
+  ai: ["intelligence", "artificielle", "ia", "ai"],
   digital: ["numerique", "digital"],
   numerique: ["digital", "numerique"],
   transformation: ["transformation", "تحول"],
   intelligence: ["intelligence", "ia", "ai"],
   artificielle: ["artificielle", "ia", "ai"],
   oman: ["oman", "omanais", "sultanate"],
+  professor: ["professeur", "ezziyyani", "mostafa"],
+  professeur: ["professor", "ezziyyani", "mostafa"],
 };
 
 function tokens(value: string) {
   const raw = norm(value)
     .split(/[^\p{L}\p{N}]+/u)
-    .filter((token) => token.length >= 4 && !STOP.has(token));
+    .filter((token) => (token.length >= 3 || token === "ia" || token === "ai") && !STOP.has(token));
   const expanded = new Set(raw);
   for (const token of raw) {
     for (const extra of SYNONYMS[token] ?? []) expanded.add(extra);

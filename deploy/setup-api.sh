@@ -86,9 +86,8 @@ UPLOAD_DIR='/var/www/ezziyyani-portfolio-deploy/uploads'
 ADMIN_EMAIL='$ADMIN_EMAIL'
 ADMIN_PASSWORD_HASH='$HASH'
 JWT_SECRET='$JWT'
-OPENAI_API_KEY=
-OPENAI_BASE_URL=https://api.openai.com/v1
-OPENAI_MODEL=gpt-4o-mini
+GEMINI_API_KEY=
+GEMINI_MODEL=gemini-2.0-flash
 EOF
 else
   log "Keeping existing $ENV_FILE"
@@ -101,9 +100,8 @@ else
     mv "$TMP" "$ENV_FILE"
     chmod 600 "$ENV_FILE"
   fi
-  grep -q '^OPENAI_API_KEY=' "$ENV_FILE" || printf "OPENAI_API_KEY=\n" >> "$ENV_FILE"
-  grep -q '^OPENAI_BASE_URL=' "$ENV_FILE" || printf "OPENAI_BASE_URL=https://api.openai.com/v1\n" >> "$ENV_FILE"
-  grep -q '^OPENAI_MODEL=' "$ENV_FILE" || printf "OPENAI_MODEL=gpt-4o-mini\n" >> "$ENV_FILE"
+  grep -q '^GEMINI_API_KEY=' "$ENV_FILE" || printf "GEMINI_API_KEY=\n" >> "$ENV_FILE"
+  grep -q '^GEMINI_MODEL=' "$ENV_FILE" || printf "GEMINI_MODEL=gemini-2.0-flash\n" >> "$ENV_FILE"
 fi
 
 DIST_DIR_VALUE="/var/www/ezziyyani-portfolio-deploy"
