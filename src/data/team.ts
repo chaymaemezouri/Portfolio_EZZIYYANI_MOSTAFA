@@ -68,4 +68,18 @@ export const doctoralStudents: DoctoralStudent[] = [
     year: 2022,
     thesis: "Système intelligent de modélisation et d'optimisation des composants de matières premières pour la fabrication de batteries de haute qualité",
   },
+  {
+    id: "el-mouden-jihane",
+    name: "Jihane El Mouden",
+    year: 2025,
+    photo: "/team/el-mouden-jihane.jpg",
+    thesis:
+      "Conception d’un système intelligent multimodal et adaptatif fondé sur l’apprentissage automatique et la science des données pour le phénotypage comportemental personnalisé",
+  },
+  {
+    id: "mezouri-chaymae",
+    name: "Chaymae Mezouri",
+    year: 2025,
+    photo: "/team/mezouri-chaymae.jpg",
+  },
 ];
