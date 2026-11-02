@@ -81,5 +81,7 @@ export const doctoralStudents: DoctoralStudent[] = [
     name: "Chaymae Mezouri",
     year: 2025,
     photo: "/team/mezouri-chaymae.jpg",
+    thesis:
+      "Architecture intelligente et souveraine d’un écosystème numérique national pour le développement, l’intégration, l’interopérabilité et l’orchestration des services multi-sectoriels gouvernementaux, économiques et sociétaux",
   },
 ];
