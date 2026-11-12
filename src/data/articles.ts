@@ -48,4 +48,14 @@ export const visionArticles: VisionArticle[] = [
     ),
     file: "/articles/ministry-for-ai.pdf",
   },
+  {
+    id: "alfaisal-geopolitical-geotechnological",
+    title: l10n(
+      "From geopolitical war to geotechnological war",
+      "De la guerre géopolitique à la guerre géotechnologique",
+      "من الحرب الجيوسياسة إلى الحرب الجيوتكنولوجية",
+    ),
+    year: "مجلة الفيصل 602",
+    file: "/articles/alfaisal-geopolitical-to-geotechnological-war.pdf",
+  },
 ];

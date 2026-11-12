@@ -54,7 +54,12 @@ export const usePatents = () => useCollection<Patent>("patents", patents);
 export const useInnovation = () => useCollection<Innovation>("innovation", innovations);
 export const useGallery = () => useCollection<GalleryAlbum>("gallery", []);
 export const useVideos = () => useCollection<MediaItem>("videos", mediaItems);
-export const useArticles = () => useCollection<VisionArticle>("articles", visionArticles);
+export function useArticles() {
+  const fromCms = useCollection<VisionArticle>("articles", visionArticles);
+  const seen = new Set(fromCms.map((item) => item.id));
+  const missing = visionArticles.filter((item) => !seen.has(item.id));
+  return missing.length ? [...fromCms, ...missing] : fromCms;
+}
 export const useMissions = () => useCollection<MissionDocument>("missions", missionDocuments);
 export const usePlatforms = () => useCollection<PlatformProject>("platforms", platformProjects);
 export function useJury() {
