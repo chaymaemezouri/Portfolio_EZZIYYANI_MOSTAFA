@@ -238,7 +238,13 @@
     "sections": "أنواع اللجان",
     "listHint": "اختر وثيقة لعرضها.",
     "pending": "لا توجد وثائق لهذا النوع حالياً.",
-    "viewPdf": "عرض ملف PDF",
+    "invitationContent": "الدعوة — المحتوى",
+    "photosSlider": "صور المناقشة",
+    "selectDocument": "اختر دعوة لعرض محتواها.",
+    "noPhotos": "لا توجد صور لهذه الجلسة حالياً.",
+    "prevPhoto": "الصورة السابقة",
+    "nextPhoto": "الصورة التالية",
+    "viewPdf": "تكبير ملف PDF",
     "download": "تحميل ملف PDF"
   },
   "researchInterest": {

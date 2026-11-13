@@ -238,7 +238,13 @@
     "sections": "Jury types",
     "listHint": "Select a document to view it.",
     "pending": "No documents for this type yet.",
-    "viewPdf": "View PDF",
+    "invitationContent": "Invitation — content",
+    "photosSlider": "Defense photos",
+    "selectDocument": "Select an invitation to display its content.",
+    "noPhotos": "No photos for this session yet.",
+    "prevPhoto": "Previous photo",
+    "nextPhoto": "Next photo",
+    "viewPdf": "Enlarge PDF",
     "download": "Download PDF"
   },
   "researchInterest": {

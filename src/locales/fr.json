@@ -238,7 +238,13 @@
     "sections": "Types de jury",
     "listHint": "Sélectionnez un document pour l’afficher.",
     "pending": "Aucun document pour ce type pour le moment.",
-    "viewPdf": "Visualiser le PDF",
+    "invitationContent": "Invitation — contenu",
+    "photosSlider": "Photos de la soutenance",
+    "selectDocument": "Sélectionnez une invitation pour afficher son contenu.",
+    "noPhotos": "Aucune photo pour cette session pour le moment.",
+    "prevPhoto": "Photo précédente",
+    "nextPhoto": "Photo suivante",
+    "viewPdf": "Agrandir le PDF",
     "download": "Télécharger le PDF"
   },
   "researchInterest": {

@@ -63,9 +63,22 @@ export function useArticles() {
 export const useMissions = () => useCollection<MissionDocument>("missions", missionDocuments);
 export const usePlatforms = () => useCollection<PlatformProject>("platforms", platformProjects);
 export function useJury() {
-  const items = useCollection<JuryDocument>("jury", juryDocuments).filter((item) =>
+  const fromCms = useCollection<JuryDocument>("jury", juryDocuments).filter((item) =>
     juryTypeIds.includes(item.type as (typeof juryTypeIds)[number]),
   );
+  const seedById = new Map(juryDocuments.map((item) => [item.id, item]));
+  const merged = fromCms.map((item) => {
+    const seed = seedById.get(item.id);
+    return {
+      ...seed,
+      ...item,
+      photos: item.photos?.length ? item.photos : seed?.photos,
+      file: item.file || seed?.file,
+    };
+  });
+  const seen = new Set(merged.map((item) => item.id));
+  const missing = juryDocuments.filter((item) => !seen.has(item.id));
+  const items = [...merged, ...missing];
   return items.length ? items : juryDocuments;
 }
 export const usePosts = () => useCollection<PublicPost>("posts", publicPosts);

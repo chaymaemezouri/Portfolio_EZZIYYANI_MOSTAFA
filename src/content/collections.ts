@@ -375,11 +375,11 @@ export const collections: Collection[] = [
   },
   {
     id: "jury",
-    label: "Jury — Documents PDF",
+    label: "Jury — Invitations & photos",
     group: "Recherche",
     titleField: "title",
     fields: [
-      { name: "title", label: "Titre du document", type: "l10n", required: true },
+      { name: "title", label: "Titre de l’invitation", type: "l10n", required: true },
       {
         name: "type",
         label: "Type de jury",
@@ -390,11 +390,23 @@ export const collections: Collection[] = [
           phd: "Soutenance de Thèse PhD",
           recruitment: "Concours de recrutement",
         }),
-        help: "Le document apparaît dans la liste de ce type.",
+        help: "Choisissez l’onglet où l’invitation apparaît (Habilitation / PhD / Recrutement).",
       },
-      { name: "summary", label: "Résumé", type: "l10n", multiline: true },
-      { name: "year", label: "Année / période", type: "text" },
-      { name: "file", label: "PDF", type: "file", required: true },
+      { name: "summary", label: "Résumé (optionnel)", type: "l10n", multiline: true },
+      { name: "year", label: "Année / période", type: "text", help: "Ex. 2024, Exemple…" },
+      {
+        name: "file",
+        label: "PDF — contenu invitation",
+        type: "file",
+        required: true,
+        help: "Affiché dans le panneau « Invitation — contenu » à droite.",
+      },
+      {
+        name: "photos",
+        label: "Photos de la soutenance / session",
+        type: "images",
+        help: "Plusieurs photos : elles s’affichent dans le slider sous le PDF.",
+      },
     ],
   },
   {

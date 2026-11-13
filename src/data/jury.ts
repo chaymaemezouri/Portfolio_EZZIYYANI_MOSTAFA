@@ -17,6 +17,8 @@ export type JuryDocument = {
   summary?: TextValue;
   year?: string;
   file?: string;
+  /** Photos of the defense / session (slider). */
+  photos?: string[];
 };
 
 export const juryTypes: JuryType[] = [
@@ -61,6 +63,14 @@ export const juryDocuments: JuryDocument[] = [
     ),
     year: "Exemple",
     file: "/invitation/invitation-soutenance-these.pdf",
+    photos: [
+      "/visits/yazaki/photo-01.jpg",
+      "/visits/yazaki/photo-02.jpg",
+      "/visits/yazaki/photo-03.jpg",
+      "/visits/yazaki/photo-05.jpg",
+      "/visits/tanger-med/photo-01.jpg",
+      "/visits/tanger-med/photo-06.jpg",
+    ],
   },
   {
     id: "habilitation-rapporteur",
@@ -72,6 +82,12 @@ export const juryDocuments: JuryDocument[] = [
     ),
     year: "Exemple",
     file: "/invitation/invitation-rapporteur-hayat-sedrati.pdf",
+    photos: [
+      "/visits/tanger-med/photo-02.png",
+      "/visits/tanger-med/photo-03.png",
+      "/visits/tanger-med/photo-07.jpg",
+      "/media/spotlight/spotlight-03.jpg",
+    ],
   },
   {
     id: "recruitment-invitation",
@@ -83,5 +99,11 @@ export const juryDocuments: JuryDocument[] = [
     ),
     year: "Exemple",
     file: "/invitation/invitation-ezziyyani-mostafa.pdf",
+    photos: [
+      "/media/spotlight/spotlight-06.jpg",
+      "/media/spotlight/spotlight-09.jpg",
+      "/media/spotlight/spotlight-14.jpg",
+      "/domains/01.jpg",
+    ],
   },
 ];
