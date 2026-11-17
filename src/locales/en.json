@@ -24,6 +24,7 @@
       "innovation": "Products and innovation by Prof. Dr. Mostafa Ezziyyani.",
       "team": "Research team of Prof. Dr. Mostafa Ezziyyani.",
       "gallery": "Photo gallery of Prof. Dr. Mostafa Ezziyyani.",
+      "keynotes": "Keynote speaker conferences of Prof. Dr. Mostafa Ezziyyani.",
       "privacy": "Privacy information for this website."
     }
   },
@@ -50,6 +51,7 @@
     "leadership": "Leadership",
     "teaching": "Teaching",
     "collaboration": "Mission & collaboration",
+    "keynotes": "Keynote Speakers",
     "gallery": "Gallery",
     "patents": "Patents",
     "innovation": "Products & Innovation",
@@ -246,6 +248,29 @@
     "nextPhoto": "Next photo",
     "viewPdf": "Enlarge PDF",
     "download": "Download PDF"
+  },
+  "keynotes": {
+    "intro": "Conferences and talks as a keynote speaker.",
+    "years": "Years",
+    "listHint": "Select an invitation to view it.",
+    "pending": "Keynotes will be added here.",
+    "pendingYear": "No conferences for this year yet.",
+    "invitationContent": "Invitation — content",
+    "presentation": "Presentation",
+    "presentationLabel": "Presentation file",
+    "presentationHint": "PPT, PPTX or PDF used during the talk.",
+    "photosSlider": "Conference photos",
+    "selectTalk": "Select a conference to display the invitation.",
+    "noPresentation": "No presentation for this conference yet.",
+    "noPhotos": "No photos for this conference yet.",
+    "pptDownloadOnly": "In-browser preview is unavailable for this format — download the presentation.",
+    "viewInvitation": "Enlarge invitation",
+    "downloadInvitation": "Download invitation",
+    "viewPresentation": "Enlarge presentation",
+    "downloadPresentation": "Download presentation",
+    "download": "Download",
+    "prevPhoto": "Previous photo",
+    "nextPhoto": "Next photo"
   },
   "researchInterest": {
     "intro": "Big data, distributed systems and artificial intelligence: complementary research areas for data and knowledge management.",

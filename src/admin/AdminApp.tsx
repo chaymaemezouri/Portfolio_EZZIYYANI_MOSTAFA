@@ -150,6 +150,7 @@ const collectionIcons: Record<string, LucideIcon> = {
   articles: FileText,
   missions: FileText,
   jury: FileText,
+  keynotes: Mic,
   gallery: Images,
   awards: Trophy,
   leadership: Briefcase,

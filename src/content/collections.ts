@@ -20,6 +20,8 @@ export type Field = {
   required?: boolean;
   multiline?: boolean;
   help?: string;
+  /** Optional file input accept string (file / image / images). */
+  accept?: string;
   options?: { value: string; label: string }[];
   fields?: Field[];
 };
@@ -371,6 +373,50 @@ export const collections: Collection[] = [
       { name: "content", label: "Texte du document", type: "l10n", multiline: true, help: "Optionnel si un PDF est joint." },
       { name: "year", label: "Année / période", type: "text" },
       { name: "file", label: "PDF", type: "file" },
+    ],
+  },
+  {
+    id: "keynotes",
+    label: "Keynote Speakers",
+    group: "Médias",
+    titleField: "title",
+    fields: [
+      {
+        name: "title",
+        label: "Titre de la conférence / keynote",
+        type: "l10n",
+        required: true,
+        help: "Titre affiché dans la liste et dans le détail.",
+      },
+      {
+        name: "year",
+        label: "Année",
+        type: "text",
+        required: true,
+        help: "Ex. 2020 … 2026 — crée / alimente le filtre Années à gauche.",
+      },
+      { name: "event", label: "Événement / lieu", type: "l10n" },
+      { name: "summary", label: "Résumé", type: "l10n", multiline: true },
+      {
+        name: "invitation",
+        label: "Invitation (PDF)",
+        type: "file",
+        accept: ".pdf,application/pdf",
+        help: "PDF d’invitation affiché en haut du détail.",
+      },
+      {
+        name: "presentation",
+        label: "Présentation (PPT / PPTX / PDF)",
+        type: "file",
+        accept: ".pdf,.ppt,.pptx,application/pdf,application/vnd.ms-powerpoint,application/vnd.openxmlformats-officedocument.presentationml.presentation",
+        help: "Support de l’intervention — entre l’invitation et les photos. PPT/PPTX = téléchargement ; PDF = aperçu + téléchargement.",
+      },
+      {
+        name: "photos",
+        label: "Photos de la conférence",
+        type: "images",
+        help: "Plusieurs photos possibles — slider sous la présentation.",
+      },
     ],
   },
   {

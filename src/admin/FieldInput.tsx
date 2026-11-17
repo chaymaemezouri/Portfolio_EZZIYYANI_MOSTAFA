@@ -19,7 +19,9 @@ function UploadInput({
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
   const url = typeof value === "string" ? value : "";
-  const accept = field.type === "image" || multiple ? "image/jpeg,image/png,image/webp" : ".pdf,.ppt,.pptx,.doc,.docx,.zip";
+  const accept =
+    field.accept ??
+    (field.type === "image" || multiple ? "image/jpeg,image/png,image/webp" : ".pdf,.ppt,.pptx,.doc,.docx,.zip");
 
   async function pick(files: FileList | null) {
     if (!files?.length) return;

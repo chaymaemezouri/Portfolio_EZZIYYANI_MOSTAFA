@@ -25,6 +25,27 @@ const allowedTypes: Record<string, string> = {
   "application/vnd.openxmlformats-officedocument.wordprocessingml.document": "docx",
   "application/zip": "zip",
 };
+const allowedExtensions: Record<string, string> = {
+  jpg: "jpg",
+  jpeg: "jpg",
+  png: "png",
+  webp: "webp",
+  pdf: "pdf",
+  ppt: "ppt",
+  pptx: "pptx",
+  doc: "doc",
+  docx: "docx",
+  zip: "zip",
+};
+
+function resolveUploadExt(file: File) {
+  const fromMime = allowedTypes[file.type];
+  if (fromMime) return fromMime;
+  // Some browsers send empty or octet-stream for Office files — fall back to filename.
+  if (file.type && file.type !== "application/octet-stream") return undefined;
+  const match = /\.([a-z0-9]+)$/i.exec(file.name);
+  return match ? allowedExtensions[match[1].toLowerCase()] : undefined;
+}
 
 mkdirSync(env.uploadDir, { recursive: true });
 if (env.distDir) mkdirSync(join(env.distDir, "cms"), { recursive: true });
@@ -108,7 +129,7 @@ admin.post("/upload", bodyLimit({ maxSize: MAX_UPLOAD, onError: (c) => c.json({ 
   const body = await c.req.parseBody();
   const file = body.file;
   if (!(file instanceof File)) return c.json({ error: "Aucun fichier" }, 400);
-  const ext = allowedTypes[file.type];
+  const ext = resolveUploadExt(file);
   if (!ext) return c.json({ error: "Type de fichier non autorisé" }, 415);
   const month = new Date().toISOString().slice(0, 7);
   const base = file.name

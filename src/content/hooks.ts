@@ -15,6 +15,7 @@ import { visionArticles, type VisionArticle } from "@/data/articles";
 import { juryDocuments, juryTypeIds, type JuryDocument } from "@/data/jury";
 import { missionDocuments, type MissionDocument } from "@/data/missions";
 import { platformProjects, type PlatformProject } from "@/data/platforms";
+import { keynoteTalks, type KeynoteTalk } from "@/data/keynotes";
 import { mediaItems } from "@/data/videos";
 import type {
   Award,
@@ -80,6 +81,25 @@ export function useJury() {
   const missing = juryDocuments.filter((item) => !seen.has(item.id));
   const items = [...merged, ...missing];
   return items.length ? items : juryDocuments;
+}
+
+export function useKeynotes() {
+  const fromCms = useCollection<KeynoteTalk>("keynotes", keynoteTalks);
+  const seedById = new Map(keynoteTalks.map((item) => [item.id, item]));
+  const merged = fromCms.map((item) => {
+    const seed = seedById.get(item.id);
+    return {
+      ...seed,
+      ...item,
+      photos: item.photos?.length ? item.photos : seed?.photos,
+      invitation: item.invitation || seed?.invitation,
+      presentation: item.presentation || seed?.presentation,
+    };
+  });
+  const seen = new Set(merged.map((item) => item.id));
+  const missing = keynoteTalks.filter((item) => !seen.has(item.id));
+  const items = [...merged, ...missing];
+  return items.length ? items : keynoteTalks;
 }
 export const usePosts = () => useCollection<PublicPost>("posts", publicPosts);
 export const useAwards = () => useCollection<Award>("awards", awards);

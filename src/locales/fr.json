@@ -24,6 +24,7 @@
       "innovation": "Produits et innovation du Prof. Dr. Mostafa Ezziyyani.",
       "team": "Équipe de recherche du Prof. Dr. Mostafa Ezziyyani.",
       "gallery": "Galerie photos du Prof. Dr. Mostafa Ezziyyani.",
+      "keynotes": "Conférences en tant que keynote speaker du Prof. Dr. Mostafa Ezziyyani.",
       "privacy": "Informations de confidentialité de ce site."
     }
   },
@@ -50,6 +51,7 @@
     "leadership": "Leadership",
     "teaching": "Enseignement",
     "collaboration": "Mission & collaboration",
+    "keynotes": "Keynote Speakers",
     "gallery": "Galerie",
     "patents": "Brevets",
     "innovation": "Produits & Innovation",
@@ -246,6 +248,29 @@
     "nextPhoto": "Photo suivante",
     "viewPdf": "Agrandir le PDF",
     "download": "Télécharger le PDF"
+  },
+  "keynotes": {
+    "intro": "Conférences et interventions en tant que keynote speaker.",
+    "years": "Années",
+    "listHint": "Sélectionnez une invitation pour l’afficher.",
+    "pending": "Les keynotes seront ajoutées ici.",
+    "pendingYear": "Aucune conférence pour cette année pour le moment.",
+    "invitationContent": "Invitation — contenu",
+    "presentation": "Présentation",
+    "presentationLabel": "Support de présentation",
+    "presentationHint": "PPT, PPTX ou PDF utilisé pendant l’intervention.",
+    "photosSlider": "Photos de la conférence",
+    "selectTalk": "Sélectionnez une conférence pour afficher l’invitation.",
+    "noPresentation": "Aucune présentation pour cette conférence pour le moment.",
+    "noPhotos": "Aucune photo pour cette conférence pour le moment.",
+    "pptDownloadOnly": "Aperçu navigateur indisponible pour ce format — téléchargez la présentation.",
+    "viewInvitation": "Agrandir l’invitation",
+    "downloadInvitation": "Télécharger l’invitation",
+    "viewPresentation": "Agrandir la présentation",
+    "downloadPresentation": "Télécharger la présentation",
+    "download": "Télécharger",
+    "prevPhoto": "Photo précédente",
+    "nextPhoto": "Photo suivante"
   },
   "researchInterest": {
     "intro": "Données massives, systèmes distribués et intelligence artificielle : des axes complémentaires pour la gestion des données et des connaissances.",

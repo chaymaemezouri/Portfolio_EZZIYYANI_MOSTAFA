@@ -21,6 +21,7 @@ export const navItems: readonly NavItem[] = [
   },
   { id: "teaching", path: "teaching" },
   { id: "collaboration", path: "international" },
+  { id: "keynotes", path: "keynote-speakers" },
   { id: "media", path: "media" },
   { id: "gallery", path: "gallery" },
   { id: "avatar", path: "avatar" },
